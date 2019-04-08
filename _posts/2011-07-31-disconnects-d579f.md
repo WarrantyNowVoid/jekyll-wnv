@@ -3,14 +3,12 @@ layout: post
 guid: d579f
 published: true
 date: 2011-07-31 18:55:29 -0400
-author: "123-pope"
+author: pope
 title: "Disconnects"
 tagline: "If you tell someone that smoking is bad because you die younger, it\'s a leading cause of cancer, it destroys pretty much everything in your body with time, they don\'t seem to care. But if you show them a picture of rotten teeth and unsightly mouth cancer, suddenly it\'s a big issue! It\'s such a huge disconnect. "
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
-image:
-  feature: blah.jpg
+category: Articles
+tags: ["people are stupid","vanity","rant","rectangular prisms on wheels","the scion looks like a piece of shit","go brush your teeth","floss","oral hygiene"]
+comments: true 
 ---
 
 I was brushing my teeth today and noticed that the mouthwash bottle said 'Fights unsightly plaque.' This got me thinking:

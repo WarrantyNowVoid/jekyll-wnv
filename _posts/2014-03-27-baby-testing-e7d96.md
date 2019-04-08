@@ -3,17 +3,15 @@ layout: post
 guid: e7d96
 published: true
 date: 2014-03-27 18:08:58 -0400
-author: "123-pope"
+author: pope
 title: "Baby Testing"
 tagline: "It is time for science to abandon our subpar standard of clinical testing on animals and enter the golden era of testing exclusively on human babies. WNV\'s own Admiral Rau provides an insightful and compelling argument backed with pure scientific fact, or something."
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Articles
+tags: ["Baby","science","research","beauty products","vanity","checkmate Johnson & Johnson","insulting babies","Gorillas are like super hairy","modest proposals","we really just wanted an excuse to use beardbaby.jpg"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/beard_babby_lab.png
 ---
-
-![](/assets/img/lol/beard_babby_lab.png)
 
 It is time for science to abandon our subpar standard of clinical testing on animals and enter the golden era of testing exclusively on human babies.
 

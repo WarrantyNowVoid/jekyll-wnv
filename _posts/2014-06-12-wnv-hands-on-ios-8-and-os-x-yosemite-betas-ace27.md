@@ -3,17 +3,16 @@ layout: post
 guid: ace27
 published: true
 date: 2014-06-12 15:07:27 -0400
-author: "123-pope"
+author: pope
 title: "WNV Hands On: iOS 8 and OS X Yosemite Betas"
 tagline: "It\'s been more than a full week since Apple announced the newest versions of its phone and tablet OS, iOS 8, and its desktop and laptop OS, OS X 10.10 Yosemite. We\'ve been using the first available betas non-stop since then, and we\'re here to show you some of the new features that were overlooked in the keynote demos."
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Articles
+tags: ["PFFFFT NERD","Apple","iOS","OS X","iPhone","Mac","computers","Steve Jobs","Sega","video games","Rectal ID","colonic obliteration"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/osxyosemite.png
+  imageHover: "We assume the final version of this wallpaper will have a dickbutt etched into the stone face"
 ---
-
-![](/assets/img/lol/osxyosemite.png "We assume the final version of this wallpaper will have a dickbutt etched into the stone face")
 
 It's been more than a full week since Apple announced the newest versions of its phone and tablet OS, iOS 8, and its desktop and laptop OS, OS X 10.10 Yosemite. We've been using the first available betas non-stop since then, and we're here to show you some of the new features that were overlooked in the keynote demos.
 

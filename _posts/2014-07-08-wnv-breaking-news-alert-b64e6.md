@@ -3,14 +3,12 @@ layout: post
 guid: b64e6
 published: true
 date: 2014-07-08 11:57:48 -0400
-author: "123-pope"
+author: pope
 title: "WNV Breaking News Alert"
 tagline: "From WNV World News Headquarters in Boston, this is a WNV Breaking News Alert. Stay tuned for minute-by-minute updates from the WNV news team on this urgent situation that will undoubtedly affect millions."
-category: "b9906a63-1a96-463a-822d-655020e7871e"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
-image:
-  feature: blah.jpg
+category: Junk
+tags: ["poop","shitter's broke","ASSPOCALYPSE 2014","turd trauma","rectal wreckage","Snapchat"]
+comments: true 
 ---
 
 From WNV World News Headquarters in Boston, this is a WNV Breaking News Alert. Stay tuned for minute-by-minute updates from the WNV news team on this urgent situation that will undoubtedly affect millions.

@@ -3,17 +3,15 @@ layout: post
 guid: c710b
 published: true
 date: 2013-10-04 12:21:54 -0400
-author: "7145f63d-104a-4f39-ab76-bce2066740ef"
+author: admiral
 title: "West Nile Virus"
 tagline: "Warranty Now Void is an internet vigilante. We are not always the hero you deserve, and honestly? We\'re almost never the hero you need, either. Today, against our better judgement (and also 3 very sternly worded court orders) we are going to take a hard look at West Nile Virus, or as we\'ve affectionately taken to calling it - wast niel."
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Articles
+tags: ["science","West Nile Virus","gross","mosquitos","Africa","donkey dicks","zoonotic arbovirus","we are the only true WNV","death by WNV"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/westnileheader.png
 ---
-
-![](/assets/img/lol/westnileheader.png) Most of our readers, the nicest Spambots you will ever meet, probably don't consider Warranty Now Void a terribly serious website. Sure, we bring you [Christmas Carols](http://warrantynowvoid.com/post/d25a7) and [Public Service Announcements](http://warrantynowvoid.com/post/a5485), but for the most part our site is recognized for its lighthearted approach and utterly repulsive comics. Recently, however, we have undergone a complete overhaul. And by we, I mean Pope spent shitloads of hours coding and designing while Scott and I told him to put more dicks in it. The end result is that we now have a new face on the Internet, and we want to branch out from our usual shenaniganry and give back back to society.
 
 We noticed some time ago that Warranty Now Void has the same initials as West Nile Virus: WNV. Sharing an acronym with a zoonotic arbovirus, we thought we could start our philanthropic initiative by clearing up a couple things as we'd hate for anyone to get the two of us confused. We started out with a simple Venn Diagram to illustrate the differences, but then we got a warm fuzzy feeling deep in our hearts and thought maybe we could do even more. That's right, we started actually researching West Nile Virus.
 

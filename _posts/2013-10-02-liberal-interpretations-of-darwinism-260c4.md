@@ -3,17 +3,16 @@ layout: post
 guid: 260c4
 published: true
 date: 2013-10-02 12:41:28 -0400
-author: "fe5ac4eb-4a17-405a-be4b-b4d4915cf5c1"
+author: scawt
 title: "Liberal Interpretations of Darwinism"
 tagline: "Near my old apartment, there was a comic store that I used to visit for all my low-tech nerding needs. My normal purchases there were generally more towards the Magic cards or D&D end of the spectrum, but recently I stopped in and bought an actual comic book. I do not know how I feel about the experience."
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Articles
+tags: ["Lamarck Rules!","Darwin Can Suck A Dick","More Like Y-Men Am I Right?","Eye SEE what you did there","PFFFFT NERD","comic books","Were-Sharks","X-Men"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/comicbook_MYEYES.png
+  imageHover: "Yes we know this is actually Pretty Boy from Uncanny X-Men #229, but loooooooooool."
 ---
-
-![](/assets/img/lol/comicbook_MYEYES.png "Yes we know this is actually Pretty Boy from Uncanny X-Men #229, but loooooooooool.") X-men has gotten weird.
 
 Today I bought my first comic book in several years: "Wolverine and the X-Men" issue 23, wherein the X-men fight Frankenstein's monster and his army of zombie clowns. This synopsis is not exaggerated in any way. Additionally, there's a witch who may or may not also be a zombie frankenstein, it is not made clear within the confines of these 16 pages.
 

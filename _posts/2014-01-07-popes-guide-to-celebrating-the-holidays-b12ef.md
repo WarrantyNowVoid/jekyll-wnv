@@ -3,17 +3,15 @@ layout: post
 guid: b12ef
 published: true
 date: 2014-01-07 13:34:13 -0500
-author: "123-pope"
+author: pope
 title: "Pope's Guide to Celebrating The Holidays"
 tagline: "Here we are in another new year after another wildly successful holiday season. Joy and happiness were spread to all mankind, family and friends shared the warmth of the season, and Pope got sick, so now he\'s pissed off at the world. Join us as we help you create your own successful holiday season in five easy steps."
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Articles
+tags: ["Pope","handy guides","the flu","West Nile Virus","everyone must suffer as I have"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/fluvirus.png
 ---
-
-![](/assets/img/lol/fluvirus.png)
 
 Here we are in another new year after another wildly successful holiday season. Joy and happiness were spread to all mankind, family and friends shared the warmth of the season, and Pope got sick, so now he's pissed off at the world. Join us as we help you create your own successful holiday season in five easy steps.
 

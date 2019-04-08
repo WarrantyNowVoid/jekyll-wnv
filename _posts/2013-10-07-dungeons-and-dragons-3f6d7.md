@@ -3,14 +3,12 @@ layout: post
 guid: 3f6d7
 published: false
 date: 2013-10-07 23:09:60 -0400
-author: "fe5ac4eb-4a17-405a-be4b-b4d4915cf5c1"
+author: scawt
 title: "Dungeons and Dragons "
 tagline: "The final version of the D&D Next playtest has been released, and there are a lot of complex mechanics that need to be understood if you want to be ready for the final release next year. This is not going to be a very good source for that particular information."
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
-image:
-  feature: blah.jpg
+category: Articles
+tags: []
+comments: true 
 ---
 
 Wizards of the Coast has been running what they call the "D&D Next Playtest" for a while now, and have recently released the final update before the game's public release date next year. There are a lot of intricate new systems as well as ingenious simplifications of old ones, and if you don't want to be laughed out of your local hobby shop come spring you'll need to study up!

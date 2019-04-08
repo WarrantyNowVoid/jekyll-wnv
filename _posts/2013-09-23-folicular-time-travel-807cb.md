@@ -3,15 +3,13 @@ layout: post
 guid: 807cb
 published: true
 date: 2013-09-23 12:01:18 -0400
-author: "fe5ac4eb-4a17-405a-be4b-b4d4915cf5c1"
+author: scawt
 title: "Folicular Time Travel"
 tagline: "They say that a haircut a day keeps the doctor away, but I would argue that that\'s entirely too many haircuts and that a psychiatrist should be brought in for a consult. I prefer to maintain a somewhat less frequent schedule of hair maintenance myself, but on those rare occasions that I do visit the local Supercuts I try to make it as interesting as possible. 
 "
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
-image:
-  feature: blah.jpg
+category: Articles
+tags: ["Haircut","Gay As In Happy","Do You Find Me Repulsive?","This Bone Structure Is Not Good Bone Structure","Lookin' Adequate","Hair Gel","Letters From Scott","The Honor Guard"]
+comments: true 
 ---
 
 Today a gay Asian man gave me a haircut from the late 90's. To clarify, when I use the word "gay" I'm referring to his whimsical and jubilant demeanor, not his sexual orientation. That said, if I had to hazard a guess I'd say he's probably into dudes. Anyways, the core haircut this man gave me was more or less exactly what I was looking for: uniformly short, but not quite spherical, as that would accentuate my abnormally lumpy skull. He did go a bit shorter than I had initially planned, but I think I understand his mistake. I started losing my hair about a year ago, so when I said "I'd like it on the short side," he interpreted that as "finish the job."

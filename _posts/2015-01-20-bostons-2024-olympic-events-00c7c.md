@@ -3,17 +3,15 @@ layout: post
 guid: 00c7c
 published: true
 date: 2015-01-20 13:30:21 -0500
-author: "123-pope"
+author: pope
 title: "Boston's 2024 Olympic Events"
 tagline: "The US Olympic Committee has officially named Boston as its host city for the 2024 Summer Olympics bid, and we have worked tirelessly since then to help by compiling a list of events that can be adapted to more closely resemble everyday life in Boston."
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Articles
+tags: ["Olympics","Boston","Boston Olympics","2024 Olympics","Summer Olympics","MBTA","totally accurate information","baseball","green line","Allston Christmas","PBR","beer","booze","Massachusetts","Strawberry Quik"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/bostonolympicevents.png
 ---
-
-![](/assets/img/lol/bostonolympicevents.png)
 
 The US Olympic Committee has officially decided to name the city of Boston as its host city for the 2024 Summer Olympic Games bid. Boston is of course, most famously, [the home of WNV](http://warrantynowvoid.com/post/5ef9c), so we naturally feel a strong connection to this move by the USOC and want to help win the bid and make the 2024 Olympics the greatest yet.
 

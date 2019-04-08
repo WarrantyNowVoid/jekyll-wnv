@@ -3,17 +3,15 @@ layout: post
 guid: 05b3e
 published: true
 date: 2014-01-28 12:25:57 -0500
-author: "123-pope"
+author: pope
 title: "WNV Cares: Helping Lost Googlers"
 tagline: "Every year, like twenty-ish people fall victim to Google\'s indifference, and instead of finding the answers they need, find themselves here on WNV, face-to-face with a poop joke. Today, we try to help those poor lost souls. "
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Articles
+tags: ["PSA","giving back to the community","assholery","WNV Cares","Google","searching is hard to do","mongolian halloween chinggis khaan","pope sox","candy tastes better when it's been hard won","puns","DR"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/grandmafindstheinternet.png
 ---
-
-![](/assets/img/lol/grandmafindstheinternet.png) Every year, like twenty-ish people fall victim to Google's indifference, and instead of finding the answers they need, find themselves here on WNV, face-to-face with a poop joke. Today, we try to help those poor lost souls.
 
 One of the most useful features of Google Analytics is the ability to view the specific key words or phrases which people Googled and then ended up on your site from the results. After almost five months of new WNV-ery, we took a look at ours, only to find some devastating results: a number of very confused internet travelers seeking from Google what we cannot provide. So, in an effort to give back to the tubes that have been so gracious a host, we are here today to give our best answers to those who implored the Google for help and were instead left here on WNV for dead.
 

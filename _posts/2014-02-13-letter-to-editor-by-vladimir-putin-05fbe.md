@@ -3,17 +3,15 @@ layout: post
 guid: 05fbe
 published: true
 date: 2014-02-13 10:53:08 -0500
-author: "7145f63d-104a-4f39-ab76-bce2066740ef"
+author: admiral
 title: "Letter to Editor by Vladimir Putin"
 tagline: "Dear Comrades, I am Vladimir Vladimirovich Putin, greatest all-powerful democratic ruler of greatest Mother Russia. It has come to Putin\'s attention that Homeland has drawn criticism from West. Putin must set record straight. "
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Articles
+tags: ["Putin","Sochi","2014 Winter Olympics","Olympics","Russia","bears","vodka","who doesn't miss the Cold War?","USSR Powercoaster","Chernobyl","Western propaganda"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/putin_is_feel.png
 ---
-
-![](/assets/img/lol/putin_is_feel.png) Dear Comrades,
 
 I am Vladimir Vladimirovich Putin, greatest all-powerful democratic ruler of greatest Mother Russia.
 
@@ -79,4 +77,4 @@ If not receive, Putin know where you live.
 
 With kindest regards, I am
 
-Vlad
+<span style="font-size:22px; font-family:cursive;">Vlad</span>

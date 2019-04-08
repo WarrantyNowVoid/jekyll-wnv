@@ -3,17 +3,16 @@ layout: post
 guid: 3e7fb
 published: true
 date: 2013-12-10 13:10:25 -0500
-author: "fe5ac4eb-4a17-405a-be4b-b4d4915cf5c1"
+author: scawt
 title: "Black Friday"
 tagline: "Black Friday has been vilified in the media for the violent, frenzied behavior it induces in the public. Many prominent figures have asked if stores go too far with advertising and deals, creating a \"perfect storm\" scenario. We at WNV have a very different question to on our minds: do they go far enough?"
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Articles
+tags: ["Savings","bargains","murder","murderbargains","black friday","curb stomping people for inappropriate reasons","frugality","you don't see the extreme couponing people pulling this kind of shit","people are stupid"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/blackfriday1.jpg
+  imageHover: "95% Off Lighter Fluid! Buy One Glass Bottle, Get 11 Free!"
 ---
-
-![](/assets/img/lol/blackfriday1.jpg "95% Off Lighter Fluid! Buy One Glass Bottle, Get 11 Free!")
 
 According to an itemized list of injuries and deaths on [Black Friday Death Count](http://blackfridaydeathcount.com/), there have been 7 deaths and 90 injuries in black friday-related incidents since 2006. The causes listed range from drunk driving to pepper spray to trampling to gunshot wounds. Seriously, check it out. Like 8 people have been straight up _shot_ over outrageous holiday savings.
 

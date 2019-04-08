@@ -3,14 +3,12 @@ layout: post
 guid: 45789
 published: true
 date: 2011-07-31 19:22:51 -0400
-author: "123-pope"
+author: pope
 title: "Why Do Girls Wear These Things?"
 tagline: "Why do girls wear these things? WHY?! I understand that everyone has different taste, but some of the shit girls put on is just plain ridiculous. We have compiled a list of the worst offenses we could think of, in the hopes that educating the masses (that\'s you) will put an end to these disturbing trends, and thereby make the world a better place."
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
-image:
-  feature: blah.jpg
+category: Articles
+tags: ["fashion","girls","rant","this was written by a girl we're not misogynists I swear","clothes","Britney Spears","cupcakes","hipsters"]
+comments: true 
 ---
 
 Why do girls wear these things? WHY?! I understand that everyone has different taste, but some of the shit girls put on is just plain ridiculous. We have compiled a list of the worst offenses we could think of, in the hopes that educating the masses (that's you) will put an end to these disturbing trends, and thereby make the world a better place. Seriously, I'm like 88% sure if these all stopped, so would terrorism and world hunger.

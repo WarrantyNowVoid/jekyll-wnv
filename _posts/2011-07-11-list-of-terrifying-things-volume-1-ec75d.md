@@ -3,17 +3,15 @@ layout: post
 guid: ec75d
 published: true
 date: 2011-07-11 12:33:53 -0400
-author: "123-pope"
+author: pope
 title: "List of Terrifying Things: Volume 1"
 tagline: "We\'ve decided to expand on our list of things that are terrifying; these are the first 8 entries. If you do not quake with mortal fear while watching this video, I suggest you have your doctor examine your mortal fear gland, as I suspect it is woefully underproductive. There\'s a good chance that you may need to take some sort of supplement."
-category: "b0139bf7-348e-4184-a4ab-fe97fd950342"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Videos
+tags: ["youtube","lists","terrifying things","improbable threats","kill it with fire","gross","leeches","jersey shore","anal probes","rocket sharks"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/listofterrifyingthings1.png
 ---
-
-![](/assets/img/lol/listofterrifyingthings1.png)
 
 We've decided to expand on our list of things that are terrifying; these are the first 8 entries. If you do not quake with mortal fear while watching this video, I suggest you have your doctor examine your mortal fear gland, as I suspect it is woefully underproductive. There's a good chance that you may need to take some sort of supplement.
 

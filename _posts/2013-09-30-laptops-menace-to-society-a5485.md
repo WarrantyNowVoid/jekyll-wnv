@@ -3,14 +3,12 @@ layout: post
 guid: a5485
 published: true
 date: 2013-09-30 14:44:18 -0400
-author: "123-pope"
+author: pope
 title: "Laptops: Menace to Society"
 tagline: "Computers are everywhere these days, and it seems almost everyone has a laptop that they carry around with them. Today, Pope tries to educate these people about the horrific danger into which they are regularly placing themselves and those around them by not understanding the inner workings of these devices. "
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
-image:
-  feature: blah.jpg
+category: Articles
+tags: ["computers","PFFFFT NERD","science","fire","Computer Science","things with molten cores","PSA"]
+comments: true 
 ---
 
 Today I'd like to address a serious and growing concern, becoming especially prevalent among college students who are now, just as I was a few years ago, too cheap/poor/cool to have proper furniture: Burning down their dorms by leaving laptops on their beds. [This is a trend](http://bostonherald.com/news_opinion/local_coverage/2013/04/laptop_goes_up_in_flames) that is destroying lives and student housing across the country, but could be easily stopped if we all just took a moment to become educated about the issue and the devices we often spend so much time using.

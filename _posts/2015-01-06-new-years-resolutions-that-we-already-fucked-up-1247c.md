@@ -3,17 +3,16 @@ layout: post
 guid: 1247c
 published: true
 date: 2015-01-06 12:16:01 -0500
-author: "123-pope"
+author: pope
 title: "New Years Resolutions That We Already Fucked Up"
 tagline: "It\'s that time again, a brand new year. With 2014 finally dead and gone, it\'s time to look forward to the promise of a new and better year, and a new and better website. Or at least, it would be, if we hadn\'t already fucked up every last one of our resolutions."
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Articles
+tags: ["New Years","holidays","resolutions","bettering ourselves","depending on your definition of better","quadrilaterals","geometry","Dark Eldritch Magicks","Cthulu","promises","we are bad at everything","financial challenges","pile of money","summoning Great Old Ones","lovecraft? more like loveshaft","the concept of linear time","healthy and wealthy in 2015","I have my doubts that we'll ever use that last tag again","At Least It's Not Another Christopher Walken Joke"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/resolutions_stickies.png
+  imageHover: "Buy more Post-It notes."
 ---
-
-![](/assets/img/lol/resolutions_stickies.png "Buy more Post-It notes.") It's that time again, a brand new year. With 2014 finally dead and gone, it's time to look forward to the promise of a new and better year, and a new and better website. Or at least, it would be, if we hadn't already fucked up every last one of our resolutions.
 
 ### 1\. Never miss a scheduled post day
 

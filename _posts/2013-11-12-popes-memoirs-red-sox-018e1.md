@@ -3,17 +3,15 @@ layout: post
 guid: 018e1
 published: true
 date: 2013-11-12 12:29:32 -0500
-author: "123-pope"
+author: pope
 title: "Pope's Memoirs: Red Sox"
 tagline: "Some will call me monster for what I\'ve done. Some will call me hero. But none of that matters to me. Not anymore. What\'s important is that we won. There were certain measures that had to be taken in order for that to happen, and those choices are now mine to live with."
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Articles
+tags: ["Pope's Memoirs","Red Sox","baseball","sports","bears","radioactivity","beards","sportsball","baseball goals","Boston"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/popesmemoirs1.png
 ---
-
-![](/assets/img/lol/popesmemoirs1.png) Some will call me monster for what I've done. Some will call me hero. But none of that matters to me. Not anymore. What's important is that we won. There were certain measures that had to be taken in order for that to happen, and those choices are now mine to live with.
 
 It all started in 2012. Chicken and beer on Valentine's Day or something; I try to forget those days. Things were bleak, and hope was scarce. The season was already over, and the team was nothing more than a sad, sick joke. We knew something had to be done to save our fair city from a fate worse than poverty, famine, pestilence, war, or even death: losing.
 

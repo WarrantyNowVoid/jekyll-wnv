@@ -3,17 +3,15 @@ layout: post
 guid: 00cf4
 published: true
 date: 2013-11-20 12:43:24 -0500
-author: "7145f63d-104a-4f39-ab76-bce2066740ef"
+author: admiral
 title: "Meat Alloys and Marketing Ploys"
 tagline: "Spam has been an ongoing annoyance since the beginning of telecommunications. Be it via telemarketer, SMS, ad-ware or e-mails, that\'s not a lot you can do to avoid it. In a heroic recreation of the final scene from Independence Day, Admiral Rau hurls himself headlong into the belly of the beast. I don\'t have a good feeling about the outcome."
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Articles
+tags: ["the Internet","spambots","Nigerian Princes","Cialis","penis lol","email","Unclean he moaned","Spam","Russian mail order brides","horny singles in your area!","financial advice"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/spamcans.png
 ---
-
-![](/assets/img/lol/spamcans.png)We all get Spam. It's normal; it's a part of life. But no one wants to talk it about. For me, it's usually at my local Stop & Shop. I tend to walk by the aisle a few times, just to scope things out. This is a very personal matter and you'd hate to run into your former second grade teacher while clenching a juicy can of Spam, sweat beading on your forehead as you study every curve forming the perfection of that blue and yellow can.
 
 Oh, wait. Hold on. Shit...
 

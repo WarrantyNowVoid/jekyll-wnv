@@ -3,14 +3,12 @@ layout: post
 guid: 0a7f3
 published: true
 date: 2013-10-18 12:37:37 -0400
-author: "fe5ac4eb-4a17-405a-be4b-b4d4915cf5c1"
+author: scawt
 title: "WNV: Insider"
 tagline: "Today we take a look behind the WNV curtain and see how the metaphorical (and occasionally literal) sausage is made. If you\'ve ever wondered what fanciful adventures of literary and cultural discovery we go on to create content for this website, then buckle up: this one\'s gonna be underwhelming. "
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
-image:
-  feature: blah.jpg
+category: Articles
+tags: ["assholery","how are any of us still employed?","things that will fuck shit up","WNV","sorry","How It's Made","often sticky"]
+comments: true 
 ---
 
 A day in the life of a WNV content creator begins much the way I assume a day begins for good, wholesome people. We wake up, spend the majority of our day at our respective jobs trying to hide our crippling social insufficiencies and generally misanthropic attitudes, and then head home to begin our days in earnest. Warranty Now Void is a project that is pieced together in our spare time in an attempt to amuse ourselves and our friends, I can say with confidence that we often succeed on at least the first of those two goals. But _how_ does it happen? Believe it or not there is, in fact, a system in place to help regulate what we create.

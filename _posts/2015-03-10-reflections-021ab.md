@@ -3,14 +3,14 @@ layout: post
 guid: 021ab
 published: true
 date: 2015-03-10 13:01:01 -0400
-author: "123-pope"
+author: pope
 title: "Reflections"
 tagline: "Everyone needs to take a step back once in a while and take an honest look at themselves. Well, not like, too honest. That\'d just be weird."
-category: "ec3bd05c-4ade-4a6e-9d64-4a3d5f1c69bd"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Comics
+tags: ["lies","we're all liars","ponderings","breakfast","honesty...sort of","realism"]
+comments: true 
 image:
-  feature: blah.jpg
+  feature: /assets/img/lol/habitualliarcomic.png
+  imageHover: "You know what they say about honest and best policies: never cross the streams."
 ---
 
-![](/assets/img/lol/habitualliarcomic.png "You know what they say about honest and best policies: never cross the streams.")

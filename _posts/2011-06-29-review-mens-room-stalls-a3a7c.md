@@ -3,17 +3,16 @@ layout: post
 guid: a3a7c
 published: true
 date: 2011-06-29 04:12:35 -0400
-author: "123-pope"
+author: pope
 title: "Review: Men's Room Stalls"
 tagline: "In the interest of full disclosure, a disclaimer: I am pooping right now while writing this. You may think that\'s gross and go cry or whatever it is little girls like you do when confronted with the harsh realities of bodily functions, but I think it\'s an absolutely appropriate way to write this review. I mean, I\'m sitting in the very thing I\'m reviewing. "
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Articles
+tags: ["review","bathroom","poop","gross","fapping","gloryhole","poop jokes","dudes are gross"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/mensroomstallsreview.png
+  imageHover: "Yes this is Larry Craig's special stall."
 ---
-
-![](/assets/img/lol/mensroomstallsreview.png "Yes this is Larry Craig's special stall.")
 
 In the interest of full disclosure, a disclaimer: I am pooping right now while writing this. You may think that's gross and go cry or whatever it is little girls like you do when confronted with the harsh realities of bodily functions, but I think it's an absolutely appropriate way to write this review. I mean, I'm sitting in the very thing I'm reviewing. This is what we in the business call "investigative journalism," and it's the only way to do it right.
 

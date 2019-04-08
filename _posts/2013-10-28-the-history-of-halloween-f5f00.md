@@ -3,17 +3,15 @@ layout: post
 guid: f5f00
 published: true
 date: 2013-10-28 14:34:31 -0400
-author: "fe5ac4eb-4a17-405a-be4b-b4d4915cf5c1"
+author: scawt
 title: "The History of Halloween"
 tagline: "Halloween is a tradition that has endured for thousands of years in hundreds of cultures, and that is showing no signs of slowing down. While Christmas is slowly gorging itself on more and more of the year, lets step back and take a look at this spooky, scary custom\'s extensive history."
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Articles
+tags: ["Halloween","Spooky Behavior","2spooky4me","history","Mongols","Genghis Khan","World Wars","pirates","Kaiser","my blood sugar hurts","spooky scary skeletons"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/historyofhalloween.png
 ---
-
-![](/assets/img/lol/historyofhalloween.png)
 
 Halloween is coming, dudes. That shit is _upon_ us. Candy. Costumes. Spooky, scary skeletons.
 

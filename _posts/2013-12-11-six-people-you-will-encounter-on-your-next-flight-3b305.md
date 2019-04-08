@@ -3,17 +3,15 @@ layout: post
 guid: 3b305
 published: true
 date: 2013-12-11 15:50:34 -0500
-author: "123-pope"
+author: pope
 title: "Six People You Will Encounter on Your Next Flight"
 tagline: "The busy holiday travel season is upon us, and many of us are flying from various corners of the world to others. Here as always to help prepare you for the harsh realities around you, WNV takes a look at the types of people every flight is bound to encounter."
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Articles
+tags: ["planes","travel","people are stupid","unanticipated history lessons","flying","people-shaped sacks","based on a true story"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/peopleonyourflight.png
 ---
-
-![](/assets/img/lol/peopleonyourflight.png)
 
 ### 1\. The Super-Saver
 

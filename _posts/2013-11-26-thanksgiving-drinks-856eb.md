@@ -3,17 +3,16 @@ layout: post
 guid: 856eb
 published: true
 date: 2013-11-26 12:39:58 -0500
-author: "123-pope"
+author: pope
 title: "Thanksgiving Drinks"
 tagline: "The holiday season is in full swing here at WNV, and we were hoping to share a little of our spirit with all of you. Spirits, more accurately. Here are a few of our favorite thanksgiving drinks to help you get weird this year."
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Articles
+tags: ["Thanksgiving","holidays","family","booze","drinking","whiskey","Native Americans","Pilgrims","turkey","I wouldn't eat that turkey if I were you","crack"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/cornucopiaheader.png
+  imageHover: "Like this but with boooooooooooooooooze."
 ---
-
-![](/assets/img/lol/cornucopiaheader.png "Like this but with boooooooooooooooooze.")The holiday season is in full swing here at WNV, and we were hoping to share a little of our spirit with all of you. Spirits, more accurately. Here are a few of our favorite thanksgiving drinks to help you get weird this year.
 
 #### The Dirty Birdy
 

@@ -3,17 +3,15 @@ layout: post
 guid: 066f9
 published: true
 date: 2014-04-10 13:52:20 -0400
-author: "123-pope"
+author: pope
 title: "The Nintendo Conspiracy"
 tagline: "This game, much as Doom taught my generation to become blood-thirsty, merciless killers, is instilling the idea that drugs such as mushrooms help you get through life, thanks to the pusher known only as \"Toad\"."
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Articles
+tags: ["drugs","Nintendo","video games","Mario","Toad","mushrooms","I mean the dude is a talking mushroom what did you expect","Colorado"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/realistic_mario.png
 ---
-
-![](/assets/img/lol/realistic_mario.png) While it's common knowledge that Mario's world is in fact a drug-enhanced projection created by his subconscious mind taking over the slack for a consciousness that has long been unable and unwilling to interpret the waking nightmare that is his real life, there is a lesser-known subtext to the popular series that belies a hidden agenda on the part of a massive multinational corporation. The mushroom-headed character Toad is an allegory for drug dealers and pushers, and Nintendo is teaching the children in its target audience that these people are good and helpful and should be trusted as close friends and advisors, in order to build an entire generation of drug-dependent subjects conditioned to submit to and truly believe in the rule of Nintendo's empire.
 
 The most overt metaphor is the mushroom. In the game, a mushroom will make you bigger and stronger, and more resilient against your enemies. As we all know, video games are the fundamental building blocks upon which children base their entire moral and social frameworks. This game, much as Doom taught my generation to become blood-thirsty, merciless killers, is instilling the idea that drugs such as mushrooms help you get through life. When compared to the other power-ups available in the game, including a Marijuana plant that allows you to comfortably relax a safe distance from the bad guys, and a bright, powdery star that makes you run faster and become completely invincible, the imagery is inescapable.
 

@@ -3,14 +3,12 @@ layout: post
 guid: bee31
 published: true
 date: 2013-10-16 12:44:22 -0400
-author: "123-pope"
+author: pope
 title: "One More Thing: Prologue"
 tagline: "WNV takes a new direction today with the launch of our newest series: One More Thing, a long-running and mysterious story written as one chapter per post. Hold onto your butts; things are about to get reeeeal uncomfortable."
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
-image:
-  feature: blah.jpg
+category: Articles
+tags: ["One More Thing","Apple","Steve Jobs","uncomfortable","absolutely nothing about this is okay","iPhone","technology"]
+comments: true 
 ---
 
 He gently pressed his thumb against the home button. The smooth glass was still warm from last time. This was his favorite part. He pushed the button down until he felt that almost imperceptible click. He stopped pushing and let the button rise back up without moving his thumb away. The backlit screen illuminated and, only for a fraction of a second, revealed his bright and friendly lock screen, which was quickly replaced by his carefully organized first page of App icons sliding into their painstakingly determined positions. He smiled. If there was one thing he would never get tired of, that was it. Unlike just about everything else in his life. Lately he was so damned tired of everything, all the time. The smile faded from his face and he pressed the lock button. The iPhone made an echoing click sound and its screen went black as he closed his eyes and laid his head back on the pillow.

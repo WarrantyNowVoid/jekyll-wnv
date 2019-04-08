@@ -3,14 +3,14 @@ layout: post
 guid: 3ef9c
 published: true
 date: 2014-12-30 15:13:13 -0500
-author: "123-pope"
+author: pope
 title: "Kinda Like Rigor Mortis, I Guess"
 tagline: "Coming to terms with one\'s own mortality is often a defining realization for many people. We\'re way past that though. We\'ve got bigger, longer plans."
-category: "ec3bd05c-4ade-4a6e-9d64-4a3d5f1c69bd"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Comics
+tags: ["ghosts","horny ghosts","it's not gay if you're incorporeal","butts","Spooky Behavior","2spooky4me","That Little Ghost Motherfucker","a total lack of respect for the dead","rigor mortis","penis lol"]
+comments: true 
 image:
-  feature: blah.jpg
+  feature: /assets/img/lol/HornyGhost.png
+  imageHover: "Ever feel the hair on the back of your neck stand up? Yeah, that's not me, it'd be your butt."
 ---
 
-![](/assets/img/lol/HornyGhost.png "Ever feel the hair on the back of your neck stand up? Yeah, that's not me, it'd be your butt.")

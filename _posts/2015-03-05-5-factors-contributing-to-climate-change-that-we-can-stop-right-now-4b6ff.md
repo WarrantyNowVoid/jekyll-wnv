@@ -3,17 +3,15 @@ layout: post
 guid: 4b6ff
 published: true
 date: 2015-03-05 13:01:01 -0500
-author: "123-pope"
+author: pope
 title: "5 Factors Contributing to Climate Change That We Can Stop Right Now"
 tagline: "Climate change is real. Science has proven it. And we know exactly how to make a huge difference, right now. We need to kill your mother and launch her into the sun."
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Articles
+tags: ["yo momma","science","black holes","bursting into snacks","ASSPOCALYPSE 2014","gaseous anomalies"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/globalwarming.png
 ---
-
-![](/assets/img/lol/globalwarming.png)
 
 ### 1\. Yo Momma Significantly Increasing the Earth's Mass, Pulling Us Ever Closer to the Sun
 
@@ -25,7 +23,7 @@ Scientists agree that one of the primary greenhouse gases contributing to the wa
 
 ![yomommagraph](/assets/img/lol/yomommagraph.png "Alternate title: Uses For Muh Diiiiiick")
 
-Source: EPA, probably
+<p style="text-align:center;"><small>Source: EPA, probably</small></p>
 
 Through one simple action of putting a cork in yo momma's ass gas, the country's methane emissions would be immediately cut by 29%. Why do we refuse to act?
 

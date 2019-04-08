@@ -3,14 +3,12 @@ layout: post
 guid: aa34c
 published: true
 date: 2011-10-02 04:50:21 -0400
-author: "123-pope"
+author: pope
 title: "These Shorts I'm Wearing"
 tagline: "I wear shorts when it\'s hot out because it\'s fucking hot out. What are you, twelve? You\'re not my real dad, I don\'t have to explain my actions to you. Now read on and understand my long relationship with these shorts, and why we\'ve stayed together, even through years of adversity."
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
-image:
-  feature: blah.jpg
+category: Articles
+tags: ["review","pope's shorts","fashion","cwayne has a tiny penis","short pants","you can't have my shorts","shorts"]
+comments: true 
 ---
 
 I wear shorts when it's hot out because it's fucking hot out. What are you, twelve? You're not my real dad, I don't have to explain my actions to you. Now read on and understand my long relationship with these shorts, and why we've stayed together, even through years of adversity.

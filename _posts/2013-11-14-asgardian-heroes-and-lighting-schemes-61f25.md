@@ -3,14 +3,12 @@ layout: post
 guid: 61f25
 published: true
 date: 2013-11-14 12:50:45 -0500
-author: "fe5ac4eb-4a17-405a-be4b-b4d4915cf5c1"
+author: scawt
 title: "Asgardian Heroes and Lighting Schemes "
 tagline: "I recently sat down to watch the film Thor: The Dark World. Consequently, I now have opinions regarding Thor: The Dark World."
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
-image:
-  feature: blah.jpg
+category: Articles
+tags: ["Thor","This World Could Be Brighter","review","movies","Inconsistent Rating Systems","Spoilers","Muscular Blonde Dudes"]
+comments: true 
 ---
 
 Hey there, internet. How are you today? I'm doing well, thanks for asking. What's new with me? Not much, really. I recently went to see the film Thor: The Dark World, and I'd love to take a second to talk about it with you if you're not too busy. As superhero movies go, it was fairly average. Explosions, turbo punches, and gratuitous CGI all made their token appearance on screen. I'd rate its overall memorability as on par with Spiderman 2 (the one with the Frodo-lookin' dude and Dr. 'Japanese-Porn-Stereotype.') I'd probably have left the theater without any lasting impression of the film at all if not for a few key points. **Fair warning**, there may be spoilers in this next bit. Fuck off until Friday if you're not into that.

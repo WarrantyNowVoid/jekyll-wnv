@@ -3,14 +3,12 @@ layout: post
 guid: 05e1b
 published: true
 date: 2011-06-24 14:50:02 -0400
-author: "123-pope"
+author: pope
 title: "Driving to Work Hungover"
 tagline: "Driving to work sucks as it is. Driving to work hungover? Well, that\'s like driving to work with a midget in the seat next to you punching you in the dick every 54 seconds. Don\'t have a dick? Not a problem. The midget brought a cadaver and his sewing kit. It\'s about as good as if Hitler and Fidel Castro adopted and raise the world\'s most evil baby. Frankly, it sucks."
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
-image:
-  feature: blah.jpg
+category: Articles
+tags: ["review","hangovers","driving","how are any of us still employed?","DON'T THROW UP","booze","MBTA","operating motor vehicles"]
+comments: true 
 ---
 
 Driving to work sucks as it is. Driving to work hungover? Well, that's like driving to work with a midget in the seat next to you punching you in the dick every 54 seconds. Don't have a dick? Not a problem. The midget brought a cadaver and his sewing kit. It's about as good as if Hitler and Fidel Castro adopted and raise the world's most evil baby. Frankly, it sucks.

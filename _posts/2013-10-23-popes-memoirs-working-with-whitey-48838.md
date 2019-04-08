@@ -3,17 +3,15 @@ layout: post
 guid: 48838
 published: true
 date: 2013-10-23 12:15:26 -0400
-author: "123-pope"
+author: pope
 title: "Pope's Memoirs: Working With Whitey"
 tagline: "In his many years traveling this Earth, Pope has experienced a great deal, and learned even more. In our new series, Pope\'s Memoirs, he shares some of that immense knowledge with the rest of us. Or he just makes a bunch of shit up. It\'s really hard to tell sometimes."
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Articles
+tags: ["Pope's Memoirs","Whitey Bulger","Massachusetts","Micro Machines","drugs","Boston","realistic shipping methods"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/popesmemoirs1.png
 ---
-
-![](/assets/img/lol/popesmemoirs1.png) Growing up in the state of Massachusetts is hard. Mostly because at some point, Whitey Bulger is going to come up to you on the street and tell you that you work for him now. And you, being five years old, will presumably be fine with this.
 
 I vividly remember the day of my induction into the Winter Hill Gang. It was a bright, chilly morning in November, and I was playing in the middle of the street outside our house in Springfield, the Micro Machines set I had just gotten for my fifth birthday sprawled across the pavement. One of my tiny trucks did a sick-ass flip off the side of a parking garage ramp and landed a few feet away, slowly rolling to a stop against a man's shoe. I hadn't noticed him there until now. He bent down to pick up my incredibly bitchin' diminutive dump truck and its spilled cargo. He handed just the truck back to me with a confident smile, saying, "Here ya go, ked."
 

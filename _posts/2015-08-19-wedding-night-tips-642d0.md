@@ -3,17 +3,15 @@ layout: post
 guid: 642d0
 published: true
 date: 2015-08-19 13:01:01 -0400
-author: "123-pope"
+author: pope
 title: "Wedding Night Tips"
 tagline: "Well, it\'s the night after your big day, and we all now what that means, right? Of course we do. We all definitely, completely do. I mean, I know. For sure. Do you? Boy, I just feel sorry for anyone who doesn\'t know. Gosh that must be embarrassing."
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Articles
+tags: ["#weddingcomickz","weddings","sexy","no not sexy at all why did I add that tag","parent-sex","babies","safety first","How It's Made","gettin' it","sex pants","grown up stuff","adult things","Steve Buscemi","wedding night","man contraptions","floppy things","sex cabana","lady apparatus","floppy pillows"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/weddingnight3.png
 ---
-
-![](/assets/img/lol/weddingnight3.png)
 
 Well, it's the night after your big day, and we all now what that means, right? Of course we do. We all definitely, completely do. I mean, I know. For sure. Do you? Boy, I just feel sorry for anyone who doesn't know. Gosh that must be embarrassing.
 

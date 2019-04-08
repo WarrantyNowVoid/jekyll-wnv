@@ -3,17 +3,15 @@ layout: post
 guid: 575c8
 published: true
 date: 2011-08-06 24:41:51 -0400
-author: "123-pope"
+author: pope
 title: "Investigating Unsolved Mysteries"
 tagline: "Four of the greatest mysteries of all time solved by people who have openly admitted to being pathological liars. But this time is different, we swear. We totally did research and shit. From a thread on Reddit. Yeah, that pretty much constitutes our entire research division. Whatever, this shit seems legit to us, so I don\'t see why you have to question it."
-category: "b0139bf7-348e-4184-a4ab-fe97fd950342"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Videos
+tags: ["youtube","unsolved mysteries","mysterious shit","julia.wav","your mom","slam box six","Cthulu","LOST","Scawt is a magic man","bloop","Gift of Gab","purulent sores","herpes","Amy Winehouse","Charlie Sheen","dick liquefaction","Operation: Turbo Sodomy"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/investigatingunsolvedmysteries.png
 ---
-
-![](/assets/img/lol/investigatingunsolvedmysteries.png)
 
 Four of the greatest mysteries of all time solved by people who have openly admitted to being pathological liars. But this time is different, we swear. We totally did research and shit. From a thread on Reddit. Yeah, that pretty much constitutes our entire research division. Whatever, this shit seems legit to us, so I don't see why you have to question it.
 

@@ -3,17 +3,15 @@ layout: post
 guid: 0db6a
 published: true
 date: 2013-12-06 09:56:02 -0500
-author: "123-pope"
+author: pope
 title: "PoopGuy Plugins"
 tagline: "Have you ever been on a website and thought, \"boy this site would be better if I could take a giant steaming dump right on top of it\"? Well, friend, worry no more. Warranty Now Void\'s Board Of Novel Experimentation & Research Studies has developed just the solution you need."
-category: "b9906a63-1a96-463a-822d-655020e7871e"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Junk
+tags: ["PFFFFT NERD","computers","poop jokes","#poopGuy2013","Chrome","poop","downloadable","check back later for updates"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/poopguypluginsleader.png
 ---
-
-![](/assets/img/lol/poopguypluginsleader.png) Have you ever been on a website and thought, "boy this site would be better if I could take a giant steaming dump right on top of it"? Well, friend, worry no more. Warranty Now Void's Board Of Novel Experimentation & Research Studies has developed just the solution you need:
 
 ![The PoopGuy Browser Plugin](/assets/img/lol/poop_banner.png)
 

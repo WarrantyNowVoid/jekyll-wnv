@@ -3,17 +3,15 @@ layout: post
 guid: e043b
 published: true
 date: 2014-01-14 12:26:42 -0500
-author: "7145f63d-104a-4f39-ab76-bce2066740ef"
+author: admiral
 title: "Drowning: A Tale of Survival"
 tagline: "In our continuing series on modes of death, our effort to keep you safe and healthy, we bring you an in-depth look at Drowning, the silent killer. Well, silent except for all the screaming and splashing, I guess. If you could keep it down out there, we\'re trying to write here. "
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Articles
+tags: ["drowning","science","Africa","gross","river of poo","water","too much of a good thing","death","PSA","walken","poorly concealed erections","bears","precious frozen pizza","a total lack of respect for the dead"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/drowning.png
 ---
-
-![](/assets/img/lol/drowning.png)
 
 You know what probably really sucks to experience? Drowning.
 

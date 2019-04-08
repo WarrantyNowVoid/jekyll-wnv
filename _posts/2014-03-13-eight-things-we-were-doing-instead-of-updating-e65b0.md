@@ -3,14 +3,12 @@ layout: post
 guid: e65b0
 published: true
 date: 2014-03-13 12:34:56 -0400
-author: "123-pope"
+author: pope
 title: "Eight Things We Were Doing Instead of Updating"
 tagline: "It\'s been a while since our last post, so we thought we owed you all a bit of an explanation. Things around here have been very busy lately, and we haven\'t been keeping up with our previously rigorous post regimen. Here\'s a list of the ten most important things that have been keeping us from you all this time."
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
-image:
-  feature: blah.jpg
+category: Articles
+tags: ["WNV","death by WNV","Putin","Gulag","Rob Ford","crack","jobs","Malaysian jumbo jets","too busy masturbating","bears","Entirely Too Soon","DOGE","Dogecoin"]
+comments: true 
 ---
 
 #### 1\. Escaped from Gulag

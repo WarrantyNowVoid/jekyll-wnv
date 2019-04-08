@@ -3,19 +3,17 @@ layout: post
 guid: dcdac
 published: true
 date: 2011-07-13 12:11:36 -0400
-author: "123-pope"
+author: pope
 title: "Circle Jerks"
 tagline: "Google+ is a social network bringing some powerful competition to Facebook. It allows you to organize your friends into Circles and lets you decide what circles can see what content. This is our interpretation of that concept.
 
 I think we fucked up."
-category: "b0139bf7-348e-4184-a4ab-fe97fd950342"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Videos
+tags: ["youtube","Google+","circle jerks","pope's shorts","offensive to the gay community","offensive to pretty much every community really","a-boop","special guest star Brad","score","you don't want to know what he did with that soda"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/circlejerks.png
 ---
-
-![](/assets/img/lol/circlejerks.png)
 
 Google+ is a social network bringing some powerful competition to Facebook. It allows you to organize your friends into Circles and lets you decide what circles can see what content. This is our interpretation of that concept.
 

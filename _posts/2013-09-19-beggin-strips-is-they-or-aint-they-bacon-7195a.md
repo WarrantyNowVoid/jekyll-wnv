@@ -3,14 +3,12 @@ layout: post
 guid: 7195a
 published: false
 date: 2013-09-19 01:06:37 -0400
-author: "123-pope"
+author: pope
 title: "Beggin' Strips: Is They or Ain't They Bacon?"
 tagline: "This is where we would put a brief intro or teaser type thing of the article to convince people that it\'s cool and they should read it. The container won\'t expand dynamically at all, so these should overall be kept relatively short. Because otherwise the text will overflow down into the tabs below, and my shiny css will actually just truncate it at an awkward point."
-category: "b0139bf7-348e-4184-a4ab-fe97fd950342"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
-image:
-  feature: blah.jpg
+category: Videos
+tags: ["bacon","dog food"]
+comments: true 
 ---
 
 <script type="text/javascript" src="http://code.highcharts.com/highcharts.js"></script>

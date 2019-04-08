@@ -3,17 +3,15 @@ layout: post
 guid: fc89c
 published: true
 date: 2011-08-09 18:42:07 -0400
-author: "123-pope"
+author: pope
 title: "/usr/bin/fuck"
 tagline: "We here at Warranty Now Void are not just crippled by alcoholism, we\'re also crippled by our unparalleled nerdiness. Or at least some of us are. The rest are mean jerk bullies. But for my fellow Linux/Unix/Mac nerds out there who spend most of their time in the Terminal, I have something special to give you that I know you will love."
-category: "b9906a63-1a96-463a-822d-655020e7871e"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Junk
+tags: ["PFFFFT NERD","terminal","fuck","for the lols","computers","geek","UNIX","Linux","Mac","fuck off Windows"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/usrbinfuck.png
 ---
-
-![](/assets/img/lol/usrbinfuck.png) We here at Warranty Now Void are not just crippled by alcoholism, we're also crippled by our unparalleled nerdiness. Or at least some of us are. The rest are mean jerk bullies and should learn to keep their stupid hands off the stuff in the company fridge that is CLEARLY labeled "POPE'S LUNCH, DO NOT TOUCH, BRO" in red sharpie. But for my fellow Linux/Unix/Mac nerds out there who spend most of their time in the Terminal, I have something special to give you that I know you will love.
 
 Wouldn't it be nice to express your anger on the command line when something doesn't work the way you want? I agree. And that's why we are starting the Global FUCK Counter Initiative. It all started with [this Google+ post](https://plus.google.com/111528911333263728657/posts/cSx5w5aaUv1), and has taken off from there. At the time of this writing, there are 102682 fucks given overall.
 

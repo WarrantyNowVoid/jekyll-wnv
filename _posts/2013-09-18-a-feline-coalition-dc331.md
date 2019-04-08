@@ -3,17 +3,16 @@ layout: post
 guid: dc331
 published: true
 date: 2013-09-18 11:36:33 -0400
-author: "fe5ac4eb-4a17-405a-be4b-b4d4915cf5c1"
+author: scawt
 title: "A Feline Coalition"
 tagline: "The cats in my neighborhood have been exhibiting somewhat spooky behavior of late. "
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Articles
+tags: ["Spooky Behavior","cats are going to kill us all someday","cats","Apex Predators","Letters From Scott","That thing about Tylenol is true though","Don't murder any cats","PFFFFT NERD","'Tree!' Shouting Larry"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/felinecoalition.png
+  imageHover: "We know."
 ---
-
-![](/assets/img/lol/felinecoalition.png "We know.")
 
 Did you guys know that acetaminophen (the active ingredient in Tylenol) is toxic to cats? They don't have a sufficient glucuronidation pathway of metabolism, shunting a greater percentage of it down CYP-mediated channels leading to higher systemic levels of NAPQI. Once hepatic glutathione stores are overwhelmed liver failure ensues, promptly followed by cyanosis and death.
 

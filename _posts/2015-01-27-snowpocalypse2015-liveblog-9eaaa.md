@@ -3,17 +3,15 @@ layout: post
 guid: 9eaaa
 published: true
 date: 2015-01-27 13:01:01 -0500
-author: "123-pope"
+author: pope
 title: "#SNOWPOCALYPSE2015 Liveblog"
 tagline: "The end is upon is, and WNV will keep you updated until the bitter end. Or until we get too drunk to remember our login passwords. Either way, things are about to get messy in real-time."
-category: "b9906a63-1a96-463a-822d-655020e7871e"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Junk
+tags: ["lousy Smarch weather","snow","End of the world","liveblog","weather","Boston","ASSPOCALYPSE 2014","drinking","Snowpocalypse 2015","Snowmageddon","things that will fuck shit up"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/snowpocalypselive2015.png
 ---
-
-![](/assets/img/lol/snowpocalypselive2015.png)
 
 **Pope (10:45am):** Good morning, world, and welcome to our very first, highly anticipated liveblog of #SNOWPOCALYPSE2015: #THE #END #OF #EVERYTHING. Our team is braving the devastation to bring you the most up to date and vital information.
 

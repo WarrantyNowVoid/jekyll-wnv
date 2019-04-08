@@ -3,17 +3,15 @@ layout: post
 guid: b11f1
 published: true
 date: 2014-03-18 12:03:58 -0400
-author: "123-pope"
+author: pope
 title: "2014 Winter Olympics Update"
 tagline: "The 2014 Winter Olympics are well underway, with the event everyone\'s been waiting for finally getting started: Unprovoked Invasion, and Russia is off to a commanding lead."
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Articles
+tags: ["2014 Winter Olympics","Russia","Putin","bears","Crimea","Crimea River","Olympics"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/sochi2014_bear.png
 ---
-
-![](/assets/img/lol/sochi2014_bear.png)
 
 The 2014 Winter Olympics are well underway, and the event everyone's been waiting for is finally getting started: Unprovoked Invasion. Russia is off to a commanding lead right out of the gate, leaving the other highly favored contenders, USA and Germany, far behind in the occupation of this year's playing field, Ukraine.
 

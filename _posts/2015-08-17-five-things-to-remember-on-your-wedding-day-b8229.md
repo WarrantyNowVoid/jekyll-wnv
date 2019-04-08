@@ -3,17 +3,15 @@ layout: post
 guid: b8229
 published: true
 date: 2015-08-17 13:01:01 -0400
-author: "123-pope"
+author: pope
 title: "Five Things to Remember on Your Wedding Day"
 tagline: "It\'s your big day! Things can get pretty hectic, and it\'s easy to overlook even the most important details, so we\'ve compiled a handy list to help make your day as special as you deserve."
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Articles
+tags: ["#weddingcomickz","weddings","marriage","Steve Buscemi","horses","jockeys","emotionality","Societal Norms Are Stupid","Mendoza","bionic limbs","your own fault","true love","no pressure","DON'T THROW UP"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/wedding_facts_header.png
 ---
-
-![](/assets/img/lol/wedding_facts_header.png)
 
 It's your big day! Things can get pretty hectic, and it's easy to overlook even the most important details, so we've compiled a handy list to help make your day as special as you deserve.
 

@@ -3,17 +3,15 @@ layout: post
 guid: f0127
 published: true
 date: 2015-03-19 13:01:01 -0400
-author: "123-pope"
+author: pope
 title: "Another Letter to Editor by Vladimir Putin"
 tagline: "Dear Comrades, I am Vladimir Vladimirovich Putin, greatest all-powerful democratic ruler of greatest Mother Russia.Western news media has made much story of recent Putin absence from public appearance for ten days. Putin now explain this."
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Articles
+tags: ["Putin","Russia","bears","bear arms","James Bond","vodka","Western propaganda","distinguishing movies from reality"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/putin_bond_head.png
 ---
-
-![](/assets/img/lol/putin_bond_head.png)
 
 Dear Comrades,
 
@@ -33,7 +31,7 @@ Spy is foolish man, expect Putin to now talk much on details of world domination
 
 Now, west has learn important lesson. Putin and Russia have no intimidate by so-call "super spy." Putin and Russia tear spy to pieces with bear arms. Is literal. All of west will fall soon enough and feel loving embrace of Mother Russia.
 
-Vlad
+<span style="font-size:22px; font-family:cursive;">Vlad</span>
 
   
 

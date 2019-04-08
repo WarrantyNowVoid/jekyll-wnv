@@ -3,17 +3,15 @@ layout: post
 guid: 9765a
 published: true
 date: 2013-10-07 14:18:19 -0400
-author: "fe5ac4eb-4a17-405a-be4b-b4d4915cf5c1"
+author: scawt
 title: "Rumor Roundup: PokÃ©mon X and Y"
 tagline: "We\'ve got the hot, fresh news on the latest installments in Nintendo\'s wildly successful PokÃ©mon franchise; read on to get the latest on the highly anticipated game before its October 12th release!"
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Articles
+tags: ["Pokemon","Nintendo","video games","Rated D for Disturbing","Today I learned a new word for orgy","HARDEN"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/pokemonxycovers.png
 ---
-
-![](/assets/img/lol/pokemonxycovers.png) PokÃ©mon has had a wildly successful run in the United States, and the two new versions slated for release on October 12th will be no exception. We've spoken at length with our best friend down the street who totally got his hands on a stolen copy, and we're excited to share our knowledge with all of you. There are a lot of rumors flying around out there, and we're gonna crack the case wide open on all of them!
 
 *   **Online bacchanals of deviant carnal pleasure: CONFIRMED!**
     

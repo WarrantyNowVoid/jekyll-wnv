@@ -3,17 +3,15 @@ layout: post
 guid: 0c28c
 published: true
 date: 2012-09-20 02:36:28 -0400
-author: "123-pope"
+author: pope
 title: "Dunkin' Donuts vs. Starbucks"
 tagline: "Hey, do you guys remember those old Mac vs PC commercials? You know, the ones where Macs are represented by a hip young trendsetter, and PCs are championed by John Hodgman, inadvertently making them the more appealing of the two options? This review has nothing to do with that. No, today\'s topic is another famous brand rivalry. "
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Articles
+tags: ["people are stupid","rant","hipsters","vibrating pogo stick","Dunkin' Donuts","Starbucks","coffee","wicked dingah","jorts","fixed-speed","advice for alien conquerors","thick-rimmed glasses","no fat soy latte","fannybandits","sugar"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/ddvssbux.png
 ---
-
-![](/assets/img/lol/ddvssbux.png)
 
 Hey, do you guys remember those old Mac vs PC commercials? You know, the ones where Macs are represented by a hip young trendsetter, and PCs are championed by John Hodgman, inadvertently making them the more appealing of the two options? This review has nothing to do with that. No, today's topic is another famous brand rivalry. Though less prominent than the Mac ads of yore, today's topic is no less incendiary - demanding allegiances that divide families and destroy friendships. I speak of shattered lives, and fallen nations. I speak of a battle that predates living memory, and will outlast any who survive its ravages: I speak of Starbucks and of Dunkin' Donuts.
 

@@ -3,17 +3,15 @@ layout: post
 guid: e2ba4
 published: true
 date: 2014-04-29 12:43:46 -0400
-author: "123-pope"
+author: pope
 title: "Net Neutrality"
 tagline: "H...hello? Is anybody out there? There\'s no way to know if you\'re receiving this, but I\'ve got to try god dammit. The new Net Neutrality laws have already taken effect, and we\'re trapped in here, trapped with no bandwidth, a fate worse than the fires of hell itself. "
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Articles
+tags: ["the Internet","Net Neutrality","the Bachelorette","our favorite TV shows","THURSDAYS JUST GOT A WHOLE LOT STEAMIER!","Unbiased Newsmanship","it feels offensive but I'm not sure to whom","steamy","sexy","flirty","dirty","misleading tags","0 to beastiality in under 6 seconds"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/the_bachelorette.png
 ---
-
-![](/assets/img/lol/the_bachelorette.png)H...hello? Is anybody out there? There's no way to know if you're receiving this, but I've got to try god dammit. We've been posting new content night and day, non-stop for the past two weeks, hoping to contact the outside world. We've been thwarted at every turn, but I believe I've discovered a loophole. The FCC's new policies regarding net neutrality have blocked anything that isn't an ad for The Bachelorette from being served by most ISPs, but if at least 20% of the text or imagery on the page is approved by the Comcast/NBC/ABC/Mott's/Gushers business juggernaut, it can slip through the filters.
 
 > MONDAYS AT 9! CAN ONE HOT MAMA FIND LOVE LIVING IN HER SON'S FRATHOUSE? THIS SEASON ON THE BACHELORETTE: DOWN 'N' DIRTY!
 

@@ -3,17 +3,15 @@ layout: post
 guid: 64098
 published: true
 date: 2013-09-16 12:03:47 -0400
-author: "123-pope"
+author: pope
 title: "For Fuck's Sake, Twitter: Enlightened Edition"
 tagline: "In a new WNV series, we delve into the world of Twitter. God help us all. In this installment, it takes about 35 seconds of research to find a surprising number of people who don\'t seem to think speaking to the Dalai Lama warrants any special considerations on their part. Like grammar. Or not being a prick."
-category: "586ac817-5faf-4804-b46f-5dbb8c4a7303"
-tags: [blag, https, ssl, alonso, homelab, plex, let's encrypt, certbot]
-comments: true
+category: Articles
+tags: ["twitter","Dalai Lama","people are stupid","spambots","religion","the horrifically self-unaware","FFS Twitter"]
+comments: true 
 image:
-  feature: blah.jpg
+  headliner: /assets/img/lol/dalailama_twitter.png
 ---
-
-![](/assets/img/lol/dalailama_twitter.png)
 
 Whether you're a member of his faith or just a human being, capable of rational thought and possessing the capacity to feel emotion and empathy, the Dalai Lama is a man whose wisdom is undeniable. He is the spiritual leader of the Tibetan Buddhists, and describes himself as driven by three major commitments:
 
@@ -27,9 +25,7 @@ An eighty-year-old man who has dedicated his life and what political power he ha
 
 ### The Social Marketer
 
-> [@DalaiLama](https://twitter.com/DalaiLama) [http://t.co/r4vZbCkBzM](http://t.co/r4vZbCkBzM)
-> 
-> â€” Andre S Grindle (@Uttlebuttle) [September 13, 2013](https://twitter.com/Uttlebuttle/statuses/378615404270084096)
+<blockquote class="twitter-tweet"><p><a href="https://twitter.com/DalaiLama">@DalaiLama</a> <a href="http://t.co/r4vZbCkBzM">http://t.co/r4vZbCkBzM</a></p>â€” Andre S Grindle (@Uttlebuttle) <a href="https://twitter.com/Uttlebuttle/statuses/378615404270084096">September 13, 2013</a></blockquote>
 
 "Thanks for your wisdom, your High Holiness, but I think if you read my latest blog post, you'll _really_ learn a little something about peace and harmony."
 
@@ -39,9 +35,7 @@ I mean, really, if you're going to try to get the Dalai Lama to read you blog, y
 
 ### The Character Conservationalist
 
-> [@DalaiLama](https://twitter.com/DalaiLama) .I salutes to u ..hats off u : )
-> 
-> â€” kulwindersingh (@kulwind47981458) [September 13, 2013](https://twitter.com/kulwind47981458/statuses/378619418097369088)
+<blockquote class="twitter-tweet"><p><a href="https://twitter.com/DalaiLama">@DalaiLama</a> .I salutes to u ..hats off u : )</p>â€” kulwindersingh (@kulwind47981458) <a href="https://twitter.com/kulwind47981458/statuses/378619418097369088">September 13, 2013</a></blockquote>
 
 "omg lol ur so cool mr llama :P"
 
@@ -51,11 +45,7 @@ I understand that this is Twitter, and your characters are limited, but the diff
 
 ### The Gossip Girl
 
-> Do you have a crush on anyone right now? [@nickcarter](https://twitter.com/nickcarter) [@fbi](https://twitter.com/FBI) [@DalaiLama](https://twitter.com/DalaiLama) [@WestJet](https://twitter.com/WestJet) [@paulocoelho](https://twitter.com/paulocoelho) [@HillaryClinton](https://twitter.com/HillaryClinton) [@holerock](https://twitter.com/holerock) [@AndrewWK](https://twitter.com/AndrewWK) [@AsaAkira](https://twitter.com/AsaAkira)
-> 
-> â€” Marlene Ginader (@MarleneGinader) [September 13, 2013](https://twitter.com/MarleneGinader/statuses/378621341705859072)
-
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p>Do you have a crush on anyone right now? <a href="https://twitter.com/nickcarter">@nickcarter</a> <a href="https://twitter.com/FBI">@fbi</a> <a href="https://twitter.com/DalaiLama">@DalaiLama</a> <a href="https://twitter.com/WestJet">@WestJet</a> <a href="https://twitter.com/paulocoelho">@paulocoelho</a> <a href="https://twitter.com/HillaryClinton">@HillaryClinton</a> <a href="https://twitter.com/holerock">@holerock</a> <a href="https://twitter.com/AndrewWK">@AndrewWK</a> <a href="https://twitter.com/AsaAkira">@AsaAkira</a></p>â€” Marlene Ginader (@MarleneGinader) <a href="https://twitter.com/MarleneGinader/statuses/378621341705859072">September 13, 2013</a></blockquote><script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Let's see here, in one fell swoop, you have just asked two musicians, an author, a band, an airline, the Federal Bureau of Investigation, Hillary Clinton, the Dalai Lama, and a porn star if they have a crush on anyone right now. I mean, at least a few of those things are actually individual people who are, presumably, capable of having "crushes," though I think you might be barking up the wrong tree with Hillary. I'm not convinced she feels anything anymore. The very least you could have done here would have been to take the time and spam major political, religious, and cultural leaders individually.
 
