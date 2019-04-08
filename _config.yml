@@ -1,0 +1,21 @@
+title: WarrantyNowVoid
+email: wnv@warrantynowvoid.com
+description: It's a website. With poop jokes and stuff. Read it. Or don't. I'm not your dad.
+baseurl: ""
+url: "https://warrantynowvoid.com"
+
+twitter_username: warrantynowvoid
+github_username:  warrantynowvoid
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - .vendor/bundle/
+  - .vendor/cache/
+  - .vendor/gems/
+  - .vendor/ruby/

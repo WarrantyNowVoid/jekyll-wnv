@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+  </head>
+  <body class="home">
+
+    <h3><a href="{{ site.url}}/posts/">Posts</a></h3>
+    {% for post in site.posts %}    
+    <article>
+      <div class="index-header-wrapper">
+        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><h1>{{ post.title }}</h1></a>
+      </div>
+      {% if post.tagline %}<p>{{ post.tagline }}</p>{% endif %}
+      <p class="post-meta"><small>Posted on {{ post.date | date: "%B %d, %Y" }}{% if post.modified %}, Updated on {{ post.modified | date: "%B %d, %Y" }}{% endif %}</small></p>
+    </article>
+    {% endfor %}
+
+    <footer>
+    </footer>
+  </body>
+</html>
