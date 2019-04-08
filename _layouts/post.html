@@ -5,12 +5,25 @@
 
   <body class="post">
     <article class="post">
+      {% if page.image.headliner %}
+        <img src="{{ page.image.headliner }}" title="{{ page.image.imageHover }}" />
+      {% endif %}
       <h1><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
       <div class="article-wrap">
-        {{ content }}
+        {% if page.image.feature %}
+          <img src="{{ page.image.feature }}" title="{{ page.image.imageHover }}" />
+        {% else %}
+          {{ content }}
+        {% endif %}
+        <h3>Tags</h3>
+        <ul>
+          {% for tag in page.tags %} 
+            <li>{{ tag }}</li>
+          {% endfor %}
+        </ul>
         <hr />
         <footer role="contentinfo">
-          <p class="byline"><strong>{{ page.title }}</strong> was published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}.</p>
+          <p class="byline"><strong>{{ page.title }}</strong> was published by {{ page.author }} under {{ page.category }} on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}.</p>
         </footer>
       </div>
     </article>
