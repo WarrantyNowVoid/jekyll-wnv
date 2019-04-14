@@ -1,10 +1,34 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html>
   <head>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    {% include head.html %}
+
+    {% case page.category %}
+      {% when "Comics" %}
+        <link rel="stylesheet" href="{{ site.url }}/assets/css/comic.css">
+      {% when "Articles" %}
+        <link rel="stylesheet" href="{{ site.url }}/assets/css/article.css">
+      {% when "Videos" %}
+        <link rel="stylesheet" href="{{ site.url }}/assets/css/video.css">
+      {% when "Junk" %}
+        <link rel="stylesheet" href="{{ site.url }}/assets/css/junk.css">
+    {% endcase %}
+
+    {% if page.custom_styles %}
+      <link rel="stylesheet" href="{{ site.url }}{{ page.custom_styles }}">
+    {% endif %}
+
+    {% if page.custom_scripts %}
+      <script src="{{ site.url }}{{ page.custom_scripts }}"></script>
+    {% endif %}
+
   </head>
 
-  <body class="post">
+  <body>
+
+    {% include page_header.html %}
+
     <article class="post">
       {% if page.image.headliner %}
         <img src="{{ page.image.headliner }}" title="{{ page.image.imageHover }}" />
