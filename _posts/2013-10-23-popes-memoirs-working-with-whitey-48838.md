@@ -13,6 +13,8 @@ image:
   headliner: /assets/img/lol/popesmemoirs1.png
 ---
 
+Growing up in the state of Massachusetts is hard. Mostly because at some point, Whitey Bulger is going to come up to you on the street and tell you that you work for him now. And you, being five years old, will presumably be fine with this.
+
 I vividly remember the day of my induction into the Winter Hill Gang. It was a bright, chilly morning in November, and I was playing in the middle of the street outside our house in Springfield, the Micro Machines set I had just gotten for my fifth birthday sprawled across the pavement. One of my tiny trucks did a sick-ass flip off the side of a parking garage ramp and landed a few feet away, slowly rolling to a stop against a man's shoe. I hadn't noticed him there until now. He bent down to pick up my incredibly bitchin' diminutive dump truck and its spilled cargo. He handed just the truck back to me with a confident smile, saying, "Here ya go, ked."
 
 "Um, thanks," I replied and quickly returned the truck to the depot where the damage it suffered in the incident could be repaired, returning it to its task of delivering pico-pallets of an unknown orange solid to the other side of the road. There were puny people there desperately awaiting those containers, and my dump truck and I had been the only ones who stood between them and an untimely demise from a lack of orange stuff, until this man showed up.

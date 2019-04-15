@@ -13,6 +13,8 @@ image:
   headliner: /assets/img/lol/ffstwitterboehner.png
 ---
 
+Today's post is coming to you live from a bunker beneath the wasteland that was once known as the United States of America. The country has descended into chaos and anarchy on this, the seventh day after the federal government was shut down due to Congress's inability to reach a budget. We have retreated to the WNV bunker in an undisclosed location in order to avoid the roaming bands of raiders preying on Internet content generators for their meaty brains.
+
 Nah, who am I kidding. I wouldn't have noticed this whole shutdown thing if it weren't plastered all over every piece of media from Facebook to bus ads. Here's essentially everything you need to understand: Boehner and the Republicans say Obama and the Democrats won't play nice, and everyone went home, but before they left, they shut off all the lights and National Parks and NASA. Seriously, if you've ever left your National Aeronautics and Space Administration running while you were gone on vacation, you wouldn't question these motives for a second.
 
 Now let's move into the wonderful world of Twitter, so be sure to leave your logical thinking and rationality at the door, because where we're headed, such things will get you lynched.

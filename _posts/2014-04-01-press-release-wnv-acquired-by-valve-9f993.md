@@ -13,6 +13,11 @@ image:
   headliner: /assets/img/lol/gaben_poopguy.png
 ---
 
+**BOSTON, MA** - _April 1, 2014_ - Valve Corporation today announced that it has reached a definitive agreement to acquire Warranty Now Void, the leader in  
+extremely popular  
+occasionally visited  
+website, for a total of approximately 1.4 billion. This includes 900 million in GabenBucks and 503.1 Dinosaur-Shaped chicken nuggets. The agreement also provides for an additional 20 million earn-out in the form of signed pictures of G-Man, Gordon Freeman, and Alyx Vance based on the achievement of certain milestones. At press time, WNV leadership was still unaware that these are fictional characters.
+
 Valve is the leader in video game development and digital distribution, known for its critical and commercial hit games, such as the Half-Life and Portal series, and its Steam digital distribution platform with over 75 million active users. Warranty Now Void has a poop button that has been pressed more than 8 times since its September, 2013 launch.
 
 "We literally have no idea what we're going to do with this thing," said CEO of Valve and part-time demigod Gabe Newell. "If Facebook can go buy random shit that has nothing to do with their product like Oculus, then we figured, fuck it, we can too. Plus, these guys literally will do anything I say. We paid them in fake money and Dino Nuggets. It did get a little weird when one of them asked to smell my hair."

@@ -13,6 +13,8 @@ image:
   headliner: /assets/img/lol/popesmemoirs1.png
 ---
 
+Some will call me monster for what I've done. Some will call me hero. But none of that matters to me. Not anymore. What's important is that we won. There were certain measures that had to be taken in order for that to happen, and those choices are now mine to live with.
+
 It all started in 2012. Chicken and beer on Valentine's Day or something; I try to forget those days. Things were bleak, and hope was scarce. The season was already over, and the team was nothing more than a sad, sick joke. We knew something had to be done to save our fair city from a fate worse than poverty, famine, pestilence, war, or even death: losing.
 
 I received my letter in late October. It arrived in a plain envelope on unassuming paper. An address, a date, and time were printed neatly in the center of the page. In my six years living in the Boston area, I had yet to be called upon at this point, so this first summons was very exciting for me. I could barely focus on my work during the week leading up to the appointed date and time. I knew that every Massachusetts resident would at some time be asked to serve the Council, but to be summoned at such a dire time as this was truly an honor. "They must have great faith in my abilities," I thought. I learned many things over the course of the ensuing journey, not the least of which being just how wrong one man can be...

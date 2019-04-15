@@ -13,6 +13,8 @@ image:
   headliner: /assets/img/lol/putin_is_feel.png
 ---
 
+Dear Comrades,
+
 I am Vladimir Vladimirovich Putin, greatest all-powerful democratic ruler of greatest Mother Russia.
 
 It has come to Putin's attention that the Homeland has drawn much criticism from Western regime in terms of gift Putin offer to world by hosting Winter Olympics. These harsh words make Putin sad - Putin try so hard to make best Olympics and show world why Motherland is best.

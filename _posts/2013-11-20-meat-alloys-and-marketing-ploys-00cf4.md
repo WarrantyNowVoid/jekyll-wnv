@@ -13,6 +13,8 @@ image:
   headliner: /assets/img/lol/spamcans.png
 ---
 
+We all get Spam. It's normal; it's a part of life. But no one wants to talk it about. For me, it's usually at my local Stop & Shop. I tend to walk by the aisle a few times, just to scope things out. This is a very personal matter and you'd hate to run into your former second grade teacher while clenching a juicy can of Spam, sweat beading on your forehead as you study every curve forming the perfection of that blue and yellow can.
+
 Oh, wait. Hold on. Shit...
 
 Pope just informed me that he actually thought I was going to write about Spam email, not the semi-food one. My bad. PUT YOUR BONERS AWAY. Or don't - you should never let anyone tell you what to do with your boner. We'd just be more comfortable knowing that you read the rest of this article without a throbbing erection. But, again, you're the boss of your boner here. The commodore of your cock. The emperor of your erection. And for the ladies out there, the viceroy of your vagina.

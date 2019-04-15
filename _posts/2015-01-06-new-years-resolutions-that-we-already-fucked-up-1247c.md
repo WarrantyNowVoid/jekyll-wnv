@@ -14,6 +14,8 @@ image:
   imageHover: "Buy more Post-It notes."
 ---
 
+It's that time again, a brand new year. With 2014 finally dead and gone, it's time to look forward to the promise of a new and better year, and a new and better website. Or at least, it would be, if we hadn't already fucked up every last one of our resolutions.
+
 ### 1\. Never miss a scheduled post day
 
 Let's just get this one out of the way right off the bat. We made a solemn vow to you, our beloved fans, that we would never again miss a posting day as of the year 2015. And so, on Thursday, January 1, 2015, the first posting day of the new year, we proudly logged into- wait, no we didn't. We just straight up ignored it. That's right, so far this year, we have managed to meet a respectable 0% of our post deadlines. You're fucking welcome, internet.

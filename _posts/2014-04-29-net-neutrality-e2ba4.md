@@ -13,6 +13,8 @@ image:
   headliner: /assets/img/lol/the_bachelorette.png
 ---
 
+H...hello? Is anybody out there? There's no way to know if you're receiving this, but I've got to try god dammit. We've been posting new content night and day, non-stop for the past two weeks, hoping to contact the outside world. We've been thwarted at every turn, but I believe I've discovered a loophole. The FCC's new policies regarding net neutrality have blocked anything that isn't an ad for The Bachelorette from being served by most ISPs, but if at least 20% of the text or imagery on the page is approved by the Comcast/NBC/ABC/Mott's/Gushers business juggernaut, it can slip through the filters.
+
 > MONDAYS AT 9! CAN ONE HOT MAMA FIND LOVE LIVING IN HER SON'S FRATHOUSE? THIS SEASON ON THE BACHELORETTE: DOWN 'N' DIRTY!
 
 We've tried everything to keep our bandwidth from being throttled back to nothing, but there's really no other options for us at this point. If you're out there, please consider contacting your representative and demanding A) a free and neutral internet or, failing that, B) The Bachelorette be regulated as stringently as other gang bang pornography is.

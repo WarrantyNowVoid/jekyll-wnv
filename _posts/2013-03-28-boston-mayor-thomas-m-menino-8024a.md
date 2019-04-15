@@ -13,6 +13,8 @@ image:
   headliner: /assets/img/lol/menino_full.png
 ---
 
+A somber Mayor Thomas "Mumbles" Menino spoke with reporters outside his Hyde Park home this morning, saying he is prepared to end his run as mayor of the city, but possibly joking he may change his pants into a goatskin before he formally announces his decision not to seek reelection at Faneuil Hall this afternoon.
+
 "Whearrrnrnnngbbbl rrbbbbbbfbfgh, hyangh frrbaaaaaaaaabh," said Menino, who has decided against seeking a sixth term in office. "Iangh breaugh drrrbrbrbbrrrb."
 
 "Whraamsfbisdsion?" Menino asked the Boston Globe Magazine in a 1994 profile. "Framcaghtbraaambose. Bisahobs, bisaburshil, bisabplees, haaampfare." The Mayor's eloquent, what we think was probably, description of a man trying to find a showerhead in a box of used syringes still stands today as a stirring reminder of his iron determination and political shrewdness.

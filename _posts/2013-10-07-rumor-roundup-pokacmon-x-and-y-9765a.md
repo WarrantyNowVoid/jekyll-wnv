@@ -13,6 +13,8 @@ image:
   headliner: /assets/img/lol/pokemonxycovers.png
 ---
 
+PokÃ©mon has had a wildly successful run in the United States, and the two new versions slated for release on October 12th will be no exception. We've spoken at length with our best friend down the street who totally got his hands on a stolen copy, and we're excited to share our knowledge with all of you. There are a lot of rumors flying around out there, and we're gonna crack the case wide open on all of them!
+
 *   **Online bacchanals of deviant carnal pleasure: CONFIRMED!**
     
     In a bold overhaul to the tried and true PokÃ©mon formula, Gamefreak has completely eliminated the turn-based combat in favor of a rhythm-based sex simulator. Dress up as your favorite PokÃ©mon and go to town on yourself or any of thousands of lovingly programmed NPCs! Using the 3DS WiFi, go online and get nasty with up to 16 friends at once! It's compatible with the "Donkey Konga" bongo peripheral, and most standardized tele-dildonic devices. Full costumes will be available at all retail locations carrying the game on launch day. Adult sizes only, you sick bastard.

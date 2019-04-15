@@ -14,6 +14,8 @@ image:
   imageHover: "Like this but with boooooooooooooooooze."
 ---
 
+The holiday season is in full swing here at WNV, and we were hoping to share a little of our spirit with all of you. Spirits, more accurately. Here are a few of our favorite thanksgiving drinks to help you get weird this year.
+
 #### The Dirty Birdy
 
 3oz of whiskey poured over chicken or turkey bouillon cubes. Served in a highball glass at room temperature.

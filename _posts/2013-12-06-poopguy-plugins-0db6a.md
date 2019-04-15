@@ -13,6 +13,8 @@ image:
   headliner: /assets/img/lol/poopguypluginsleader.png
 ---
 
+Have you ever been on a website and thought, "boy this site would be better if I could take a giant steaming dump right on top of it"? Well, friend, worry no more. Warranty Now Void's Board Of Novel Experimentation & Research Studies has developed just the solution you need:
+
 ![The PoopGuy Browser Plugin](/assets/img/lol/poop_banner.png)
 
 Rejoice, Google Chrome users, for your struggle ends today! After [installing our plugin from the Chrome Web Store](https://chrome.google.com/webstore/detail/warrantynowvoids-poopguy/linkbhnfbppadaeohnhbnlnkggaogonk), a visit from the PoopGuy to your current browsing session is only a handy button click away.

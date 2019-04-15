@@ -14,6 +14,8 @@ image:
   imageHover: "Yes we know this is actually Pretty Boy from Uncanny X-Men #229, but loooooooooool."
 ---
 
+X-men has gotten weird.
+
 Today I bought my first comic book in several years: "Wolverine and the X-Men" issue 23, wherein the X-men fight Frankenstein's monster and his army of zombie clowns. This synopsis is not exaggerated in any way. Additionally, there's a witch who may or may not also be a zombie frankenstein, it is not made clear within the confines of these 16 pages.
 
 The X-men are no longer the X-men that I thought I was signing up for. Only Wolverine, Kitty Pryde, Storm, and Beast were familiar to me, after whom everything goes all bullshit sideways. Iceman, (it's important to note that this is Iceman the mutant, not Iceman the top gun candidate. The plot will not hold together well if you keep waiting for him to get into his fighter jet and blow everybody up.) is a teacher at the newly formed Jean Grey School for Higher Learning along with one Rachel Grey, who as far as I've been able to gather is a short-haired version of her sister(?) Jean, but is immeasurably lamer in that she isn't possessed by a space-bird-demon. I'm not sure what they teach exactly as the curriculum was not outlined in this issue, but let's assume it involves mutantery.
