@@ -1,1 +1,9 @@
-    {% include logo-svg.html %}
+    <a href="{{ site.url }}">
+      {% include logo-svg.html %}
+    </a>
+
+    {% if page.image.headliner %}
+      <div class="headliner">
+        <img src="{{ page.image.headliner }}" title="{{ page.image.imageHover }}" />
+      </div>
+    {% endif %}

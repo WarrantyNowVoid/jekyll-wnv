@@ -30,14 +30,11 @@
     {% include page_header.html %}
 
     <article class="post">
-      {% if page.image.headliner %}
-        <img src="{{ page.image.headliner }}" title="{{ page.image.imageHover }}" />
-      {% endif %}
-      <h1><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
       <div class="article-wrap">
         {% if page.image.feature %}
-          <img src="{{ page.image.feature }}" title="{{ page.image.imageHover }}" />
+          <img class="feature" src="{{ page.image.feature }}" title="{{ page.image.imageHover }}" />
         {% else %}
+          <h1><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
           {{ content }}
         {% endif %}
         <h3>Tags</h3>

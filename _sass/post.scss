@@ -1,9 +1,30 @@
 svg#wnv-logo {
   
-  margin: 20px;
-  width: 300px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  height: 108px;
 
   .chunk{
     fill: #333;
+  }
+}
+
+article.post{
+
+  .article-wrap{
+    margin: 50px 100px;
+    
+  }
+}
+
+.headliner{
+  margin-top: -108px;
+  width:100%;
+  overflow:hidden;
+  max-height: 500px;
+
+  img{
+    width:100%;
   }
 }
