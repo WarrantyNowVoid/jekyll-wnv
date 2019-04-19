@@ -1,9 +1,29 @@
-    <a href="{{ site.url }}">
-      {% include logo-svg.html %}
-    </a>
+    {% if page.category == "Comics" %}
+      <div class="title-background-bar">
+        <div class="container">
+          <div class="row title-wrap">
+            <div class="col-4">
+              <a href="{{ site.url }}">
+                {% include logo-svg.html %}
+              </a>
+            </div>
+            <div class="col-8">
+              <h1><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
+              <p class="byline" role="contentinfo"><small><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %}, last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% else %}
+      <a href="{{ site.url }}">
+        {% include logo-svg.html %}
+      </a>
+    {% endif %}
 
     {% if page.image.headliner %}
+      <!-- TODO: filter-ize this with a plugin holy shit -->
+      {% assign retinaHeadliner = page.image.headliner | split: "" | reverse | join: "" | replace_first: '.', '.x2@' | split: "" | reverse | join: "" %}
       <div class="headliner">
-        <img src="{{ page.image.headliner }}" title="{{ page.image.imageHover }}" />
+        <img src="{{ page.image.headliner }}" title="{{ page.image.imageHover }}" srcset="{{ retinaHeadliner }} 2x" />
       </div>
     {% endif %}

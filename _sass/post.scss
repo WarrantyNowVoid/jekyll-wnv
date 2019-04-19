@@ -1,27 +1,5 @@
-svg#wnv-logo {
-  
-  position: relative;
-  top: 20px;
-  left: 20px;
-  height: 108px;
-
-  filter: drop-shadow(1px 1px 2px rgb(0, 0, 0));
-
-  .chunk{
-    fill: #333;
-  }
-}
-
-article.post{
-
-  .article-wrap{
-    margin: 50px 100px;
-    
-  }
-}
-
 .headliner{
-  margin-top: -108px;
+  margin-top: -$logo-height;
   width:100%;
   overflow:hidden;
   max-height: 500px;
@@ -29,4 +7,25 @@ article.post{
   img{
     width:100%;
   }
+}
+
+article.post{
+  margin-top: 50px;
+  margin-bottom: 20px;
+
+  p.byline{
+    
+  }
+
+  .content-wrap{
+    img{
+      display: block;
+      max-width: 100%;
+    }
+  }
+}
+
+.feature{
+  display: block;
+
 }

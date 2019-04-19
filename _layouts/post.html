@@ -29,26 +29,34 @@
 
     {% include page_header.html %}
 
+    <div class="container">
     <article class="post">
-      <div class="article-wrap">
-        {% if page.image.feature %}
-          <img class="feature" src="{{ page.image.feature }}" title="{{ page.image.imageHover }}" />
-        {% else %}
-          <h1><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
-          {{ content }}
-        {% endif %}
-        <h3>Tags</h3>
-        <ul>
-          {% for tag in page.tags %} 
-            <li>{{ tag }}</li>
-          {% endfor %}
-        </ul>
+      {% if page.category != "Comics" %}
+        <h1><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
+        <p class="byline" role="contentinfo"><small>posted by {{ page.author }} in {{ page.category }} on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}</small></p>
         <hr />
-        <footer role="contentinfo">
-          <p class="byline"><strong>{{ page.title }}</strong> was published by {{ page.author }} under {{ page.category }} on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}.</p>
-        </footer>
+      {% endif %}
+
+      {% if page.image.feature %}
+        <img class="feature mx-auto" src="{{ page.image.feature }}" title="{{ page.image.imageHover }}" />
+      {% endif %}
+
+      {% if page.category == "Comics" %}
+        {% include comic-nav.html %}
+      {% endif %}
+
+      <div class="content-wrap">
+        {{ content }}
       </div>
+
+      <h3>Tags</h3>
+      <ul id="tags">
+        {% for tag in page.tags %} 
+          <li>{{ tag }}</li>
+        {% endfor %}
+      </ul>
     </article>
+    </div>
 
     <footer>
     </footer>

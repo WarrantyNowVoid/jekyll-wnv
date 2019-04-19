@@ -4,3 +4,78 @@ sitemap: false
 
 @import "common";
 @import "post";
+@import "full-width-post";
+
+.title-background-bar{
+  width: 100%;
+
+  .title-wrap{
+    margin: 20px 0;
+
+    @media (min-width: 576px){
+      height: ($logo-height * 0.5) - 13;
+    }
+
+    @media (min-width: 768px){
+      height: ($logo-height * 0.6) - 16;
+    }
+
+    @media (min-width: 992px){
+      height: ($logo-height * 0.9) - 26;
+    }
+
+    @media (min-width: 1200px){
+      height: $logo-height - 29;
+    }
+
+    svg#wnv-logo{
+      top: 0;
+      left: 0;
+
+      @media (min-width: 576px){
+        height: $logo-height * 0.5;
+      }
+
+      @media (min-width: 768px){
+        height: $logo-height * 0.6;
+      }
+
+      @media (min-width: 992px){
+        height: $logo-height * 0.9;
+      }
+
+      @media (min-width: 1200px){
+        height: $logo-height;
+      }
+    }
+
+    h1{
+      margin-bottom: 0px;
+
+      @media (min-width: 576px){
+        font-size: 20px;
+      }
+
+      @media (min-width: 768px){
+        font-size: 28px;
+      }
+
+      @media (min-width: 992px){
+        font-size: 38px;
+      }
+
+      @media (min-width: 1200px){
+        font-size: 50px;
+      }
+      
+
+      a{
+        color: #fff;
+      }
+    }
+
+    p{
+      color: #fff;
+    }
+  }
+}

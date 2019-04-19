@@ -1,6 +1,9 @@
 @import "_retina";
 
-html { 
+$logo-height : 115px;
+$post-max-width: 900px;
+
+html{ 
   width:100%; 
   height:100%; 
   margin:0;  
@@ -10,5 +13,30 @@ html {
     font-size: 14px;
     font-weight: 400;
     color: #333;
+  }
+}
+
+svg#wnv-logo{
+  position: relative;
+  top: 20px;
+  left: 20px;
+  height: $logo-height;
+
+  .chunk{
+    fill: #333;
+  }
+}
+
+// bootstrap, wth?
+blockquote{
+  padding: 0 0 0 15px;
+  margin: 0 0 20px;
+  border-left: 5px solid #eeeeee;
+
+  p{
+    margin-bottom: 0;
+    font-size: 17.5px;
+    font-weight: 300;
+    line-height: 1.25;
   }
 }
