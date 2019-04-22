@@ -1,5 +1,6 @@
 .headliner{
   margin-top: -$logo-height;
+  margin-bottom: 0;
   width:100%;
   overflow:hidden;
   max-height: 500px;
@@ -10,22 +11,76 @@
 }
 
 article.post{
-  margin-top: 50px;
-  margin-bottom: 20px;
-
-  p.byline{
-    
-  }
 
   .content-wrap{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
     img{
       display: block;
       max-width: 100%;
+      margin: 0 auto;
     }
   }
 }
 
 .feature{
   display: block;
+  width: 800px;
+}
 
+.title-background-bar{
+  width: 100%;
+  margin: 0;
+  background-color: #333;
+
+  .title-wrap{
+    padding: 10px 0;
+
+    .post-details{
+      color: #fff;
+    }
+
+    h1{
+      margin-bottom: 0px;      
+
+      a{
+        color: #fff;
+      }
+    }
+
+    hr{
+      border-color: #c0c0c0;
+    }
+  }
+}
+
+.share-links{
+  text-align: right;
+  font-size: 30px;
+
+  a.share-link{
+    margin-left: 5px;
+    color: #fff;
+  }
+}
+
+.post-content{
+  color: #fff;
+
+  a{
+    color: #fff;
+  }
+
+  .wrap{
+    width: 100%;
+
+    &.tags{
+      background-color: #333;
+    }
+
+    &.related{
+      background-color: #222
+    }
+  }
 }

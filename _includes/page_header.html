@@ -3,19 +3,23 @@
         <div class="container">
           <div class="row title-wrap">
             <div class="col-4">
-              <a href="{{ site.url }}">
+              <a href="{{ site.url }}" xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName" rel="cc:attributionURL">
                 {% include logo-svg.html %}
               </a>
             </div>
-            <div class="col-8">
-              <h1><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
-              <p class="byline" role="contentinfo"><small><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %}, last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}</small></p>
+            <div class="col-8 post-details">
+              <h1 role="banner" xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
+              <p class="byline" role="contentinfo">
+                <small>
+                  {% if page.showAuthor %}posted by {{ page.author }} {% endif %}<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %}, updated <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}
+                </small>
+              </p>
             </div>
           </div>
         </div>
       </div>
     {% else %}
-      <a href="{{ site.url }}">
+      <a href="{{ site.url }}" xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName" rel="cc:attributionURL">
         {% include logo-svg.html %}
       </a>
     {% endif %}
@@ -25,5 +29,29 @@
       {% assign retinaHeadliner = page.image.headliner | split: "" | reverse | join: "" | replace_first: '.', '.x2@' | split: "" | reverse | join: "" %}
       <div class="headliner">
         <img src="{{ page.image.headliner }}" title="{{ page.image.imageHover }}" srcset="{{ retinaHeadliner }} 2x" />
+      </div>
+    {% endif %}
+
+    {% if page.category != "Comics" %}
+      <div class="title-background-bar">
+        <div class="container">
+          <div class="title-wrap">
+            <h1 role="banner" xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
+            <hr />
+            <div class="row post-details">
+              <div class="col-6">
+                <p class="byline" role="contentinfo">
+                  <small>
+                    posted{% if page.showAuthor %} by {{ page.author }}{% endif %} in {{ page.category }}<br />
+                    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %}, updated <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}
+                  </small>
+                </p>
+              </div>
+              <div class="col-6 share-links">
+                {% include share-links.html %}
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     {% endif %}
