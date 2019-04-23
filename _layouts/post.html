@@ -44,25 +44,33 @@
       </div>
     </article>
 
-    <!-- <div class="post-content">
+    <div class="post-content">
       <div class="wrap tags">
         <div class="container" role="complementary" aria-labelledby="tags-title">
-          <h4 id="tags-title">Tags:</h4>
-          {% for tag in page.tags %}
-            <a href="#" class="tag badge badge-primary"><i class="fas fa-tag"></i> {{ tag }}</a>
-          {% endfor %}
+          <div class="row">
+            <div class="col-1">
+              <h4 id="tags-title">Tags</h4>
+            </div>
+            <div class="col-11">
+              {% for tag in page.tags %}
+                <a href="#" class="tag badge badge-primary"><i class="fas fa-tag"></i> {{ tag }}</a>
+              {% endfor %}
+            </div>
+          </div>
         </div>
       </div>
-      <div class="wrap related">
+      <!-- <div class="wrap related">
         <div class="container" role="complementary" aria-labelledby="related-title">
           <h4 id="related-title">Related Posts</h4>
-          {% for post in site.related_posts limit:2 offset:1 %}
-            <h4><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h4>
-            <span>{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 140 }}&hellip;{% endif %}</span>
+          {% for post in site.related_posts limit:4 offset:1 %}
+            <div class="related-post">
+              <h4><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h4>
+              <p>{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 140 }}&hellip;{% endif %}</p>
+            </div>
           {% endfor %}
         </div>
-      </div>
-    </div> -->
+      </div> -->
+    </div>
 
     <footer>
       {% include footer.html %}

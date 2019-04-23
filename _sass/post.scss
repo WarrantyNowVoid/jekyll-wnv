@@ -76,7 +76,14 @@ article.post{
     width: 100%;
 
     h4{
-      display: inline-block;
+      font-size: 18px;
+
+      @media (min-width: $bs-break-sm){
+        font-size: 20px;
+      }
+      @media (min-width: $bs-break-md){
+        font-size: 24px;
+      }
     }
 
     &.tags{
@@ -86,13 +93,25 @@ article.post{
       background-color: #333;
 
       .tag{
+        color: #333;
+        background-color: #fff;
+        margin: 2px;
         font-size: 14px;
         font-weight: normal;
+
+        &:hover{
+          background-color: #333;
+        }
       }
     }
 
     &.related{
-      background-color: #222
+      background-color: #222;
+
+      .related-post{
+        display: block;
+        margin: 10px;
+      }
     }
   }
 }
