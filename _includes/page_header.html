@@ -3,12 +3,12 @@
         <div class="container">
           <div class="row title-wrap">
             <div class="col-4">
-              <a href="{{ site.url }}" xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName" rel="cc:attributionURL">
+              <a href="{{ site.url }}">
                 {% include logo-svg.html %}
               </a>
             </div>
             <div class="col-8 post-details">
-              <h1 role="banner" xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
+              <h1 role="banner"><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
               <p class="byline" role="contentinfo">
                 <small>
                   {% if page.showAuthor %}posted by {{ page.author }} {% endif %}<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %}, updated <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}
@@ -19,7 +19,7 @@
         </div>
       </div>
     {% else %}
-      <a href="{{ site.url }}" xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName" rel="cc:attributionURL">
+      <a href="{{ site.url }}">
         {% include logo-svg.html %}
       </a>
     {% endif %}
@@ -36,7 +36,7 @@
       <div class="title-background-bar">
         <div class="container">
           <div class="title-wrap">
-            <h1 role="banner" xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
+            <h1 role="banner"><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
             <hr />
             <div class="row post-details">
               <div class="col-6">

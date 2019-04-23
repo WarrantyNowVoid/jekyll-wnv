@@ -46,16 +46,16 @@
 
     <!-- <div class="post-content">
       <div class="wrap tags">
-        <div class="container" role="complementary">
-          <h1>Tags</h1>
+        <div class="container" role="complementary" aria-labelledby="tags-title">
+          <h4 id="tags-title">Tags:</h4>
           {% for tag in page.tags %}
-            {{ tag }},
+            <a href="#" class="tag badge badge-primary"><i class="fas fa-tag"></i> {{ tag }}</a>
           {% endfor %}
         </div>
       </div>
       <div class="wrap related">
-        <div class="container" role="complementary">
-          <h1>Related Posts</h1>
+        <div class="container" role="complementary" aria-labelledby="related-title">
+          <h4 id="related-title">Related Posts</h4>
           {% for post in site.related_posts limit:2 offset:1 %}
             <h4><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h4>
             <span>{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 140 }}&hellip;{% endif %}</span>
