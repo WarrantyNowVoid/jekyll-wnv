@@ -59,17 +59,29 @@
           </div>
         </div>
       </div>
-      <!-- <div class="wrap related">
-        <div class="container" role="complementary" aria-labelledby="related-title">
+      <div class="wrap related">
+        <div class="container clearfix" role="complementary" aria-labelledby="related-title">
           <h4 id="related-title">Related Posts</h4>
           {% for post in site.related_posts limit:4 offset:1 %}
             <div class="related-post">
-              <h4><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h4>
-              <p>{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 140 }}&hellip;{% endif %}</p>
+
+              {% if post.image.headliner %}
+                {% assign postImage = post.image.headliner %}
+              {% elsif post.image.feature %}
+                {% assign postImage = post.image.feature %}
+              {% else %}
+                {% assign postImage = '/assets/img/headliner_default.png' %}
+              {% endif %}
+
+              {% assign retinaImage = postImage | split: "" | reverse | join: "" | replace_first: '.', '.x2@' | split: "" | reverse | join: "" %}
+
+              <img src="{{ postImage }}" srcset="{{ retinaImage }}" />
+              <h5><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h5>
+              <p>{{ post.tagline }}</p>
             </div>
           {% endfor %}
         </div>
-      </div> -->
+      </div>
     </div>
 
     <footer>

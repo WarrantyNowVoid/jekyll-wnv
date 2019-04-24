@@ -74,6 +74,8 @@ article.post{
 
   .wrap{
     width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
     h4{
       font-size: 18px;
@@ -82,20 +84,18 @@ article.post{
         font-size: 20px;
       }
       @media (min-width: $bs-break-md){
-        font-size: 24px;
+        font-size: 26px;
       }
     }
 
     &.tags{
       min-height: 50px;
-      padding-top: 10px;
-      padding-bottom: 10px;
       background-color: #333;
 
       .tag{
         color: #333;
         background-color: #fff;
-        margin: 2px;
+        margin: 4px 2px;
         font-size: 14px;
         font-weight: normal;
 
@@ -109,8 +109,14 @@ article.post{
       background-color: #222;
 
       .related-post{
+        width: 400px;
         display: block;
-        margin: 10px;
+        margin: 20px;
+        float: left;
+
+        img{
+          max-width: 100%;
+        }
       }
     }
   }
