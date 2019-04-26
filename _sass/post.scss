@@ -150,8 +150,26 @@ article.post{
             text-shadow: 1px 1px 2px #000;
 
             .badge {
+              font-weight: normal;
               text-shadow: none;
               margin-right: 10px;
+              color: #333;
+
+              &.comics{
+                background-color: #FFE300;
+              }
+
+              &.articles{
+                background-color: #BEDD22;
+              }
+
+              &.videos{
+                background-color: #FF7400;
+              }
+
+              &.junk{
+                background-color: #158B70;
+              }
             }
           }
 
