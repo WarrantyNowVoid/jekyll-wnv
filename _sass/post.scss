@@ -111,11 +111,51 @@ article.post{
       .related-post{
         width: 400px;
         display: block;
-        margin: 20px;
+        margin: 25px;
         float: left;
+        position: relative;
 
         img{
           max-width: 100%;
+          z-index:2;
+        }
+
+        .thumb-holster{
+          width: 400px;
+          height: 225px;
+          overflow: hidden;
+          position:relative;
+
+          img.auto-thumbnail{
+            width: 800px;
+            margin: 0px;
+            margin-left: -40%;
+            margin-top: -10%;
+            max-width: none;
+          }
+        }
+
+        .details-holster{
+          width: 400px;
+          height: 100px;
+          padding: 10px;
+          background-color: rgba(0,0,0,0.7);
+          position: absolute;
+          top: 125px;
+          left: 0;
+          z-index: 1;
+
+          h5{
+            text-shadow: 1px 1px 2px #000;
+          }
+
+          p{
+            text-shadow: 1px 1px 2px #000;
+
+            .badge {
+              text-shadow: none;
+            }
+          }
         }
       }
     }

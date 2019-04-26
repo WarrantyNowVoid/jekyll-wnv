@@ -62,21 +62,36 @@
       <div class="wrap related">
         <div class="container clearfix" role="complementary" aria-labelledby="related-title">
           <h4 id="related-title">Related Posts</h4>
-          {% for post in site.related_posts limit:4 offset:1 %}
+          {% for post in site.posts limit:40 %}
             <div class="related-post">
 
               {% if post.image.headliner %}
                 {% assign postImage = post.image.headliner %}
-              {% elsif post.image.feature %}
-                {% assign postImage = post.image.feature %}
+                {% assign imageType = 'AUTO' %}
+              {% elsif post.image.thumbnail %}
+                {% assign postImage = post.image.thumbnail %}
+                {% assign imageType = 'THUMB' %}
               {% else %}
-                {% assign postImage = '/assets/img/headliner_default.png' %}
+                {% if post.image.feature %}
+                  {% assign postImage = post.image.feature %}
+                  {% assign imageType = 'AUTO' %}
+                {% else %}
+                  {% assign postImage = '/assets/img/headliner_default.png' %}
+                  {% assign imageType = 'DEFAULT' %}
+                {% endif %}
               {% endif %}
 
               {% assign retinaImage = postImage | split: "" | reverse | join: "" | replace_first: '.', '.x2@' | split: "" | reverse | join: "" %}
 
-              <img src="{{ postImage }}" srcset="{{ retinaImage }}" />
-              <h5><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h5>
+              <div class="thumb-holster">
+                <img src="{{ postImage }}" srcset="{{ retinaImage }}" {% if imageType == 'AUTO' %}class="auto-thumbnail" {% endif %}/>
+              </div>
+              <div class="details-holster">
+                <div>
+                  <h5><a class="stretched-link" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h5>
+                  <p><span class="badge badge-warning">Type</span> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
+                </div>
+              </div>
               <p>{{ post.tagline }}</p>
             </div>
           {% endfor %}
