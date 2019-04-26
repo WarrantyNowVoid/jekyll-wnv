@@ -83,16 +83,14 @@
 
               {% assign retinaImage = postImage | split: "" | reverse | join: "" | replace_first: '.', '.x2@' | split: "" | reverse | join: "" %}
 
-              <div class="thumb-holster">
-                <img src="{{ postImage }}" srcset="{{ retinaImage }}" {% if imageType == 'AUTO' %}class="auto-thumbnail" {% endif %}/>
-              </div>
+              <img src="{{ postImage }}" srcset="{{ retinaImage }}" {% if imageType == 'AUTO' %}class="auto-thumbnail" {% endif %}/>
               <div class="details-holster">
                 <div>
                   <h5><a class="stretched-link" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h5>
-                  <p><span class="badge badge-warning">Type</span> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
+                  <p><span class="badge badge-warning">{{ post.category }}</span> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
+                  <p>{{ post.tagline }}</p>
                 </div>
               </div>
-              <p>{{ post.tagline }}</p>
             </div>
           {% endfor %}
         </div>
