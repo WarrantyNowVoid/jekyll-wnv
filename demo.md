@@ -1,5 +1,0 @@
----
-layout: demo
----
-
-lol

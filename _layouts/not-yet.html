@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+
+    {% include head.html %}
+
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/not-yet.css">
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        var svg = $($('.text span:first').prop('outerHTML'));
+        $('.text span:first').remove();
+
+        $('.text').html(function(i, html) {
+          var chars = $.trim(html).split("");
+
+          return '<span>' + chars.join('</span><span>') + '</span>';
+        });
+
+        $('.text:first').prepend(svg);
+      });
+    </script>
+
+  </head>
+
+  <body>
+
+  
+    <div class="container-fluid">
+
+      <div class="sidebar-bg-animation-container">
+        <div class="sliding-background"></div>
+      </div>
+
+      <main role="main">
+        <span class="text color-text-flow"><span>{% include icon-svg.html %}</span>arrantynowvoid.com</span><br />
+        <span class="text color-text-flow">
+        is almost ready, are you?</span>
+      </main>
+    
+    </div>
+  
+  </body>
+
+</html>

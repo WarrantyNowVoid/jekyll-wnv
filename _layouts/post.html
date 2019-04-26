@@ -62,48 +62,10 @@
       <div class="wrap related">
         <div class="container clearfix" role="complementary" aria-labelledby="related-title">
           <h4 id="related-title">Related Posts</h4>
-          {% for post in site.posts limit:40 %}
-            <div class="related-post">
+          {% for post in site.posts limit:6 %}
+            
+            {% include post-preview.html %}
 
-              {% case post.category %}
-                {% when "Comics" %}
-                  {% assign taghtml = '<span class="badge badge-primary comics">Comic</span> ' %}
-                {% when "Articles" %}
-                  {% assign taghtml = '<span class="badge badge-primary articles">Article</span> ' %}
-                {% when "Videos" %}
-                  {% assign taghtml = '<span class="badge badge-primary videos">Video</span> ' %}
-                {% when "Junk" %}
-                  {% assign taghtml = '<span class="badge badge-primary junk">Junk</span> ' %}
-              {% endcase %}
-
-              {% if post.image.headliner %}
-                {% assign postImage = post.image.headliner %}
-                {% assign imageType = 'AUTO' %}
-              {% elsif post.image.thumbnail %}
-                {% assign postImage = post.image.thumbnail %}
-                {% assign imageType = 'THUMB' %}
-              {% else %}
-                {% if post.image.feature %}
-                  {% assign postImage = post.image.feature %}
-                  {% assign imageType = 'AUTO' %}
-                {% else %}
-                  {% assign postImage = '/assets/img/headliner_default.png' %}
-                  {% assign imageType = 'DEFAULT' %}
-                {% endif %}
-              {% endif %}
-
-              {% assign retinaImage = postImage | split: "" | reverse | join: "" | replace_first: '.', '.x2@' | split: "" | reverse | join: "" %}
-
-              <img src="{{ postImage }}" srcset="{{ retinaImage }}" {% if imageType == 'AUTO' %}class="auto-thumbnail" {% endif %}/>
-
-              <div class="details-holster">
-                <div>
-                  <h5><a class="stretched-link" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h5>
-                  <p>{{ taghtml }}<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
-                  <p>{{ post.tagline }}</p>
-                </div>
-              </div>
-            </div>
           {% endfor %}
         </div>
       </div>

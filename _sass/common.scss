@@ -48,6 +48,78 @@ blockquote{
   }
 }
 
+.post-preview{
+  color: #fff;
+  display: block;
+  margin: 25px;
+  float: left;
+  width: 400px;
+  height: 225px;
+  overflow: hidden;
+  position:relative;
+
+  img{
+    max-width: 100%;
+    z-index:2;
+
+    &.auto-thumbnail{
+      width: 800px;
+      margin: 0px;
+      margin-left: -40%;
+      margin-top: -10%;
+      max-width: none;
+    }
+  }
+
+  .details-holster{
+    width: 400px;
+    height: 225px;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 125px;
+    left: 0;
+    z-index: 1;
+    transition-property: top;
+    transition-duration: 0.5s;
+
+    h5{
+      text-shadow: 1px 1px 2px #000;
+    }
+
+    p{
+      text-shadow: 1px 1px 2px #000;
+
+      .badge {
+        font-weight: normal;
+        text-shadow: none;
+        margin-right: 10px;
+        color: #333;
+
+        &.comics{
+          background-color: #FFE300;
+        }
+
+        &.articles{
+          background-color: #BEDD22;
+        }
+
+        &.videos{
+          background-color: #FF7400;
+        }
+
+        &.junk{
+          background-color: #158B70;
+        }
+      }
+    }
+
+    &:hover{
+      top: 0;
+    }
+  }
+}
+
 footer{
   padding-top: 10px;
   padding-bottom: 10px;
