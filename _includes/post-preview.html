@@ -33,8 +33,10 @@
 
               <div class="details-holster">
                 <div>
-                  <h5><a class="stretched-link" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h5>
-                  <p>{{ taghtml }}<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
+                  <div class="first-look">
+                    <h5><a class="stretched-link" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h5>
+                    <p>{{ taghtml }}<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
+                  </div>
                   <p>{{ post.tagline }}</p>
                 </div>
               </div>
