@@ -14,11 +14,16 @@ article.post{
 
   .content-wrap{
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 
     img{
       display: block;
       max-width: 100%;
+      margin: 0 auto;
+    }
+
+    iframe{
+      display:block;
       margin: 0 auto;
     }
   }
@@ -62,6 +67,12 @@ article.post{
   a.share-link{
     margin-left: 5px;
     color: #fff;
+
+    &:hover{
+      transition-property: color;
+      transition-duration: 0.3s;
+      color: #000;
+    }
   }
 }
 

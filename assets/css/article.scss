@@ -4,3 +4,7 @@ sitemap: false
 
 @import "common";
 @import "post";
+
+.content-wrap, .title-container{
+  max-width: 720px;
+}

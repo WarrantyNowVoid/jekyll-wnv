@@ -72,22 +72,37 @@ article.post{
 
   .content-wrap{
     margin-top: 35px;
-    width: 800px;
+    min-width: 800px;
   }
 
   .comic-sub{
+    font-size: 28px;
     margin-top:10px;
+    max-width: 800px;
 
     a{
       color: #333;
+
+      &:hover{
+        transition-property: color;
+        transition-duration: 0.3s;
+        color: #c0c0c0;
+      }
     }
 
     .comic-nav{
-      font-size: 30px;
-
       a{
         margin-right: 5px;
       }
+
+      &.comic-nav-right{
+        text-align: right;
+      }
+    }
+
+    .share-links{
+      text-align: center;
+      font-size: 35px;
     }
   }
 }
