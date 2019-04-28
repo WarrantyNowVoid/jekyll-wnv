@@ -44,10 +44,6 @@ main{
   text-shadow: 2px 2px 5px #000;
   font-size: 30px;
 
-  @media (min-width: $bs-break-sm){
-    font-size: 30px;
-  }
-
   @media (min-width: $bs-break-md){
     font-size: 60px;
   }
@@ -65,10 +61,6 @@ main{
     filter: drop-shadow(2px 2px 5px #000);
     height: 40px;
 
-    @media (min-width: $bs-break-sm){
-      height: 40px;
-    }
-
     @media (min-width: $bs-break-md){
       height: 70px;
     }
@@ -79,10 +71,6 @@ main{
 
     @media (min-width: $bs-break-xl){
       height: 90px;
-    }
-
-    .chunk{
-      // fill: #fff;
     }
   }
 }

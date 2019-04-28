@@ -1,7 +1,6 @@
 @import "_retina";
 
-$logo-height : 115px;
-$post-max-width: 900px;
+$logo-height : 125px;
 
 $bs-break-sm: 576px;
 $bs-break-md: 768px;
@@ -58,23 +57,23 @@ blockquote{
   overflow: hidden;
   position:relative;
 
-  @media (min-width: $bs-break-sm){ 
+  @media (min-width: $bs-break-sm) {
     width: 90%;
     margin-left: 20px;
   }
 
-  @media (min-width: $bs-break-md){ 
+  @media (min-width: $bs-break-md) {
     width: 90%;
     margin-left: 30px;
   }
 
-  @media (min-width: $bs-break-lg){ 
+  @media (min-width: $bs-break-lg) {
     width: 45%;
     height: 250px;
     margin-left: 30px;
   }
 
-  @media (min-width: $bs-break-xl){ 
+  @media (min-width: $bs-break-xl) {
     width: 45%;
     margin-left: 35px;
   }
@@ -108,7 +107,7 @@ blockquote{
     transition-property: top;
     transition-duration: 0.5s;
 
-    @media (min-width: $bs-break-lg){ 
+    @media (min-width: $bs-break-lg) {
       top: 150px;
     }
 
@@ -124,19 +123,11 @@ blockquote{
       text-shadow: 1px 1px 2px #000;
       font-size: 14px;
 
-      @media (min-width: $bs-break-sm){ 
-        font-size: 14px;
-      }
-
-      @media (min-width: $bs-break-md){ 
+      @media (min-width: $bs-break-md) {
         font-size: 16px;
       }
 
-      @media (min-width: $bs-break-lg){ 
-        font-size: 14px;
-      }
-
-      @media (min-width: $bs-break-xl){ 
+      @media (min-width: $bs-break-xl) {
         font-size: 16px;
       }
 
@@ -203,15 +194,15 @@ footer{
       display: inline-block;
       font-size: 18px;
     
-      @media (min-width: $bs-break-sm){
+      @media (min-width: $bs-break-sm) {
         font-size: 20px;
       }
 
-      @media (min-width: $bs-break-md){
+      @media (min-width: $bs-break-md) {
         font-size: 23px;
       }
 
-      @media (min-width: $bs-break-lg){
+      @media (min-width: $bs-break-xl) {
         font-size: 22px;
       }
 
@@ -226,16 +217,12 @@ footer{
       color: #c0c0c0;
       display: inline-block;
     
-      @media (min-width: $bs-break-sm){
+      @media (min-width: $bs-break-sm) {
         font-size: 22px;
       }
 
-      @media (min-width: $bs-break-md){
+      @media (min-width: $bs-break-md) {
         font-size: 25px;
-      }
-
-      @media (min-width: $bs-break-lg){
-        font-size: 24px;
       }
 
       @media (min-width: $bs-break-xl){
@@ -253,15 +240,11 @@ footer{
   #wnv-icon{
     height: 20px;
 
-    @media (min-width: $bs-break-sm){
-      height: 20px;
-    }
-
-    @media (min-width: $bs-break-md){
+    @media (min-width: $bs-break-md) {
       height: 25px;
     }
 
-    @media (min-width: $bs-break-lg){
+    @media (min-width: $bs-break-lg) {
       height: 30px;
     }
 
