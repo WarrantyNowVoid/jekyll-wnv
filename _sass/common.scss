@@ -184,6 +184,12 @@ footer{
       margin-right: 15px;
       font-size: 40px;
       color: #fff;
+
+      &:hover{
+        color: #007bff;
+        transition-property: color;
+        transition-duration: 0.2s;
+      }
     }
   }
 
