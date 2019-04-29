@@ -27,7 +27,9 @@ svg#wnv-logo{
   top: 20px;
   left: 20px;
   height: $logo-height;
+}
 
+svg{
   .chunk{
     fill: #888;
   }
@@ -112,7 +114,13 @@ blockquote{
     }
 
     .first-look{
-      height: 100px;
+      transition-property: min-height;
+      transition-duration: 0.5s;
+      min-height: 100px;
+
+      &:hover{
+        min-height:50px;
+      }
     }
 
     h5{
@@ -184,11 +192,11 @@ footer{
       margin-right: 15px;
       font-size: 40px;
       color: #fff;
+      transition-property: color;
+      transition-duration: 0.3s;
 
       &:hover{
         color: #007bff;
-        transition-property: color;
-        transition-duration: 0.2s;
       }
     }
   }

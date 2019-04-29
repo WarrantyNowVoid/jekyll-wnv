@@ -31,8 +31,6 @@ $(document).ready(function(){
     $('.post-content .tag').css('color', rgbVibrant);
     $('.post-content .tags').css('background-color', rgbVibrant);
     $('.post-content .related').css('background-color', rgbDark);
-    // $('.title-wrap h1 a').css('text-shadow', '2px 2px 0px ' + rgbDark);
-    // $('.title-wrap p').css('text-shadow', '1px 1px 0px ' + rgbDark);
   }
 
 });

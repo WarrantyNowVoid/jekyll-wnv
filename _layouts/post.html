@@ -23,6 +23,8 @@
       <script src="{{ site.url }}{{ page.custom_scripts }}"></script>
     {% endif %}
 
+    {% include content-aware-colors.html %}
+
   </head>
 
   <body>
@@ -45,7 +47,7 @@
     </article>
 
     <div class="post-content">
-      <div class="wrap tags">
+      <div class="wrap tags background-color-vibrant">
         <div class="container" role="complementary" aria-labelledby="tags-title">
           <div class="row">
             <div class="col-1">
@@ -53,13 +55,13 @@
             </div>
             <div class="col-11">
               {% for tag in page.tags %}
-                <a href="#" class="tag badge badge-primary"><i class="fas fa-tag"></i> {{ tag }}</a>
+                <a href="#" class="tag badge badge-primary color-vibrant"><i class="fas fa-tag"></i> {{ tag }}</a>
               {% endfor %}
             </div>
           </div>
         </div>
       </div>
-      <div class="wrap related">
+      <div class="wrap related background-color-dark">
         <div class="container clearfix" role="complementary" aria-labelledby="related-title">
           <h4 id="related-title">Related Posts</h4>
           {% for post in site.posts limit:6 %}

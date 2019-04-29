@@ -67,10 +67,10 @@ article.post{
   a.share-link{
     margin-left: 5px;
     color: #fff;
+    transition-property: color;
+    transition-duration: 0.3s;
 
     &:hover{
-      transition-property: color;
-      transition-duration: 0.3s;
       color: #000;
     }
   }
