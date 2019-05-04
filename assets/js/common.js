@@ -33,6 +33,16 @@ $(document).ready(function(){
     $('.post-content .related').css('background-color', rgbDark);
   }
 
+
+
+  $('nav .sections li').hover(function(){
+      $(this).find('.default-icon').hide();
+      $(this).find('.hover-icon').show();
+  }, function(){
+      $(this).find('.default-icon').show();
+      $(this).find('.hover-icon').hide();
+  });
+
 });
 
 function toRGBAString(colorArr, opacity){

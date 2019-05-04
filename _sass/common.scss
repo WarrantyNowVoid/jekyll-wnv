@@ -1,6 +1,8 @@
 @import "_retina";
 
-$logo-height : 125px;
+$logo-height: 125px;
+
+$sidebar-width: 250px;
 
 $bs-break-sm: 576px;
 $bs-break-md: 768px;
@@ -170,11 +172,13 @@ blockquote{
 }
 
 footer{
+  position: relative;
   padding-top: 20px;
   padding-bottom: 20px;
   width: 100%;
   color: #fff;
   background-color: #111;
+  z-index: 2;
 
   .row.lower{
     margin-top: 20px;
