@@ -35,12 +35,18 @@ $(document).ready(function(){
 
 
 
-  $('nav .sections li').hover(function(){
-      $(this).find('.default-icon').hide();
-      $(this).find('.hover-icon').show();
+  $('nav li').hover(function(){
+      var hover = $(this).find('.hover-icon');
+      if(hover.length > 0){
+          $(this).find('.default-icon').hide();
+          $(this).find('.hover-icon').show();
+      }
   }, function(){
-      $(this).find('.default-icon').show();
-      $(this).find('.hover-icon').hide();
+      var hover = $(this).find('.hover-icon');
+      if(hover.length > 0){
+          $(this).find('.hover-icon').hide();
+          $(this).find('.default-icon').show();
+      }
   });
 
 });
