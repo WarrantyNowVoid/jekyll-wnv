@@ -3,5 +3,9 @@ sitemap: false
 ---
 
 @import "common";
-@import "home";
 @import "sidebar";
+
+section.posts-list{
+  margin-left: $sidebar-width;
+  padding: 50px;
+}

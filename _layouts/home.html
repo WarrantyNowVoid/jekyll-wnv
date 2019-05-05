@@ -9,99 +9,25 @@
   </head>
 
   <body>
+    <main>
 
-    <div class="sidebar">
-      <div class="sidebar-sticky">
+      {% include sidebar.html %}
 
-        <div class="sidebar-bg-animation-container">
-          <div class="sliding-background"></div>
-        </div>
-
-        <nav class="sidebar-content"><!-- 
-          <div class="logo">
-            {% include icon-svg.html %}
-          </div> -->
-
-          <ul class="sections">
-            <li>
-              <a href="#" class="articles">
-                <span class="label">Articles</span>
-                <i class="fas fa-book default-icon"></i>
-                <i class="fas fa-book-dead hover-icon"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="comics">
-                <span class="label">Comics</span>
-                <i class="fas fa-pencil-ruler default-icon"></i>
-                <i class="fas fa-poo hover-icon"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="videos">
-                <span class="label">Videos</span>
-                <i class="fas fa-video default-icon"></i>
-                <i class="fas fa-toilet hover-icon"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="junk">
-                <span class="label">Junk</span>
-                <i class="fas fa-dumpster default-icon"></i>
-                <i class="fas fa-dumpster-fire hover-icon"></i>
-              </a>
-            </li>
-          </ul>
-          <ul class="pages">
-            <li>
-              <a href="#">
-                <span class="label">About</span>
-                <i class="fas fa-user-circle default-icon"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <span class="label">Poop Button</span>
-                <i class="fas fa-poo-storm default-icon"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <span class="label">Code</span>
-                <i class="fas fa-code-branch default-icon"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <span class="label">Legal</span>
-                <i class="fas fa-user-secret default-icon"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <span class="label">License</span>
-                <i class="fab fa-creative-commons default-icon"></i>
-              </a>
-            </li>
-          </ul>
-        </nav>
-
-      </div>
-    </div>
-
-    <main role="main" class="clearfix">
+      <section class="main-content posts-list clearfix">
       
-      <h1>Recent Posts</h1>
+        <h1>Recent Posts</h1>
 
-      {% for post in site.posts limit:20 %}    
-        {% include post-preview.html %}
-      {% endfor %}
+        {% for post in site.posts limit:20 %}    
+          {% include post-preview.html %}
+        {% endfor %}
 
+      </section>
+
+      <footer>
+        {% include footer.html %}
+      </footer>
+      
     </main>
-
-    <footer>
-      {% include footer.html %}
-    </footer>
   </body>
 
 </html>

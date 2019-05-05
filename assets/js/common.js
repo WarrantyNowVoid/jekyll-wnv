@@ -34,7 +34,6 @@ $(document).ready(function(){
   }
 
 
-
   $('nav li').hover(function(){
       var hover = $(this).find('.hover-icon');
       if(hover.length > 0){
@@ -47,6 +46,17 @@ $(document).ready(function(){
           $(this).find('.hover-icon').hide();
           $(this).find('.default-icon').show();
       }
+  });
+
+  // ugh why https://caniuse.com/#feat=css-has
+  $('#sidebar-display').change(function(){
+    if(this.checked){
+      $('div.sidebar').addClass('sidebar-active');
+      $('section.main-content').addClass('sidebar-active');
+    }else{
+      $('div.sidebar').removeClass('sidebar-active');
+      $('section.main-content').removeClass('sidebar-active');
+    }
   });
 
 });

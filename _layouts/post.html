@@ -28,53 +28,57 @@
   </head>
 
   <body>
+    <main>
+      {% include sidebar.html %}
+      <section class="main-content">
+        <article class="post">
+          {% include post-header.html %}
 
-    <article class="post">
-      {% include post-header.html %}
+          <div class="container content-wrap">
+            {% if page.image.feature %}
+              {% assign retinaFeature = page.image.feature | split: "" | reverse | join: "" | replace_first: '.', '.x2@' | split: "" | reverse | join: "" %}
+              <img class="feature" src="{{ page.image.feature }}" srcset="{{ retinaFeature }} 2x" title="{{ page.image.imageHover }}" />
+            {% endif %}
 
-      <div class="container content-wrap" role="main">
-        {% if page.image.feature %}
-          {% assign retinaFeature = page.image.feature | split: "" | reverse | join: "" | replace_first: '.', '.x2@' | split: "" | reverse | join: "" %}
-          <img class="feature" src="{{ page.image.feature }}" srcset="{{ retinaFeature }} 2x" title="{{ page.image.imageHover }}" />
-        {% endif %}
+            {% if page.category == "Comics" %}
+              {% include comic-nav.html %}
+            {% endif %}
 
-        {% if page.category == "Comics" %}
-          {% include comic-nav.html %}
-        {% endif %}
+            {{ content }}        
+          </div>
+        </article>
 
-        {{ content }}        
-      </div>
-    </article>
-
-    <div class="post-content">
-      <div class="wrap tags background-color-vibrant">
-        <div class="container" role="complementary" aria-labelledby="tags-title">
-          <div class="row">
-            <div class="col-1">
-              <h4 id="tags-title">Tags</h4>
+        <div class="post-content">
+          <div class="wrap tags background-color-vibrant">
+            <div class="container" role="complementary" aria-labelledby="tags-title">
+              <div class="row">
+                <div class="col-1">
+                  <h4 id="tags-title">Tags</h4>
+                </div>
+                <div class="col-11">
+                  {% for tag in page.tags %}
+                    <a href="#" class="tag badge badge-primary color-vibrant"><i class="fas fa-tag"></i> {{ tag }}</a>
+                  {% endfor %}
+                </div>
+              </div>
             </div>
-            <div class="col-11">
-              {% for tag in page.tags %}
-                <a href="#" class="tag badge badge-primary color-vibrant"><i class="fas fa-tag"></i> {{ tag }}</a>
+          </div>
+          <div class="wrap related background-color-dark">
+            <div class="container clearfix" role="complementary" aria-labelledby="related-title">
+              <h4 id="related-title">Related Posts</h4>
+              {% for post in site.posts limit:6 %}
+                
+                {% include post-preview.html %}
+
               {% endfor %}
             </div>
           </div>
         </div>
-      </div>
-      <div class="wrap related background-color-dark">
-        <div class="container clearfix" role="complementary" aria-labelledby="related-title">
-          <h4 id="related-title">Related Posts</h4>
-          {% for post in site.posts limit:6 %}
-            
-            {% include post-preview.html %}
 
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-
-    <footer>
-      {% include footer.html %}
-    </footer>
+        <footer>
+          {% include footer.html %}
+        </footer>
+      </section>
+    </main>
   </body>
 </html>

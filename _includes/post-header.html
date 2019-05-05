@@ -3,9 +3,12 @@
         <div class="container title-container">
           <div class="row title-wrap align-items-end">
             <div class="col-4">
-              <a href="{{ site.url }}">
-                {% include logo-svg.html %}
-              </a>
+              <input type="checkbox" id="sidebar-display" />
+              <label for="sidebar-display">
+                <a>
+                  {% include logo-svg.html %}
+                </a>
+              </label>
             </div>
             <div class="col-8 post-details" role="banner">
               <h1><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
@@ -19,9 +22,12 @@
         </div>
       </div>
     {% else %}
-      <a href="{{ site.url }}">
-        {% include logo-svg.html %}
-      </a>
+      <input type="checkbox" id="sidebar-display" />
+      <label for="sidebar-display">
+        <a>
+          {% include logo-svg.html %}
+        </a>
+      </label>
     {% endif %}
 
     {% if page.image.headliner %}
