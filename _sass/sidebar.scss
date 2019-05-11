@@ -34,11 +34,11 @@
     overflow: hidden;
 
     .sliding-background {
-      background: url("/assets/img/wow.jpg") repeat;
-      background-size: 846px 280px;
-      width: 3384px;
+      background: url("/assets/img/unnamed.png") repeat;
+      background-size: 1920px 1080px;
+      width: 3840px;
       height: 200%;
-      animation: slide 120s linear infinite;
+      animation: slide 60s linear infinite;
       margin: 0;
       padding: 0;
     }
@@ -57,7 +57,7 @@
     transform: translate3d(0, 0, 0);
   }
   100%{
-    transform: translate3d(-50%, -840px, 0);
+    transform: translate3d(-50%, -50%, 0);
   }
 }
 
