@@ -3,12 +3,56 @@ $(document).ready(function(){
   // automatically retinaize all image tags
   $('img').each(function(){
     // ignore anything we explicitly handle already with srcset 
-    if(!($(this)[0].hasAttribute('srcset') || $(this)[0].hasAttribute('data-rjs'))){
+    if(!($(this)[0].hasAttribute('srcset') || 
+         $(this)[0].hasAttribute('data-rjs') || 
+         $(this).hasClass('poopPreloader'))){
       $(this).attr('data-rjs', 2);
     }
   });
   retinajs();
 
+  // init poopbutton
+  if(typeof startPooping === "function"){
+    $('#thePoopButton').click(function(eo){
+      eo.stopPropagation();
+      eo.preventDefault();
+      startPooping();
+    });
+  }else{
+    if($('#thePoopButton').length > 0){
+      console.warn('Poop Button exists but poopguy.js not loaded, possibly wrong include order?');
+    }
+  }
+
+  // sidebar icon swapping
+  $('nav li').hover(function(){
+      var hover = $(this).find('.hover-icon');
+      if(hover.length > 0){
+          $(this).find('.default-icon').hide();
+          $(this).find('.hover-icon').show();
+      }
+  }, function(){
+      var hover = $(this).find('.hover-icon');
+      if(hover.length > 0){
+          $(this).find('.hover-icon').hide();
+          $(this).find('.default-icon').show();
+      }
+  });
+
+  // hidden-sidebar slideout
+  // ugh why https://caniuse.com/#feat=css-has
+  $('#sidebar-display').change(function(){
+    if(this.checked){
+      $('div.sidebar').addClass('sidebar-active');
+      $('section.main-content').addClass('sidebar-active');
+    }else{
+      $('div.sidebar').removeClass('sidebar-active');
+      $('section.main-content').removeClass('sidebar-active');
+    }
+  });
+
+  //BEGIN content-aware-colors
+  // TODO: replaced by jekyll plugin 
   var headliner = $('.headliner > img'),
       feature = $('img.feature');
 
@@ -32,33 +76,7 @@ $(document).ready(function(){
     $('.post-content .tags').css('background-color', rgbVibrant);
     $('.post-content .related').css('background-color', rgbDark);
   }
-
-
-  $('nav li').hover(function(){
-      var hover = $(this).find('.hover-icon');
-      if(hover.length > 0){
-          $(this).find('.default-icon').hide();
-          $(this).find('.hover-icon').show();
-      }
-  }, function(){
-      var hover = $(this).find('.hover-icon');
-      if(hover.length > 0){
-          $(this).find('.hover-icon').hide();
-          $(this).find('.default-icon').show();
-      }
-  });
-
-  // ugh why https://caniuse.com/#feat=css-has
-  $('#sidebar-display').change(function(){
-    if(this.checked){
-      $('div.sidebar').addClass('sidebar-active');
-      $('section.main-content').addClass('sidebar-active');
-    }else{
-      $('div.sidebar').removeClass('sidebar-active');
-      $('section.main-content').removeClass('sidebar-active');
-    }
-  });
-
+  //END content-aware-colors
 });
 
 function toRGBAString(colorArr, opacity){
