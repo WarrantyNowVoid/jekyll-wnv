@@ -1,3 +1,14 @@
+// detect if we are on a touchscreen device, i.e. no :hover
+var isTouchscreen = false;
+
+if('ontouchstart' in document.documentElement){
+    document.documentElement.classList.add('touch');
+    isTouchscreen = true;
+}else{
+    document.documentElement.classList.add('no-touch');
+    isTouchscreen = false;
+}
+
 $(document).ready(function(){
 
   // automatically retinaize all image tags
@@ -25,19 +36,21 @@ $(document).ready(function(){
   }
 
   // sidebar icon swapping
-  $('nav li').hover(function(){
-      var hover = $(this).find('.hover-icon');
-      if(hover.length > 0){
-          $(this).find('.default-icon').hide();
-          $(this).find('.hover-icon').show();
-      }
-  }, function(){
-      var hover = $(this).find('.hover-icon');
-      if(hover.length > 0){
-          $(this).find('.hover-icon').hide();
-          $(this).find('.default-icon').show();
-      }
-  });
+  if(!isTouchscreen){
+    $('nav li').hover(function(){
+        var hover = $(this).find('.hover-icon');
+        if(hover.length > 0){
+            $(this).find('.default-icon').hide();
+            $(this).find('.hover-icon').show();
+        }
+    }, function(){
+        var hover = $(this).find('.hover-icon');
+        if(hover.length > 0){
+            $(this).find('.hover-icon').hide();
+            $(this).find('.default-icon').show();
+        }
+    });
+  }
 
   // hidden-sidebar slideout
   // ugh why https://caniuse.com/#feat=css-has

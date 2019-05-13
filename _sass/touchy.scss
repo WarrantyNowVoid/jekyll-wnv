@@ -1,0 +1,18 @@
+// overrides to be applied specifically to 
+// accomodate touchscreen devices, i.e. a
+// device that has no :hover, so we can't 
+// rely on it
+
+html.touch{
+  
+  .post-preview{
+
+    .details-holster{
+      top: 0;
+
+      .first-look{
+        min-height:50px;
+      }
+    }
+  }
+}
