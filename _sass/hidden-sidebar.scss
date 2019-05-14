@@ -11,7 +11,7 @@ label[for="sidebar-display"]{
 // sigh, one day: https://caniuse.com/#feat=css-has
 
 // section.main-content:has(#sidebar-display:checked){
-//   transform:translate3d($sidebar-width, 0, 0);
+//   transform: translate3d($sidebar-width, 0, 0);
 // }
 
 // .sidebar:has(label#sidebar-display:checked){
@@ -23,15 +23,15 @@ div.sidebar.sidebar-active{
 }
 
 section.main-content.sidebar-active{
-  transform:translate3d($sidebar-width, 0, 0);
+  transform: translate3d($sidebar-width, 0, 0);
 }
 
 .sidebar{
   margin-left: -$sidebar-width;
-  transition:all 200ms ease-in;
+  transition: all 200ms ease-in;
 }
 
 section.main-content{
   overflow: hidden;
-  transition:all 200ms ease-in;
+  transition: all 200ms ease-in;
 }

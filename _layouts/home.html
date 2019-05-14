@@ -17,7 +17,10 @@
       
         <h1>Recent Posts</h1>
 
-        {% for post in site.posts limit:20 %}    
+        {% for post in site.posts limit:20 %}
+          {% capture evenOdd %}
+              {% cycle 'odd', 'even' %}
+          {% endcapture %}
           {% include post-preview.html %}
         {% endfor %}
 
