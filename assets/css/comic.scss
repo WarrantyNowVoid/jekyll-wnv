@@ -7,29 +7,30 @@ sitemap: false
 @import "hidden-sidebar";
 
 .title-background-bar{
-  margin: 0 0 20px 0;
+  margin: 20px 0 20px 0;
 
   .title-wrap{
-    padding: 5px 0 0 0;
-    min-height: $logo-height - 29;
+    padding: 0;
 
     @media (min-width: $bs-break-sm) {
-      min-height: ($logo-height * 0.5) - 13;
+      height: ($logo-height * 0.5) - (($logo-height * 0.5) * 0.24);
     }
 
     @media (min-width: $bs-break-md) {
-      min-height: ($logo-height * 0.6) - 16;
+      height: ($logo-height * 0.6) - (($logo-height * 0.6) * 0.25);
     }
 
     @media (min-width: $bs-break-lg) {
-      min-height: ($logo-height * 0.9) - 26;
+      height: ($logo-height * 0.9) - (($logo-height * 0.9) * 0.27);
     }
 
     @media (min-width: $bs-break-xl) {
-      min-height: $logo-height - 29;
+      height: $logo-height - ($logo-height * 0.27);
     }
 
-    .col-4{
+    .col-2{
+      padding-left: 0px;
+
       @media (max-width: $bs-break-sm) {
         text-align: right;
         flex: none;
@@ -37,37 +38,35 @@ sitemap: false
       }
     }
 
-    .col-8{
+    .col-10{
       @media (max-width: $bs-break-sm) {
         flex: none;
         max-width: none;
       }
     }
 
-    svg#wnv-logo{
+    .logo-top svg{
       top: 0;
       left: 0;
-      height: $logo-height;
-      margin-bottom: -$logo-height * 0.25;
 
       @media (min-width: $bs-break-sm) {
         height: $logo-height * 0.5;
-        margin-bottom: -$logo-height * 0.5 * 0.23;
+        top: -4px;
       }
 
       @media (min-width: $bs-break-md) {
         height: $logo-height * 0.6;
-        margin-bottom: -$logo-height * 0.6 * 0.23;
+        top: -4px;
       }
 
       @media (min-width: $bs-break-lg) {
         height: $logo-height * 0.9;
-        margin-bottom: -$logo-height * 0.9 * 0.23;
+        top: -6px;
       }
 
       @media (min-width: $bs-break-xl) {
         height: $logo-height;
-        margin-bottom: -$logo-height * 0.25;
+        top: -6px;
       }
     }
 
@@ -113,6 +112,7 @@ article.post{
       color: #333;
 
       &:hover{
+        text-decoration: none;
         transition-property: color;
         transition-duration: 0.3s;
         color: #c0c0c0;

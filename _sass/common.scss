@@ -25,14 +25,12 @@ html{
   }
 }
 
-svg#wnv-logo{
+.logo-top svg{
   position: relative;
   top: 20px;
   left: 20px;
   height: $logo-height;
-}
 
-svg{
   .chunk{
     fill: #888;
   }
@@ -256,7 +254,7 @@ footer{
     line-height: 1.1;
   }
 
-  #wnv-icon{
+  .wnv-icon{
     height: 20px;
 
     @media (min-width: $bs-break-md) {
@@ -271,7 +269,7 @@ footer{
       height: 40px;
     }
 
-    .icon-chunk{
+    .chunk{
       fill: #fff;
     }
   }

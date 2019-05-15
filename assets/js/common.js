@@ -77,17 +77,26 @@ $(document).ready(function(){
         swatches = vibrant.swatches(),
         rgbVibrant = toRGBAString(swatches['Vibrant'].getRgb(), 1),
         rgbDark = toRGBAString(swatches['DarkVibrant'].getRgb(), 1);
+        rgbMuted = toRGBAString(swatches['Muted'].getRgb(), 1);
 
-    $('#wnv-logo .chunk').css('fill', rgbVibrant);
-    $('#wnv-logo').css('filter', 'drop-shadow(2px 2px 0px ' + rgbDark + ')');
+    var styleString = '<style type="text/css">\n\
+        .fill-vibrant .chunk{ fill: ' + rgbVibrant + ' !important; }\n\
+        .fill-dark .chunk{ fill: ' + rgbDark + ' !important; }\n\
+        .filter-shadow-vibrant svg{ filter: drop-shadow(2px 2px 0px ' + rgbVibrant + ') !important; }\n\
+        .filter-shadow-dark svg{ filter: drop-shadow(2px 2px 0px ' + rgbDark + ') !important; }\n\
+        .chunk-shadow svg{ filter: drop-shadow(1px 1px 0px ' + rgbMuted + ') drop-shadow(2px 2px 0px ' + rgbMuted + ') drop-shadow(3px 3px 0px ' + rgbMuted + ') !important; }\n\
+        .background-color-vibrant{ background-color: ' + rgbVibrant + ' !important; }\n\
+        .background-color-dark{ background-color: ' + rgbDark + ' !important; }\n\
+        .background-color-muted{ background-color: ' + rgbMuted + ' !important; }\n\
+        .color-vibrant{ color: ' + rgbVibrant + ' !important; }\n\
+        .color-dark{ color: ' + rgbDark + ' !important; }\n\
+        .hover-color-vibrant:hover{ color: ' + rgbVibrant + ' !important; }\n\
+        .hover-color-dark:hover{ color: ' + rgbDark + ' !important; }\n\
+        .hover-background-vibrant:hover{ background-color: ' + rgbVibrant + ' !important; }\n\
+        .hover-background-dark:hover{ background-color: ' + rgbDark + ' !important; }\n\
+    </style>';
 
-    $('.title-background-bar').css('background-color', rgbDark);
-
-    $('.comic-sub a').css('color', rgbVibrant);
-
-    $('.post-content .tag').css('color', rgbVibrant);
-    $('.post-content .tags').css('background-color', rgbVibrant);
-    $('.post-content .related').css('background-color', rgbDark);
+    $(styleString).appendTo('head');
   }
   //END content-aware-colors
 });

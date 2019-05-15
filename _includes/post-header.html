@@ -1,20 +1,20 @@
     {% if page.category == "Comics" %}
       <div class="title-background-bar background-color-dark">
         <div class="container title-container">
-          <div class="row title-wrap align-items-end">
-            <div class="col-4">
+          <div class="row title-wrap">
+            <div class="col-2">
               <input type="checkbox" id="sidebar-display" />
               <label for="sidebar-display">
-                <a>
-                  {% include logo-svg.html %}
+                <a class="logo-top chunk-shadow fill-vibrant">
+                  {% include icon-svg.html %}
                 </a>
               </label>
             </div>
-            <div class="col-8 post-details" role="banner">
+            <div class="col-10 post-details" role="banner">
               <h1><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
               <p class="byline" role="contentinfo">
                 <small>
-                  {% if page.showAuthor %}posted by {{ page.author }} {% endif %}<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %}, updated <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}
+                  {% if page.showAuthor %}Posted by {{ page.author }} on {% endif %}<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %}, updated <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}
                 </small>
               </p>
             </div>
@@ -24,8 +24,8 @@
     {% else %}
       <input type="checkbox" id="sidebar-display" />
       <label for="sidebar-display">
-        <a>
-          {% include logo-svg.html %}
+        <a class="logo-top chunk-shadow fill-vibrant">
+          {% include icon-svg.html %}
         </a>
       </label>
     {% endif %}
@@ -48,13 +48,13 @@
               <div class="col-6">
                 <p class="byline" role="contentinfo">
                   <small>
-                    posted{% if page.showAuthor %} by {{ page.author }}{% endif %} in {{ page.category }}<br />
+                    Posted{% if page.showAuthor %} by {{ page.author }}{% endif %} in {{ page.category }}<br />
                     <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %}, updated <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}
                   </small>
                 </p>
               </div>
               <div class="col-6 share-links">
-                {% include share-links.html %}
+                {% include share-links-plain.html %}
               </div>
             </div>
           </div>
