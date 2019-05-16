@@ -55,14 +55,16 @@ $(document).ready(function(){
   // hidden-sidebar slideout
   // ugh why https://caniuse.com/#feat=css-has
   $('#sidebar-display').change(function(){
+    // for some reason class swapping won't work on FA svgs
+    var transformString = 'perspective(200px) rotateY(0deg)';
     if(this.checked){
       $('.logo-top .wnv-icon').addClass('flip-away');
-      $('.logo-top svg.sidebar-close-button').removeClass('flip-away');
+      $('.logo-top svg.sidebar-close-button').css('transform', transformString);
       $('div.sidebar').addClass('sidebar-active');
       $('section.main-content').addClass('sidebar-active');
     }else{
       $('.logo-top .wnv-icon').removeClass('flip-away');
-      $('.logo-top svg.sidebar-close-button').addClass('flip-away');
+      $('.logo-top svg.sidebar-close-button').css('transform', '');
       $('div.sidebar').removeClass('sidebar-active');
       $('section.main-content').removeClass('sidebar-active');
     }
@@ -84,11 +86,11 @@ $(document).ready(function(){
         rgbMuted = toRGBAString(swatches['Muted'].getRgb(), 1);
 
     var styleString = '<style type="text/css">\n\
-        .fill-vibrant .chunk{ fill: ' + rgbVibrant + ' !important; }\n\
-        .fill-dark .chunk{ fill: ' + rgbDark + ' !important; }\n\
+        .fill-vibrant path{ fill: ' + rgbVibrant + ' !important; }\n\
+        .fill-dark path{ fill: ' + rgbDark + ' !important; }\n\
         .filter-shadow-vibrant svg.wnv-icon{ filter: drop-shadow(2px 2px 0px ' + rgbVibrant + ') !important; }\n\
         .filter-shadow-dark svg.wnv-icon{ filter: drop-shadow(2px 2px 0px ' + rgbDark + ') !important; }\n\
-        .chunk-shadow svg.wnv-icon{ filter: drop-shadow(-1px 0px 0px ' + rgbMuted + ') drop-shadow(-2px 0px 0px ' + rgbMuted + ') drop-shadow(-3px 0px 0px ' + rgbMuted + ') !important; }\n\
+        .chunk-shadow svg{ filter: drop-shadow(-1px 0px 0px ' + rgbMuted + ') drop-shadow(-2px 0px 0px ' + rgbMuted + ') drop-shadow(-3px 0px 0px ' + rgbMuted + ') !important; }\n\
         .background-color-vibrant{ background-color: ' + rgbVibrant + ' !important; }\n\
         .background-color-dark{ background-color: ' + rgbDark + ' !important; }\n\
         .background-color-muted{ background-color: ' + rgbMuted + ' !important; }\n\
@@ -96,6 +98,10 @@ $(document).ready(function(){
         .color-dark{ color: ' + rgbDark + ' !important; }\n\
         .hover-color-vibrant:hover{ color: ' + rgbVibrant + ' !important; }\n\
         .hover-color-dark:hover{ color: ' + rgbDark + ' !important; }\n\
+        .hover-color-muted:hover{ color: ' + rgbMuted + ' !important; }\n\
+        .hover-fill-vibrant:hover path{ fill: ' + rgbVibrant + ' !important; }\n\
+        .hover-fill-dark:hover path{ fill: ' + rgbDark + ' !important; }\n\
+        .hover-fill-muted:hover path{ fill: ' + rgbMuted + ' !important; }\n\
         .hover-background-vibrant:hover{ background-color: ' + rgbVibrant + ' !important; }\n\
         .hover-background-dark:hover{ background-color: ' + rgbDark + ' !important; }\n\
     </style>';

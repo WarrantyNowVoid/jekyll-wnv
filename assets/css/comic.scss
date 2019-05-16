@@ -67,6 +67,30 @@ sitemap: false
           height: $logo-height;
         }
       }
+
+      svg.sidebar-close-button{
+        top: 0px;
+
+        @media (min-width: $bs-break-sm) {
+          font-size: ($logo-height * 0.5) - (($logo-height * 0.5) * 0.275);
+          left: 15px;
+        }
+
+        @media (min-width: $bs-break-md) {
+          font-size: ($logo-height * 0.6) - (($logo-height * 0.6) * 0.275);
+          left: 20px;
+        }
+
+        @media (min-width: $bs-break-lg) {
+          font-size: ($logo-height * 0.9) - (($logo-height * 0.9) * 0.275);
+          left: 30px;
+        }
+
+        @media (min-width: $bs-break-xl) {
+          font-size: $logo-height - ($logo-height * 0.275);
+          left: 40px;
+        }
+      }
     }
 
     h1{
