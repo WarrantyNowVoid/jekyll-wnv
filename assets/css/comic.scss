@@ -45,24 +45,27 @@ sitemap: false
       }
     }
 
-    .logo-top svg{
-      top: 0;
-      left: 0;
+    .logo-top{
 
-      @media (min-width: $bs-break-sm) {
-        height: $logo-height * 0.5;
-      }
+      svg.wnv-icon{
+        top: 0;
+        left: 0;
 
-      @media (min-width: $bs-break-md) {
-        height: $logo-height * 0.6;
-      }
+        @media (min-width: $bs-break-sm) {
+          height: $logo-height * 0.5;
+        }
 
-      @media (min-width: $bs-break-lg) {
-        height: $logo-height * 0.9;
-      }
+        @media (min-width: $bs-break-md) {
+          height: $logo-height * 0.6;
+        }
 
-      @media (min-width: $bs-break-xl) {
-        height: $logo-height;
+        @media (min-width: $bs-break-lg) {
+          height: $logo-height * 0.9;
+        }
+
+        @media (min-width: $bs-break-xl) {
+          height: $logo-height;
+        }
       }
     }
 

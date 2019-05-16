@@ -56,9 +56,13 @@ $(document).ready(function(){
   // ugh why https://caniuse.com/#feat=css-has
   $('#sidebar-display').change(function(){
     if(this.checked){
+      $('.logo-top .wnv-icon').addClass('flip-away');
+      $('.logo-top svg.sidebar-close-button').removeClass('flip-away');
       $('div.sidebar').addClass('sidebar-active');
       $('section.main-content').addClass('sidebar-active');
     }else{
+      $('.logo-top .wnv-icon').removeClass('flip-away');
+      $('.logo-top svg.sidebar-close-button').addClass('flip-away');
       $('div.sidebar').removeClass('sidebar-active');
       $('section.main-content').removeClass('sidebar-active');
     }
@@ -82,9 +86,9 @@ $(document).ready(function(){
     var styleString = '<style type="text/css">\n\
         .fill-vibrant .chunk{ fill: ' + rgbVibrant + ' !important; }\n\
         .fill-dark .chunk{ fill: ' + rgbDark + ' !important; }\n\
-        .filter-shadow-vibrant svg{ filter: drop-shadow(2px 2px 0px ' + rgbVibrant + ') !important; }\n\
-        .filter-shadow-dark svg{ filter: drop-shadow(2px 2px 0px ' + rgbDark + ') !important; }\n\
-        .chunk-shadow svg{ filter: drop-shadow(-1px 0px 0px ' + rgbMuted + ') drop-shadow(-2px 0px 0px ' + rgbMuted + ') drop-shadow(-3px 0px 0px ' + rgbMuted + ') !important; }\n\
+        .filter-shadow-vibrant svg.wnv-icon{ filter: drop-shadow(2px 2px 0px ' + rgbVibrant + ') !important; }\n\
+        .filter-shadow-dark svg.wnv-icon{ filter: drop-shadow(2px 2px 0px ' + rgbDark + ') !important; }\n\
+        .chunk-shadow svg.wnv-icon{ filter: drop-shadow(-1px 0px 0px ' + rgbMuted + ') drop-shadow(-2px 0px 0px ' + rgbMuted + ') drop-shadow(-3px 0px 0px ' + rgbMuted + ') !important; }\n\
         .background-color-vibrant{ background-color: ' + rgbVibrant + ' !important; }\n\
         .background-color-dark{ background-color: ' + rgbDark + ' !important; }\n\
         .background-color-muted{ background-color: ' + rgbMuted + ' !important; }\n\

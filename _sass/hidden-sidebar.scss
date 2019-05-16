@@ -8,6 +8,41 @@ label[for="sidebar-display"]{
   margin: 0;
 }
 
+
+.logo-top{
+  svg{
+    transition: all 250ms ease-in-out;
+  }
+  svg.wnv-icon{
+    
+  }
+
+  svg.sidebar-close-button{
+    font-size: 80px;
+    color: #fff;
+    
+    position: absolute;
+    top: 10px;
+    left: 30px;
+
+    &:hover{
+      color: #111;
+    }
+  }
+
+  &:hover{
+    cursor: pointer;
+
+    svg.wnv-icon{
+      transform: perspective(200px) rotateY(20deg);
+    }
+  }
+}
+
+.flip-away{
+  transform: perspective(200px) rotateY(90deg) !important;
+}
+
 // sigh, one day: https://caniuse.com/#feat=css-has
 
 // section.main-content:has(#sidebar-display:checked){
