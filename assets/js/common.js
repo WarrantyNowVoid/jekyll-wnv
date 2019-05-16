@@ -84,7 +84,7 @@ $(document).ready(function(){
         .fill-dark .chunk{ fill: ' + rgbDark + ' !important; }\n\
         .filter-shadow-vibrant svg{ filter: drop-shadow(2px 2px 0px ' + rgbVibrant + ') !important; }\n\
         .filter-shadow-dark svg{ filter: drop-shadow(2px 2px 0px ' + rgbDark + ') !important; }\n\
-        .chunk-shadow svg{ filter: drop-shadow(1px 1px 0px ' + rgbMuted + ') drop-shadow(2px 2px 0px ' + rgbMuted + ') drop-shadow(3px 3px 0px ' + rgbMuted + ') !important; }\n\
+        .chunk-shadow svg{ filter: drop-shadow(-1px 0px 0px ' + rgbMuted + ') drop-shadow(-2px 0px 0px ' + rgbMuted + ') drop-shadow(-3px 0px 0px ' + rgbMuted + ') !important; }\n\
         .background-color-vibrant{ background-color: ' + rgbVibrant + ' !important; }\n\
         .background-color-dark{ background-color: ' + rgbDark + ' !important; }\n\
         .background-color-muted{ background-color: ' + rgbMuted + ' !important; }\n\
