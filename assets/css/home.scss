@@ -5,85 +5,179 @@ sitemap: false
 @import "common";
 @import "sidebar";
 
-section.posts-list{
+section{
   margin-left: $sidebar-width;
-  padding: 50px 0px 50px 30px;
+}
 
-  @media (min-width: $bs-break-sm) {
-    padding-right: 30px;
-  }
+section.newest-feature{
 
-  @media (min-width: $bs-break-md) {
-    padding-right: 30px;
-  }
+  #featured-posts{
+    color: #fff;
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    
+    svg.angle-border-mask{
+      fill: #fff;
+      height: 400px;
+      width: 100%;
+      position: absolute;
+      top: 0px;
+      z-index: 3;
+    }
 
-  @media (min-width: $bs-break-lg) {
-    padding-right: 30px;
+    .post-holster{
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      position: relative;
+      transition-property: left;
+      transition-duration: 1.5s;
+
+      .post-image{
+        img{
+          width: 100%;
+          z-index:2;
+
+          &.auto-thumbnail{
+            width: 200%;
+            margin: 0px;
+            margin-left: -40%;
+            margin-top: -10%;
+            max-width: none;
+          }
+        }
+      }
+
+      .post-details-shader{
+        background: linear-gradient(rgba(16, 16, 16, 0.8), rgba(16, 16, 16, 0.6));
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 3;
+
+        &.comics{
+          background: linear-gradient(rgba(16, 16, 16, 0.9), rgba(255, 227, 0, 0.4));
+        }
+
+        &.articles{
+          background: linear-gradient(rgba(16, 16, 16, 0.9), rgba(190, 221, 34, 0.4));
+        }
+
+        &.videos{
+          background: linear-gradient(rgba(16, 16, 16, 0.9), rgba(255, 116, 0, 0.4));
+        }
+
+        &.junk{
+          background: linear-gradient(rgba(16, 16, 16, 0.9), rgba(21, 139, 112, 0.4));
+        }
+      }
+
+      .post-details-holster{
+        text-shadow: 1px 1px 5px #000;
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        padding-top: 50px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 4;
+
+        h2{
+          font-size: 30px;
+        }
+
+        p{
+          font-size: 16px;
+        }
+      }
+    }
   }
 }
 
-/* override some of post-preview stuff from common since
-   the un-hidden sidebar shrinks our usable space     */
-.post-preview{
-  width: 100%;
-  height: 300px;
+section.posts-list{
+  padding: 10px 0px 50px 30px;
 
   @media (min-width: $bs-break-sm) {
-    width: 100%;
-    margin-left: 0px;
+    padding-right: 30px;
   }
 
   @media (min-width: $bs-break-md) {
-    width: 100%;
-    margin-left: 0px;
+    padding-right: 30px;
   }
 
   @media (min-width: $bs-break-lg) {
+    padding-right: 30px;
+  }
+
+  /* override some of post-preview stuff from common since
+     the un-hidden sidebar shrinks our usable space     */
+  .post-preview{
     width: 100%;
-    margin-left: 0px;
-  }
+    height: 300px;
 
-  @media (min-width: $bs-break-xl) {
-    width: 47%;
-    height: 400px;
-    margin-left: 0px;
-
-    &:nth-child(even){
-      margin-left: 20px;
-    }
-  }
-
-  .details-holster{
-    background-color: rgba(0,0,0,0.85);
-    top: 0;
-
-    &.odd{
-      width: 70%;
-      left: 0;
+    @media (min-width: $bs-break-sm) {
+      width: 100%;
+      margin-left: 0px;
     }
 
-    &.even{
-      width: 70%;
-      left: 30%;
+    @media (min-width: $bs-break-md) {
+      width: 100%;
+      margin-left: 0px;
     }
 
-    .first-look{
-      min-height: 50px;
+    @media (min-width: $bs-break-lg) {
+      width: 100%;
+      margin-left: 0px;
     }
 
-    h5{
-      font-size: 30px;
+    @media (min-width: $bs-break-xl) {
+      width: 47%;
+      height: 300px;
+      margin-left: 0px;
+
+      &:nth-child(even){
+        margin-left: 20px;
+      }
     }
 
-    p{
-      font-size: 16px;
+    .details-holster{
+      background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3));
+      top: 0;
+      width: 80%;
 
-      @media (min-width: $bs-break-md) {
-        font-size: 16px;
+      &.odd{
+        left: 0;
       }
 
-      @media (min-width: $bs-break-xl) {
-        font-size: 16px;
+      &.even{
+        left: 20%;
+      }
+
+      .first-look{
+        min-height: 50px;
+      }
+
+      h5{
+        font-size: 24px;
+        text-shadow: 0px 0px 5px #111;
+      }
+
+      p{
+        font-size: 14px;
+        text-shadow: 0px 0px 5px #111;
+
+        @media (min-width: $bs-break-md) {
+          font-size: 14px;
+        }
+
+        @media (min-width: $bs-break-xl) {
+          font-size: 14px;
+        }
       }
     }
   }

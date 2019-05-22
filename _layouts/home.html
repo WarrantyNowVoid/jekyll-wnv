@@ -13,12 +13,21 @@
 
       {% include sidebar.html %}
 
+      <section class="newest-feature clearfix">
+        <div id="featured-posts">
+          {% for post in site.posts limit:1 %}
+            {% include post-feature.html %}
+          {% endfor %}
+          {% include angle-svg.html %}
+        </div>
+      </section>
+
       <section class="main-content posts-list clearfix">
       
-        <h1>Recent Posts</h1>
+        <h1>More Posts</h1>
 
         <div class="previews-container">
-          {% for post in site.posts limit:20 %}
+          {% for post in site.posts limit:30 offset:1 %}
             {% capture evenOdd %}
                 {% cycle 'odd', 'even' %}
             {% endcapture %}

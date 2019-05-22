@@ -2,7 +2,7 @@
 layout: post
 guid: 9dc39
 published: true
-date: 2015-03-12 13:01:01 -0400
+date: 2019-03-12 13:01:01 -0400
 author: pope
 title: "Actual World Cup Match or Random Collection of Letters and Colors?"
 tagline: "Continuing the grand tradition started by our 2014 Winter Olympics game: Sochi or Fallout?, we bring you our newest game based on the World Cup. Use your deductive skills to decide whether each matchup is between two actual countries or just some bullshit we made up."
