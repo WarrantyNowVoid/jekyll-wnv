@@ -12,9 +12,9 @@
               </label>
             </div>
             <div class="col-10 post-details" role="banner">
-              <h1><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
+              <h1 class="title-font"><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
               <p class="byline" role="contentinfo">
-                <small>
+                <small class="title-font light">
                   {% if page.showAuthor %}Posted by {{ page.author }} on {% endif %}<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %}, updated <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}
                 </small>
               </p>
@@ -44,7 +44,7 @@
       <div class="title-background-bar background-color-dark">
         <div class="container title-container">
           <div class="title-wrap">
-            <h1 role="banner"><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
+            <h1 class="title-font" role="banner"><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
             <hr />
             <div class="row post-details">
               <div class="col-6">

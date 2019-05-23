@@ -33,10 +33,10 @@
                 <img src="{{ postImage }}" srcset="{{ retinaImage }}" {% if imageType == 'AUTO' %}class="auto-thumbnail" {% endif %}/>
               </a>
 
-              <div class="details-holster{% if evenOdd %} {{ evenOdd }}{% endif %}">
+              <div class="details-holster{% if evenOdd %} {{ evenOdd }}{% endif %} {{ post.category || downcase }}">
                 <div>
                   <div class="first-look">
-                    <h5><a class="stretched-link" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h5>
+                    <h5 class="title-font"><a class="stretched-link" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h5>
                     <p>{{ taghtml }}<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
                   </div>
                   <p>{{ post.tagline }}</p>

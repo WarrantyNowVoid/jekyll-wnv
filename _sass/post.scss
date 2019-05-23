@@ -5,7 +5,6 @@
   overflow: hidden;
   height: 500px;
   position: relative;
-  z-index: 1;
 
   img{
     position: absolute;
@@ -61,7 +60,9 @@ article.post{
     }
 
     h1{
-      margin-bottom: 0px;      
+      margin-bottom: 0px;
+      text-shadow: 1px 1px 1px #111;
+      font-size: 48px;
 
       a{
         color: #fff;
