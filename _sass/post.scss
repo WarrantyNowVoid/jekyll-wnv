@@ -47,13 +47,16 @@ article.post{
   z-index: 2;
 }
 
+
+
 .title-background-bar{
   width: 100%;
   margin: 0;
   background-color: #333;
+  position: relative;
 
   .title-wrap{
-    padding: 10px 0;
+    padding: 10px 0 50px 0px;
 
     .post-details{
       color: #fff;
@@ -72,6 +75,15 @@ article.post{
     hr{
       border-color: #c0c0c0;
     }
+  }
+    
+  svg.angle-border-mask{
+    fill: #fff;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: 3;
   }
 }
 
