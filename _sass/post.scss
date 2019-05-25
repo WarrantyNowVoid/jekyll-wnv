@@ -92,12 +92,12 @@ article.post{
 
   a.share-link{
     margin-left: 5px;
-    color: #fff;
+    color: #fff !important;
     transition-property: color;
     transition-duration: 0.3s;
 
     &:hover{
-      color: #000;
+      color: #111 !important;
     }
   }
 }

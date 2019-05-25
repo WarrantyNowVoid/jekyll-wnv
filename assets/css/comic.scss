@@ -146,6 +146,8 @@ article.post{
     .comic-nav{
       a{
         margin-right: 5px;
+        transition-property: color;
+        transition-duration: 0.3s;
       }
 
       &.comic-nav-right{
