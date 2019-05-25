@@ -30,6 +30,8 @@ html{
   top: 20px;
   left: 20px;
   height: $logo-height;
+  /* https://github.com/WarrantyNowVoid/jekyll-wnv/issues/1 */
+  transform: translateZ(1px);
 
   .chunk{
     fill: #888;
