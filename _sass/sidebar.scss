@@ -67,12 +67,22 @@ nav{
     text-align: center;
     margin: 20px auto;
 
-    svg{
-      display: inline-block;
-    }
+    a{
+      color: rgba(16, 16, 16, 0.9);
+      transition-property: color;
+      transition-duration: 0.5s;
 
-    .chunk{
-      fill: rgba(16, 16, 16, 0.9);
+      svg{
+        display: inline-block;
+
+        .chunk{
+          fill: currentColor;
+        }
+      }
+
+      &:hover{
+        color: rgba(255, 255, 255, 0.8);
+      }
     }
   }
 
