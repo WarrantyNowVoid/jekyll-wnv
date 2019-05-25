@@ -60,6 +60,17 @@ article.post{
 
     .post-details{
       color: #fff;
+
+      .share-links{
+        
+        a.share-link{
+          color: #fff !important;
+
+          &:hover{
+            color: #111 !important;
+          }
+        }
+      }
     }
 
     h1{
@@ -92,13 +103,8 @@ article.post{
 
   a.share-link{
     margin-left: 5px;
-    color: #fff !important;
     transition-property: color;
     transition-duration: 0.3s;
-
-    &:hover{
-      color: #111 !important;
-    }
   }
 }
 
