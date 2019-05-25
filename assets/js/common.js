@@ -96,6 +96,7 @@ $(document).ready(function(){
         .background-color-muted{ background-color: ' + rgbMuted + ' !important; }\n\
         .color-vibrant{ color: ' + rgbVibrant + ' !important; }\n\
         .color-dark{ color: ' + rgbDark + ' !important; }\n\
+        .color-muted{ color: ' + rgbMuted + ' !important; }\n\
         .hover-color-vibrant:hover{ color: ' + rgbVibrant + ' !important; }\n\
         .hover-color-dark:hover{ color: ' + rgbDark + ' !important; }\n\
         .hover-color-muted:hover{ color: ' + rgbMuted + ' !important; }\n\
@@ -104,6 +105,7 @@ $(document).ready(function(){
         .hover-fill-muted:hover path{ fill: ' + rgbMuted + ' !important; }\n\
         .hover-background-vibrant:hover{ background-color: ' + rgbVibrant + ' !important; }\n\
         .hover-background-dark:hover{ background-color: ' + rgbDark + ' !important; }\n\
+        .hover-background-muted:hover{ background-color: ' + rgbMuted + ' !important; }\n\
     </style>';
 
     $(styleString).appendTo('head');
