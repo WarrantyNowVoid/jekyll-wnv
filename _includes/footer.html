@@ -9,14 +9,14 @@
           </div>
           <div class="col-3 links">
             <h6>Pages</h6>
-            <a href="#">About</a>
-            <a href="#">Code</a>
-            <a href="#">Privacy/Terms</a>
-            <a href="#">License</a>
+            <a href="{{ site.url }}/about">About</a>
+            <a href="{{ site.url }}/code">Code</a>
+            <a href="{{ site.url }}/legal">Privacy/Terms</a>
+            <a href="{{ site.url }}/licenses">License</a>
           </div>
           <div class="col-6 logos align-self-center">
             <span class="site-logo">{% include icon-svg.html %}arrantynowvoid.com</span>
-            <a href="https://warrantynowvoid.com/license">
+            <a href="https://warrantynowvoid.com/licenses">
               <i class="fab fa-creative-commons"></i>
               <i class="fab fa-creative-commons-by"></i>
               <i class="fab fa-creative-commons-nc"></i>
@@ -44,7 +44,7 @@
                 {% assign mediaType = "" %}
             {% endcase %}
               
-            <small><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title" {{ mediaType }}>{{ page.title }}</span>{% if page.showAuthor %} by <a xmlns:cc="http://creativecommons.org/ns#" href="https://warrantynowvoid.com" property="cc:attributionName" rel="cc:attributionURL">{{ page.author }}</a>{% endif %} is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>. Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="https://warrantynowvoid.com/license" rel="cc:morePermissions">https://warrantynowvoid.com/license</a>.</small>
+            <small><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title" {{ mediaType }}>{{ page.title }}</span>{% if page.showAuthor %} by <a xmlns:cc="http://creativecommons.org/ns#" href="https://warrantynowvoid.com" property="cc:attributionName" rel="cc:attributionURL">{{ page.author }}</a>{% endif %} is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>. Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="https://warrantynowvoid.com/licenses" rel="cc:morePermissions">https://warrantynowvoid.com/licenses</a>.</small>
           </div>
         </div>
       </div>
