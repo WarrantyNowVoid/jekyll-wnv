@@ -68,19 +68,19 @@ section.newest-feature{
         z-index: 3;
 
         &.comics{
-          background: linear-gradient(rgba(16, 16, 16, 0.9), rgba(255, 227, 0, 0.4));
+          background: linear-gradient(rgba(16, 16, 16, 0.9), transparency-ize($comics-color, 0.4));
         }
 
         &.articles{
-          background: linear-gradient(rgba(16, 16, 16, 0.9), rgba(190, 221, 34, 0.4));
+          background: linear-gradient(rgba(16, 16, 16, 0.9), transparency-ize($articles-color, 0.4));
         }
 
         &.videos{
-          background: linear-gradient(rgba(16, 16, 16, 0.9), rgba(255, 116, 0, 0.4));
+          background: linear-gradient(rgba(16, 16, 16, 0.9), transparency-ize($videos-color, 0.4));
         }
 
         &.junk{
-          background: linear-gradient(rgba(16, 16, 16, 0.9), rgba(21, 139, 112, 0.4));
+          background: linear-gradient(rgba(16, 16, 16, 0.9), transparency-ize($junk-color, 0.4));
         }
       }
 

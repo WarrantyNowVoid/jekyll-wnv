@@ -131,16 +131,16 @@ nav{
 
           &:hover{
             &.articles{
-              color: #BEDD22;
+              color: $articles-color;
             }
             &.comics{
-              color: #FFE300;
+              color: $comics-color;
             }
             &.videos{
-              color: #FF7400;
+              color: $videos-color;
             }
             &.junk{
-              color: #158B70;
+              color: $junk-color;
             }
           }
         }
