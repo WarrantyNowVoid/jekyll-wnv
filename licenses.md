@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Content and Technology Licenses"
+modified: 2019-05-26
 permalink: /licenses/
 ---
 
