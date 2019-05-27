@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+
+    {% include head.html %}
+
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/page.css">
+
+  </head>
+
+  <body>
+    <main>
+
+      {% include sidebar.html %}
+
+      <section class="main-content">
+        <div class="title-background-bar background-color-dark">
+          {% include angle-svg.html %}
+          <div class="container title-container">
+            <div class="title-wrap">
+              <h1 class="title-font" role="banner"><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
+              <hr />
+              <div class="row post-details">
+                <div class="col-6">
+                  <p class="byline" role="contentinfo">
+                    <small>
+                      {% if page.modified %}Last updated <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}
+                    </small>
+                  </p>
+                </div>
+                <div class="col-6 share-links">
+                  {% include share-links.html %}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <article>
+          <div class="container content-wrap">
+            {{ content }}
+          </div>
+        </article>
+      </section>
+
+      <footer>
+        {% include footer.html %}
+      </footer>
+      
+    </main>
+  </body>
+
+</html>

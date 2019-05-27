@@ -3,4 +3,92 @@ sitemap: false
 ---
 
 @import "common";
-@import "hidden-sidebar";
+@import "sidebar";
+
+section{
+  margin-left: $sidebar-width;
+}
+
+.title-background-bar{
+  width: 100%;
+  margin: 0;
+  background-color: #333;
+  position: relative;
+
+  .title-container{
+    max-width: 720px;
+  }
+
+  .title-wrap{
+    padding: 50px 0 50px 0px;
+
+    .post-details{
+      color: #fff;
+
+      .share-links{
+        
+        a.share-link{
+          color: #fff !important;
+
+          &:hover{
+            color: #111 !important;
+          }
+        }
+      }
+    }
+
+    h1{
+      margin-bottom: 0px;
+      text-shadow: 1px 1px 1px #111;
+      font-size: 48px;
+
+      a{
+        color: #fff;
+      }
+    }
+
+    hr{
+      border-color: #c0c0c0;
+    }
+  }
+    
+  svg.angle-border-mask{
+    fill: #fff;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+  }
+}
+
+.share-links{
+  text-align: right;
+  font-size: 30px;
+
+  a.share-link{
+    margin-left: 5px;
+    transition-property: color;
+    transition-duration: 0.3s;
+  }
+}
+
+article{
+
+  .content-wrap{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    max-width: 720px;
+    min-height: 70vh;
+
+    img{
+      display: block;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+
+    iframe{
+      display:block;
+      margin: 0 auto;
+    }
+  }
+}
