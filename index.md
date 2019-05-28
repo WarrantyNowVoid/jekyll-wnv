@@ -1,4 +1,4 @@
 ---
 layout: not-yet
 ---
-hello.
+is almost ready. Are you?
