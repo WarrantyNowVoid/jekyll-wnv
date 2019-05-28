@@ -52,6 +52,26 @@ $(document).ready(function(){
     });
   }
 
+  // homepage featured posts carousel
+  $('#featured-posts-carousel').carousel({
+    interval: 5000,
+    keyboard: false,
+    ride: 'carousel'
+  });
+
+  $('#featured-posts-carousel').on('slide.bs.carousel', function(eventObject){
+    var currentIndex = eventObject.from + 1,
+        currentImage = $('#featured-posts .post-image:nth-child(' + currentIndex + ')');
+    var targetIndex = eventObject.to + 1,
+        targetCategory = $(eventObject.relatedTarget).data('category'),
+        targetImage = $('#featured-posts .post-image:nth-child(' + targetIndex + ')');
+
+    currentImage.removeClass('active');
+    targetImage.addClass('active');
+
+    $('#featured-posts .post-details-shader').attr('class', 'post-details-shader').addClass(targetCategory);
+  });
+
   // hidden-sidebar slideout
   // ugh why https://caniuse.com/#feat=css-has
   $('#sidebar-display').change(function(){

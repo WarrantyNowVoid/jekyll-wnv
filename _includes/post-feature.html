@@ -1,42 +1,50 @@
-            {% case post.category %}
-              {% when "Comics" %}
-                {% assign taghtml = '<span class="badge badge-primary comics">Comic</span> ' %}
-              {% when "Articles" %}
-                {% assign taghtml = '<span class="badge badge-primary articles">Article</span> ' %}
-              {% when "Videos" %}
-                {% assign taghtml = '<span class="badge badge-primary videos">Video</span> ' %}
-              {% when "Junk" %}
-                {% assign taghtml = '<span class="badge badge-primary junk">Junk</span> ' %}
-            {% endcase %}
-
-            {% if post.image.headliner %}
-              {% assign postImage = post.image.headliner %}
-              {% assign imageType = 'HEAD' %}
-            {% elsif post.image.thumbnail %}
-              {% assign postImage = post.image.thumbnail %}
-              {% assign imageType = 'THUMB' %}
-            {% else %}
-              {% if post.image.feature %}
-                {% assign postImage = post.image.feature %}
-                {% assign imageType = 'AUTO' %}
-              {% else %}
-                {% assign postImage = '/assets/img/headliner_default.png' %}
-                {% assign imageType = 'DEFAULT' %}
-              {% endif %}
-            {% endif %}
-
-            {% assign retinaImage = postImage | split: "" | reverse | join: "" | replace_first: '.', '.x2@' | split: "" | reverse | join: "" %}
-            
             <div class="post-holster">
-              <div class="post-image">
-                <img src="{{ postImage }}" srcset="{{ retinaImage }}" {% if imageType == 'AUTO' %}class="auto-thumbnail" {% endif %}/>
-              </div>
-              <div class="post-details-shader {{ post.category || downcase }}"></div>
-              <div class="post-details-holster">
-                <div class="first-look">
-                  <h2 class="title-font"><a class="stretched-link" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-                  <p>{{ taghtml }}<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
+
+              {% for post in featured-posts %}
+                {% if post.image.headliner %}
+                  {% assign postImage = post.image.headliner %}
+                  {% assign imageType = 'HEAD' %}
+                {% elsif post.image.thumbnail %}
+                  {% assign postImage = post.image.thumbnail %}
+                  {% assign imageType = 'THUMB' %}
+                {% else %}
+                  {% if post.image.feature %}
+                    {% assign postImage = post.image.feature %}
+                    {% assign imageType = 'AUTO' %}
+                  {% else %}
+                    {% assign postImage = '/assets/img/headliner_default.png' %}
+                    {% assign imageType = 'DEFAULT' %}
+                  {% endif %}
+                {% endif %}
+
+                {% assign retinaImage = postImage | split: "" | reverse | join: "" | replace_first: '.', '.x2@' | split: "" | reverse | join: "" %}
+
+                <div class="post-image{% if forloop.first == true %} active{% endif %}">
+                  <img src="{{ postImage }}" srcset="{{ retinaImage }}" {% if imageType == 'AUTO' %}class="auto-thumbnail" {% endif %}/>
                 </div>
-                <p>{{ post.tagline }}</p>
+              {% endfor %}
+              
+              <div class="post-details-shader {{ featured-posts[0].category || downcase }}"></div>
+
+              <div class="post-details-holster">
+                <div id="featured-posts-carousel" class="carousel slide">
+                  <ol class="carousel-indicators">
+                    <li data-target="#featured-posts-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#featured-posts-carousel" data-slide-to="1"></li>
+                    <li data-target="#featured-posts-carousel" data-slide-to="2"></li>
+                    <li data-target="#featured-posts-carousel" data-slide-to="3"></li>
+                  </ol>
+                  <div class="carousel-inner">
+
+                    {% for post in featured-posts %}
+                      <div class="carousel-item{% if forloop.first == true %} active{% endif %}" data-category="{{ post.category || downcase }}">
+                        <h2 class="title-font"><a class="stretched-link" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+                        <p><span class="badge badge-primary {{ post.category || downcase }}">{{ post.category }}</span> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
+                        <p>{{ post.tagline }}</p>
+                      </div>
+                    {% endfor %}
+                    
+                  </div>
+                </div>
               </div>
             </div>

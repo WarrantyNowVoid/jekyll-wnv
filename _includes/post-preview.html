@@ -1,16 +1,5 @@
             <div class="post-preview">
 
-              {% case post.category %}
-                {% when "Comics" %}
-                  {% assign taghtml = '<span class="badge badge-primary comics">Comic</span> ' %}
-                {% when "Articles" %}
-                  {% assign taghtml = '<span class="badge badge-primary articles">Article</span> ' %}
-                {% when "Videos" %}
-                  {% assign taghtml = '<span class="badge badge-primary videos">Video</span> ' %}
-                {% when "Junk" %}
-                  {% assign taghtml = '<span class="badge badge-primary junk">Junk</span> ' %}
-              {% endcase %}
-
               {% if post.image.headliner %}
                 {% assign postImage = post.image.headliner %}
                 {% assign imageType = 'HEADLINER' %}
@@ -37,7 +26,7 @@
                 <div>
                   <div class="first-look">
                     <h5 class="title-font"><a class="stretched-link" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h5>
-                    <p>{{ taghtml }}<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
+                    <p><span class="badge badge-primary {{ post.category || downcase }}">{{ post.category }}</span> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
                   </div>
                   <p>{{ post.tagline }}</p>
                 </div>
