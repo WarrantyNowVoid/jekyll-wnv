@@ -38,6 +38,10 @@
       <div class="headliner">
         <img src="{{ page.image.headliner }}" title="{{ page.image.imageHover }}" srcset="{{ retinaHeadliner }} 2x" />
       </div>
+    {% else %}
+      {% if page.category != "Comics" %}
+        <div class="headliner headliner-empty"></div>
+      {% endif %}
     {% endif %}
 
     {% if page.category != "Comics" %}

@@ -6,6 +6,10 @@
   height: 500px;
   position: relative;
 
+  &.headliner-empty{
+    height: $logo-height;
+  }
+
   img{
     position: absolute;
     top: 50%;
@@ -17,7 +21,158 @@
   }
 }
 
-article.post{
+main{
+  &.comics{
+    .logo-top{
+      svg{ 
+        filter: drop-shadow(-1px 0px 0px lighten($comics-color, 20%)) drop-shadow(-2px 0px 0px lighten($comics-color, 20%)) drop-shadow(-3px 0px 0px lighten($comics-color, 20%));
+
+        .chunk{ 
+          fill: darken($comics-color, 30%);
+        }
+      }
+    }
+
+    .title-background-bar{
+        background-color: $comics-color;
+    }
+
+    .headliner-empty{
+      background-color: lighten($comics-color, 10%);
+    }
+
+    .post-content{
+      .wrap{
+        &.tags{
+          background-color: lighten($comics-color, 10%);
+
+          .tag{
+            &:hover{
+              color: darken($comics-color, 10%);
+            }
+          }
+        }
+
+        &.related{
+          background-color: darken($comics-color, 33%);
+        }
+      }
+    }
+  }
+
+  &.articles{
+    .logo-top{
+      svg{ 
+        filter: drop-shadow(-1px 0px 0px lighten($articles-color, 20%)) drop-shadow(-2px 0px 0px lighten($articles-color, 20%)) drop-shadow(-3px 0px 0px lighten($articles-color, 20%));
+
+        .chunk{ 
+          fill: darken($articles-color, 30%);
+        }
+      }
+    }
+
+    .title-background-bar{
+      background-color: $articles-color;
+    }
+
+    .headliner-empty{
+      background-color: lighten($articles-color, 10%);
+    }
+
+    .post-content{
+      .wrap{
+        &.tags{
+          background-color: lighten($articles-color, 10%);
+
+          .tag{
+            &:hover{
+              color: darken($articles-color, 10%);
+            }
+          }
+        }
+
+        &.related{
+          background-color: darken($articles-color, 33%);
+        }
+      }
+    }
+  }
+
+  &.videos{
+    .logo-top{
+      svg{ 
+        filter: drop-shadow(-1px 0px 0px lighten($videos-color, 20%)) drop-shadow(-2px 0px 0px lighten($videos-color, 20%)) drop-shadow(-3px 0px 0px lighten($videos-color, 20%));
+
+        .chunk{ 
+          fill: darken($videos-color, 30%);
+        }
+      }
+    }
+
+    .title-background-bar{
+      background-color: $videos-color;
+    }
+
+    .headliner-empty{
+      background-color: lighten($videos-color, 10%);
+    }
+
+    .post-content{
+      .wrap{
+        &.tags{
+          background-color: lighten($videos-color, 10%);
+
+          .tag{
+            &:hover{
+              color: darken($videos-color, 10%);
+            }
+          }
+        }
+
+        &.related{
+          background-color: darken($videos-color, 33%);
+        }
+      }
+    }
+  }
+
+  &.junk{
+    .logo-top{
+      svg{ 
+        filter: drop-shadow(-1px 0px 0px lighten($junk-color, 20%)) drop-shadow(-2px 0px 0px lighten($junk-color, 20%)) drop-shadow(-3px 0px 0px lighten($junk-color, 20%));
+
+        .chunk{ 
+          fill: darken($junk-color, 30%);
+        }
+      }
+    }
+
+    .title-background-bar{
+      background-color: $junk-color;
+    }
+
+    .headliner-empty{
+      background-color: lighten($junk-color, 10%);
+    }
+
+    .post-content{
+      .wrap{
+        &.tags{
+          background-color: lighten($junk-color, 10%);
+
+          .tag{
+            &:hover{
+              color: darken($junk-color, 10%);
+            }
+          }
+        }
+
+        &.related{
+          background-color: darken($junk-color, 33%);
+        }
+      }
+    }
+  }
 
   .content-wrap{
     margin-top: 20px;
@@ -47,12 +202,9 @@ article.post{
   z-index: 2;
 }
 
-
-
 .title-background-bar{
   width: 100%;
   margin: 0;
-  background-color: #333;
   position: relative;
 
   .title-wrap{
