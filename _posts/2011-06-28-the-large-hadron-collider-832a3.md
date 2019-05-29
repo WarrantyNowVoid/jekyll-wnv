@@ -2,7 +2,7 @@
 layout: post
 guid: 832a3
 published: true
-date: 2011-06-28 01:33:31 -0400
+date: 2019-05-27 01:33:31 -0400
 author: pope
 title: "The Large Hadron Collider"
 tagline: "Today\'s topic is the Large Hardon, er, Hadron Collider, a bold choice given that none of us know anything about particle accelerators. To those of you who do, feel free to angrily comment on any mistakes you notice. I assure you that we\'ll take them super seriously. I\'d also like to take this opportunity to apologize in advance to Switzerland for some of the things we said. "

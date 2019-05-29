@@ -108,14 +108,21 @@ section.newest-feature{
         width: 100%;
         height: 100%;
         padding: 20px;
-        padding-top: 50px;
         position: absolute;
         top: 0;
         left: 0;
         z-index: 4;
 
+        span.feature-badge{
+          font-size: 18px;
+          color: #fff;
+
+          .new-star{
+          }
+        }
+
         h2{
-          font-size: 30px;
+          font-size: 40px;
 
           a{
             color: #fff;
@@ -123,7 +130,11 @@ section.newest-feature{
         }
 
         p{
-          font-size: 16px;
+          font-size: 18px;
+
+          time{
+            margin-left: 10px;
+          }
         }
       }
     }

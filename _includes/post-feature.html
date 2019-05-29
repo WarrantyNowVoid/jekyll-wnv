@@ -29,17 +29,22 @@
               <div class="post-details-holster">
                 <div id="featured-posts-carousel" class="carousel slide">
                   <ol class="carousel-indicators">
-                    <li data-target="#featured-posts-carousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#featured-posts-carousel" data-slide-to="1"></li>
-                    <li data-target="#featured-posts-carousel" data-slide-to="2"></li>
-                    <li data-target="#featured-posts-carousel" data-slide-to="3"></li>
+                    {% for post in featured-posts %}
+                      <li data-target="#featured-posts-carousel" data-slide-to="{{ forloop.index0 }}" class="{% if forloop.first == true %} active{% endif %}"></li>
+                    {% endfor %}
                   </ol>
                   <div class="carousel-inner">
 
                     {% for post in featured-posts %}
+                      {% if post.category != "Junk" %}
+                        {% assign categoryLen = post.category | size | minus: 1 %}
+                        {% assign categoryFriendly = post.category | slice: 0, categoryLen %}
+                      {% else %}
+                        {% assign categoryFriendly = "Junk" %}
+                      {% endif %}
                       <div class="carousel-item{% if forloop.first == true %} active{% endif %}" data-category="{{ post.category || downcase }}">
                         <h2 class="title-font"><a class="stretched-link" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-                        <p><span class="badge badge-primary {{ post.category || downcase }}">{{ post.category }}</span> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
+                        <p><span class="badge badge-primary feature-badge {{ post.category || downcase }}">{% if forloop.first == true %}<i class="new-star fas fa-exclamation-circle"></i> New{% else %}Featured{% endif %} {{ categoryFriendly }}</span> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
                         <p>{{ post.tagline }}</p>
                       </div>
                     {% endfor %}
