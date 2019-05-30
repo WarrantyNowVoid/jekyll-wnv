@@ -14,7 +14,7 @@ For new visitors to the site, introductions may be in order. The WNV family cons
 
 We exist on various social media platforms, despite the fact that we generally find them to be nightmarish at best, so you can hook our content directly into your vein of choice:
 
-<h1>
+<h1 class="display-3">
   <a href="#"><i class="fab fa-twitter-square"></i></a>
   <a href="#"><i class="fab fa-facebook-square"></i></a>
   <a href="#"><i class="fab fa-instagram"></i></a>
@@ -38,4 +38,4 @@ In closing, welcome aboard! We hope that you enjoy your time with us, and while 
 Good luck out there.
 
 Love,
-TODO: signature image here
+![Warranty Now Void signature]({{ site.url }}/assets/img/wnvblob.png)
