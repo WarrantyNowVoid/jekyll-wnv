@@ -4,6 +4,7 @@ description: It's a website. With poop jokes and stuff. Read it. Or don't. I'm n
 baseurl: ""
 url: "https://warrantynowvoid.com"
 
+permalink: /:categories/:year/:month/:day/
 twitter_username: warrantynowvoid
 github_username:  warrantynowvoid
 
