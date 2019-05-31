@@ -5,7 +5,7 @@ published: false
 date: 2013-12-23 11:22:43 -0500
 author: pope
 title: "DOGECoin"
-tagline: ""
+excerpt: ""
 category: Articles
 tags: []
 comments: true 

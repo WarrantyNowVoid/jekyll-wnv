@@ -5,7 +5,7 @@ published: true
 date: 2014-03-27 18:08:58 -0400
 author: pope
 title: "Baby Testing"
-tagline: "It is time for science to abandon our subpar standard of clinical testing on animals and enter the golden era of testing exclusively on human babies. WNV\'s own Admiral Rau provides an insightful and compelling argument backed with pure scientific fact, or something."
+excerpt: "It is time for science to abandon our subpar standard of clinical testing on animals and enter the golden era of testing exclusively on human babies. WNV\'s own Admiral Rau provides an insightful and compelling argument backed with pure scientific fact, or something."
 category: Articles
 tags: ["Baby","science","research","beauty products","vanity","checkmate Johnson & Johnson","insulting babies","Gorillas are like super hairy","modest proposals","we really just wanted an excuse to use beardbaby.jpg"]
 comments: true 

@@ -5,7 +5,7 @@ published: true
 date: 2014-06-12 15:07:27 -0400
 author: pope
 title: "WNV Hands On: iOS 8 and OS X Yosemite Betas"
-tagline: "It\'s been more than a full week since Apple announced the newest versions of its phone and tablet OS, iOS 8, and its desktop and laptop OS, OS X 10.10 Yosemite. We\'ve been using the first available betas non-stop since then, and we\'re here to show you some of the new features that were overlooked in the keynote demos."
+excerpt: "It\'s been more than a full week since Apple announced the newest versions of its phone and tablet OS, iOS 8, and its desktop and laptop OS, OS X 10.10 Yosemite. We\'ve been using the first available betas non-stop since then, and we\'re here to show you some of the new features that were overlooked in the keynote demos."
 category: Articles
 tags: ["PFFFFT NERD","Apple","iOS","OS X","iPhone","Mac","computers","Steve Jobs","Sega","video games","Rectal ID","colonic obliteration"]
 comments: true 

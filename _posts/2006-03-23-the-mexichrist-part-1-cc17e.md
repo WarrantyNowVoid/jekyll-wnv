@@ -5,7 +5,7 @@ published: true
 date: 2006-03-23 01:01:01 -0500
 author: pope
 title: "The Mexichrist, part 1"
-tagline: "In an unheard of twist of fate, a politician once said something ridiculous. WNV pounced on this opportunity with our usual zeal: a couple of really half-assed comics in a series that makes no sense."
+excerpt: "In an unheard of twist of fate, a politician once said something ridiculous. WNV pounced on this opportunity with our usual zeal: a couple of really half-assed comics in a series that makes no sense."
 category: Comics
 tags: ["classic wnv","racist","Mexichrist","politics"]
 comments: true 

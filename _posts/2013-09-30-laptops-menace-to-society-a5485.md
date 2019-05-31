@@ -5,7 +5,7 @@ published: true
 date: 2013-09-30 14:44:18 -0400
 author: pope
 title: "Laptops: Menace to Society"
-tagline: "Computers are everywhere these days, and it seems almost everyone has a laptop that they carry around with them. Today, Pope tries to educate these people about the horrific danger into which they are regularly placing themselves and those around them by not understanding the inner workings of these devices. "
+excerpt: "Computers are everywhere these days, and it seems almost everyone has a laptop that they carry around with them. Today, Pope tries to educate these people about the horrific danger into which they are regularly placing themselves and those around them by not understanding the inner workings of these devices. "
 category: Articles
 tags: ["computers","PFFFFT NERD","science","fire","Computer Science","things with molten cores","PSA"]
 comments: true 

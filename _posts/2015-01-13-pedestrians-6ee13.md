@@ -5,7 +5,7 @@ published: true
 date: 2015-01-13 14:59:29 -0500
 author: pope
 title: "Pedestrians"
-tagline: "Listen, we all have to share the same sidewalk, so maybe it\'s time you monsters learned a thing or two about why you\'re all literally the worst people to have ever existed."
+excerpt: "Listen, we all have to share the same sidewalk, so maybe it\'s time you monsters learned a thing or two about why you\'re all literally the worst people to have ever existed."
 category: Comics
 tags: ["graph jokes","pedestrians","war criminals","rage","rant","graph rant","people we all hate","people who annoy you","people are stupid","curb stomping people for inappropriate reasons"]
 comments: true 

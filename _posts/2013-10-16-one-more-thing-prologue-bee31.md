@@ -5,7 +5,7 @@ published: true
 date: 2013-10-16 12:44:22 -0400
 author: pope
 title: "One More Thing: Prologue"
-tagline: "WNV takes a new direction today with the launch of our newest series: One More Thing, a long-running and mysterious story written as one chapter per post. Hold onto your butts; things are about to get reeeeal uncomfortable."
+excerpt: "WNV takes a new direction today with the launch of our newest series: One More Thing, a long-running and mysterious story written as one chapter per post. Hold onto your butts; things are about to get reeeeal uncomfortable."
 category: Articles
 tags: ["One More Thing","Apple","Steve Jobs","uncomfortable","absolutely nothing about this is okay","iPhone","technology"]
 comments: true 

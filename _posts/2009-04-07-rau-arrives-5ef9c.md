@@ -5,7 +5,7 @@ published: true
 date: 2009-04-07 01:01:01 -0400
 author: pope
 title: "Rau Arrives"
-tagline: "Meanwhile, at the Warranty Now Void offices, inexplicably in the John Hancock Tower, a new threat arrives..."
+excerpt: "Meanwhile, at the Warranty Now Void offices, inexplicably in the John Hancock Tower, a new threat arrives..."
 category: Comics
 tags: ["classic wnv","Admiral Rau","pirates","Boston"]
 comments: true 

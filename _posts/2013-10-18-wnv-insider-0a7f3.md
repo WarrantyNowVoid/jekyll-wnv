@@ -5,7 +5,7 @@ published: true
 date: 2013-10-18 12:37:37 -0400
 author: scawt
 title: "WNV: Insider"
-tagline: "Today we take a look behind the WNV curtain and see how the metaphorical (and occasionally literal) sausage is made. If you\'ve ever wondered what fanciful adventures of literary and cultural discovery we go on to create content for this website, then buckle up: this one\'s gonna be underwhelming. "
+excerpt: "Today we take a look behind the WNV curtain and see how the metaphorical (and occasionally literal) sausage is made. If you\'ve ever wondered what fanciful adventures of literary and cultural discovery we go on to create content for this website, then buckle up: this one\'s gonna be underwhelming. "
 category: Articles
 tags: ["assholery","how are any of us still employed?","things that will fuck shit up","WNV","sorry","How It's Made","often sticky"]
 comments: true 

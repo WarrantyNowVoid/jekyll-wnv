@@ -5,7 +5,7 @@ published: true
 date: 2013-09-18 11:36:33 -0400
 author: scawt
 title: "A Feline Coalition"
-tagline: "The cats in my neighborhood have been exhibiting somewhat spooky behavior of late. "
+excerpt: "The cats in my neighborhood have been exhibiting somewhat spooky behavior of late. "
 category: Articles
 tags: ["Spooky Behavior","cats are going to kill us all someday","cats","Apex Predators","Letters From Scott","That thing about Tylenol is true though","Don't murder any cats","PFFFFT NERD","'Tree!' Shouting Larry"]
 comments: true 

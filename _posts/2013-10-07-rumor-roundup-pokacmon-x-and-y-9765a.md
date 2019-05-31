@@ -5,7 +5,7 @@ published: true
 date: 2013-10-07 14:18:19 -0400
 author: scawt
 title: "Rumor Roundup: PokÃ©mon X and Y"
-tagline: "We\'ve got the hot, fresh news on the latest installments in Nintendo\'s wildly successful PokÃ©mon franchise; read on to get the latest on the highly anticipated game before its October 12th release!"
+excerpt: "We\'ve got the hot, fresh news on the latest installments in Nintendo\'s wildly successful PokÃ©mon franchise; read on to get the latest on the highly anticipated game before its October 12th release!"
 category: Articles
 tags: ["Pokemon","Nintendo","video games","Rated D for Disturbing","Today I learned a new word for orgy","HARDEN"]
 comments: true 

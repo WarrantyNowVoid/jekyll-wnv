@@ -5,7 +5,7 @@ published: true
 date: 2015-03-19 13:01:01 -0400
 author: pope
 title: "Another Letter to Editor by Vladimir Putin"
-tagline: "Dear Comrades, I am Vladimir Vladimirovich Putin, greatest all-powerful democratic ruler of greatest Mother Russia.Western news media has made much story of recent Putin absence from public appearance for ten days. Putin now explain this."
+excerpt: "Dear Comrades, I am Vladimir Vladimirovich Putin, greatest all-powerful democratic ruler of greatest Mother Russia.Western news media has made much story of recent Putin absence from public appearance for ten days. Putin now explain this."
 category: Articles
 tags: ["Putin","Russia","bears","bear arms","James Bond","vodka","Western propaganda","distinguishing movies from reality"]
 comments: true 

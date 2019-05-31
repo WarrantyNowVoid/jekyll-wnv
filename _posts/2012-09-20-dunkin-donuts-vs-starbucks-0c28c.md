@@ -5,7 +5,7 @@ published: true
 date: 2012-09-20 02:36:28 -0400
 author: pope
 title: "Dunkin' Donuts vs. Starbucks"
-tagline: "Hey, do you guys remember those old Mac vs PC commercials? You know, the ones where Macs are represented by a hip young trendsetter, and PCs are championed by John Hodgman, inadvertently making them the more appealing of the two options? This review has nothing to do with that. No, today\'s topic is another famous brand rivalry. "
+excerpt: "Hey, do you guys remember those old Mac vs PC commercials? You know, the ones where Macs are represented by a hip young trendsetter, and PCs are championed by John Hodgman, inadvertently making them the more appealing of the two options? This review has nothing to do with that. No, today\'s topic is another famous brand rivalry. "
 category: Articles
 tags: ["people are stupid","rant","hipsters","vibrating pogo stick","Dunkin' Donuts","Starbucks","coffee","wicked dingah","jorts","fixed-speed","advice for alien conquerors","thick-rimmed glasses","no fat soy latte","fannybandits","sugar"]
 comments: true 

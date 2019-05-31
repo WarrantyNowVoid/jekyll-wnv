@@ -5,7 +5,7 @@ published: true
 date: 2011-07-13 12:11:36 -0400
 author: pope
 title: "Circle Jerks"
-tagline: "Google+ is a social network bringing some powerful competition to Facebook. It allows you to organize your friends into Circles and lets you decide what circles can see what content. This is our interpretation of that concept.
+excerpt: "Google+ is a social network bringing some powerful competition to Facebook. It allows you to organize your friends into Circles and lets you decide what circles can see what content. This is our interpretation of that concept.
 
 I think we fucked up."
 category: Videos

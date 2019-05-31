@@ -5,7 +5,7 @@ published: true
 date: 2014-01-14 12:26:42 -0500
 author: admiral
 title: "Drowning: A Tale of Survival"
-tagline: "In our continuing series on modes of death, our effort to keep you safe and healthy, we bring you an in-depth look at Drowning, the silent killer. Well, silent except for all the screaming and splashing, I guess. If you could keep it down out there, we\'re trying to write here. "
+excerpt: "In our continuing series on modes of death, our effort to keep you safe and healthy, we bring you an in-depth look at Drowning, the silent killer. Well, silent except for all the screaming and splashing, I guess. If you could keep it down out there, we\'re trying to write here. "
 category: Articles
 tags: ["drowning","science","Africa","gross","river of poo","water","too much of a good thing","death","PSA","walken","poorly concealed erections","bears","precious frozen pizza","a total lack of respect for the dead"]
 comments: true 

@@ -5,7 +5,7 @@ published: true
 date: 2006-04-02 01:01:01 -0500
 author: pope
 title: "Your Tax Dollars At Work"
-tagline: "This isn\'t a joke, they actually did this. Well, the first part at least. In 2009 NASA crashed a rocket into the Moon in order to kick up dust and look for water. We felt that this was a perfectly legitimate strategy and honestly think it has much wider application."
+excerpt: "This isn\'t a joke, they actually did this. Well, the first part at least. In 2009 NASA crashed a rocket into the Moon in order to kick up dust and look for water. We felt that this was a perfectly legitimate strategy and honestly think it has much wider application."
 category: Comics
 tags: ["classic wnv","science","NASA","moon dust","rockets"]
 comments: true 

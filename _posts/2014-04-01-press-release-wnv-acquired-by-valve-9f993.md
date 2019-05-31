@@ -5,7 +5,7 @@ published: true
 date: 2014-04-01 03:01:60 -0400
 author: pope
 title: "Press Release: WNV Acquired by Valve"
-tagline: "Valve Corporation today announced that it has reached a definitive agreement to acquire Warranty Now Void for a total of approximately 1.4 billion. This includes 900 million in GabenBucks and 503.1 Dinosaur-Shaped chicken nuggets. "
+excerpt: "Valve Corporation today announced that it has reached a definitive agreement to acquire Warranty Now Void for a total of approximately 1.4 billion. This includes 900 million in GabenBucks and 503.1 Dinosaur-Shaped chicken nuggets. "
 category: Junk
 tags: ["PFFFFT NERD","serious business","WNV","Press Release","video games","Valve","Gaben","acquired as balls","this is completely real"]
 comments: true 

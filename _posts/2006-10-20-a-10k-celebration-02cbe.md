@@ -5,7 +5,7 @@ published: true
 date: 2006-10-20 01:01:01 -0400
 author: pope
 title: "A 10k Celebration"
-tagline: "While this may be the fourth, or seventeenth, or whatever-th iteration of WNV, we still maintain celebrations of previous milestones for our own posterity. To those who gave us our first ten thousand hits, we thank you. And we also apologize for this. And everything, really. "
+excerpt: "While this may be the fourth, or seventeenth, or whatever-th iteration of WNV, we still maintain celebrations of previous milestones for our own posterity. To those who gave us our first ten thousand hits, we thank you. And we also apologize for this. And everything, really. "
 category: Comics
 tags: ["classic wnv","milestone","10k hits","Hector","Pope's butt"]
 comments: true 

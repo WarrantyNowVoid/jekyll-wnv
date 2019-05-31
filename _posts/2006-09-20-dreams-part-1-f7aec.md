@@ -5,7 +5,7 @@ published: true
 date: 2006-09-20 01:01:01 -0400
 author: pope
 title: "Dreams, part 1"
-tagline: "One night, long ago, Pope had some elaborate dreams about the people he saw every day. The dreams made very little sense to anyone with any remaining spark of sanity, but he did his best to transcribe them into the art you see today."
+excerpt: "One night, long ago, Pope had some elaborate dreams about the people he saw every day. The dreams made very little sense to anyone with any remaining spark of sanity, but he did his best to transcribe them into the art you see today."
 category: Comics
 tags: ["classic wnv","SLI","PFFFFT NERD","farm equipment mishaps","dreams","ow"]
 comments: true 

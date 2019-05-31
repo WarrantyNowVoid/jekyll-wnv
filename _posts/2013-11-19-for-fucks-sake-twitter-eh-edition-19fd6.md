@@ -5,7 +5,7 @@ published: true
 date: 2013-11-19 12:19:07 -0500
 author: pope
 title: "For Fuck's Sake, Twitter: Eh? Edition"
-tagline: "Hey guys did you hear about Rob Ford, the crack-smoking, drunk-driving Mayor of Toronto? Well, unfortunately for us all, Twitter definitely has, and as always, they hold only the most interesting of opinions about him and the future of his career."
+excerpt: "Hey guys did you hear about Rob Ford, the crack-smoking, drunk-driving Mayor of Toronto? Well, unfortunately for us all, Twitter definitely has, and as always, they hold only the most interesting of opinions about him and the future of his career."
 category: Articles
 tags: ["politics","Canada","Toronto","crack","FFS Twitter","democracy in action","drugs","reality tv","What A Fucking Workout","everything's okay if you're drunk!","drinking","booze","cocaine","government","Rob Ford","people are stupid"]
 comments: true 

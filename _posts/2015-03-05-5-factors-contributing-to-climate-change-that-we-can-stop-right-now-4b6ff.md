@@ -5,7 +5,7 @@ published: true
 date: 2015-03-05 13:01:01 -0500
 author: pope
 title: "5 Factors Contributing to Climate Change That We Can Stop Right Now"
-tagline: "Climate change is real. Science has proven it. And we know exactly how to make a huge difference, right now. We need to kill your mother and launch her into the sun."
+excerpt: "Climate change is real. Science has proven it. And we know exactly how to make a huge difference, right now. We need to kill your mother and launch her into the sun."
 category: Articles
 tags: ["yo momma","science","black holes","bursting into snacks","ASSPOCALYPSE 2014","gaseous anomalies"]
 comments: true 

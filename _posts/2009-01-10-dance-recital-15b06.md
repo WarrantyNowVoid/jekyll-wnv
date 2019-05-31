@@ -5,7 +5,7 @@ published: true
 date: 2009-01-10 01:01:01 -0500
 author: pope
 title: "Dance Recital"
-tagline: "Living with roommates can sometimes be challenging. This comic attempts to illustrate one of the many frictional moments that can occur when friends live together. My advice: never share a DVD player."
+excerpt: "Living with roommates can sometimes be challenging. This comic attempts to illustrate one of the many frictional moments that can occur when friends live together. My advice: never share a DVD player."
 category: Comics
 tags: ["classic wnv","gross","porn","offensive to pretty much every community really"]
 comments: true 

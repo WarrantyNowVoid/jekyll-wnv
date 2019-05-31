@@ -5,7 +5,7 @@ published: true
 date: 2013-10-09 15:43:02 -0400
 author: pope
 title: "For Fuck's Sake, Twitter: E Pluribus Unum Edition"
-tagline: "The US Government has been shut down after Congress was unable to reach an agreement on the 2014 federal budget. A number of Twitter users, as always, have some very important and insightful things to say about this. And I have some less than pleasant things to say about them."
+excerpt: "The US Government has been shut down after Congress was unable to reach an agreement on the 2014 federal budget. A number of Twitter users, as always, have some very important and insightful things to say about this. And I have some less than pleasant things to say about them."
 category: Articles
 tags: ["government","United States","Government Shutdown","Boehner lol","thanks Obama","FFS Twitter"]
 comments: true 

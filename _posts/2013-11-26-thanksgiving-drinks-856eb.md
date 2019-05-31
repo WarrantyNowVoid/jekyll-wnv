@@ -5,7 +5,7 @@ published: true
 date: 2013-11-26 12:39:58 -0500
 author: pope
 title: "Thanksgiving Drinks"
-tagline: "The holiday season is in full swing here at WNV, and we were hoping to share a little of our spirit with all of you. Spirits, more accurately. Here are a few of our favorite thanksgiving drinks to help you get weird this year."
+excerpt: "The holiday season is in full swing here at WNV, and we were hoping to share a little of our spirit with all of you. Spirits, more accurately. Here are a few of our favorite thanksgiving drinks to help you get weird this year."
 category: Articles
 tags: ["Thanksgiving","holidays","family","booze","drinking","whiskey","Native Americans","Pilgrims","turkey","I wouldn't eat that turkey if I were you","crack"]
 comments: true 

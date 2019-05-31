@@ -5,7 +5,7 @@ published: true
 date: 2013-10-28 14:34:31 -0400
 author: scawt
 title: "The History of Halloween"
-tagline: "Halloween is a tradition that has endured for thousands of years in hundreds of cultures, and that is showing no signs of slowing down. While Christmas is slowly gorging itself on more and more of the year, lets step back and take a look at this spooky, scary custom\'s extensive history."
+excerpt: "Halloween is a tradition that has endured for thousands of years in hundreds of cultures, and that is showing no signs of slowing down. While Christmas is slowly gorging itself on more and more of the year, lets step back and take a look at this spooky, scary custom\'s extensive history."
 category: Articles
 tags: ["Halloween","Spooky Behavior","2spooky4me","history","Mongols","Genghis Khan","World Wars","pirates","Kaiser","my blood sugar hurts","spooky scary skeletons"]
 comments: true 

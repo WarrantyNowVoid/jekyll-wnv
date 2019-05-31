@@ -5,7 +5,7 @@ published: true
 date: 2013-10-02 12:41:28 -0400
 author: scawt
 title: "Liberal Interpretations of Darwinism"
-tagline: "Near my old apartment, there was a comic store that I used to visit for all my low-tech nerding needs. My normal purchases there were generally more towards the Magic cards or D&D end of the spectrum, but recently I stopped in and bought an actual comic book. I do not know how I feel about the experience."
+excerpt: "Near my old apartment, there was a comic store that I used to visit for all my low-tech nerding needs. My normal purchases there were generally more towards the Magic cards or D&D end of the spectrum, but recently I stopped in and bought an actual comic book. I do not know how I feel about the experience."
 category: Articles
 tags: ["Lamarck Rules!","Darwin Can Suck A Dick","More Like Y-Men Am I Right?","Eye SEE what you did there","PFFFFT NERD","comic books","Were-Sharks","X-Men"]
 comments: true 

@@ -5,7 +5,7 @@ published: true
 date: 2015-01-20 13:30:21 -0500
 author: pope
 title: "Boston's 2024 Olympic Events"
-tagline: "The US Olympic Committee has officially named Boston as its host city for the 2024 Summer Olympics bid, and we have worked tirelessly since then to help by compiling a list of events that can be adapted to more closely resemble everyday life in Boston."
+excerpt: "The US Olympic Committee has officially named Boston as its host city for the 2024 Summer Olympics bid, and we have worked tirelessly since then to help by compiling a list of events that can be adapted to more closely resemble everyday life in Boston."
 category: Articles
 tags: ["Olympics","Boston","Boston Olympics","2024 Olympics","Summer Olympics","MBTA","totally accurate information","baseball","green line","Allston Christmas","PBR","beer","booze","Massachusetts","Strawberry Quik"]
 comments: true 

@@ -5,7 +5,7 @@ published: true
 date: 2013-11-14 12:50:45 -0500
 author: scawt
 title: "Asgardian Heroes and Lighting Schemes "
-tagline: "I recently sat down to watch the film Thor: The Dark World. Consequently, I now have opinions regarding Thor: The Dark World."
+excerpt: "I recently sat down to watch the film Thor: The Dark World. Consequently, I now have opinions regarding Thor: The Dark World."
 category: Articles
 tags: ["Thor","This World Could Be Brighter","review","movies","Inconsistent Rating Systems","Spoilers","Muscular Blonde Dudes"]
 comments: true 

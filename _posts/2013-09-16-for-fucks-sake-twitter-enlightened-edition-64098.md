@@ -5,7 +5,7 @@ published: true
 date: 2013-09-16 12:03:47 -0400
 author: pope
 title: "For Fuck's Sake, Twitter: Enlightened Edition"
-tagline: "In a new WNV series, we delve into the world of Twitter. God help us all. In this installment, it takes about 35 seconds of research to find a surprising number of people who don\'t seem to think speaking to the Dalai Lama warrants any special considerations on their part. Like grammar. Or not being a prick."
+excerpt: "In a new WNV series, we delve into the world of Twitter. God help us all. In this installment, it takes about 35 seconds of research to find a surprising number of people who don\'t seem to think speaking to the Dalai Lama warrants any special considerations on their part. Like grammar. Or not being a prick."
 category: Articles
 tags: ["twitter","Dalai Lama","people are stupid","spambots","religion","the horrifically self-unaware","FFS Twitter"]
 comments: true 

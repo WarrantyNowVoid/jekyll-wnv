@@ -5,7 +5,7 @@ published: true
 date: 2011-07-31 19:22:51 -0400
 author: pope
 title: "Why Do Girls Wear These Things?"
-tagline: "Why do girls wear these things? WHY?! I understand that everyone has different taste, but some of the shit girls put on is just plain ridiculous. We have compiled a list of the worst offenses we could think of, in the hopes that educating the masses (that\'s you) will put an end to these disturbing trends, and thereby make the world a better place."
+excerpt: "Why do girls wear these things? WHY?! I understand that everyone has different taste, but some of the shit girls put on is just plain ridiculous. We have compiled a list of the worst offenses we could think of, in the hopes that educating the masses (that\'s you) will put an end to these disturbing trends, and thereby make the world a better place."
 category: Articles
 tags: ["fashion","girls","rant","this was written by a girl we're not misogynists I swear","clothes","Britney Spears","cupcakes","hipsters"]
 comments: true 

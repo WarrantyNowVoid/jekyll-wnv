@@ -5,7 +5,7 @@ published: true
 date: 2015-01-27 13:01:01 -0500
 author: pope
 title: "#SNOWPOCALYPSE2015 Liveblog"
-tagline: "The end is upon is, and WNV will keep you updated until the bitter end. Or until we get too drunk to remember our login passwords. Either way, things are about to get messy in real-time."
+excerpt: "The end is upon is, and WNV will keep you updated until the bitter end. Or until we get too drunk to remember our login passwords. Either way, things are about to get messy in real-time."
 category: Junk
 tags: ["lousy Smarch weather","snow","End of the world","liveblog","weather","Boston","ASSPOCALYPSE 2014","drinking","Snowpocalypse 2015","Snowmageddon","things that will fuck shit up"]
 comments: true 

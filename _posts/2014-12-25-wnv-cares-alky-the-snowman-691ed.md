@@ -5,7 +5,7 @@ published: true
 date: 2014-12-25 21:05:17 -0500
 author: pope
 title: "WNV Cares: Alky the Snowman"
-tagline: "Alky the Snowman was a jolly happy soul,<br />
+excerpt: "Alky the Snowman was a jolly happy soul,<br />
 With a handle of Jack and a thirty rack<br />
 And severe liver damage."
 category: Comics

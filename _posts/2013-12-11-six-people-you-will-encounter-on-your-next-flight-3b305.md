@@ -5,7 +5,7 @@ published: true
 date: 2013-12-11 15:50:34 -0500
 author: pope
 title: "Six People You Will Encounter on Your Next Flight"
-tagline: "The busy holiday travel season is upon us, and many of us are flying from various corners of the world to others. Here as always to help prepare you for the harsh realities around you, WNV takes a look at the types of people every flight is bound to encounter."
+excerpt: "The busy holiday travel season is upon us, and many of us are flying from various corners of the world to others. Here as always to help prepare you for the harsh realities around you, WNV takes a look at the types of people every flight is bound to encounter."
 category: Articles
 tags: ["planes","travel","people are stupid","unanticipated history lessons","flying","people-shaped sacks","based on a true story"]
 comments: true 

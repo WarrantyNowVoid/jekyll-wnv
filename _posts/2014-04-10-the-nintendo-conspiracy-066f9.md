@@ -5,7 +5,7 @@ published: true
 date: 2014-04-10 13:52:20 -0400
 author: pope
 title: "The Nintendo Conspiracy"
-tagline: "This game, much as Doom taught my generation to become blood-thirsty, merciless killers, is instilling the idea that drugs such as mushrooms help you get through life, thanks to the pusher known only as \"Toad\"."
+excerpt: "This game, much as Doom taught my generation to become blood-thirsty, merciless killers, is instilling the idea that drugs such as mushrooms help you get through life, thanks to the pusher known only as \"Toad\"."
 category: Articles
 tags: ["drugs","Nintendo","video games","Mario","Toad","mushrooms","I mean the dude is a talking mushroom what did you expect","Colorado"]
 comments: true 

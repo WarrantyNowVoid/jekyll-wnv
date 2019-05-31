@@ -5,7 +5,7 @@ published: true
 date: 2013-09-27 13:26:24 -0400
 author: cwayne
 title: "Douchebag of the Day: Upstairs Neighbors"
-tagline: "Fish gotta swim, birds gotta fly, upstairs neighbors gotta be fucking assholes. Our new series Douchebag of the Day, brings to light the worst of the worst. Or, just whoever it was that happened to piss us off today."
+excerpt: "Fish gotta swim, birds gotta fly, upstairs neighbors gotta be fucking assholes. Our new series Douchebag of the Day, brings to light the worst of the worst. Or, just whoever it was that happened to piss us off today."
 category: Articles
 tags: ["fuckwads","FENG SHUI","pet elephants","HOW CAN YOU MOVE FURNITURE THAT MANY TIMES","loud upstairs neighbors","shitty music","people who annoy you","Douchebag of the Day"]
 comments: true 

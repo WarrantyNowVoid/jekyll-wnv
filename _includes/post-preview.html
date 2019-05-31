@@ -28,7 +28,7 @@
                     <h5 class="title-font"><a class="stretched-link" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h5>
                     <p><span class="badge badge-primary {{ post.category || downcase }}">{{ post.category }}</span> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
                   </div>
-                  <p>{{ post.tagline }}</p>
+                  <p>{{ post.excerpt }}</p>
                 </div>
               </div>
             </div>

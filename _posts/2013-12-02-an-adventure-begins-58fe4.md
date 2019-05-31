@@ -5,7 +5,7 @@ published: true
 date: 2013-12-02 22:39:49 -0500
 author: scawt
 title: "An Adventure Begins"
-tagline: "Scott embarks on a journey of discovery in this biographical series featuring his good friend Pope. "
+excerpt: "Scott embarks on a journey of discovery in this biographical series featuring his good friend Pope. "
 category: Comics
 tags: ["Pope","Pope's butt","Pope's Memoirs","Scawt","Scawt is a magic man","Big Dave","black holes","things that will fuck shit up","break takes on a more literal meaning in this case","Just Because It Hurts And Nobody Likes It Doesn't Mean We're Not Having A Good Time","I changed my mind about that last tag"]
 comments: true 

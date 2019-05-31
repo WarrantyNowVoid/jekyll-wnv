@@ -5,7 +5,7 @@ published: true
 date: 2013-12-10 13:10:25 -0500
 author: scawt
 title: "Black Friday"
-tagline: "Black Friday has been vilified in the media for the violent, frenzied behavior it induces in the public. Many prominent figures have asked if stores go too far with advertising and deals, creating a \"perfect storm\" scenario. We at WNV have a very different question to on our minds: do they go far enough?"
+excerpt: "Black Friday has been vilified in the media for the violent, frenzied behavior it induces in the public. Many prominent figures have asked if stores go too far with advertising and deals, creating a \"perfect storm\" scenario. We at WNV have a very different question to on our minds: do they go far enough?"
 category: Articles
 tags: ["Savings","bargains","murder","murderbargains","black friday","curb stomping people for inappropriate reasons","frugality","you don't see the extreme couponing people pulling this kind of shit","people are stupid"]
 comments: true 

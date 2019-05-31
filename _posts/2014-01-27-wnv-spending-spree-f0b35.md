@@ -5,7 +5,7 @@ published: false
 date: 2014-01-27 01:17:24 -0500
 author: pope
 title: "WNV Spending Spree"
-tagline: "Project Wonderful somehow managed to get us more than two entire dollars for running ads on our site. OHOHOHO BIG MISTAKE MOTHERFUCKERS."
+excerpt: "Project Wonderful somehow managed to get us more than two entire dollars for running ads on our site. OHOHOHO BIG MISTAKE MOTHERFUCKERS."
 category: Articles
 tags: []
 comments: true 

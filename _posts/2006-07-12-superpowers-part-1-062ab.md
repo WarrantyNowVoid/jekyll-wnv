@@ -5,7 +5,7 @@ published: true
 date: 2006-07-12 01:01:01 -0400
 author: pope
 title: "Superpowers, part 1"
-tagline: "We join our hero at the beginning of his journey, getting a heroic concussion. It\'s a much more efficient method than a radioactive spider, that\'s for sure."
+excerpt: "We join our hero at the beginning of his journey, getting a heroic concussion. It\'s a much more efficient method than a radioactive spider, that\'s for sure."
 category: Comics
 tags: ["classic wnv","Uranium","proper waste disposal","science"]
 comments: true 

@@ -5,7 +5,7 @@ published: true
 date: 2006-12-23 01:01:01 -0500
 author: pope
 title: "Why Scott Lives With Pope"
-tagline: "Today we examine the true motivations for Scott to move all the way to Boston to live with Pope. Is it the bond of friendship? Is it because he\'s on the run from meth dealers? Is it true love? Only one way to find out. Personally, my money\'s on the gay thing."
+excerpt: "Today we examine the true motivations for Scott to move all the way to Boston to live with Pope. Is it the bond of friendship? Is it because he\'s on the run from meth dealers? Is it true love? Only one way to find out. Personally, my money\'s on the gay thing."
 category: Comics
 tags: ["classic wnv","gross","parent-sex","your mom"]
 comments: true 

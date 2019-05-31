@@ -5,7 +5,7 @@ published: false
 date: 2013-10-07 23:09:60 -0400
 author: scawt
 title: "Dungeons and Dragons "
-tagline: "The final version of the D&D Next playtest has been released, and there are a lot of complex mechanics that need to be understood if you want to be ready for the final release next year. This is not going to be a very good source for that particular information."
+excerpt: "The final version of the D&D Next playtest has been released, and there are a lot of complex mechanics that need to be understood if you want to be ready for the final release next year. This is not going to be a very good source for that particular information."
 category: Articles
 tags: []
 comments: true 

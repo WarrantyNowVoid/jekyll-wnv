@@ -5,7 +5,7 @@ published: false
 date: 2014-07-07 17:44:18 -0400
 author: pope
 title: "Actual World Cup Match or Random Collection of Letters and Colors?"
-tagline: "Continuing the grand tradition started by our 2014 Winter Olympics game: Sochi or Fallout?, we bring you our newest game based on the 2014 World Cup. Use your deductive skills to decide whether each matchup is between two actual countries or just some bullshit we made up."
+excerpt: "Continuing the grand tradition started by our 2014 Winter Olympics game: Sochi or Fallout?, we bring you our newest game based on the 2014 World Cup. Use your deductive skills to decide whether each matchup is between two actual countries or just some bullshit we made up."
 category: Junk
 tags: ["World Cup","soccer","sportsball","sports","totally real countries","totally accurate information","video games"]
 comments: true 

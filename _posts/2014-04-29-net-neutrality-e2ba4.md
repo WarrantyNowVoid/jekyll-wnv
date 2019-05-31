@@ -5,7 +5,7 @@ published: true
 date: 2014-04-29 12:43:46 -0400
 author: pope
 title: "Net Neutrality"
-tagline: "H...hello? Is anybody out there? There\'s no way to know if you\'re receiving this, but I\'ve got to try god dammit. The new Net Neutrality laws have already taken effect, and we\'re trapped in here, trapped with no bandwidth, a fate worse than the fires of hell itself. "
+excerpt: "H...hello? Is anybody out there? There\'s no way to know if you\'re receiving this, but I\'ve got to try god dammit. The new Net Neutrality laws have already taken effect, and we\'re trapped in here, trapped with no bandwidth, a fate worse than the fires of hell itself. "
 category: Articles
 tags: ["the Internet","Net Neutrality","the Bachelorette","our favorite TV shows","THURSDAYS JUST GOT A WHOLE LOT STEAMIER!","Unbiased Newsmanship","it feels offensive but I'm not sure to whom","steamy","sexy","flirty","dirty","misleading tags","0 to beastiality in under 6 seconds"]
 comments: true 

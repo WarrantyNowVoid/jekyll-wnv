@@ -5,7 +5,7 @@ published: false
 date: 2013-09-19 01:06:37 -0400
 author: pope
 title: "Beggin' Strips: Is They or Ain't They Bacon?"
-tagline: "This is where we would put a brief intro or teaser type thing of the article to convince people that it\'s cool and they should read it. The container won\'t expand dynamically at all, so these should overall be kept relatively short. Because otherwise the text will overflow down into the tabs below, and my shiny css will actually just truncate it at an awkward point."
+excerpt: "This is where we would put a brief intro or teaser type thing of the article to convince people that it\'s cool and they should read it. The container won\'t expand dynamically at all, so these should overall be kept relatively short. Because otherwise the text will overflow down into the tabs below, and my shiny css will actually just truncate it at an awkward point."
 category: Videos
 tags: ["bacon","dog food"]
 comments: true 
