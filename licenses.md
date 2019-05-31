@@ -22,10 +22,10 @@ All WNV code is licensed under the DBAD license; use it as you see fit, as long 
 <div class="jumbotron">
   <h3>DON'T BE A DICK PUBLIC LICENSE</h3>
 
-  <blockquote>Version 1, December 2009<br />
-    Copyright (C) 2009 Philip Sturgeon <a href="email@philsturgeon.co.uk">email@philsturgeon.co.uk</a></blockquote>
+  <blockquote>Version 1.1, December 2016<br />
+    Copyright (C) 2019 <a href="https://warrantynowvoid.com">WarrantyNowVoid.com</a></blockquote>
    
-  Everyone is permitted to copy and distribute verbatim or modified copies of this license document, and changing it is allowed as long as the name is changed.
+  Everyone is permitted to copy and distribute verbatim or modified copies of this license document.
 
   <blockquote>DON'T BE A DICK PUBLIC LICENSE<br />
   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION</blockquote>
@@ -34,17 +34,16 @@ All WNV code is licensed under the DBAD license; use it as you see fit, as long 
     <li>Do whatever you like with the original work, just don't be a dick.<br />
       Being a dick includes - but is not limited to - the following instances:
       <ol>
-        <li>Outright copyright infringement - Don't just copy this and change the name. </li>
+        <li>Outright copyright infringement - Don't just copy the original work/works and change the name. </li>
         <li>Selling the unmodified original with no work done what-so-ever, that's REALLY being a dick.  </li>
         <li>Modifying the original work to contain hidden harmful content. That would make you a PROPER dick. </li>
       </ol>
     </li>
 
     <li>If you become rich through modifications, related works/services, or supporting the original work,
-   share the love. Only a dick would make loads off this work and not buy the original works 
+   share the love. Only a dick would make loads off this work and not buy the original work's 
    creator(s) a pint.</li>
    
-    <li>Code is provided with no warranty. Using somebody else's code and bitching when it goes wrong makes 
-   you a DONKEY dick. Fix the problem yourself. A non-dick would submit the fix back.</li>
+    <li>Code is provided with no warranty. Using somebody else's code and bitching when it goes wrong makes you a DONKEY dick. Fix the problem yourself. A non-dick would submit the fix back or submit a <a href="https://www.chiark.greenend.org.uk/~sgtatham/bugs.html" target="_blank">bug report</a></li>
   </ol>
 </div>
