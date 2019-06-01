@@ -11,7 +11,8 @@
     <link rel="shortcut icon" href="{{ site.url }}/assets/ico/favicon.ico">
     <link rel="manifest" href="{{ site.url }}/site.webmanifest">
     <link rel="mask-icon" href="{{ site.url }}/assets/ico/icon.svg" color="#400137">
-    <meta name="msapplication-TileColor" content="#400137">
+    <meta name="application-name" content="Warranty Now Void" />
+    <meta name="msapplication-config" content="browserconfig.xml" />
     <meta name="theme-color" content="#400137">
 
     {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
