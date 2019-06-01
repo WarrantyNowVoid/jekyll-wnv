@@ -19,7 +19,7 @@
     <atom:link href="{{ site.url }}/{{ page.path }}" rel="self" type="application/rss+xml" />
 
     <image>
-      <url>{{ site.url }}/assets/ico/icon-144.jpg</url>
+      <url>{{ site.url }}/assets/ico/icon-144.png</url>
       <title>{{ site.title }}</title>
       <link>{{ site.url }}</link>
       <width>144</width>
@@ -27,8 +27,8 @@
     </image> 
 
     <webfeeds:cover image="{{ site.url }}/assets/img/trimangle.jpg" />
-    <webfeeds:icon>{{ site.url }}/assets/ico/icon-1024.jpg</webfeeds:icon>
-    <webfeeds:logo>{{ site.url }}/assets/ico/icon.svg</webfeeds:logo>
+    <webfeeds:icon>{{ site.url }}/assets/ico/icon-1024.png</webfeeds:icon>
+    <webfeeds:logo>{{ site.url }}/assets/ico/icon-512.png</webfeeds:logo>
     <webfeeds:accentColor>400137</webfeeds:accentColor>
     <webfeeds:related layout="card" target="browser" />
 
