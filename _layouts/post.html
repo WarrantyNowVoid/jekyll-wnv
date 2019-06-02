@@ -27,10 +27,10 @@
 
   </head>
 
-  <body>
-    <main class="{{ page.category | downcase }}">
-      {% include sidebar.html %}
-      <section class="main-content">
+  <body class="{{ page.category | downcase }}">
+    {% include sidebar.html %}
+    <div class="main-content">
+      <main>
         <article class="post">
           {% include post-header.html %}
 
@@ -47,38 +47,38 @@
             {{ content }}        
           </div>
         </article>
+      </main>
 
-        <div class="post-content">
-          <div class="wrap tags background-color-vibrant">
-            <div class="container" role="complementary" aria-labelledby="tags-title">
-              <div class="row">
-                <div class="col-1">
-                  <h4 id="tags-title">Tags</h4>
-                </div>
-                <div class="col-11">
-                  {% for tag in page.tags %}
-                    <a href="#" class="tag badge badge-primary color-dark hover-background-muted hover-color-vibrant"><i class="fas fa-tag"></i> {{ tag }}</a>
-                  {% endfor %}
-                </div>
+      <div class="post-content">
+        <div class="wrap tags background-color-vibrant">
+          <aside class="container" role="complementary" aria-labelledby="tags-title">
+            <div class="row">
+              <div class="col-1">
+                <h4 id="tags-title">Tags</h4>
+              </div>
+              <div class="col-11">
+                {% for tag in page.tags %}
+                  <a href="#" class="tag badge badge-primary color-dark hover-background-muted hover-color-vibrant"><i class="fas fa-tag"></i> {{ tag }}</a>
+                {% endfor %}
               </div>
             </div>
-          </div>
-          <div class="wrap related background-color-dark">
-            <div class="container clearfix" role="complementary" aria-labelledby="related-title">
-              <h4 id="related-title">Related Posts</h4>
-              {% for post in site.posts limit:6 %}
-                
-                {% include post-preview.html %}
-
-              {% endfor %}
-            </div>
-          </div>
+          </aside>
         </div>
+        <div class="wrap related background-color-dark">
+          <aside class="container clearfix" role="complementary" aria-labelledby="related-title">
+            <h4 id="related-title">Related Posts</h4>
+            {% for post in site.posts limit:6 %}
+              
+              {% include post-preview.html %}
 
-        <footer>
-          {% include footer.html %}
-        </footer>
-      </section>
-    </main>
+            {% endfor %}
+          </aside>
+        </div>
+      </div>
+
+      <footer>
+        {% include footer.html %}
+      </footer>
+    </div>
   </body>
 </html>
