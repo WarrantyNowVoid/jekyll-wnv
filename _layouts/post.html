@@ -40,16 +40,15 @@
               <img class="feature" src="{{ page.image.feature }}" srcset="{{ retinaFeature }} 2x" title="{{ page.image.imageHover }}" />
             {% endif %}
 
-            {% if page.category == "Comics" %}
-              {% include comic-nav.html %}
-            {% endif %}
-
             {{ content }}        
           </div>
         </article>
-      </main>
+      </main>      
 
       <div class="post-after">
+        {% if page.category == "Comics" %}
+          {% include comic-nav.html %}
+        {% endif %}
         <div class="wrap tags background-color-vibrant">
           <aside class="container" role="complementary" aria-labelledby="tags-title">
             <div class="row">

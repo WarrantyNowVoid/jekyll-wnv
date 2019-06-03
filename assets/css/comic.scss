@@ -126,38 +126,39 @@ article.post{
     margin-top: 35px;
     min-width: 800px;
   }
+}
 
-  .comic-sub{
-    font-size: 28px;
-    margin-top:10px;
-    max-width: 800px;
+.comic-sub{
+  font-size: 28px;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  width: 800px;
 
+  a{
+    color: #333;
+
+    &:hover{
+      text-decoration: none;
+      transition-property: color;
+      transition-duration: 0.3s;
+      color: #c0c0c0;
+    }
+  }
+
+  .comic-nav{
     a{
-      color: #333;
-
-      &:hover{
-        text-decoration: none;
-        transition-property: color;
-        transition-duration: 0.3s;
-        color: #c0c0c0;
-      }
+      margin-right: 5px;
+      transition-property: color;
+      transition-duration: 0.3s;
     }
 
-    .comic-nav{
-      a{
-        margin-right: 5px;
-        transition-property: color;
-        transition-duration: 0.3s;
-      }
-
-      &.comic-nav-right{
-        text-align: right;
-      }
+    &.comic-nav-right{
+      text-align: right;
     }
+  }
 
-    .share-links{
-      text-align: center;
-      font-size: 35px;
-    }
+  .share-links{
+    text-align: center;
+    font-size: 35px;
   }
 }
