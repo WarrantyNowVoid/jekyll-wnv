@@ -29,7 +29,7 @@
 
   <body class="{{ page.category | downcase }}">
     {% include sidebar.html %}
-    <div class="main-content">
+    <div class="page-wrapper">
       <main>
         <article class="post">
           {% include post-header.html %}
@@ -49,7 +49,7 @@
         </article>
       </main>
 
-      <div class="post-content">
+      <div class="post-after">
         <div class="wrap tags background-color-vibrant">
           <aside class="container" role="complementary" aria-labelledby="tags-title">
             <div class="row">

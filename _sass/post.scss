@@ -41,7 +41,7 @@ body{
       background-color: lighten($comics-color, 10%);
     }
 
-    .post-content{
+    .post-after{
       .wrap{
         &.tags{
           background-color: lighten($comics-color, 10%);
@@ -79,7 +79,7 @@ body{
       background-color: lighten($articles-color, 10%);
     }
 
-    .post-content{
+    .post-after{
       .wrap{
         &.tags{
           background-color: lighten($articles-color, 10%);
@@ -117,7 +117,7 @@ body{
       background-color: lighten($videos-color, 10%);
     }
 
-    .post-content{
+    .post-after{
       .wrap{
         &.tags{
           background-color: lighten($videos-color, 10%);
@@ -155,7 +155,7 @@ body{
       background-color: lighten($junk-color, 10%);
     }
 
-    .post-content{
+    .post-after{
       .wrap{
         &.tags{
           background-color: lighten($junk-color, 10%);
@@ -260,7 +260,7 @@ body{
   }
 }
 
-.post-content{
+.post-after{
   color: #fff;
 
   a{
