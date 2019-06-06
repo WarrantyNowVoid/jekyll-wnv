@@ -81,12 +81,12 @@ $(document).ready(function(){
       $('.logo-top .wnv-icon').addClass('flip-away');
       $('.logo-top svg.sidebar-close-button').css('transform', transformString);
       $('div.sidebar').addClass('sidebar-active');
-      $('div.main-content').addClass('sidebar-active');
+      $('div.page-wrapper').addClass('sidebar-active');
     }else{
       $('.logo-top .wnv-icon').removeClass('flip-away');
       $('.logo-top svg.sidebar-close-button').css('transform', '');
       $('div.sidebar').removeClass('sidebar-active');
-      $('div.main-content').removeClass('sidebar-active');
+      $('div.page-wrapper').removeClass('sidebar-active');
     }
   });
 

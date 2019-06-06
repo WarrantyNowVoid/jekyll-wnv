@@ -5,7 +5,7 @@ sitemap: false
 @import "common";
 @import "sidebar";
 
-div.main-content{
+div.page-wrapper{
   margin-left: $sidebar-width;
 }
 
