@@ -24,13 +24,13 @@ $(document).ready(function(){
 
   // init poopbutton
   if(typeof startPooping === "function"){
-    $('#thePoopButton').click(function(eo){
+    $('a.thePoopButton').click(function(eo){
       eo.stopPropagation();
       eo.preventDefault();
       startPooping();
     });
   }else{
-    if($('#thePoopButton').length > 0){
+    if($('a.thePoopButton').length > 0){
       console.warn('Poop Button exists but poopguy.js not loaded, possibly wrong include order?');
     }
   }
