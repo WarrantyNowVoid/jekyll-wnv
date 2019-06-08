@@ -1,5 +1,5 @@
-                <a class="share-link color-dark hover-color-vibrant" href="#"><i class="fab fa-twitter"></i></a>
-                <a class="share-link color-dark hover-color-vibrant" href="#"><i class="fab fa-reddit"></i></a>
-                <a class="share-link color-dark hover-color-vibrant" href="#"><i class="fab fa-facebook"></i></a>
-                <a class="share-link color-dark hover-color-vibrant" href="#"><i class="fab fa-tumblr"></i></a>
-                <a class="share-link color-dark hover-color-vibrant" href="#"><i class="fas fa-share"></i></a>
+                <a class="share-link color-dark hover-color-vibrant" title="Share this page on Twitter" href="https://twitter.com/intent/tweet?url={{ canonical || url_encode }}" data-via="{{ site.twitter_username }}"><i class="fab fa-twitter"></i></a>
+                <a class="share-link color-dark hover-color-vibrant" title="Share this page on Reddit" href="http://www.reddit.com/submit?url={{ canonical | url_encode }}&title={% if page.title %}{{ page.title | url_encode }}{% else %}{{ site.title | url_encode }}{% endif %}"><i class="fab fa-reddit"></i></a>
+                <a class="share-link color-dark hover-color-vibrant" title="Share this page on Facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ canonical || url_encode }}"><i class="fab fa-facebook"></i></a>
+                <a class="share-link color-dark hover-color-vibrant" title="Share this page on Tumblr" href="http://tumblr.com/widgets/share/tool?canonicalUrl={{ canonical || url_encode }}"><i class="fab fa-tumblr"></i></a>
+                <a id="copyLinkButton" class="share-link color-dark hover-color-vibrant" title="Copy a link to this page onto your clipboard" data-url="{{ canonical }}"><i class="fas fa-share"></i></a>

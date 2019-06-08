@@ -90,6 +90,17 @@ $(document).ready(function(){
     }
   });
 
+  $("a#copyLinkButton").click(function(){
+      var dummy = document.createElement('input'),
+          url = $(this).data('url');
+
+      document.body.appendChild(dummy);
+      dummy.value = url;
+      dummy.select();
+      document.execCommand('copy');
+      document.body.removeChild(dummy);
+  });
+
   //BEGIN content-aware-colors
   // TODO: replaced by jekyll plugin 
   var headliner = $('.headliner > img'),
