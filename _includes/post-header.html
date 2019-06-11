@@ -36,7 +36,7 @@
       <!-- TODO: filter-ize this with a plugin holy shit -->
       {% assign retinaHeadliner = page.image.headliner | split: "" | reverse | join: "" | replace_first: '.', '.x2@' | split: "" | reverse | join: "" %}
       <div class="headliner">
-        <img src="{{ page.image.headliner }}" title="{{ page.image.imageHover }}" srcset="{{ retinaHeadliner }} 2x" />
+        <img src="{{ site.url }}/{{ page.image.headliner }}" title="{{ page.image.imageHover }}" srcset="{{ site.url }}/{{ retinaHeadliner }} 2x" />
       </div>
     {% else %}
       {% if page.category != "Comics" %}

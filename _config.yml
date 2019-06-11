@@ -10,6 +10,7 @@ twitter_username: warrantynowvoid
 github_username:  warrantynowvoid
 
 markdown: kramdown
+safe: false
 plugins:
   # - jekyll-feed
 

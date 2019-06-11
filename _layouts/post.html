@@ -23,7 +23,11 @@
       <script src="{{ site.url }}{{ page.custom_scripts }}"></script>
     {% endif %}
 
-    {% include content-aware-colors.html %}
+    {% if page.image.feature %}
+      {% vibrantjs page.image.feature %}
+    {% elsif page.image.headliner %}
+      {% vibrantjs page.image.headliner %}
+    {% endif %}
 
   </head>
 
@@ -37,7 +41,7 @@
           <div class="container content-wrap">
             {% if page.image.feature %}
               {% assign retinaFeature = page.image.feature | split: "" | reverse | join: "" | replace_first: '.', '.x2@' | split: "" | reverse | join: "" %}
-              <img class="feature" src="{{ page.image.feature }}" srcset="{{ retinaFeature }} 2x" title="{{ page.image.imageHover }}" />
+              <img class="feature" src="{{ site.url }}/{{ page.image.feature }}" srcset="{{ site.url }}/{{ retinaFeature }} 2x" title="{{ page.image.imageHover }}" />
             {% endif %}
 
             {{ content }}        

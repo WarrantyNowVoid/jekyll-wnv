@@ -12,7 +12,7 @@
                     {% assign postImage = post.image.feature %}
                     {% assign imageType = 'AUTO' %}
                   {% else %}
-                    {% assign postImage = '/assets/img/headliner_default.png' %}
+                    {% assign postImage = 'assets/img/headliner_default.png' %}
                     {% assign imageType = 'DEFAULT' %}
                   {% endif %}
                 {% endif %}
@@ -20,7 +20,7 @@
                 {% assign retinaImage = postImage | split: "" | reverse | join: "" | replace_first: '.', '.x2@' | split: "" | reverse | join: "" %}
 
                 <div class="post-image{% if forloop.first == true %} active{% endif %}">
-                  <img src="{{ postImage }}" srcset="{{ retinaImage }}" {% if imageType == 'AUTO' %}class="auto-thumbnail" {% endif %}/>
+                  <img src="{{ site.url }}/{{ postImage }}" srcset="{{ site.url }}/{{ retinaImage }} 2x" {% if imageType == 'AUTO' %}class="auto-thumbnail" {% endif %}/>
                 </div>
               {% endfor %}
               
