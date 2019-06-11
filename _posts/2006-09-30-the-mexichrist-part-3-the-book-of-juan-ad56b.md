@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","Mexichrist","Anifaqua","magic hobo"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic31.jpg
+  feature: assets/img/lol/comic31.jpg
   imageHover: "Wait hold on, are you selling oranges? I need some breakfast."
 ---
 

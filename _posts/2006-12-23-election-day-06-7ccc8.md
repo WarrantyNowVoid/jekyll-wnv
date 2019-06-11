@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","election day","politics","voter influence"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic47.png
+  feature: assets/img/lol/comic47.png
   imageHover: "I mean 0 that you know of. Right? Otherwise, please step into our office-van."
 ---
 

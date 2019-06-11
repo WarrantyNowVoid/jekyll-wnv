@@ -10,7 +10,7 @@ category: Comics
 tags: ["daddy","your mom","motherfuck","motherfucker","motherfuckest","kind of a cop out post","picking your battles","I pick this one"]
 comments: true 
 image:
-  feature: /assets/img/lol/Mofo.png
+  feature: assets/img/lol/Mofo.png
   imageHover: "Technical correctness is the glue that holds this family together."
 ---
 

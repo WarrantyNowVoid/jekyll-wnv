@@ -10,7 +10,7 @@ category: Junk
 tags: ["serious business","meetings","jobs","how are any of us still employed?","employment","Powerpoint","Fuck Dan","don't be a terrorist","summoning Great Old Ones","lovecraft? more like loveshaft"]
 comments: true 
 image:
-  headliner: /assets/img/lol/powerpoint_meeting.png
+  headliner: assets/img/lol/powerpoint_meeting.png
 ---
 
 So your co-worker Dan scheduled another two hour meeting for this afternoon? That fucker. That's your **special time**. Don't worry though, we've got your back with these handy tips for getting out of any meeting.

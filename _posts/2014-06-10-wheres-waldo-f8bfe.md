@@ -10,7 +10,7 @@ category: Comics
 tags: ["Waldo","penis lol","Surprise Dicks","heh hard on","Thumbs up!","THAT HOLE IS FOR EXIT ONLY!","that wasn't a very difficult one","I'll be having nightmares about that whisper"]
 comments: true 
 image:
-  feature: /assets/img/lol/Waldo.png
+  feature: assets/img/lol/Waldo.png
   imageHover: "It's short for Ralph Waldo Emerson. His poetry really speaks to me. And my dick."
 ---
 

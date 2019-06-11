@@ -10,7 +10,7 @@ category: Articles
 tags: ["yo momma","science","black holes","bursting into snacks","ASSPOCALYPSE 2014","gaseous anomalies"]
 comments: true 
 image:
-  headliner: /assets/img/lol/globalwarming.png
+  headliner: assets/img/lol/globalwarming.png
 ---
 
 ### 1\. Yo Momma Significantly Increasing the Earth's Mass, Pulling Us Ever Closer to the Sun

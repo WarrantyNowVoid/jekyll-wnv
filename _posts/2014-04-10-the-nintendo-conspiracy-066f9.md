@@ -10,7 +10,7 @@ category: Articles
 tags: ["drugs","Nintendo","video games","Mario","Toad","mushrooms","I mean the dude is a talking mushroom what did you expect","Colorado"]
 comments: true 
 image:
-  headliner: /assets/img/lol/realistic_mario.png
+  headliner: assets/img/lol/realistic_mario.png
 ---
 
 While it's common knowledge that Mario's world is in fact a drug-enhanced projection created by his subconscious mind taking over the slack for a consciousness that has long been unable and unwilling to interpret the waking nightmare that is his real life, there is a lesser-known subtext to the popular series that belies a hidden agenda on the part of a massive multinational corporation. The mushroom-headed character Toad is an allegory for drug dealers and pushers, and Nintendo is teaching the children in its target audience that these people are good and helpful and should be trusted as close friends and advisors, in order to build an entire generation of drug-dependent subjects conditioned to submit to and truly believe in the rule of Nintendo's empire.

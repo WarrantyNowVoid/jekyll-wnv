@@ -10,7 +10,7 @@ category: Articles
 tags: ["PSA","giving back to the community","assholery","WNV Cares","Google","searching is hard to do","mongolian halloween chinggis khaan","pope sox","candy tastes better when it's been hard won","puns","DR"]
 comments: true 
 image:
-  headliner: /assets/img/lol/grandmafindstheinternet.png
+  headliner: assets/img/lol/grandmafindstheinternet.png
 ---
 
 Every year, like twenty-ish people fall victim to Google's indifference, and instead of finding the answers they need, find themselves here on WNV, face-to-face with a poop joke. Today, we try to help those poor lost souls.

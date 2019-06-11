@@ -10,7 +10,7 @@ category: Articles
 tags: ["#weddingcomickz","weddings","marriage","Steve Buscemi","horses","jockeys","emotionality","Societal Norms Are Stupid","Mendoza","bionic limbs","your own fault","true love","no pressure","DON'T THROW UP"]
 comments: true 
 image:
-  headliner: /assets/img/lol/wedding_facts_header.png
+  headliner: assets/img/lol/wedding_facts_header.png
 ---
 
 It's your big day! Things can get pretty hectic, and it's easy to overlook even the most important details, so we've compiled a handy list to help make your day as special as you deserve.

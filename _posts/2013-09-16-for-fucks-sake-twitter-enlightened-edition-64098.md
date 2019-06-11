@@ -10,7 +10,7 @@ category: Articles
 tags: ["twitter","Dalai Lama","people are stupid","spambots","religion","the horrifically self-unaware","FFS Twitter"]
 comments: true 
 image:
-  headliner: /assets/img/lol/dalailama_twitter.png
+  headliner: assets/img/lol/dalailama_twitter.png
 ---
 
 Whether you're a member of his faith or just a human being, capable of rational thought and possessing the capacity to feel emotion and empathy, the Dalai Lama is a man whose wisdom is undeniable. He is the spiritual leader of the Tibetan Buddhists, and describes himself as driven by three major commitments:

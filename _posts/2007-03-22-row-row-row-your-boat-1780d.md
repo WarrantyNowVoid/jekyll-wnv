@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","fallacy","junk jokes","penis lol","U.S.S. Visual Pun"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic54.png
+  feature: assets/img/lol/comic54.png
   imageHover: "This may be the first, but certainly not the last time we make a joke about the word fallacy. Strap in everyone, it's going to be a bumpy ride."
 ---
 

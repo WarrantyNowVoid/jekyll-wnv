@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","deleted scenes","Spider-Man","racist","HOLY FUCKING SHITCANNON","junk jokes","My Spider-Dick is tingling!"]
 comments: true 
 image:
-  feature: /assets/img/lol/deletedscenes.png
+  feature: assets/img/lol/deletedscenes.png
   imageHover: "PETER! I'll name it Peter! Wait I think that's taken."
 ---
 

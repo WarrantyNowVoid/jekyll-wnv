@@ -10,7 +10,7 @@ category: Articles
 tags: ["people are stupid","rant","hipsters","vibrating pogo stick","Dunkin' Donuts","Starbucks","coffee","wicked dingah","jorts","fixed-speed","advice for alien conquerors","thick-rimmed glasses","no fat soy latte","fannybandits","sugar"]
 comments: true 
 image:
-  headliner: /assets/img/lol/ddvssbux.png
+  headliner: assets/img/lol/ddvssbux.png
 ---
 
 Hey, do you guys remember those old Mac vs PC commercials? You know, the ones where Macs are represented by a hip young trendsetter, and PCs are championed by John Hodgman, inadvertently making them the more appealing of the two options? This review has nothing to do with that. No, today's topic is another famous brand rivalry. Though less prominent than the Mac ads of yore, today's topic is no less incendiary - demanding allegiances that divide families and destroy friendships. I speak of shattered lives, and fallen nations. I speak of a battle that predates living memory, and will outlast any who survive its ravages: I speak of Starbucks and of Dunkin' Donuts.

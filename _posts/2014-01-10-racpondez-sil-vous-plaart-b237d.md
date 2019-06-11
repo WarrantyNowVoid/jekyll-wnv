@@ -10,7 +10,7 @@ category: Comics
 tags: ["parties","Pope's butt","invitations","RSVP","gross misuse of the postal system","angry balloons"]
 comments: true 
 image:
-  feature: /assets/img/lol/rsvp-comic.png
+  feature: assets/img/lol/rsvp-comic.png
   imageHover: "Replies are not common."
 ---
 

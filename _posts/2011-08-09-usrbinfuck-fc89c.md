@@ -10,7 +10,7 @@ category: Junk
 tags: ["PFFFFT NERD","terminal","fuck","for the lols","computers","geek","UNIX","Linux","Mac","fuck off Windows"]
 comments: true 
 image:
-  headliner: /assets/img/lol/usrbinfuck.png
+  headliner: assets/img/lol/usrbinfuck.png
 ---
 
 We here at Warranty Now Void are not just crippled by alcoholism, we're also crippled by our unparalleled nerdiness. Or at least some of us are. The rest are mean jerk bullies and should learn to keep their stupid hands off the stuff in the company fridge that is CLEARLY labeled "POPE'S LUNCH, DO NOT TOUCH, BRO" in red sharpie. But for my fellow Linux/Unix/Mac nerds out there who spend most of their time in the Terminal, I have something special to give you that I know you will love.

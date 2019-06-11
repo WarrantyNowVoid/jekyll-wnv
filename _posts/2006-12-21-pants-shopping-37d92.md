@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","makes no fucking sense","sleep deprivation","Monster energy"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic45.png
+  feature: assets/img/lol/comic45.png
   imageHover: "GUN PANTS! NOW WITH TWO GUNS POINTED AT YOUR DICK! GUN PANTS!"
 ---
 

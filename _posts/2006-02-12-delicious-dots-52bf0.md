@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","Pac-Man","video games","murder"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic1.jpg
+  feature: assets/img/lol/comic1.jpg
   imageHover: "Mine now."
 ---
 

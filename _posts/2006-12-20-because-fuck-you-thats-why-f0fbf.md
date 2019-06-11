@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","sleep deprivation","sleep","brain has the dumb"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic44.png
+  feature: assets/img/lol/comic44.png
   imageHover: "Well we do, just during class."
 ---
 

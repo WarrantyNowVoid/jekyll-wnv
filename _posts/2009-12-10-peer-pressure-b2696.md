@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","peer pressure","home improvements","angsty teens","puns","you fucking queer","things that were big in the 60s"]
 comments: true 
 image:
-  feature: /assets/img/lol/peerpressure.png
+  feature: assets/img/lol/peerpressure.png
   imageHover: "Now let's take a look at that toilet,  you useless sack of shit."
 ---
 

@@ -10,7 +10,7 @@ category: Articles
 tags: ["Putin","Russia","bears","bear arms","James Bond","vodka","Western propaganda","distinguishing movies from reality"]
 comments: true 
 image:
-  headliner: /assets/img/lol/putin_bond_head.png
+  headliner: assets/img/lol/putin_bond_head.png
 ---
 
 Dear Comrades,

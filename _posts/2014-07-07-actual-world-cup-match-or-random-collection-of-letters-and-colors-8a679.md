@@ -10,7 +10,7 @@ category: Junk
 tags: ["World Cup","soccer","sportsball","sports","totally real countries","totally accurate information","video games"]
 comments: true 
 image:
-  headliner: /assets/img/lol/whatever.png
+  headliner: assets/img/lol/whatever.png
   imageHover: "Hover text here."
 ---
 

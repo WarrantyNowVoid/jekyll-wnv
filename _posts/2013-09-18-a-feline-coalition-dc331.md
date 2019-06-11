@@ -10,7 +10,7 @@ category: Articles
 tags: ["Spooky Behavior","cats are going to kill us all someday","cats","Apex Predators","Letters From Scott","That thing about Tylenol is true though","Don't murder any cats","PFFFFT NERD","'Tree!' Shouting Larry"]
 comments: true 
 image:
-  headliner: /assets/img/lol/felinecoalition.png
+  headliner: assets/img/lol/felinecoalition.png
   imageHover: "We know."
 ---
 

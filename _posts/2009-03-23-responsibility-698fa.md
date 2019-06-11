@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","superpowers","lasers","ow","blowing up peasants"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic73.png
+  feature: assets/img/lol/comic73.png
   imageHover: "Oh, shit I think I'm in the wrong line."
 ---
 

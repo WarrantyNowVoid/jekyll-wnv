@@ -10,7 +10,7 @@ category: Comics
 tags: ["insulting babies","babies","farts","the law","fatherhood","gaseous anomalies","medical science","Baby Poop"]
 comments: true 
 image:
-  feature: /assets/img/lol/BabyFarts.png
+  feature: assets/img/lol/BabyFarts.png
   imageHover: "If you're gonna fart on a president, you've got to get in there early."
 ---
 

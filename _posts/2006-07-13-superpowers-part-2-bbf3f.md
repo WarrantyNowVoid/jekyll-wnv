@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","science","superpowers","Uranium","feelin' good"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic26.jpg
+  feature: assets/img/lol/comic26.jpg
   imageHover: "Yes. Yes it does."
 ---
 

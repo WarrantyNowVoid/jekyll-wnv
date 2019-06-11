@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","retaliation","Pope","we don't have merch yet"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic33.jpg
+  feature: assets/img/lol/comic33.jpg
   imageHover: "But aside from the physical violence, yes. Yes I do."
 ---
 

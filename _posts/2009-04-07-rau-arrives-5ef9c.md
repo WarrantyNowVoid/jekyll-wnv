@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","Admiral Rau","pirates","Boston"]
 comments: true 
 image:
-  feature: /assets/img/lol/rau_arrives.png
+  feature: assets/img/lol/rau_arrives.png
   imageHover: "HOW DID YOU GET A BOAT THAT LARGE BETWEEN THOSE TWO BRIDGES?"
 ---
 

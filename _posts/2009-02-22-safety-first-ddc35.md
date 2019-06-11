@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","that fish comic","safety first","skateboarding","PFFFFT NERD"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic68.png
+  feature: assets/img/lol/comic68.png
   imageHover: "He died doing what he loved. Being inside a giant fish-beast."
 ---
 

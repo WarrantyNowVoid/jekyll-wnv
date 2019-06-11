@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","racist","politics","Mexichrist"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic13.jpg
+  feature: assets/img/lol/comic13.jpg
   imageHover: "This explains why the Mexican guy at the supermarket was named Jesus!"
 ---
 

@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","SLI","PFFFFT NERD","farm equipment mishaps","dreams","ow"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic27.jpg
+  feature: assets/img/lol/comic27.jpg
   imageHover: "Seriously what the fuck kind of resolution is that? Is this 2004?"
 ---
 

@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","racist","Mexichrist","politics"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic8.jpg
+  feature: assets/img/lol/comic8.jpg
   imageHover: "As the Father has loved me, so have I tried to get a job outside the Home Depot."
 ---
 

@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","pirates","Admiral Rau","onion bagels","Sack O' Bagels","rum","violence"]
 comments: true 
 image:
-  feature: /assets/img/lol/cool_in_the_face_of_danger.png
+  feature: assets/img/lol/cool_in_the_face_of_danger.png
   imageHover: "OH SHIT WAIT TIL I GET OUT OF HERE."
 ---
 

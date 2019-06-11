@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","PFFFFT NERD","the Internet","Brian Peppers","barrel rolls","memes","no but seriously hide from 4chan"]
 comments: true 
 image:
-  feature: /assets/img/lol/internetPSA.png
+  feature: assets/img/lol/internetPSA.png
   imageHover: "Did you know that as many as three people per day sometimes connect to Internet Web-Sites? This has to stop. Now."
 ---
 

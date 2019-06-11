@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","porn","computers","THAT HOLE IS FOR EXIT ONLY!","those taxes are never getting paid"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic34.jpg
+  feature: assets/img/lol/comic34.jpg
   imageHover: "This comic must be old. 1 TB of porn today wouldn't be able to tide me over for a week."
 ---
 

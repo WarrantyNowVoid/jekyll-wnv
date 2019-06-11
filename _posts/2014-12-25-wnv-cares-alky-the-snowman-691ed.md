@@ -12,7 +12,7 @@ category: Comics
 tags: ["Happy Holidays","Merry Christmas","Alky the Snowman","booze","everything's okay if you're drunk!","driving","WNV Cares","operating motor vehicles"]
 comments: true 
 image:
-  feature: /assets/img/lol/Alky.png
+  feature: assets/img/lol/Alky.png
   imageHover: "HAPPY BLLLUUUGGHHHHRGHHHHHFGGGGH"
 ---
 

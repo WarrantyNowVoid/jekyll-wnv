@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","poop jokes","back in 'Nam","Punji Sticks","stank"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic23.jpg
+  feature: assets/img/lol/comic23.jpg
   imageHover: "This is an excellent way to keep foxes out of your garden."
 ---
 

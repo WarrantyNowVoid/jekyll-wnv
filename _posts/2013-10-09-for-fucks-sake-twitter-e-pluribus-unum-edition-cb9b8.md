@@ -10,7 +10,7 @@ category: Articles
 tags: ["government","United States","Government Shutdown","Boehner lol","thanks Obama","FFS Twitter"]
 comments: true 
 image:
-  headliner: /assets/img/lol/ffstwitterboehner.png
+  headliner: assets/img/lol/ffstwitterboehner.png
 ---
 
 Today's post is coming to you live from a bunker beneath the wasteland that was once known as the United States of America. The country has descended into chaos and anarchy on this, the seventh day after the federal government was shut down due to Congress's inability to reach a budget. We have retreated to the WNV bunker in an undisclosed location in order to avoid the roaming bands of raiders preying on Internet content generators for their meaty brains.

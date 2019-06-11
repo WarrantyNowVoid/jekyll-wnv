@@ -10,7 +10,7 @@ category: Comics
 tags: ["medical science","being good at your job","breadcrumbs","Dr. Duck","quack","surprise naps","dumb brain","death"]
 comments: true 
 image:
-  feature: /assets/img/lol/BadDoc.png
+  feature: assets/img/lol/BadDoc.png
   imageHover: "Normally I'd say you should get a second opinion from Dr. Bunny, but he's been leaning a bit heavily on that lettuce lately."
 ---
 

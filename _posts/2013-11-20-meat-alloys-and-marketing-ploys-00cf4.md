@@ -10,7 +10,7 @@ category: Articles
 tags: ["the Internet","spambots","Nigerian Princes","Cialis","penis lol","email","Unclean he moaned","Spam","Russian mail order brides","horny singles in your area!","financial advice"]
 comments: true 
 image:
-  headliner: /assets/img/lol/spamcans.png
+  headliner: assets/img/lol/spamcans.png
 ---
 
 We all get Spam. It's normal; it's a part of life. But no one wants to talk it about. For me, it's usually at my local Stop & Shop. I tend to walk by the aisle a few times, just to scope things out. This is a very personal matter and you'd hate to run into your former second grade teacher while clenching a juicy can of Spam, sweat beading on your forehead as you study every curve forming the perfection of that blue and yellow can.

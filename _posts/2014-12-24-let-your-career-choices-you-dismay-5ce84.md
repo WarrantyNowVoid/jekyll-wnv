@@ -10,7 +10,7 @@ category: Comics
 tags: ["Happy Holidays","Merry Christmas","merry gentlemen","poor career choices","holiday spirit","At Least It's Not Another Christopher Walken Joke","god-resting like they're hot shit"]
 comments: true 
 image:
-  feature: /assets/img/lol/YeMerryGentlemen.png
+  feature: assets/img/lol/YeMerryGentlemen.png
   imageHover: "It's March! You've just been standing there for three months!"
 ---
 

@@ -10,7 +10,7 @@ category: Junk
 tags: ["lousy Smarch weather","snow","End of the world","liveblog","weather","Boston","ASSPOCALYPSE 2014","drinking","Snowpocalypse 2015","Snowmageddon","things that will fuck shit up"]
 comments: true 
 image:
-  headliner: /assets/img/lol/snowpocalypselive2015.png
+  headliner: assets/img/lol/snowpocalypselive2015.png
 ---
 
 **Pope (10:45am):** Good morning, world, and welcome to our very first, highly anticipated liveblog of #SNOWPOCALYPSE2015: #THE #END #OF #EVERYTHING. Our team is braving the devastation to bring you the most up to date and vital information.

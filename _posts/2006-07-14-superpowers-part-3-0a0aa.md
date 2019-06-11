@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","superpowers","with great power comes absolutely no responsibility","fairy dust and happy thoughts"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic30.jpg
+  feature: assets/img/lol/comic30.jpg
   imageHover: "Welp, guess I'm one of those villain guys. Neat."
 ---
 

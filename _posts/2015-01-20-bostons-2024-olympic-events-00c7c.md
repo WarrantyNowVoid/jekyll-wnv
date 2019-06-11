@@ -10,7 +10,7 @@ category: Articles
 tags: ["Olympics","Boston","Boston Olympics","2024 Olympics","Summer Olympics","MBTA","totally accurate information","baseball","green line","Allston Christmas","PBR","beer","booze","Massachusetts","Strawberry Quik"]
 comments: true 
 image:
-  headliner: /assets/img/lol/bostonolympicevents.png
+  headliner: assets/img/lol/bostonolympicevents.png
 ---
 
 The US Olympic Committee has officially decided to name the city of Boston as its host city for the 2024 Summer Olympic Games bid. Boston is of course, most famously, [the home of WNV](http://warrantynowvoid.com/post/5ef9c), so we naturally feel a strong connection to this move by the USOC and want to help win the bid and make the 2024 Olympics the greatest yet.

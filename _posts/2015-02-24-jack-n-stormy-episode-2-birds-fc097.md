@@ -10,7 +10,7 @@ category: Comics
 tags: ["fuck birds","dog food","sniff your business","friendship","anal probes","Jack 'N Stormy"]
 comments: true 
 image:
-  feature: /assets/img/lol/JnS2Birds2.png
+  feature: assets/img/lol/JnS2Birds2.png
   imageHover: "Get it while it's hot, champ."
 ---
 

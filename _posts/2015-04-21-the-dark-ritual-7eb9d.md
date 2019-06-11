@@ -10,7 +10,7 @@ category: Comics
 tags: ["virgins","blood","butts","butt stuff","stick that in your butt and squeeze it","Dark Eldritch Magicks","Craigslist","buttpirates"]
 comments: true 
 image:
-  feature: /assets/img/lol/VirginBlood.png
+  feature: assets/img/lol/VirginBlood.png
   imageHover: "'Alright, get the hose and fire up the woodchipper, I'll hop back on Craigslist. Fifth time's the charm, right?'"
 ---
 

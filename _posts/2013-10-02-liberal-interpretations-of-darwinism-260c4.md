@@ -10,7 +10,7 @@ category: Articles
 tags: ["Lamarck Rules!","Darwin Can Suck A Dick","More Like Y-Men Am I Right?","Eye SEE what you did there","PFFFFT NERD","comic books","Were-Sharks","X-Men"]
 comments: true 
 image:
-  headliner: /assets/img/lol/comicbook_MYEYES.png
+  headliner: assets/img/lol/comicbook_MYEYES.png
   imageHover: "Yes we know this is actually Pretty Boy from Uncanny X-Men #229, but loooooooooool."
 ---
 

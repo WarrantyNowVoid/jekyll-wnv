@@ -10,7 +10,7 @@ category: Videos
 tags: ["the Internet","review","DR","youtube","beef pinata","Zuckerberg","Ted Stevens","twitter","Facebook","drippy kielbasa","4chan","masturbation"]
 comments: true 
 image:
-  headliner: /assets/img/lol/theinternetreview.png
+  headliner: assets/img/lol/theinternetreview.png
 ---
 
 The Internet. Where better to start than the very reason we can exist? For our very first review, learn about how the the greatest technological invention of our time came into being, and how most people use it for looking at pictures of boobies. Also, as a special easter egg, see if you can pick up on just what exactly our opinion of Kanye West is. It's pretty subtle, so you'll have to watch closely.

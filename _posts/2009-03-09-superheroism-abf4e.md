@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","superpowers","coffee","thwarting enemies"]
 comments: true 
 image:
-  feature: /assets/img/lol/superheroism.png
+  feature: assets/img/lol/superheroism.png
   imageHover: "Now that's what I call protecting the innocent."
 ---
 

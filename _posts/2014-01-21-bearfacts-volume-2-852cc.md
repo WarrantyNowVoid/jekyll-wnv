@@ -10,7 +10,7 @@ category: Comics
 tags: ["science","bears","BearFacts","natural wonders","things that will fuck shit up","Genghis Khan","Star Trek","farts","historical misconceptions","don't be a terrorist","Ursine Death Stare"]
 comments: true 
 image:
-  feature: /assets/img/lol/bearfacts2.1.png
+  feature: assets/img/lol/bearfacts2.1.png
   imageHover: "Bear foreskin is the same texture as 24 grit sandpaper. They are not gentle lovers. #BearFacts"
 ---
 

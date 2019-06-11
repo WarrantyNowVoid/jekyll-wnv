@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","Uranium","proper waste disposal","science"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic25.jpg
+  feature: assets/img/lol/comic25.jpg
   imageHover: "Good thing this hoodie cushioned the blow and definitely didn't give me any serious brain damage."
 ---
 

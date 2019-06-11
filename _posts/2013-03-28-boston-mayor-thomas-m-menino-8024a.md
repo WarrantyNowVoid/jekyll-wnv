@@ -10,7 +10,7 @@ category: Articles
 tags: ["Boston","public speaking skills","WHARRGARBL","Menino","politics","United States","government","moonlit pork","Massachusetts"]
 comments: true 
 image:
-  headliner: /assets/img/lol/menino_full.png
+  headliner: assets/img/lol/menino_full.png
 ---
 
 A somber Mayor Thomas "Mumbles" Menino spoke with reporters outside his Hyde Park home this morning, saying he is prepared to end his run as mayor of the city, but possibly joking he may change his pants into a goatskin before he formally announces his decision not to seek reelection at Faneuil Hall this afternoon.

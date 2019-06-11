@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","movies","deleted scenes","The Rock","anal beads","gross","Sean Connery","Nicolas Cage"]
 comments: true 
 image:
-  feature: /assets/img/lol/deletedscenes2.png
+  feature: assets/img/lol/deletedscenes2.png
   imageHover: "We're going to steal the Declaration of Independence. And then use it for sex stuff. Like, a bunch."
 ---
 

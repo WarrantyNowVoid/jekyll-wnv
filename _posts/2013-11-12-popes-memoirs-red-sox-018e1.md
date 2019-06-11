@@ -10,7 +10,7 @@ category: Articles
 tags: ["Pope's Memoirs","Red Sox","baseball","sports","bears","radioactivity","beards","sportsball","baseball goals","Boston"]
 comments: true 
 image:
-  headliner: /assets/img/lol/popesmemoirs1.png
+  headliner: assets/img/lol/popesmemoirs1.png
 ---
 
 Some will call me monster for what I've done. Some will call me hero. But none of that matters to me. Not anymore. What's important is that we won. There were certain measures that had to be taken in order for that to happen, and those choices are now mine to live with.

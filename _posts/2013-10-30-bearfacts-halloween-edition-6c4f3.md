@@ -10,7 +10,7 @@ category: Comics
 tags: ["science","bears","BearFacts","things that will fuck shit up","natural wonders","bear poop","Halloween","Frankenstein","ghosts","werewolves are pussies"]
 comments: true 
 image:
-  feature: /assets/img/lol/bearfacts_halloween.png
+  feature: assets/img/lol/bearfacts_halloween.png
   imageHover: "Aliens did, in fact, visit Roswell, NM in 1947. There, they encountered a single Grizzly Bear. That alien species has since disappeared without a trace."
 ---
 

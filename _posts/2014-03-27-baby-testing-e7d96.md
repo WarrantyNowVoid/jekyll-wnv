@@ -10,7 +10,7 @@ category: Articles
 tags: ["Baby","science","research","beauty products","vanity","checkmate Johnson & Johnson","insulting babies","Gorillas are like super hairy","modest proposals","we really just wanted an excuse to use beardbaby.jpg"]
 comments: true 
 image:
-  headliner: /assets/img/lol/beard_babby_lab.png
+  headliner: assets/img/lol/beard_babby_lab.png
 ---
 
 It is time for science to abandon our subpar standard of clinical testing on animals and enter the golden era of testing exclusively on human babies.

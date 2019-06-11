@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","sharks","LOL OMG you are JKing me","splorch","big shoes"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic16.jpg
+  feature: assets/img/lol/comic16.jpg
   imageHover: "And that's why you should always wear a helmet."
 ---
 

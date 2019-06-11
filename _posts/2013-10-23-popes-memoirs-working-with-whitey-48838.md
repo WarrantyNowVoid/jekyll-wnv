@@ -10,7 +10,7 @@ category: Articles
 tags: ["Pope's Memoirs","Whitey Bulger","Massachusetts","Micro Machines","drugs","Boston","realistic shipping methods"]
 comments: true 
 image:
-  headliner: /assets/img/lol/popesmemoirs1.png
+  headliner: assets/img/lol/popesmemoirs1.png
 ---
 
 Growing up in the state of Massachusetts is hard. Mostly because at some point, Whitey Bulger is going to come up to you on the street and tell you that you work for him now. And you, being five years old, will presumably be fine with this.

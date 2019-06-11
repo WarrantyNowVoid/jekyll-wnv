@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","gross","blood","that's not Kool-Aid","absolutely nothing about this is okay"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic4.jpg
+  feature: assets/img/lol/comic4.jpg
   imageHover: "OH...OH GOD NO"
 ---
 

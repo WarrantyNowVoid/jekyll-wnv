@@ -10,7 +10,7 @@ category: Comics
 tags: ["X-Men","comic books","being gifted","superpowers","penis lol","medical science","guest comic","Unnatural 20"]
 comments: true 
 image:
-  feature: /assets/img/lol/XMenGuest.png
+  feature: assets/img/lol/XMenGuest.png
   imageHover: "Part of becoming a man is learning how to urinate whenever you damn well please."
 ---
 

@@ -10,7 +10,7 @@ category: Articles
 tags: ["Savings","bargains","murder","murderbargains","black friday","curb stomping people for inappropriate reasons","frugality","you don't see the extreme couponing people pulling this kind of shit","people are stupid"]
 comments: true 
 image:
-  headliner: /assets/img/lol/blackfriday1.jpg
+  headliner: assets/img/lol/blackfriday1.jpg
   imageHover: "95% Off Lighter Fluid! Buy One Glass Bottle, Get 11 Free!"
 ---
 

@@ -10,7 +10,7 @@ category: Comics
 tags: ["science","DIY","safety first","furniture","(P)IMP","IKEA might have been a better idea"]
 comments: true 
 image:
-  feature: /assets/img/lol/the_only_realistic_outcome.png
+  feature: assets/img/lol/the_only_realistic_outcome.png
   imageHover: "The thing is that I'm actually gonna build a desk if I ever find a hardware store that has all the pieces I need at once. Or I was, but now I have a table. So fuck that."
 ---
 

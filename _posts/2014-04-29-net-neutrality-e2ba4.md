@@ -10,7 +10,7 @@ category: Articles
 tags: ["the Internet","Net Neutrality","the Bachelorette","our favorite TV shows","THURSDAYS JUST GOT A WHOLE LOT STEAMIER!","Unbiased Newsmanship","it feels offensive but I'm not sure to whom","steamy","sexy","flirty","dirty","misleading tags","0 to beastiality in under 6 seconds"]
 comments: true 
 image:
-  headliner: /assets/img/lol/the_bachelorette.png
+  headliner: assets/img/lol/the_bachelorette.png
 ---
 
 H...hello? Is anybody out there? There's no way to know if you're receiving this, but I've got to try god dammit. We've been posting new content night and day, non-stop for the past two weeks, hoping to contact the outside world. We've been thwarted at every turn, but I believe I've discovered a loophole. The FCC's new policies regarding net neutrality have blocked anything that isn't an ad for The Bachelorette from being served by most ISPs, but if at least 20% of the text or imagery on the page is approved by the Comcast/NBC/ABC/Mott's/Gushers business juggernaut, it can slip through the filters.

@@ -10,7 +10,7 @@ category: Articles
 tags: ["Halloween","Spooky Behavior","2spooky4me","history","Mongols","Genghis Khan","World Wars","pirates","Kaiser","my blood sugar hurts","spooky scary skeletons"]
 comments: true 
 image:
-  headliner: /assets/img/lol/historyofhalloween.png
+  headliner: assets/img/lol/historyofhalloween.png
 ---
 
 Halloween is coming, dudes. That shit is _upon_ us. Candy. Costumes. Spooky, scary skeletons.

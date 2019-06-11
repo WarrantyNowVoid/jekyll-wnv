@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","milestone","10k hits","Hector","Pope's butt"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic32.jpg
+  feature: assets/img/lol/comic32.jpg
   imageHover: "This is bullshit, he looks nothing like Hector. But the rest is accurate."
 ---
 

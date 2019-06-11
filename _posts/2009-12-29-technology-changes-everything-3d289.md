@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","technology","strippers","pile of money","bluetooth headsets are stupid","fatnerd"]
 comments: true 
 image:
-  feature: /assets/img/lol/technologychangeseverything.png
+  feature: assets/img/lol/technologychangeseverything.png
   imageHover: "The true story of Gaben."
 ---
 

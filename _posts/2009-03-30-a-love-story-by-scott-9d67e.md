@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","true love","that fish comic","skateboarding","PFFFFT NERD"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic74.png
+  feature: assets/img/lol/comic74.png
   imageHover: "They'll never know love like this, and that's their loss."
 ---
 

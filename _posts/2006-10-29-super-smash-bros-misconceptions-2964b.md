@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","video games","Super Smash Bros.","half-assed work","Raysian","ruined classics"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic35.jpg
+  feature: assets/img/lol/comic35.jpg
   imageHover: "Just imagine how that works out while they're playing Mario Kart."
 ---
 

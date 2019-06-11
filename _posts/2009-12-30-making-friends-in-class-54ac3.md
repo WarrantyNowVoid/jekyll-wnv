@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","math class","snap your dick off","coffee","college","learning"]
 comments: true 
 image:
-  feature: /assets/img/lol/makingfriendsinclass.png
+  feature: assets/img/lol/makingfriendsinclass.png
   imageHover: "I need to focus on this sketch of a guy in a pirate hat carrying some bagels around. BECAUSE OF REASONS, OKAY?"
 ---
 

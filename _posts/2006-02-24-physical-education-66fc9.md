@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","gym class","tools","gym teachers","this is definitely directed at any one person for sure"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic6.jpg
+  feature: assets/img/lol/comic6.jpg
   imageHover: "This is mean and I regret nothing."
 ---
 

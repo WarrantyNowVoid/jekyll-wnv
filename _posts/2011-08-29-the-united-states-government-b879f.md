@@ -10,7 +10,7 @@ category: Videos
 tags: ["youtube","review","congress","politics","United States","government","Chinese Nike Factory","this sucks and I'm pissed","debt ceiling","Hannah Montana tickets"]
 comments: true 
 image:
-  headliner: /assets/img/lol/theusgovernmentreview.png
+  headliner: assets/img/lol/theusgovernmentreview.png
 ---
 
 In light of this past month's events, we've decided to examine our country's leadership. I assure you, we are not in the 14% that approve. In fact, we've already decided that for any elections in the next five or so years, we're going to vote for the write-in candidate: "Punching Congress in the Dick".

@@ -10,7 +10,7 @@ category: Articles
 tags: ["politics","Canada","Toronto","crack","FFS Twitter","democracy in action","drugs","reality tv","What A Fucking Workout","everything's okay if you're drunk!","drinking","booze","cocaine","government","Rob Ford","people are stupid"]
 comments: true 
 image:
-  headliner: /assets/img/lol/robfordmilk_twitter.png
+  headliner: assets/img/lol/robfordmilk_twitter.png
   imageHover: "What can we say? The man loves his milk. Also, crack. Definitely crack. And alcohol. And public urination. Yeah, all of that. And coke too. And prostitutes. ...Yeah, okay this guy is definitely fucking crazy."
 ---
 

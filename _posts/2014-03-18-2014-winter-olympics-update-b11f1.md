@@ -10,7 +10,7 @@ category: Articles
 tags: ["2014 Winter Olympics","Russia","Putin","bears","Crimea","Crimea River","Olympics"]
 comments: true 
 image:
-  headliner: /assets/img/lol/sochi2014_bear.png
+  headliner: assets/img/lol/sochi2014_bear.png
 ---
 
 The 2014 Winter Olympics are well underway, and the event everyone's been waiting for is finally getting started: Unprovoked Invasion. Russia is off to a commanding lead right out of the gate, leaving the other highly favored contenders, USA and Germany, far behind in the occupation of this year's playing field, Ukraine.

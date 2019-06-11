@@ -10,7 +10,7 @@ category: Comics
 tags: ["#weddingcomickz","marriage","weddings","gifts","infernal relics","daggering","souls","blood of virgins","demons","Scawt","Lady-Scawt","Can I just pay the regular price instead?"]
 comments: true 
 image:
-  feature: /assets/img/lol/registry.png
+  feature: assets/img/lol/registry.png
   imageHover: "More like set of 3 DEEZ NUTS bowls. Wait am I focusing on the wrong item in the list here?"
 ---
 

@@ -10,7 +10,7 @@ category: Comics
 tags: ["Merry Christmas","Happy Holidays","holidays","kneecaps","Bricky the Messenger Brick","bricks","WNV not responsible for window damages","Blunt Force Holiday Spirit","At Least It's Not Another Christopher Walken Joke"]
 comments: true 
 image:
-  feature: /assets/img/lol/Bricky.png
+  feature: assets/img/lol/Bricky.png
   imageHover: "Dear idiot, Your kneecaps are ugly and smelly. Sincerely, The Russian Mafia"
 ---
 

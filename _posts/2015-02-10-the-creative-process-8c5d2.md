@@ -10,7 +10,7 @@ category: Comics
 tags: ["guns","makes no fucking sense","penis lol","How It's Made","how to be a professional internet artist","hangovers"]
 comments: true 
 image:
-  feature: /assets/img/lol/CockGun1.png
+  feature: assets/img/lol/CockGun1.png
   imageHover: "Draw, god damn you! The art form demands it!"
 ---
 

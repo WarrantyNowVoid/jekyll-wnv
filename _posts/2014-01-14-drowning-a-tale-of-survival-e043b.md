@@ -10,7 +10,7 @@ category: Articles
 tags: ["drowning","science","Africa","gross","river of poo","water","too much of a good thing","death","PSA","walken","poorly concealed erections","bears","precious frozen pizza","a total lack of respect for the dead"]
 comments: true 
 image:
-  headliner: /assets/img/lol/drowning.png
+  headliner: assets/img/lol/drowning.png
 ---
 
 You know what probably really sucks to experience? Drowning.

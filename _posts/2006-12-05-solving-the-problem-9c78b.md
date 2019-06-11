@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","powerade","poweraids","puns","murder","sex with drinks","perfectly reasonable reactions"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic43.png
+  feature: assets/img/lol/comic43.png
   imageHover: "Seriously. Fuck this guy's hat. He's free to go though."
 ---
 

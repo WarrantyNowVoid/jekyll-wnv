@@ -10,7 +10,7 @@ category: Articles
 tags: ["review","bathroom","poop","gross","fapping","gloryhole","poop jokes","dudes are gross"]
 comments: true 
 image:
-  headliner: /assets/img/lol/mensroomstallsreview.png
+  headliner: assets/img/lol/mensroomstallsreview.png
   imageHover: "Yes this is Larry Craig's special stall."
 ---
 

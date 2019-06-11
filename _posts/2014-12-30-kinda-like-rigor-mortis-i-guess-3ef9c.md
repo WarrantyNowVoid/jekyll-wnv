@@ -10,7 +10,7 @@ category: Comics
 tags: ["ghosts","horny ghosts","it's not gay if you're incorporeal","butts","Spooky Behavior","2spooky4me","That Little Ghost Motherfucker","a total lack of respect for the dead","rigor mortis","penis lol"]
 comments: true 
 image:
-  feature: /assets/img/lol/HornyGhost.png
+  feature: assets/img/lol/HornyGhost.png
   imageHover: "Ever feel the hair on the back of your neck stand up? Yeah, that's not me, it'd be your butt."
 ---
 

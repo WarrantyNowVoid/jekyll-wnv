@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","gross","parent-sex","your mom"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic46.png
+  feature: assets/img/lol/comic46.png
   imageHover: "No, the weird thing is, she's not even Irish!"
 ---
 

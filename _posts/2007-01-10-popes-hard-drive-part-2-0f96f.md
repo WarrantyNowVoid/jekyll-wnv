@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","porn","masturbation","oddly exact amounts of disk usage","computers"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic52.png
+  feature: assets/img/lol/comic52.png
   imageHover: "Windows Vista just really... gets me. You know?"
 ---
 

@@ -10,7 +10,7 @@ category: Articles
 tags: ["New Years","holidays","resolutions","bettering ourselves","depending on your definition of better","quadrilaterals","geometry","Dark Eldritch Magicks","Cthulu","promises","we are bad at everything","financial challenges","pile of money","summoning Great Old Ones","lovecraft? more like loveshaft","the concept of linear time","healthy and wealthy in 2015","I have my doubts that we'll ever use that last tag again","At Least It's Not Another Christopher Walken Joke"]
 comments: true 
 image:
-  headliner: /assets/img/lol/resolutions_stickies.png
+  headliner: assets/img/lol/resolutions_stickies.png
   imageHover: "Buy more Post-It notes."
 ---
 

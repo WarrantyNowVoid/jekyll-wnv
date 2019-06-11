@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","offensive to pretty much every community really","violence","beer","drinking","alcohol makes you a better person","please don't sue"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic83.png
+  feature: assets/img/lol/comic83.png
   imageHover: "Stay completely horrible, my friends."
 ---
 

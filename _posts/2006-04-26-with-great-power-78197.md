@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","Star Wars","Back to the Future","Great Scott","EPISODE VII: REVENGE OF THE LUCAS"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic17.jpg
+  feature: assets/img/lol/comic17.jpg
   imageHover: "We auditioned a number of actors for baby Han, but we decided to go with a CGI model so he can perform better in his lightsaber fight scenes."
 ---
 

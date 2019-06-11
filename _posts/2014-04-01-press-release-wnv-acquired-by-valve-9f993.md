@@ -10,7 +10,7 @@ category: Junk
 tags: ["PFFFFT NERD","serious business","WNV","Press Release","video games","Valve","Gaben","acquired as balls","this is completely real"]
 comments: true 
 image:
-  headliner: /assets/img/lol/gaben_poopguy.png
+  headliner: assets/img/lol/gaben_poopguy.png
 ---
 
 **BOSTON, MA** - _April 1, 2014_ - Valve Corporation today announced that it has reached a definitive agreement to acquire Warranty Now Void, the leader in  

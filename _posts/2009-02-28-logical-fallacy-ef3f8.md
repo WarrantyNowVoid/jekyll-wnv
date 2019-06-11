@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","junk jokes","U.S.S. Visual Pun","PFFFFT NERD","penis lol"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic_logical_fallacy.png
+  feature: assets/img/lol/comic_logical_fallacy.png
   imageHover: "This is perfectly acceptable in the Philosophy Department."
 ---
 

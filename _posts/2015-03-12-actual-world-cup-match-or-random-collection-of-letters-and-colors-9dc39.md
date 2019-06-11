@@ -10,7 +10,7 @@ category: Junk
 tags: ["World Cup","soccer","sportsball","sports","totally real countries","totally accurate information","video games","zombies","undead","don't be a terrorist"]
 comments: true 
 image:
-  headliner: /assets/img/lol/worldcupquiz.png
+  headliner: assets/img/lol/worldcupquiz.png
 ---
 
 Continuing the grand tradition started by our 2014 Winter Olympics game: [Sochi or Fallout?](/post/81814), we bring you our newest game based on the World Cup. Use your deductive skills to decide whether each matchup is between two actual countries or just some bullshit we made up.

@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","Admiral Rau","The Boston Incident","small-talk","SWAG"]
 comments: true 
 image:
-  feature: /assets/img/lol/hittingongirls_ahowto.png
+  feature: assets/img/lol/hittingongirls_ahowto.png
   imageHover: "Please, tell me more about what your cat did last night. I will listen carefully."
 ---
 

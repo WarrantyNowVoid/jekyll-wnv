@@ -10,7 +10,7 @@ category: Articles
 tags: ["Pope","handy guides","the flu","West Nile Virus","everyone must suffer as I have"]
 comments: true 
 image:
-  headliner: /assets/img/lol/fluvirus.png
+  headliner: assets/img/lol/fluvirus.png
 ---
 
 Here we are in another new year after another wildly successful holiday season. Joy and happiness were spread to all mankind, family and friends shared the warmth of the season, and Pope got sick, so now he's pissed off at the world. Join us as we help you create your own successful holiday season in five easy steps.

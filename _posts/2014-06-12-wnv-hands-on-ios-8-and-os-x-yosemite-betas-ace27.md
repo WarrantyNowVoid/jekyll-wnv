@@ -10,7 +10,7 @@ category: Articles
 tags: ["PFFFFT NERD","Apple","iOS","OS X","iPhone","Mac","computers","Steve Jobs","Sega","video games","Rectal ID","colonic obliteration"]
 comments: true 
 image:
-  headliner: /assets/img/lol/osxyosemite.png
+  headliner: assets/img/lol/osxyosemite.png
   imageHover: "We assume the final version of this wallpaper will have a dickbutt etched into the stone face"
 ---
 

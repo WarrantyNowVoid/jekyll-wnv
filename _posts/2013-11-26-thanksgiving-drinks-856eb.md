@@ -10,7 +10,7 @@ category: Articles
 tags: ["Thanksgiving","holidays","family","booze","drinking","whiskey","Native Americans","Pilgrims","turkey","I wouldn't eat that turkey if I were you","crack"]
 comments: true 
 image:
-  headliner: /assets/img/lol/cornucopiaheader.png
+  headliner: assets/img/lol/cornucopiaheader.png
   imageHover: "Like this but with boooooooooooooooooze."
 ---
 

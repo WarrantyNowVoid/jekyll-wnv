@@ -10,7 +10,7 @@ category: Comics
 tags: ["guns","penis lol","makes no fucking sense","How It's Made","using the term genius loosely","being wrong","being wrong about being wrong"]
 comments: true 
 image:
-  feature: /assets/img/lol/CockGun2.png
+  feature: assets/img/lol/CockGun2.png
   imageHover: "Don't ask what else that board has been used for."
 ---
 

@@ -10,7 +10,7 @@ category: Articles
 tags: ["planes","travel","people are stupid","unanticipated history lessons","flying","people-shaped sacks","based on a true story"]
 comments: true 
 image:
-  headliner: /assets/img/lol/peopleonyourflight.png
+  headliner: assets/img/lol/peopleonyourflight.png
 ---
 
 ### 1\. The Super-Saver

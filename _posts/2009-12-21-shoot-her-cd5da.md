@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","sandwiches","Jurassic Park","raptors","turkey","bacon","now I'm hungry"]
 comments: true 
 image:
-  feature: /assets/img/lol/shoother.png
+  feature: assets/img/lol/shoother.png
   imageHover: "The raptor was the sandwich all along. Bet you didn't see that twist coming."
 ---
 

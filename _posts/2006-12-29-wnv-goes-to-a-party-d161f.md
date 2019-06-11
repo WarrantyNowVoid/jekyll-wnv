@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","junk jokes","premature ejaculation","ORGASMIC"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic49.png
+  feature: assets/img/lol/comic49.png
   imageHover: "He came. The joke is that he came. Prematurely. Yeah, it's fine, no one else got it either."
 ---
 

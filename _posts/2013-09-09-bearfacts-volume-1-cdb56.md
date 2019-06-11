@@ -10,7 +10,7 @@ category: Comics
 tags: ["science","bears","BearFacts","things that will fuck shit up","bone marrow","bear poop","Henri De La Merdeflambe","natural wonders","btw that headband says rectum"]
 comments: true 
 image:
-  feature: /assets/img/lol/bearfacts1.png
+  feature: assets/img/lol/bearfacts1.png
   imageHover: "During the mating display, male bears will often perform elaborate drum solos to attract a female. #BearFacts"
 ---
 

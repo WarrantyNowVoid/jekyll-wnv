@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","realism","contributions not welcome"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic41.png
+  feature: assets/img/lol/comic41.png
   imageHover: "Pope always hates when his new lovers are discovered by the group."
 ---
 

@@ -10,7 +10,7 @@ category: Comics
 tags: ["Pokemon","Child Protective Services","poop","Baby","Baby Poop","video games","no entry on bulbapedia for this one"]
 comments: true 
 image:
-  feature: /assets/img/lol/Wondertrade.png
+  feature: assets/img/lol/Wondertrade.png
   imageHover: "Baby used Headbutt! Oh God, her head's all deformed now!"
 ---
 

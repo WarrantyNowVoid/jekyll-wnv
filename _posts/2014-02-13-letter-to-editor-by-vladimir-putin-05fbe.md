@@ -10,7 +10,7 @@ category: Articles
 tags: ["Putin","Sochi","2014 Winter Olympics","Olympics","Russia","bears","vodka","who doesn't miss the Cold War?","USSR Powercoaster","Chernobyl","Western propaganda"]
 comments: true 
 image:
-  headliner: /assets/img/lol/putin_is_feel.png
+  headliner: assets/img/lol/putin_is_feel.png
 ---
 
 Dear Comrades,

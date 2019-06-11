@@ -10,7 +10,7 @@ category: Comics
 tags: ["Halloween","Nov. 1","diabetic comas","sugar","my blood sugar hurts","nutrition is hard","holidays"]
 comments: true 
 image:
-  feature: /assets/img/lol/PostHalloween.png
+  feature: assets/img/lol/PostHalloween.png
   imageHover: "Blood Sugar Level: Nov. 1"
 ---
 

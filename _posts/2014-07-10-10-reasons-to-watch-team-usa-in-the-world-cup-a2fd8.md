@@ -10,7 +10,7 @@ category: Articles
 tags: ["sports","sportsball","soccer","World Cup","World Wars","United States","USA USA USA","fuck your sport we'll just play the ones we can win"]
 comments: true 
 image:
-  headliner: /assets/img/lol/usaworldcup.png
+  headliner: assets/img/lol/usaworldcup.png
   imageHover: "We should all be more like him."
 ---
 

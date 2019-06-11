@@ -10,7 +10,7 @@ category: Comics
 tags: ["Don't murder any cats","Chinese Food","Delicious","Societal Norms Are Stupid","How It's Made","I Could Really Go For Some Lo Mein Right Now","Letters From Scott","cats"]
 comments: true 
 image:
-  feature: /assets/img/lol/ChineseFood.png
+  feature: assets/img/lol/ChineseFood.png
   imageHover: "Doesn't matter to me; my paws fried rice will still be just as delicious."
 ---
 

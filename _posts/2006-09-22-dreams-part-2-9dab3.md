@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","dreams","bees","flying dogs","emotionality"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic28.jpg
+  feature: assets/img/lol/comic28.jpg
   imageHover: "This is definitely not a metaphor Pope's love life."
 ---
 

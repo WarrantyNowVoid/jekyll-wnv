@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","PFFFFT NERD","Pokemon","video games","Pyrocock","rant"]
 comments: true 
 image:
-  feature: /assets/img/lol/newpokemon.png
+  feature: assets/img/lol/newpokemon.png
   imageHover: "I'm not even shitting you, one of them is an ice cream cone with a face now. CHARMANDER USES LICK. IT'S SUPER EFFECTIVE!"
 ---
 

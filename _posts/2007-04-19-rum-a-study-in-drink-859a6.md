@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","booze","rum","graph jokes","Cheerios","those puzzles are hard okay"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic65.png
+  feature: assets/img/lol/comic65.png
   imageHover: "Fuck off, you smug honeybee sonofabitch. I'll get it in my own time."
 ---
 

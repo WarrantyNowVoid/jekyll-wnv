@@ -10,7 +10,7 @@ category: Comics
 tags: ["NSA","don't be a terrorist","grammar jokes","ion cannons","what if we fucked up the 'whom' thing there","boy that'd be embarrassing","ponderings","racist","we don't understand what prism actually is","wake up sheeple","we're basically on the same level as snowden at this point"]
 comments: true 
 image:
-  feature: /assets/img/lol/grammar_profiling_terrorists.png
+  feature: assets/img/lol/grammar_profiling_terrorists.png
   imageHover: "'Target eliminated, sir. We done it!' 'JOHNSON, YOU TRAITOROUS BASTARD. ...TARGET OUR LOCATION.'"
 ---
 

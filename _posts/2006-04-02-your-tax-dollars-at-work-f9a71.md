@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","science","NASA","moon dust","rockets"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic10.jpg
+  feature: assets/img/lol/comic10.jpg
   imageHover: "Oh shit wait I thought this was the Syrian soil sample."
 ---
 

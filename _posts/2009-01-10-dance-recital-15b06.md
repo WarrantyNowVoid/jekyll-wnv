@@ -10,7 +10,7 @@ category: Comics
 tags: ["classic wnv","gross","porn","offensive to pretty much every community really"]
 comments: true 
 image:
-  feature: /assets/img/lol/comic_dance_recital.png
+  feature: assets/img/lol/comic_dance_recital.png
   imageHover: "What's really horrifying is that's a DVD and not Blu-Ray. What the fuck is this, the past?"
 ---
 
