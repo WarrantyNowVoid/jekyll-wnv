@@ -1,15 +1,15 @@
 <div class="container comic-sub">
   <div class="row align-items-center">
       <div class="col-4 comic-nav comic-nav-left">
-        <a class="color-dark hover-color-vibrant" href="#"><i class="fas fa-angle-double-left"></i> First</a>
-        <a class="color-dark hover-color-vibrant" href="#"><i class="fas fa-angle-left"></i> Prev</a>
+        <a class="color-dark hover-color-vibrant" href="{{ page.first_in_category.url }}"><i class="fas fa-angle-double-left"></i> First</a>
+        {% if page.previous_in_category %}<a class="color-dark hover-color-vibrant" href="{{ page.previous_in_category.url }}">{% endif %}<i class="fas fa-angle-left"></i> Prev{% if page.previous_in_category %}</a>{% endif %}
       </div>
       <div class="col-4 share-links">
         {% include share-links.html %}
       </div>
       <div class="col-4 comic-nav comic-nav-right">
-        <a class="color-dark hover-color-vibrant" href="#">Next <i class="fas fa-angle-right"></i></a>
-        <a class="color-dark hover-color-vibrant" href="#">Latest <i class="fas fa-angle-double-right"></i></a>
+        {% if page.next_in_category %}<a class="color-dark hover-color-vibrant" href="{{ page.next_in_category.url }}">{% endif %}Next <i class="fas fa-angle-right"></i>{% if page.next_in_category %}</a>{% endif %}
+        <a class="color-dark hover-color-vibrant" href="{{ page.last_in_category.url }}">Latest <i class="fas fa-angle-double-right"></i></a>
       </div>
   </div>
 </div>
