@@ -11,8 +11,10 @@ github_username:  warrantynowvoid
 
 markdown: kramdown
 safe: false
-plugins:
-  # - jekyll-feed
+
+# turn this off to disable vibrantjs on each post page
+# for faster builds
+vibrant-posts: true
 
 sass:
   sass_dir: _sass

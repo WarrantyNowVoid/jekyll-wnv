@@ -23,10 +23,12 @@
       <script src="{{ site.url }}{{ page.custom_scripts }}"></script>
     {% endif %}
 
-    {% if page.image.feature %}
-      {% vibrantjs page.image.feature %}
-    {% elsif page.image.headliner %}
-      {% vibrantjs page.image.headliner %}
+    {% if site.vibrant-posts %}
+      {% if page.image.feature %}
+        {% vibrantjs page.image.feature %}
+      {% elsif page.image.headliner %}
+        {% vibrantjs page.image.headliner %}
+      {% endif %}
     {% endif %}
 
   </head>
