@@ -23,6 +23,12 @@
       <script src="{{ site.url }}{{ page.custom_scripts }}"></script>
     {% endif %}
 
+    {% if page.image.feature %}
+      {% vibrantjs page.image.feature %}
+    {% elsif page.image.headliner %}
+      {% vibrantjs page.image.headliner %}
+    {% endif %}
+
   </head>
 
   <body class="{{ page.category | downcase }}">
