@@ -14,12 +14,7 @@
     {% assign retinaizedImageUrl = postImage | split: "" | reverse | join: "" | replace_first: '.', '.x2@' | split: "" | reverse | join: "" | prepend: site.url %}
 
     <!-- Twitter Cards -->
-    {% if page.video %}
-    <meta name="twitter:card" content="player">
-    <meta name="twitter:player" content="{{ page.video.youtube }}">
-    {% else %}
     <meta name="twitter:card" content="summary_large_image">
-    {% endif %}
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     {% if page.excerpt %}<meta name="twitter:description" content="{{ page.excerpt | strip_html }}">{% endif %}
     <meta name="twitter:site" content="@{{ site.twitter_username }}">
