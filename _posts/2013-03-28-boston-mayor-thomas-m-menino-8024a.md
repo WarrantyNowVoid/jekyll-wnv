@@ -5,7 +5,7 @@ published: true
 date: 2013-03-28 16:56:34 -0400
 author: pope
 title: "Boston Mayor Thomas M. Menino"
-excerpt: "Five-term Mayor of Boston, Thomas Menino, today made an announcement that stunned all present and spoke with the sort of fervor and clarity that we as citizens of the Boston area have come to know and expect from him. I mean, we\'re pretty sure we figured out what he said anyway."
+excerpt: "Five-term Mayor of Boston, Thomas Menino, today made an announcement that stunned all present and spoke with the sort of fervor and clarity that we as citizens of the Boston area have come to know and expect from him. I mean, we're pretty sure we figured out what he said anyway."
 category: Articles
 tags: ["Boston","public speaking skills","WHARRGARBL","Menino","politics","United States","government","moonlit pork","Massachusetts"]
 comments: true 

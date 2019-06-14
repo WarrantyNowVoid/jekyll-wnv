@@ -5,7 +5,7 @@ published: true
 date: 2015-01-06 12:16:01 -0500
 author: pope
 title: "New Years Resolutions That We Already Fucked Up"
-excerpt: "It\'s that time again, a brand new year. With 2014 finally dead and gone, it\'s time to look forward to the promise of a new and better year, and a new and better website. Or at least, it would be, if we hadn\'t already fucked up every last one of our resolutions."
+excerpt: "It's that time again, a brand new year. With 2014 finally dead and gone, it's time to look forward to the promise of a new and better year, and a new and better website. Or at least, it would be, if we hadn't already fucked up every last one of our resolutions."
 category: Articles
 tags: ["New Years","holidays","resolutions","bettering ourselves","depending on your definition of better","quadrilaterals","geometry","Dark Eldritch Magicks","Cthulu","promises","we are bad at everything","financial challenges","pile of money","summoning Great Old Ones","lovecraft? more like loveshaft","the concept of linear time","healthy and wealthy in 2015","I have my doubts that we'll ever use that last tag again","At Least It's Not Another Christopher Walken Joke"]
 comments: true 

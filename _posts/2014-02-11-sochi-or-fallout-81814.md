@@ -5,7 +5,7 @@ published: true
 date: 2014-02-11 11:46:38 -0500
 author: pope
 title: "Sochi or Fallout?"
-excerpt: "To celebrate the 2014 Winter Olympics, we\'ve started playing a fun new game called \"Sochi, or Fallout Wasteland?\" The rules are simple, for each scenario, contestants determine if it happened in the post-apocalyptic video game series Fallout, or if it is currently happening in the very real city of Sochi, Russia."
+excerpt: "To celebrate the 2014 Winter Olympics, we've started playing a fun new game called \"Sochi, or Fallout Wasteland?\" The rules are simple, for each scenario, contestants determine if it happened in the post-apocalyptic video game series Fallout, or if it is currently happening in the very real city of Sochi, Russia."
 category: Junk
 tags: ["Olympics","2014 Winter Olympics","Russia","Sochi","Fallout","video games","sports","please to not reporting us to secret police","Krokodil","drugs","despair","dangerous face water","feral dogs"]
 comments: true 

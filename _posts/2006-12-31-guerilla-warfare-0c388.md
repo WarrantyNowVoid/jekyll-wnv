@@ -5,7 +5,7 @@ published: true
 date: 2006-12-31 01:01:01 -0500
 author: pope
 title: "Guerilla Warfare"
-excerpt: "Making conversation at parties can be difficult, especially when your hobbies are as intense as Scott\'s. "
+excerpt: "Making conversation at parties can be difficult, especially when your hobbies are as intense as Scott's. "
 category: Comics
 tags: ["classic wnv","PTSD","paintball","guns","taking it seriously means you're doing it right"]
 comments: true 

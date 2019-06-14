@@ -23,12 +23,6 @@
       <script src="{{ site.url }}{{ page.custom_scripts }}"></script>
     {% endif %}
 
-    {% if page.image.feature %}
-      {% vibrantjs page.image.feature %}
-    {% elsif page.image.headliner %}
-      {% vibrantjs page.image.headliner %}
-    {% endif %}
-
   </head>
 
   <body class="{{ page.category | downcase }}">
@@ -44,7 +38,12 @@
               <img class="feature" src="{{ site.url }}/{{ page.image.feature }}" srcset="{{ site.url }}/{{ retinaFeature }} 2x" title="{{ page.image.imageHover }}" />
             {% endif %}
 
-            {{ content }}        
+            {{ content }}
+
+            {% if page.video %}
+              <!-- we can support other players here if we ever need it -->
+              {% youtube page.video.youtube %}
+            {% endif %}
           </div>
         </article>
       </main>      

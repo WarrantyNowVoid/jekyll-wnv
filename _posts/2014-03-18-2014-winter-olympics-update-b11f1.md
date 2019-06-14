@@ -5,7 +5,7 @@ published: true
 date: 2014-03-18 12:03:58 -0400
 author: pope
 title: "2014 Winter Olympics Update"
-excerpt: "The 2014 Winter Olympics are well underway, with the event everyone\'s been waiting for finally getting started: Unprovoked Invasion, and Russia is off to a commanding lead."
+excerpt: "The 2014 Winter Olympics are well underway, with the event everyone's been waiting for finally getting started: Unprovoked Invasion, and Russia is off to a commanding lead."
 category: Articles
 tags: ["2014 Winter Olympics","Russia","Putin","bears","Crimea","Crimea River","Olympics"]
 comments: true 

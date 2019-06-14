@@ -5,7 +5,7 @@ published: true
 date: 2006-11-30 01:01:01 -0500
 author: pope
 title: "The Maguire Self-Image"
-excerpt: "Another development of the Warranty Now Void style is called into focus in today\'s comic, as Mike tries to submit the model for his own character, while Scott stands true to his beliefs, in his typical fashion."
+excerpt: "Another development of the Warranty Now Void style is called into focus in today's comic, as Mike tries to submit the model for his own character, while Scott stands true to his beliefs, in his typical fashion."
 category: Comics
 tags: ["classic wnv","realism","contributions not welcome"]
 comments: true 

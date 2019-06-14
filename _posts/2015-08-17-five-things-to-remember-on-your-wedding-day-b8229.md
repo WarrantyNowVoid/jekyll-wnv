@@ -5,7 +5,7 @@ published: true
 date: 2015-08-17 13:01:01 -0400
 author: pope
 title: "Five Things to Remember on Your Wedding Day"
-excerpt: "It\'s your big day! Things can get pretty hectic, and it\'s easy to overlook even the most important details, so we\'ve compiled a handy list to help make your day as special as you deserve."
+excerpt: "It's your big day! Things can get pretty hectic, and it's easy to overlook even the most important details, so we've compiled a handy list to help make your day as special as you deserve."
 category: Articles
 tags: ["#weddingcomickz","weddings","marriage","Steve Buscemi","horses","jockeys","emotionality","Societal Norms Are Stupid","Mendoza","bionic limbs","your own fault","true love","no pressure","DON'T THROW UP"]
 comments: true 

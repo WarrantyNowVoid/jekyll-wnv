@@ -5,7 +5,7 @@ published: true
 date: 2015-08-19 13:01:01 -0400
 author: pope
 title: "Wedding Night Tips"
-excerpt: "Well, it\'s the night after your big day, and we all now what that means, right? Of course we do. We all definitely, completely do. I mean, I know. For sure. Do you? Boy, I just feel sorry for anyone who doesn\'t know. Gosh that must be embarrassing."
+excerpt: "Well, it's the night after your big day, and we all now what that means, right? Of course we do. We all definitely, completely do. I mean, I know. For sure. Do you? Boy, I just feel sorry for anyone who doesn't know. Gosh that must be embarrassing."
 category: Articles
 tags: ["#weddingcomickz","weddings","sexy","no not sexy at all why did I add that tag","parent-sex","babies","safety first","How It's Made","gettin' it","sex pants","grown up stuff","adult things","Steve Buscemi","wedding night","man contraptions","floppy things","sex cabana","lady apparatus","floppy pillows"]
 comments: true 

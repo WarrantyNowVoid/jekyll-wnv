@@ -16,6 +16,7 @@ gem "jekyll", "~> 3.8.5"
 
 group :jekyll_plugins do
   gem 'jekyll-vibrantjs', '~> 1.0'
+  gem 'jekyll-youtube'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

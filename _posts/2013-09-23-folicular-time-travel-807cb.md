@@ -5,7 +5,7 @@ published: true
 date: 2013-09-23 12:01:18 -0400
 author: scawt
 title: "Folicular Time Travel"
-excerpt: "They say that a haircut a day keeps the doctor away, but I would argue that that\'s entirely too many haircuts and that a psychiatrist should be brought in for a consult. I prefer to maintain a somewhat less frequent schedule of hair maintenance myself, but on those rare occasions that I do visit the local Supercuts I try to make it as interesting as possible. 
+excerpt: "They say that a haircut a day keeps the doctor away, but I would argue that that's entirely too many haircuts and that a psychiatrist should be brought in for a consult. I prefer to maintain a somewhat less frequent schedule of hair maintenance myself, but on those rare occasions that I do visit the local Supercuts I try to make it as interesting as possible. 
 "
 category: Articles
 tags: ["Haircut","Gay As In Happy","Do You Find Me Repulsive?","This Bone Structure Is Not Good Bone Structure","Lookin' Adequate","Hair Gel","Letters From Scott","The Honor Guard"]

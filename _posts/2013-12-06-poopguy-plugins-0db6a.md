@@ -5,7 +5,7 @@ published: true
 date: 2013-12-06 09:56:02 -0500
 author: pope
 title: "PoopGuy Plugins"
-excerpt: "Have you ever been on a website and thought, \"boy this site would be better if I could take a giant steaming dump right on top of it\"? Well, friend, worry no more. Warranty Now Void\'s Board Of Novel Experimentation & Research Studies has developed just the solution you need."
+excerpt: "Have you ever been on a website and thought, \"boy this site would be better if I could take a giant steaming dump right on top of it\"? Well, friend, worry no more. Warranty Now Void's Board Of Novel Experimentation & Research Studies has developed just the solution you need."
 category: Junk
 tags: ["PFFFFT NERD","computers","poop jokes","#poopGuy2013","Chrome","poop","downloadable","check back later for updates"]
 comments: true 

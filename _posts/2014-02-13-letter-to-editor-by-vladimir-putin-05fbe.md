@@ -5,7 +5,7 @@ published: true
 date: 2014-02-13 10:53:08 -0500
 author: admiral
 title: "Letter to Editor by Vladimir Putin"
-excerpt: "Dear Comrades, I am Vladimir Vladimirovich Putin, greatest all-powerful democratic ruler of greatest Mother Russia. It has come to Putin\'s attention that Homeland has drawn criticism from West. Putin must set record straight. "
+excerpt: "Dear Comrades, I am Vladimir Vladimirovich Putin, greatest all-powerful democratic ruler of greatest Mother Russia. It has come to Putin's attention that Homeland has drawn criticism from West. Putin must set record straight. "
 category: Articles
 tags: ["Putin","Sochi","2014 Winter Olympics","Olympics","Russia","bears","vodka","who doesn't miss the Cold War?","USSR Powercoaster","Chernobyl","Western propaganda"]
 comments: true 

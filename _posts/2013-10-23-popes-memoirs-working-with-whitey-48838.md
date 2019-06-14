@@ -5,7 +5,7 @@ published: true
 date: 2013-10-23 12:15:26 -0400
 author: pope
 title: "Pope's Memoirs: Working With Whitey"
-excerpt: "In his many years traveling this Earth, Pope has experienced a great deal, and learned even more. In our new series, Pope\'s Memoirs, he shares some of that immense knowledge with the rest of us. Or he just makes a bunch of shit up. It\'s really hard to tell sometimes."
+excerpt: "In his many years traveling this Earth, Pope has experienced a great deal, and learned even more. In our new series, Pope's Memoirs, he shares some of that immense knowledge with the rest of us. Or he just makes a bunch of shit up. It's really hard to tell sometimes."
 category: Articles
 tags: ["Pope's Memoirs","Whitey Bulger","Massachusetts","Micro Machines","drugs","Boston","realistic shipping methods"]
 comments: true 

@@ -5,7 +5,7 @@ published: true
 date: 2013-11-20 12:43:24 -0500
 author: admiral
 title: "Meat Alloys and Marketing Ploys"
-excerpt: "Spam has been an ongoing annoyance since the beginning of telecommunications. Be it via telemarketer, SMS, ad-ware or e-mails, that\'s not a lot you can do to avoid it. In a heroic recreation of the final scene from Independence Day, Admiral Rau hurls himself headlong into the belly of the beast. I don\'t have a good feeling about the outcome."
+excerpt: "Spam has been an ongoing annoyance since the beginning of telecommunications. Be it via telemarketer, SMS, ad-ware or e-mails, that's not a lot you can do to avoid it. In a heroic recreation of the final scene from Independence Day, Admiral Rau hurls himself headlong into the belly of the beast. I don't have a good feeling about the outcome."
 category: Articles
 tags: ["the Internet","spambots","Nigerian Princes","Cialis","penis lol","email","Unclean he moaned","Spam","Russian mail order brides","horny singles in your area!","financial advice"]
 comments: true 

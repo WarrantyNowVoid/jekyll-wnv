@@ -5,7 +5,7 @@ published: true
 date: 2013-10-04 12:21:54 -0400
 author: admiral
 title: "West Nile Virus"
-excerpt: "Warranty Now Void is an internet vigilante. We are not always the hero you deserve, and honestly? We\'re almost never the hero you need, either. Today, against our better judgement (and also 3 very sternly worded court orders) we are going to take a hard look at West Nile Virus, or as we\'ve affectionately taken to calling it - wast niel."
+excerpt: "Warranty Now Void is an internet vigilante. We are not always the hero you deserve, and honestly? We're almost never the hero you need, either. Today, against our better judgement (and also 3 very sternly worded court orders) we are going to take a hard look at West Nile Virus, or as we've affectionately taken to calling it - wast niel."
 category: Articles
 tags: ["science","West Nile Virus","gross","mosquitos","Africa","donkey dicks","zoonotic arbovirus","we are the only true WNV","death by WNV"]
 comments: true 

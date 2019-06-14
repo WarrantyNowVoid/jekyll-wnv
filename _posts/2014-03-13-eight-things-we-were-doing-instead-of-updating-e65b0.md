@@ -5,7 +5,7 @@ published: true
 date: 2014-03-13 12:34:56 -0400
 author: pope
 title: "Eight Things We Were Doing Instead of Updating"
-excerpt: "It\'s been a while since our last post, so we thought we owed you all a bit of an explanation. Things around here have been very busy lately, and we haven\'t been keeping up with our previously rigorous post regimen. Here\'s a list of the ten most important things that have been keeping us from you all this time."
+excerpt: "It's been a while since our last post, so we thought we owed you all a bit of an explanation. Things around here have been very busy lately, and we haven't been keeping up with our previously rigorous post regimen. Here's a list of the ten most important things that have been keeping us from you all this time."
 category: Articles
 tags: ["WNV","death by WNV","Putin","Gulag","Rob Ford","crack","jobs","Malaysian jumbo jets","too busy masturbating","bears","Entirely Too Soon","DOGE","Dogecoin"]
 comments: true 
