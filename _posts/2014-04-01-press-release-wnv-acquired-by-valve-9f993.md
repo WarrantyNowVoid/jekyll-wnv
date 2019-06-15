@@ -28,10 +28,10 @@ Valve is the leader in video game development and digital distribution, known fo
 
 The WNV team will be bringing its unique skills into play by beginning development of one of the most highly anticipated sequels ever, which itself has spawned years of speculation and internet jokes about Valve's development and release cycles. WNV writers are already hard at work on finally bringing to life the sequel that has been eagerly awaited since its original release: **Ricochet 2**.
 
-"With a story as rich and complex as Ricochet, there's a whole universe of material for us to draw on and focus the new story on," co-founder of WNV, Scott, explained. "And of course, with all the hype surrounding this game, even years before it's announcement, we have a lot to live up to. But I think that's what Gabe saw in us, the potential to really pull this off in a way that's satisfying for everyone."
+"With a story as rich and complex as Ricochet, there's a whole universe of material for us to draw on and focus the new story on," co-founder of WNV, Scawt, explained. "And of course, with all the hype surrounding this game, even years before it's announcement, we have a lot to live up to. But I think that's what Gabe saw in us, the potential to really pull this off in a way that's satisfying for everyone."
 
 "-shit holy shit holy shit holy shit holy shit holy shit," continued Pope, rocking back and forth in the fetal position on the floor of the office showers.
 
-"They said what? Richochet? You've got to be fucking kidding me," Newell added, echoing Scott's positive hopes for the game. "Oh shit, what have I gotten us into..."
+"They said what? Richochet? You've got to be fucking kidding me," Newell added, echoing Scawt's positive hopes for the game. "Oh shit, what have I gotten us into..."
 
 The transaction is expected to close in the second quarter of fucking never.

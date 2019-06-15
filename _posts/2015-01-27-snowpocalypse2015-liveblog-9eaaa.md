@@ -17,7 +17,7 @@ image:
 
 **Pope (10:45am):** I'll be coming to you live from Somerville with all the latest street sweeping and hipster interest news.
 
-**Rau (10:46am):** Western MA reporting in.
+**Rowe (10:46am):** Western MA reporting in.
 
 **Steven (10:46am):** WNV headquarters in Boston's Back Bay checking in.
 
@@ -39,13 +39,13 @@ image:
 
 **Mark (11:22am):** How the fuck should I know? I'm still in my bed. Eat a dick.
 
-**Rau (11:23am):** Oh no.
+**Rowe (11:23am):** Oh no.
 
-**Rau (11:23am):** Oh no no no no.
+**Rowe (11:23am):** Oh no no no no.
 
-**Rau (11:23am):** There's some ice within 20 feet of the power lines.
+**Rowe (11:23am):** There's some ice within 20 feet of the power lines.
 
-**Rau (11:23am):** NO DON'T TAKE MY ELECTRICIT--
+**Rowe (11:23am):** NO DON'T TAKE MY ELECTRICIT--
 
 **Jimothy (11:25am):** Oh god is he dead? DID HE JUST DIE? I KNEW I SHOULDN'T BE OUT HERE
 
@@ -461,20 +461,20 @@ image:
 
 **Pope (11:59pm):** And I thank their disembodied, pulverized, eaten corpses for that.
 
-**Rau (12:00am):** Hey guys, finally got power back. I spent all day playing my Game Boy.
+**Rowe (12:00am):** Hey guys, finally got power back. I spent all day playing my Game Boy.
 
-**Rau (12:00am):** Haha, not such a bad snow day, huh?
+**Rowe (12:00am):** Haha, not such a bad snow day, huh?
 
-**Pope (12:01am):** God fucking dammit, Rau. Show some respect.
+**Pope (12:01am):** God fucking dammit, Rowe. Show some respect.
 
 **Pope (12:02am):** It's after midnight. The liveblog ended like two minutes ago. You ruined my dramatic signoff.
 
-**Rau (12:03am):** My bad.
+**Rowe (12:03am):** My bad.
 
-**Rau (12:03am):** Hey, where's Steven? He borrowed my Link's Awakening game and never gave it back.
+**Rowe (12:03am):** Hey, where's Steven? He borrowed my Link's Awakening game and never gave it back.
 
 **Steven (12:04am):** We are here. We have the Awake Link. Come to the office and we shall feed on you.
 
 **Steven (12:04am):** We meant give to you. How do you edit a post?
 
-**Rau (12:05am):** Cool, on my way.
+**Rowe (12:05am):** Cool, on my way.

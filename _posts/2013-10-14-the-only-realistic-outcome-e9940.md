@@ -5,7 +5,7 @@ published: true
 date: 2013-10-14 12:37:09 -0400
 author: pope
 title: "The Only Realistic Outcome"
-excerpt: "Carpentry really isn't our forte, and that is especially apparent in this 66% true story about Scott's recent move to a new apartment. "
+excerpt: "Carpentry really isn't our forte, and that is especially apparent in this 66% true story about Scawt's recent move to a new apartment. "
 category: Comics
 tags: ["science","DIY","safety first","furniture","(P)IMP","IKEA might have been a better idea"]
 comments: true 

@@ -5,7 +5,7 @@ published: true
 date: 2009-11-19 01:01:01 -0500
 author: pope
 title: "New Pokemon"
-excerpt: "Scott discusses his opinions of the hundreds, or thousands, or no, wait I'm pretty sure it's fucking billions of new Pokemon that the youngsters are playing with these days. Spoiler alert: they suck and everyone hates them."
+excerpt: "Scawt discusses his opinions of the hundreds, or thousands, or no, wait I'm pretty sure it's fucking billions of new Pokemon that the youngsters are playing with these days. Spoiler alert: they suck and everyone hates them."
 category: Comics
 tags: ["classic wnv","PFFFFT NERD","Pokemon","video games","Pyrocock","rant"]
 comments: true 

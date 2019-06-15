@@ -22,7 +22,7 @@ Almost everything that's oozed from our collective psyche onto WNV has been conc
 *   We realize that it would be hard and/or time consuming to execute so we lock it away in the "ideas" list to "...definitely do later. Totally."
     
 
-These conversations take many forms. Sometimes it's an AIM window. Sometimes it's a text thread. Sometimes it's a 2360 entry long list in an IRC channel entitled "Things Scott Likes In His Butt." Any time a dialogue is open there's a pretty decent chance we're kicking around our own shitty brand of humor, and that's usually the jumping off point of the next weeks posts.
+These conversations take many forms. Sometimes it's an AIM window. Sometimes it's a text thread. Sometimes it's a 2360 entry long list in an IRC channel entitled "Things Scawt Likes In His Butt." Any time a dialogue is open there's a pretty decent chance we're kicking around our own shitty brand of humor, and that's usually the jumping off point of the next weeks posts.
 
 There are, of course, miscarriages as well as the occasional full-blown abortion along the way. As often as not, these discussions initiate, climax, and conclude while we are _deeply_ under the influence of alcohol, a substance known to strip us of any remaining shreds of human decency we've managed to cling to. The raw ore mined from these conversations may be rich with gold, but there's also gonna be a fair amount of weapons grade plutonium and ultrasnakes\* in there. (I am not a miner, and my expertise in geology only goes so far as "ground location," but I'm pretty sure that metaphor was spot on.)
 
