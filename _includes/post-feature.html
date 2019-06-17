@@ -1,6 +1,6 @@
             <div class="post-holster">
 
-              {% for post in featured-posts %}
+              {% for post in site.featured_posts %}
                 {% if post.image.headliner %}
                   {% assign postImage = post.image.headliner %}
                   {% assign imageType = 'HEAD' %}
@@ -22,18 +22,18 @@
                 </div>
               {% endfor %}
               
-              <div class="post-details-shader {{ featured-posts[0].category || downcase }}"></div>
+              <div class="post-details-shader {{ site.featured_posts[0].category || downcase }}"></div>
 
               <div class="post-details-holster">
                 <div id="featured-posts-carousel" class="carousel slide">
                   <ol class="carousel-indicators">
-                    {% for post in featured-posts %}
+                    {% for post in site.featured_posts %}
                       <li data-target="#featured-posts-carousel" data-slide-to="{{ forloop.index0 }}" class="{% if forloop.first == true %} active{% endif %}"></li>
                     {% endfor %}
                   </ol>
                   <div class="carousel-inner">
 
-                    {% for post in featured-posts %}
+                    {% for post in site.featured_posts %}
                       {% if post.category != "Junk" %}
                         {% assign categoryLen = post.category | size | minus: 1 %}
                         {% assign categoryFriendly = post.category | slice: 0, categoryLen %}
