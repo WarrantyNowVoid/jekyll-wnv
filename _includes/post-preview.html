@@ -16,10 +16,8 @@
                 {% endif %}
               {% endif %}
 
-              {% assign retinaImage = postImage | split: "" | reverse | join: "" | replace_first: '.', '.x2@' | split: "" | reverse | join: "" %}
-
               <a class="stretched-link" href="{{ site.url }}{{ post.url }}">
-                <img src="{{ site.url }}/{{ postImage }}" srcset="{{ site.url }}/{{ retinaImage }} 2x" {% if imageType == 'AUTO' %}class="auto-thumbnail" {% endif %}/>
+                <img {% twoxify postImage %} {% if imageType == 'AUTO' %}class="auto-thumbnail" {% endif %}/>
               </a>
 
               <div class="details-holster{% if evenOdd %} {{ evenOdd }}{% endif %} {{ post.category || downcase }}">

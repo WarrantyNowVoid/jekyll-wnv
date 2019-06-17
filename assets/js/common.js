@@ -11,8 +11,8 @@ if('ontouchstart' in document.documentElement){
 
 $(document).ready(function(){
 
-  // automatically retinaize all image tags
-  $('img').each(function(){
+  // automatically retinaize all image tags *inside* post bodies
+  $('article.post .content-wrap img').each(function(){
     // ignore anything we explicitly handle already with srcset 
     if(!($(this)[0].hasAttribute('srcset') || 
          $(this)[0].hasAttribute('data-rjs') || 

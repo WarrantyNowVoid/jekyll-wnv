@@ -42,8 +42,7 @@
 
           <div class="container content-wrap">
             {% if page.image.feature %}
-              {% assign retinaFeature = page.image.feature | split: "" | reverse | join: "" | replace_first: '.', '.x2@' | split: "" | reverse | join: "" %}
-              <img class="feature" src="{{ site.url }}/{{ page.image.feature }}" srcset="{{ site.url }}/{{ retinaFeature }} 2x" title="{{ page.image.imageHover }}" />
+              <img {% twoxify page.image.feature %} class="feature" title="{{ page.image.imageHover }}" />
             {% endif %}
 
             {{ content }}

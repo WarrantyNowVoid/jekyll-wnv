@@ -17,10 +17,8 @@
                   {% endif %}
                 {% endif %}
 
-                {% assign retinaImage = postImage | split: "" | reverse | join: "" | replace_first: '.', '.x2@' | split: "" | reverse | join: "" %}
-
                 <div class="post-image{% if forloop.first == true %} active{% endif %}">
-                  <img src="{{ site.url }}/{{ postImage }}" srcset="{{ site.url }}/{{ retinaImage }} 2x" {% if imageType == 'AUTO' %}class="auto-thumbnail" {% endif %}/>
+                  <img {% twoxify postImage %} {% if imageType == 'AUTO' %}class="auto-thumbnail" {% endif %}/>
                 </div>
               {% endfor %}
               
