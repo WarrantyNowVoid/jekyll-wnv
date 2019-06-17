@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  <head>
+
+    {% include head.html %}
+
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/home.css">
+
+  </head>
+
+  <body>
+    <main>
+
+      {% include sidebar.html %}
+      <section class="page-wrapper posts-list clearfix">
+      
+        <h1>Posts Tagged With <a href="#" class="badge badge-primary"><i class="fas fa-tag"></i> {{ page.autopages.display_name }}</a></h1>
+
+        <div class="previews-container">
+          {% for post in paginator.posts %}
+            {% capture evenOdd %}
+                {% cycle 'odd', 'even' %}
+            {% endcapture %}
+            {% include post-preview.html %}
+          {% endfor %}
+        </div>
+
+      </section>
+
+      <section class="pager-buttons">
+        {% if paginator.total_pages > 1 %}
+        <ul class="pager">
+          {% if paginator.previous_page %}
+          <li class="previous">
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+          </li>
+          {% endif %}
+          {% if paginator.next_page %}
+          <li class="next">
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+          </li>
+          {% endif %}
+        </ul>
+        {% endif %}
+      </section>
+
+      <footer>
+        {% include footer.html %}
+      </footer>
+      
+    </main>
+  </body>
+
+</html>

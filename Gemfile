@@ -19,6 +19,7 @@ group :jekyll_plugins do
   gem 'jekyll-twoxify', '~> 1.0.1'
   gem 'jekyll-youtube'
   gem 'jekyll-tagging-related_posts'
+  gem 'jekyll-paginate-v2'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
