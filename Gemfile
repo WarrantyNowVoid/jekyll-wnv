@@ -18,6 +18,7 @@ group :jekyll_plugins do
   gem 'jekyll-vibrantjs', '~> 1.0'
   gem 'jekyll-twoxify', '~> 1.0.1'
   gem 'jekyll-youtube'
+  gem 'jekyll-tagging-related_posts'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

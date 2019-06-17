@@ -76,7 +76,7 @@
         <div class="wrap related background-color-dark">
           <aside class="container clearfix" role="complementary" aria-labelledby="related-title">
             <h4 id="related-title">Related Posts</h4>
-            {% for post in site.posts limit:6 %}
+            {% for post in site.related_posts limit:6 %}
               
               {% include post-preview.html %}
 

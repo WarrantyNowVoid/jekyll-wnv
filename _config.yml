@@ -9,6 +9,8 @@ permalink: /:categories/:year/:month/:day/
 twitter_username: warrantynowvoid
 github_username:  warrantynowvoid
 
+lsi: true
+
 markdown: kramdown
 safe: false
 
