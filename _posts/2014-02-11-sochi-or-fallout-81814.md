@@ -13,7 +13,7 @@ image:
   headliner: assets/img/lol/sochiorfallout_headline.png
 ---
 
-To celebrate the 2014 winter olympics, weâ€™ve started playing a fun new game here at WNV called "Sochi, or Fallout Wasteland?â€ The rules are simple enough, the mediator describes a scenario, and the contestants have to determine if it happened in the smash hit, post-apocalyptic video game series Fallout, or if it is currently happening to a reporter or athelete in the very real city of Sochi, Russia.
+To celebrate the 2014 winter olympics, weâ€™ve started playing a fun new game here at WNV called "Sochi, or Fallout Wasteland?" The rules are simple enough, the mediator describes a scenario, and the contestants have to determine if it happened in the smash hit, post-apocalyptic video game series Fallout, or if it is currently happening to a reporter or athelete in the very real city of Sochi, Russia.
 
 Ready to get started? I know I am. Click or tap on the Answer panels to see the correct response. Let's get going!
 

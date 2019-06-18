@@ -47,13 +47,13 @@ The light was too bright to make out the man's features, but he knew who it was.
 
 He was saying something, but it was hard to make out.
 
-"â€¦your doctorâ€¦ that's okay? We can'tâ€¦ losing so much bloodâ€¦ anemiaâ€¦ where it's goingâ€¦ hear me?"
+"--your doctor-- that's okay? We can't--losing so much blood-- anemia-- where it's going-- hear me?"
 
 There were noises coming from the ugly machines behind him. _I bet they run on Android. Disgusting._
 
 The beeps and noises mixed with the light flowing in from the door. The man rushed closer to him, saying something now indistinguishable.
 
-"I haven't even seen the new iPad yet," he tried to groan. The man didn't seem to notice. He was too intent on the machines. "Let me just add it to my Remindersâ€¦ Have you seen the new fingerprint reader? It's so coolâ€¦"
+"I haven't even seen the new iPad yet," he tried to groan. The man didn't seem to notice. He was too intent on the machines. "Let me just add it to my Reminders! Have you seen the new fingerprint reader? It's so cool!"
 
 Press. But there was no click.
 

@@ -25,7 +25,7 @@ An eighty-year-old man who has dedicated his life and what political power he ha
 
 ### The Social Marketer
 
-<blockquote class="twitter-tweet"><p><a href="https://twitter.com/DalaiLama">@DalaiLama</a> <a href="http://t.co/r4vZbCkBzM">http://t.co/r4vZbCkBzM</a></p>â€” Andre S Grindle (@Uttlebuttle) <a href="https://twitter.com/Uttlebuttle/statuses/378615404270084096">September 13, 2013</a></blockquote>
+<blockquote class="twitter-tweet"><p><a href="https://twitter.com/DalaiLama">@DalaiLama</a> <a href="http://t.co/r4vZbCkBzM">http://t.co/r4vZbCkBzM</a></p>Andre S Grindle (@Uttlebuttle) <a href="https://twitter.com/Uttlebuttle/statuses/378615404270084096">September 13, 2013</a></blockquote>
 
 "Thanks for your wisdom, your High Holiness, but I think if you read my latest blog post, you'll _really_ learn a little something about peace and harmony."
 
@@ -35,7 +35,7 @@ I mean, really, if you're going to try to get the Dalai Lama to read you blog, y
 
 ### The Character Conservationalist
 
-<blockquote class="twitter-tweet"><p><a href="https://twitter.com/DalaiLama">@DalaiLama</a> .I salutes to u ..hats off u : )</p>â€” kulwindersingh (@kulwind47981458) <a href="https://twitter.com/kulwind47981458/statuses/378619418097369088">September 13, 2013</a></blockquote>
+<blockquote class="twitter-tweet"><p><a href="https://twitter.com/DalaiLama">@DalaiLama</a> .I salutes to u ..hats off u : )</p>kulwindersingh (@kulwind47981458) <a href="https://twitter.com/kulwind47981458/statuses/378619418097369088">September 13, 2013</a></blockquote>
 
 "omg lol ur so cool mr llama :P"
 
@@ -45,7 +45,7 @@ I understand that this is Twitter, and your characters are limited, but the diff
 
 ### The Gossip Girl
 
-<blockquote class="twitter-tweet"><p>Do you have a crush on anyone right now? <a href="https://twitter.com/nickcarter">@nickcarter</a> <a href="https://twitter.com/FBI">@fbi</a> <a href="https://twitter.com/DalaiLama">@DalaiLama</a> <a href="https://twitter.com/WestJet">@WestJet</a> <a href="https://twitter.com/paulocoelho">@paulocoelho</a> <a href="https://twitter.com/HillaryClinton">@HillaryClinton</a> <a href="https://twitter.com/holerock">@holerock</a> <a href="https://twitter.com/AndrewWK">@AndrewWK</a> <a href="https://twitter.com/AsaAkira">@AsaAkira</a></p>â€” Marlene Ginader (@MarleneGinader) <a href="https://twitter.com/MarleneGinader/statuses/378621341705859072">September 13, 2013</a></blockquote><script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p>Do you have a crush on anyone right now? <a href="https://twitter.com/nickcarter">@nickcarter</a> <a href="https://twitter.com/FBI">@fbi</a> <a href="https://twitter.com/DalaiLama">@DalaiLama</a> <a href="https://twitter.com/WestJet">@WestJet</a> <a href="https://twitter.com/paulocoelho">@paulocoelho</a> <a href="https://twitter.com/HillaryClinton">@HillaryClinton</a> <a href="https://twitter.com/holerock">@holerock</a> <a href="https://twitter.com/AndrewWK">@AndrewWK</a> <a href="https://twitter.com/AsaAkira">@AsaAkira</a></p>Marlene Ginader (@MarleneGinader) <a href="https://twitter.com/MarleneGinader/statuses/378621341705859072">September 13, 2013</a></blockquote><script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Let's see here, in one fell swoop, you have just asked two musicians, an author, a band, an airline, the Federal Bureau of Investigation, Hillary Clinton, the Dalai Lama, and a porn star if they have a crush on anyone right now. I mean, at least a few of those things are actually individual people who are, presumably, capable of having "crushes," though I think you might be barking up the wrong tree with Hillary. I'm not convinced she feels anything anymore. The very least you could have done here would have been to take the time and spam major political, religious, and cultural leaders individually.
 

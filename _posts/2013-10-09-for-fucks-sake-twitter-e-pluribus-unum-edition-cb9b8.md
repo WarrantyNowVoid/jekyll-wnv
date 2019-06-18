@@ -23,7 +23,7 @@ Now let's move into the wonderful world of Twitter, so be sure to leave your log
 
 ### A Line Too Far
 
-<blockquote class="twitter-tweet"><p>My nana shitty the gov shut down <a href="http://t.co/N1CMU9IJgg">http://t.co/N1CMU9IJgg</a></p>â€” Terra (@Ms_Terrable) <a href="https://twitter.com/Ms_Terrable/statuses/387224737782317056">October 7, 2013</a></blockquote>
+<blockquote class="twitter-tweet"><p>My nana shitty the gov shut down <a href="http://t.co/N1CMU9IJgg">http://t.co/N1CMU9IJgg</a></p>Terra (@Ms_Terrable) <a href="https://twitter.com/Ms_Terrable/statuses/387224737782317056">October 7, 2013</a></blockquote>
 
 Closing National Parks is one thing, but closing Nana? That's it, Obama. You've gone too far this time.
 
@@ -31,7 +31,7 @@ Seriously, I have no idea what legitimate reason there could be for the federal 
 
 ### Wake Up, Sheeple!
 
-<blockquote class="twitter-tweet"><p>People!!BHusseinObama showing every classic trait of slow forming dictatorship, don't overlook the signs. Look how selective the shutdown is</p>â€” Han Valen (@ou812usa) <a href="https://twitter.com/ou812usa/statuses/387224884197068800">October 7, 2013</a></blockquote>
+<blockquote class="twitter-tweet"><p>People!!BHusseinObama showing every classic trait of slow forming dictatorship, don't overlook the signs. Look how selective the shutdown is</p>Han Valen (@ou812usa) <a href="https://twitter.com/ou812usa/statuses/387224884197068800">October 7, 2013</a></blockquote>
 
 Holy shit, you guys! This Bhussein fellow is slowly forming a dictatorship right under our noses! It's as though the shutdown is only following the predetermined parameters for a governmental shutdown. This is a travesty! If only I had any idea who the hell that was, I would protest the shit out of all the power he has!
 
@@ -41,13 +41,13 @@ My chicken parmesan is mediocre at best.
 
 ### Just Get a New One, Asshole
 
-<blockquote class="twitter-tweet"><p>I have zero respect for any cop or park ranger who's willfully following Obama's orders simply to keep their job. Fuck 'em. <a href="https://twitter.com/search?q=%23shutdown&amp;src=hash">#shutdown</a></p>â€” Dick (@DicksTrash) <a href="https://twitter.com/DicksTrash/statuses/387229851058335745">October 7, 2013</a></blockquote>
+<blockquote class="twitter-tweet"><p>I have zero respect for any cop or park ranger who's willfully following Obama's orders simply to keep their job. Fuck 'em. <a href="https://twitter.com/search?q=%23shutdown&amp;src=hash">#shutdown</a></p>Dick (@DicksTrash) <a href="https://twitter.com/DicksTrash/statuses/387229851058335745">October 7, 2013</a></blockquote>
 
 I, too, have no respect or sympathy for anyone not willing to throw away their entire career in a time when jobs are less than abundant in an attempt at a protest whose overall effectiveness will amount to roughly as much as throwing a dead hamster at an M2 Bradley Tank. What a bunch of selfish turds, right?
 
 ### Porous at Best
 
-<blockquote class="twitter-tweet"><p>Drugs &amp; guns will be getting through security while the government is shut down</p>â€” Mona Lisa No Smile (@Naomi_Bobbi) <a href="https://twitter.com/Naomi_Bobbi/statuses/387224775493296128">October 7, 2013</a></blockquote>
+<blockquote class="twitter-tweet"><p>Drugs &amp; guns will be getting through security while the government is shut down</p>Mona Lisa No Smile (@Naomi_Bobbi) <a href="https://twitter.com/Naomi_Bobbi/statuses/387224775493296128">October 7, 2013</a></blockquote>
 
 The government is shut down. Security across the nation has been disabled. Anyone can carry a gun, drugs, or a drug-filled gun into anyplace they please, and there is no one to stop them. Lawlessness and destruction are all that we as Americans will know henceforth. Now if you'll excuse me, I have to shove as much heroin into this AK-47 as possible because of reasons. Who's going to stop me, your precious _government_?
 
@@ -61,6 +61,6 @@ That's it, everyone. The ocean is closed. The whole thing. Obama finally decided
 
 You know what, I think it's time we make an effort to reach out to these poor, confused souls and offer a bit of our collective WNV-brand wisdom in an effort to bridge the gap and bring all our fellow Internet users together to find decent and logical solutions to our problems.
 
-<blockquote class="twitter-tweet"><p><a href="https://twitter.com/sandyaschneider">@sandyaschneider</a> Solution: become Muslim. Problem solved!</p>â€” WarrantyNowVoid (@WarrantyNowVoid) <a href="https://twitter.com/WarrantyNowVoid/statuses/387311837101834241">October 7, 2013</a></blockquote>
+<blockquote class="twitter-tweet"><p><a href="https://twitter.com/sandyaschneider">@sandyaschneider</a> Solution: become Muslim. Problem solved!</p>WarrantyNowVoid (@WarrantyNowVoid) <a href="https://twitter.com/WarrantyNowVoid/statuses/387311837101834241">October 7, 2013</a></blockquote>
 
 Or, you know, whatever.
