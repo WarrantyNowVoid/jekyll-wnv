@@ -143,6 +143,7 @@ section.newest-feature{
 
 section.posts-list{
   padding: 10px 0px 50px 30px;
+  min-height: 90vh;
 
   @media (min-width: $bs-break-sm) {
     padding-right: 30px;
@@ -154,6 +155,14 @@ section.posts-list{
 
   @media (min-width: $bs-break-lg) {
     padding-right: 30px;
+  }
+
+  h1.page-header{
+    margin-top: 30px;
+
+    .badge{
+      color: #fff;
+    }
   }
 
   /* override some of post-preview stuff from common since

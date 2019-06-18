@@ -1,6 +1,6 @@
             <div class="post-holster">
 
-              {% for post in site.featured_posts %}
+              {% for post in featured-posts %}
                 {% if post.image.headliner %}
                   {% assign postImage = post.image.headliner %}
                   {% assign imageType = 'HEAD' %}
@@ -22,18 +22,22 @@
                 </div>
               {% endfor %}
               
-              <div class="post-details-shader {{ site.featured_posts[0].category || downcase }}"></div>
+              <div class="post-details-shader {{ featured-posts[0].category || downcase }}"></div>
 
               <div class="post-details-holster">
                 <div id="featured-posts-carousel" class="carousel slide">
+
+                  {% if featured-posts.size > 1 %}
                   <ol class="carousel-indicators">
-                    {% for post in site.featured_posts %}
+                    {% for post in featured-posts %}
                       <li data-target="#featured-posts-carousel" data-slide-to="{{ forloop.index0 }}" class="{% if forloop.first == true %} active{% endif %}"></li>
                     {% endfor %}
                   </ol>
+                  {% endif %}
+
                   <div class="carousel-inner">
 
-                    {% for post in site.featured_posts %}
+                    {% for post in featured-posts %}
                       {% if post.category != "Junk" %}
                         {% assign categoryLen = post.category | size | minus: 1 %}
                         {% assign categoryFriendly = post.category | slice: 0, categoryLen %}
@@ -42,7 +46,7 @@
                       {% endif %}
                       <div class="carousel-item{% if forloop.first == true %} active{% endif %}" data-category="{{ post.category || downcase }}">
                         <h2 class="title-font"><a class="stretched-link" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-                        <p><span class="badge badge-primary feature-badge {{ post.category || downcase }}">{% if forloop.first == true %}<i class="new-star fas fa-exclamation-circle"></i> New{% else %}Featured{% endif %} {{ categoryFriendly }}</span> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
+                        <p><span class="badge badge-primary feature-badge {{ post.category || downcase }}">{% if forloop.first == true and featured-posts.size > 1 %}<i class="new-star fas fa-exclamation-circle"></i> New{% else %}Featured{% endif %} {{ categoryFriendly }}</span> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
                         <p>{{ post.excerpt }}</p>
                       </div>
                     {% endfor %}

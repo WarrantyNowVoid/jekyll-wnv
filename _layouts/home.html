@@ -15,6 +15,7 @@
 
       <section class="newest-feature clearfix">
         <div id="featured-posts">
+          {% assign featured-posts = site.featured_posts %}
           {% include post-feature.html %}
           {% include angle-svg.html %}
         </div>
@@ -22,10 +23,14 @@
 
       <section class="page-wrapper posts-list clearfix">
       
-        <h1>More Posts</h1>
+        <h1>More Posts
+          {% if paginator.page > 1 %}
+          <small class="text-muted">Page {{ paginator.page }}</small>
+          {% endif %}
+        </h1>
 
         <div class="previews-container">
-          {% for post in site.posts limit:30 offset:1 %}
+          {% for post in paginator.posts %}
             {% capture evenOdd %}
                 {% cycle 'odd', 'even' %}
             {% endcapture %}
@@ -34,6 +39,8 @@
         </div>
 
       </section>
+
+      {% include pager-buttons.html %}
 
       <footer>
         {% include footer.html %}

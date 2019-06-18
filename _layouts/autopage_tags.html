@@ -14,7 +14,11 @@
       {% include sidebar.html %}
       <section class="page-wrapper posts-list clearfix">
       
-        <h1>Posts Tagged With <a href="#" class="badge badge-primary"><i class="fas fa-tag"></i> {{ page.autopages.display_name }}</a></h1>
+        <h1 class="page-header">Posts Tagged With <a href="#" class="badge badge-primary"><i class="fas fa-tag"></i> {{ page.autopages.display_name }}</a><br />
+          {% if paginator.page > 1 %}
+            <small class="text-muted">Page {{ paginator.page }}</small>
+            {% endif %}
+        </h1>
 
         <div class="previews-container">
           {% for post in paginator.posts %}
@@ -27,22 +31,7 @@
 
       </section>
 
-      <section class="pager-buttons">
-        {% if paginator.total_pages > 1 %}
-        <ul class="pager">
-          {% if paginator.previous_page %}
-          <li class="previous">
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-          </li>
-          {% endif %}
-          {% if paginator.next_page %}
-          <li class="next">
-            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-          </li>
-          {% endif %}
-        </ul>
-        {% endif %}
-      </section>
+      {% include pager-buttons.html %}
 
       <footer>
         {% include footer.html %}

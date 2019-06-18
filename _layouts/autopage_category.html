@@ -12,17 +12,33 @@
     <main>
 
       {% include sidebar.html %}
-<!-- 
+      
+      {% if paginator.page == 1 %}
       <section class="newest-feature clearfix">
         <div id="featured-posts">
+          {% case page.autopages.display_name %}
+            {% when 'Comics' %}
+              {% assign featured-posts = site.featured_posts | slice:1, 1 %}
+            {% when 'Articles' %}
+              {% assign featured-posts = site.featured_posts | slice:2, 1 %}
+            {% when 'Videos' %}
+              {% assign featured-posts = site.featured_posts | slice:3, 1 %}
+            {% when 'Junk' %}
+              {% assign featured-posts = site.featured_posts | slice:4, 1 %}
+          {% endcase %}
           {% include post-feature.html %}
           {% include angle-svg.html %}
         </div>
       </section>
- -->
+      {% endif %}
+
       <section class="page-wrapper posts-list clearfix">
       
-        <h1>{{ page.autopages.display_name }}</h1>
+        <h1 class="{% if paginator.page > 1 %}page-header{% endif %}">{{ page.autopages.display_name }} 
+          {% if paginator.page > 1 %}
+          <small class="text-muted">Page {{ paginator.page }}</small>
+          {% endif %}
+        </h1>
 
         <div class="previews-container">
           {% for post in paginator.posts %}
@@ -35,22 +51,7 @@
 
       </section>
 
-      <section class="pager-buttons">
-        {% if paginator.total_pages > 1 %}
-        <ul class="pager">
-          {% if paginator.previous_page %}
-          <li class="previous">
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-          </li>
-          {% endif %}
-          {% if paginator.next_page %}
-          <li class="next">
-            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-          </li>
-          {% endif %}
-        </ul>
-        {% endif %}
-      </section>
+      {% include pager-buttons.html %}
 
       <footer>
         {% include footer.html %}
