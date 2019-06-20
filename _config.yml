@@ -16,7 +16,7 @@ safe: false
 
 # turn this off to disable vibrantjs on each post page
 # for faster builds
-vibrant-posts: false
+vibrant-posts: true
 
 # turn this off to disable auto thumbnail generation on build
 # or if you just don't want to install ImageMagick
