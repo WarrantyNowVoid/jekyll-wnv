@@ -22,6 +22,10 @@ group :jekyll_plugins do
   gem 'jekyll-paginate-v2'
 end
 
+group :production, optional: true do
+  gem 'rmagick'
+end
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 

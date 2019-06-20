@@ -58,6 +58,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
+    rmagick (3.2.0)
     rouge (3.3.0)
     ruby_dep (1.5.0)
     safe_yaml (1.0.5)
@@ -77,6 +78,7 @@ DEPENDENCIES
   jekyll-twoxify (~> 1.0.1)
   jekyll-vibrantjs (~> 1.0)
   jekyll-youtube
+  rmagick
   tzinfo-data
 
 BUNDLED WITH

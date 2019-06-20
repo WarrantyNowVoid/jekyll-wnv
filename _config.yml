@@ -16,7 +16,15 @@ safe: false
 
 # turn this off to disable vibrantjs on each post page
 # for faster builds
-vibrant-posts: true
+vibrant-posts: false
+
+# turn this off to disable auto thumbnail generation on build
+# or if you just don't want to install ImageMagick
+generate-thumbnails:
+  enabled: true
+  height: 600
+  width: 1200
+  path: "assets/img/lol/thumbs/"
 
 pagination:
   enabled: true
