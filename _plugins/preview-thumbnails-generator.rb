@@ -1,3 +1,4 @@
+require 'fileutils'
 begin
   require 'rmagick'
   include Magick
@@ -21,6 +22,8 @@ module Jekyll
         count = 0
         config_width = site.config["generate-thumbnails"]["width"]
         config_height = site.config["generate-thumbnails"]["height"]
+
+        FileUtils.mkdir_p site.config["generate-thumbnails"]["path"]
 
         site.posts.docs.each do |post|
           if post.data["image"] and post.data["image"]["feature"]
