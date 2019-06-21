@@ -34,10 +34,28 @@
 
     {% for post in site.posts limit:20 %}
     {% capture continue_link %}<a href="{{ site.url }}{{ post.url }}">Continue reading -></a>{% endcapture %}
+
+    {% if post.image.headliner %}
+      {% assign postImage = post.image.headliner %}
+    {% elsif post.image.thumbnail %}
+      {% assign postImage = post.image.thumbnail %}
+    {% else %}
+      {% if post.image.feature %}
+        {% assign postImage = post.image.feature %}
+      {% else %}
+        {% assign postImage = '/assets/img/headliner_default.png' %}
+      {% endif %}
+    {% endif %}
+
+    {% assign retinaizedImageUrl = postImage | split: "" | reverse | join: "" | replace_first: '.', '.x2@' | split: "" | reverse | join: "" | prepend: site.url %}
+
     <item>
       <title>{{ post.title | xml_escape }}</title>
       {% if post.showAuthor %}<dc:creator>{{ post.author.name | xml_escape }}</dc:creator>{% endif %}
-      <description>{{ post.excerpt | xml_escape }} {{ continue_link | xml_escape }}</description>
+      <description>
+        <![CDATA[<img src="{% thumbnailify retinaizedImageUrl %}">]]>
+        {{ post.excerpt | xml_escape }} {{ continue_link | xml_escape }}
+      </description>
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
       <link>{{ site.url }}{{ post.url }}</link>
       <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>

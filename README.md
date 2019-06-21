@@ -7,6 +7,7 @@ The world is falling apart. Things are getting weird, bad, weirdly bad, and badl
 - node/npm
 - ruby/gem
 - bundler (`sudo gem install bundler`)
+- ImageMagick (only if enabling `generate-thumbnails`, see below): <https://www.rubydoc.info/gems/rmagick/3.0.0#prereq>
 
 ## Config
 
@@ -37,6 +38,10 @@ host: my-computer.local
 
 This key decides whether to do the color extraction for every post, which is extremely slow (like, adds a full minute to the build time). If you're doing something locally and don't care about the colors, set this to `false`.
 
+#### generate-thumbnails
+
+This defines options for the preview-thumbnails-generator plugin, specifically `enabled` defining whether to run it or not. When building locally and not for deployment, you likely want to disable this, so you don't have to worry about having ImageMagick and the RMagick gem installed, and to avoid the about 35 seconds it adds to the build.
+
 ## Install
 
 Only one dependency needs to be manually installed:
@@ -45,10 +50,16 @@ Only one dependency needs to be manually installed:
 npm install node-vibrant
 ````
 
-After that, let bundler do it's job:
+After that, let bundler do it's job. 
 
 ````
 bundle install
+````
+
+If you plan to enable `generate-thumbnails`, you will need to activate the `production` group as well (requires ImageMagick installed, see Prerequisites section above):
+
+````
+bundle install --with production
 ````
 
 ## Build/Run
@@ -77,9 +88,10 @@ frontend:
   phases:
     preBuild:
       commands:
+        - yum install -y gcc ImageMagick-devel make which
         - npm install node-vibrant
         - gem install bundler
-        - bundle install
+        - bundle install --with production
     build:
       commands:
         - bundle exec jekyll b
