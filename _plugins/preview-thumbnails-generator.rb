@@ -48,6 +48,8 @@ module Jekyll
             end
 
             image.write thumb_path
+            static_file = Jekyll::StaticFile.new(site, site.source, site.config["generate-thumbnails"]["path"], File.basename(thumb_path))
+            site.static_files << static_file
             count += 1
           end
         end
