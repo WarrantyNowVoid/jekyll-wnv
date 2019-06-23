@@ -20,6 +20,7 @@ group :jekyll_plugins do
   gem 'jekyll-youtube'
   gem 'jekyll-tagging-related_posts'
   gem 'jekyll-paginate-v2'
+  gem 'jekyll-sitemap'
 end
 
 group :production, optional: true do
