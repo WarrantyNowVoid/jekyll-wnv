@@ -31,8 +31,8 @@ In closing, welcome aboard! We hope that you enjoy your time with us, and while 
 
 - [An article describing the timeless war between Dunkin' Donuts and Starbucks.]({{ site.url }}/articles/2012/09/20/)
 - [Something for which we're probably being slowly poisoned with radiation in retaliation]({{ site.url }}/junk/2014/02/11/)
-- [A helpful and informative infographic about Bears. I keep a copy in my back pocket at all times in case I meet one.]({{ site.url }}/comics/2013/09/09/)
-- [An insightful and totally scientific look at the Large Hadron Collider that inexplicably managed to take the top spot from CERN's own videos on YouTube's popular results for LHC-related material.]({{ site.url }}/videos/2011/06/28/)
+- [A helpful and informative infographic about Bears. I keep a copy in my back pocket at all times in case I meet one.]({{ site.url }}/comics/2013/09/10/)
+- [A video about trying out a new video game]({{ site.url }}/videos/2013/09/25/)
 - [Highly intellectual political commentary.]({{ site.url }}/articles/2013/10/09/)
 
 Good luck out there.

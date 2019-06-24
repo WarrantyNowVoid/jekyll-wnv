@@ -20,14 +20,19 @@ Issue tracker: <https://github.com/WarrantyNowVoid/jekyll-wnv/issues>
     - [Bitter](https://fonts.google.com/specimen/Bitter)
     - [Londrina](https://github.com/marcelommp/Londrina-Typeface/)
 - [jQuery](https://jquery.com) javascript library
-- [Vibrant.js](https://jariz.github.io/vibrant.js/) color extraction library
+- [node-vibrant](https://github.com/akfish/node-vibrant/) color extraction library
 - [Font Awesome](https://fontawesome.com) icon toolkit
 - [retina.js](https://imulus.github.io/retinajs/) high-resolution image swapping library
+- [Jekyll::Paginate V2](https://github.com/sverrirs/jekyll-paginate-v2) better Jekyll pagination plugin
+- [Jekyll Youtube](https://github.com/dommmel/jekyll-youtube) Jekyll YouTube video embedding plugin
+- [jekyll-tagging-related_posts](https://github.com/toshimaru/jekyll-tagging-related_posts) Jekyll plugin to generate related posts based on tagging
 
 ### Our code
 
 All WNV code is available on [our GitHub](https://github.com/WarrantyNowVoid), pull requests and bug reports are more than welcome.
 
-- [PoopGuy](https://github.com/WarrantyNowVoid/PoopGuyPlugins)
-- [Static site](https://github.com/WarrantyNowVoid/jekyll-wnv/)
-TODO: add backend/infrastructure stuff when they exist
+- [WNV Static](https://github.com/WarrantyNowVoid/jekyll-wnv/) the site itself, all the Jekyll static site generation and assets, along with a few hyper-specific plugins just for our very special purposes
+- [Jekyll Vibrantjs](https://github.com/WarrantyNowVoid/jekyll-vibrantjs) - a Jekyll plugin to generate a set of CSS rules based on colors extracted from a given image. This is what makes our post pages look like they were specifically styled for each individual post
+- [Jekyll TwoXify](https://github.com/WarrantyNowVoid/jekyll-twoxify) - a Jekyll plugin to automatically generate various @2x image strings so you don't have to copy paste the same weird string manipulations all over your templates
+- [JACKED importer](https://github.com/WarrantyNowVoid/jekyll-jacked-importer) - a weird little tool for generating Jekyll posts from a JACKED Blag database
+- [PoopGuy](https://github.com/WarrantyNowVoid/PoopGuyPlugins) - add a Poop Button to your own website or browser
