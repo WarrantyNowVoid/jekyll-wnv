@@ -122,7 +122,11 @@ section.newest-feature{
         }
 
         h2{
-          font-size: 40px;
+          font-size: 30px;
+
+          @media (min-width: $bs-break-md) {
+            font-size: 50px;
+          }
 
           a{
             color: #fff;
@@ -130,7 +134,19 @@ section.newest-feature{
         }
 
         p{
-          font-size: 18px;
+          font-size: 14px;
+
+          @media (min-width: $bs-break-md) {
+            font-size: 18px;
+          }
+
+          @media (min-width: $bs-break-lg) {
+            font-size: 20px;
+          }
+
+          @media (min-width: $bs-break-xl) {
+            font-size: 22px;
+          }
 
           time{
             margin-left: 10px;
