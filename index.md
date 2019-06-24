@@ -1,4 +1,6 @@
 ---
-layout: not-yet
+layout: home
+pagination: 
+  enabled: true
 ---
-is almost ready. Are you?
+hello.
