@@ -13,7 +13,7 @@ image:
   headliner: assets/img/lol/worldcupquiz.png
 ---
 
-Continuing the grand tradition started by our 2014 Winter Olympics game: [Sochi or Fallout?](/post/81814), we bring you our newest game based on the World Cup. Use your deductive skills to decide whether each matchup is between two actual countries or just some bullshit we made up.
+Continuing the grand tradition started by our 2014 Winter Olympics game: [Sochi or Fallout?](https://warrantynowvoid.com/junk/2014/02/11/), we bring you our newest game based on the World Cup. Use your deductive skills to decide whether each matchup is between two actual countries or just some bullshit we made up.
 
 Without further ado, it's time to play some football (not American Handegg). Click or tap on the Answer panels to see the correct response. Let's get going!
 

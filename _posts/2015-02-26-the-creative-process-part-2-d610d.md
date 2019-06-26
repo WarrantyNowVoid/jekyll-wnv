@@ -14,4 +14,4 @@ image:
   imageHover: "Don't ask what else that board has been used for."
 ---
 
-Confused? Check out [Part 1](/post/8c5d2) for no clarification whatsoever.
+Confused? Check out [Part 1](https://warrantynowvoid.com/comics/2015/02/10/) for no clarification whatsoever.

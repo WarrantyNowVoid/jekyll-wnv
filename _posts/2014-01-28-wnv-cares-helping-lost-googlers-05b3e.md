@@ -41,7 +41,7 @@ People who force their dogs to wear boots can find appropriate attire in hell. W
 
 ### "the night before fistmas"
 
-Well, we kind of [brought this one on ourselves](/post/d25a7). This keyword is really notable for being the only reasonably legitimate search which would actually deliver the desired results to a Googler. At least, for some values of "desired." Some very, very disturbing values. In fact, let's just never talk about this one again.
+Well, we kind of brought this one on ourselves. This keyword is really notable for being the only reasonably legitimate search which would actually deliver the desired results to a Googler. At least, for some values of "desired." Some very, very disturbing values. In fact, let's just never talk about this one again.
 
 ### "mongolian halloween chinggis khaan"
 

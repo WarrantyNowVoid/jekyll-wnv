@@ -14,8 +14,7 @@ image:
 ---
 
 Halloween is coming, dudes. That shit is _upon_ us. Candy. Costumes. Spooky, scary skeletons.
-
-<iframe width="600" height="330" src="//www.youtube.com/embed/x-agNTzk0a0" frameborder="0" allowfullscreen=""></iframe>
+{% youtube "https://www.youtube.com/embed/q6-ZGAGcJrk" %}
 
 But what the hell is Halloween's deal? That's an interesting story, and if you'll give me a moment of your time I'll try to elucidate it for you.
 
