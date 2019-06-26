@@ -177,6 +177,8 @@ body{
   .content-wrap{
     margin-top: 20px;
     margin-bottom: 50px;
+    line-height: 165%;
+    text-rendering: optimizeLegibility;
 
     img{
       display: block;

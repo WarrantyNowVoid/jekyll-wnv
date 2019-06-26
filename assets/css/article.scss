@@ -7,5 +7,11 @@ sitemap: false
 @import "hidden-sidebar";
 
 .content-wrap, .title-container{
-  max-width: 720px;
+  @media (min-width: $bs-break-lg) {
+    max-width: 960px;
+  }
+
+  @media (min-width: $bs-break-xl) {
+    max-width: 960px;
+  }
 }

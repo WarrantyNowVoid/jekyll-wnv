@@ -5,3 +5,13 @@ sitemap: false
 @import "common";
 @import "post";
 @import "hidden-sidebar";
+
+.content-wrap, .title-container{
+  @media (min-width: $bs-break-lg) {
+    max-width: 960px;
+  }
+
+  @media (min-width: $bs-break-xl) {
+    max-width: 960px;
+  }
+}
