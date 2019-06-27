@@ -7,7 +7,7 @@ The world is falling apart. Things are getting weird, bad, weirdly bad, and badl
 ## Prerequisites
 
 - node/npm (only if enabling `vibrant-posts` or using tools, see below sections)
-- ruby/gem
+- ruby/gem (`sudo apt-get install ruby ruby-dev`)
 - bundler (`sudo gem install bundler`)
 - ImageMagick (only if enabling `generate-thumbnails`, see below): <https://www.rubydoc.info/gems/rmagick/3.0.0#prereq>
 
