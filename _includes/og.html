@@ -4,13 +4,14 @@
       {% assign postImage = page.image.thumbnail %}
     {% else %}
       {% if page.image.feature %}
-        {% assign postImage = page.image.feature %}
+        {% capture postImage %}{% thumbnailify page.image.feature %}{% endcapture %}
       {% else %}
-        {% assign postImage = '/assets/img/headliner_default.png' %}
+        {% assign postImage = 'assets/img/headliner_default.png' %}
       {% endif %}
     {% endif %}
 
-    {% assign retinaizedImageUrl = postImage | split: "" | reverse | join: "" | replace_first: '.', '.x2@' | split: "" | reverse | join: "" | prepend: site.url %}
+    {% assign retinaizedImage = postImage | split: "" | reverse | join: "" | replace_first: '.', '.x2@' | split: "" | reverse | join: "" %}
+    {% assign retinaizedImageUrl = retinaizedImage | prepend: "/" | prepend: site.url %}
 
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image">
@@ -18,11 +19,11 @@
     {% if page.excerpt %}<meta name="twitter:description" content="{{ page.excerpt | strip_html }}">{% endif %}
     <meta name="twitter:site" content="@{{ site.twitter_username }}">
     {% if page.showAuthor and author.twitter %}<meta name="twitter:creator" content="@{{ page.author.twitter }}">{% endif %}
-    <meta name="twitter:image" content="{% thumbnailify retinaizedImageUrl %}">
+    <meta name="twitter:image" content="{{ retinaizedImageUrl }}">
     <!-- Open Graph -->
-    <meta property="og:image" content="{% thumbnailify retinaizedImageUrl %}">
-    <meta property="og:image:width" content="{{ site.generate-thumbnails.width }}">
-    <meta property="og:image:height" content="{{ site.generate-thumbnails.height }}">
+    <meta property="og:image" content="{{ retinaizedImageUrl }}">
+    <meta property="og:image:width" content="{% img_width retinaizedImage %}">
+    <meta property="og:image:height" content="{% img_height retinaizedImage %}">
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     {% if page.excerpt %}<meta property="og:description" content="{{ page.excerpt | strip_html }}">{% endif %}
     <meta property="og:url" content="{{ canonical }}">
