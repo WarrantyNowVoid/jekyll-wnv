@@ -49,7 +49,7 @@ This defines options for the preview-thumbnails-generator plugin, specifically `
 Only one dependency needs to be manually installed (only needed if you plan to enable the `vibrant-posts` config option):
 
 ````
-npm install node-vibrant
+npm install
 ````
 
 After that, let bundler do it's job. 
