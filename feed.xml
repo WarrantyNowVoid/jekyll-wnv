@@ -2,7 +2,6 @@
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
-  xmlns:content="http://purl.org/rss/1.0/modules/content/"
   xmlns:dc="http://purl.org/dc/elements/1.1/" 
   xmlns:atom="http://www.w3.org/2005/Atom" 
   xmlns:webfeeds="http://webfeeds.org/rss/1.0" >
@@ -44,11 +43,11 @@
       {% if post.image.feature %}
         {% capture postImage %}{% thumbnailify post.image.feature %}{% endcapture %}
       {% else %}
-        {% assign postImage = '/assets/img/headliner_default.png' %}
+        {% assign postImage = 'assets/img/headliner_default.png' %}
       {% endif %}
     {% endif %}
 
-    {% assign retinaizedImageUrl = postImage | split: "" | reverse | join: "" | replace_first: '.', '.x2@' | split: "" | reverse | join: "" | prepend: site.url %}
+    {% assign retinaizedImageUrl = postImage | split: "" | reverse | join: "" | replace_first: '.', '.x2@' | split: "" | reverse | join: "" | prepend: "/" | prepend: site.url %}
 
     <item>
       <title>{{ post.title | xml_escape }}</title>
@@ -56,7 +55,6 @@
       <description>
         {{ post.excerpt | xml_escape }} {{ continue_link | xml_escape }}
       </description>
-      <content:encoded><![CDATA[<img src="{{ retinaizedImageUrl }}">]]></content:encoded>
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
       <link>{{ site.url }}{{ post.url }}</link>
       <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
