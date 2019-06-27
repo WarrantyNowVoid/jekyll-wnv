@@ -13,7 +13,7 @@ image:
   headliner: assets/img/lol/bostonolympicevents.png
 ---
 
-The US Olympic Committee has officially decided to name the city of Boston as its host city for the 2024 Summer Olympic Games bid. Boston is of course, most famously, [the home of WNV](http://warrantynowvoid.com/post/5ef9c), so we naturally feel a strong connection to this move by the USOC and want to help win the bid and make the 2024 Olympics the greatest yet.
+The US Olympic Committee has officially decided to name the city of Boston as its host city for the 2024 Summer Olympic Games bid. Boston is of course, most famously, the home of WNV, so we naturally feel a strong connection to this move by the USOC and want to help win the bid and make the 2024 Olympics the greatest yet.
 
 In that spirit, we have worked tirelessly since the announcement to help abate the issues of a horrific lack of available space as well as commitments to being both sustainable and deeply integrated with the culture of the city by compiling a list of traditional Summer Olympic events that can be adapted to more closely resemble everyday life in Boston. It is our hope that these events, combined with our emotional, 12 week long opening ceremony following Olympic torchbearers as they visit every Dunkin' Donuts in the city, will show Boston as the world-class city it is.
 

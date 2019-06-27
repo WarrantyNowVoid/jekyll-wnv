@@ -13,7 +13,7 @@ comments: true
 
 #### 1\. Escaped from Gulag
 
-After our wildly popular article [Sochi or Fallout?](http://warrantynowvoid.com/post/81814) and the subsequent [Letter to Editor](http://warrantynowvoid.com/post/05fbe) sent in by Mr. Vladimir Putin himself were published, the Russian government was understandably curious about our investigative journalist team and overall creative process. We were invited to an estate in Northern Russia where we had a number of very comfortable and not at all torture-y conversations with Russian officials.
+After our wildly popular article [Sochi or Fallout?](https://warrantynowvoid.com/junk/2014/02/11/) and the subsequent [Letter to Editor](https://warrantynowvoid.com/articles/2014/02/13/) sent in by Mr. Vladimir Putin himself were published, the Russian government was understandably curious about our investigative journalist team and overall creative process. We were invited to an estate in Northern Russia where we had a number of very comfortable and not at all torture-y conversations with Russian officials.
 
 #### 2\. Our day jobs
 
@@ -21,11 +21,11 @@ Hahahahaha, right.
 
 #### 3\. Returned the visits each of you have made to our site, in person
 
-We knocked on your doors and rang your doorbells, but no one answered. In fact Pope was pretty sure he saw the lights go off once we started walking up your sidewalk. You guys aren't trying to avoid us, right? I mean, you're probably just busy. It happens, we're not mad. But you're still [coming to our party, right](http://warrantynowvoid.com/post/b237d)?
+We knocked on your doors and rang your doorbells, but no one answered. In fact Pope was pretty sure he saw the lights go off once we started walking up your sidewalk. You guys aren't trying to avoid us, right? I mean, you're probably just busy. It happens, we're not mad. But you're still [coming to our party, right](https://warrantynowvoid.com/comics/2014/01/10/)?
 
 #### 4\. Interviewed Rob Ford; accidentally got high on crack
 
-What can we say? He's a persuasive man. Even after he admitted to smoking crack and driving drunk, [people are still ready to vote for him](http://warrantynowvoid.com/post/19fd6), so we wanted to meet the man and find out what makes him tick.
+What can we say? He's a persuasive man. Even after he admitted to smoking crack and driving drunk, [people are still ready to vote for him](https://warrantynowvoid.com/articles/2013/11/19/), so we wanted to meet the man and find out what makes him tick.
 
 It's crack, by the way. Crack cocaine is what makes Rob Ford tick.
 
@@ -35,7 +35,7 @@ Like, a lot of it. Shaking his hand results in an immediate contact high, and le
 
 We're always trying to bring you the most accurate information possible, so to that end, we ventured deep into the forest to find a bear so we could ask a few questions about the BearFacts we currently have in development. As it turns out, bears are very private creatures who don't appreciate all the press. After a few hours of pleasant conversation at the local Starbucks, we had gained a new-found respect for these majestic creatures. Then we were promptly eviscerated by 9-inch-long claws and teeth made of actual lasers.
 
-#### 6\. Invested our retirements into ÃOGE
+#### 6\. Invested our retirements into DOGE
 
 In today's uncertain economic climate, traditional investments just aren't as stable. We have no idea what that means, but an old man on TV said it, so we took it to heart. The WNV retirement plan has moved from a traditional 401(k) to being entirely funded by [Dogecoin](http://dogecoin.com), allowing us to take full advantage of the kind of stability that only internet Monopoly money can provide. Or, at least, it will be as soon as we can find an exchange that accepts oddly sticky pictures of Christopher Walken.
 

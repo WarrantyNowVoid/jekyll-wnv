@@ -22,9 +22,9 @@ In light of all this senseless violence, it's easy to say things like "Well that
 
 The first death attributed to black friday shopping took place in 2008. 5 years ago. That's an incredibly recent phenomenon, don't you think? The obvious question to ask is "what happened that year? What caused such a frenzy that a worker was trampled by seething masses of consumers?" Allow me to elucidate this for you.
 
-This man was killed not by the crushing feet of a thousand morbidly obese shoppers1, but by something far more powerful: _savings._ This is the first time in recorded history that a deal was so good it actually **killed a guy** who was standing too close. 2008 marks the year that we discovered our collective moral threshold, the year where a human life was not measured in potential, hopes, or dreams, but in markdowns. This individual was stripped of his everything not for the sake of cost, but for the _temporary absence thereof_. Brutal.
+This man was killed not by the crushing feet of a thousand morbidly obese shoppers, but by something far more powerful: _savings._ This is the first time in recorded history that a deal was so good it actually **killed a guy** who was standing too close. 2008 marks the year that we discovered our collective moral threshold, the year where a human life was not measured in potential, hopes, or dreams, but in markdowns. This individual was stripped of his everything not for the sake of cost, but for the _temporary absence thereof_. Brutal.
 
-1I mean, I guess _technically_ he was.
+I mean, I guess _technically_ he was.
 
 ![](/assets/img/lol/blackfriday2.jpg)
 

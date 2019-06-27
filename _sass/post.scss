@@ -177,11 +177,13 @@ body{
   .content-wrap{
     margin-top: 20px;
     margin-bottom: 50px;
+    line-height: 165%;
+    text-rendering: optimizeLegibility;
 
     img{
       display: block;
       max-width: 100%;
-      margin: 0 auto;
+      margin: 20px auto;
     }
 
     iframe{
@@ -202,7 +204,7 @@ body{
   height: 0;
   overflow: hidden;
   max-width: 100%;
-  margin: 50px 0;
+  margin: 20px 0;
 }
 .embed-container iframe,
 .embed-container object,
