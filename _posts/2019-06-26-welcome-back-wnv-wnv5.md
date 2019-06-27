@@ -3,6 +3,7 @@ layout: post
 guid: wnv5
 published: true
 date: 2019-06-27 11:00:00 -0400
+modified: 2019-06-27 15:00:00 -0400
 author: pope
 title: "Welcome Back WNV"
 excerpt: "That's right, we're back and ready to fill your various feeds of choice with our own special brand of nonsensical horseshit. After a very brief hiatus - approximately half a decade - we've decided that now was the time we'd been waiting for to return to the world."
