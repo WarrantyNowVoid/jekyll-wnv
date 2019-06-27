@@ -1,7 +1,7 @@
 ---
 layout: post
 guid: wnv5
-published: false
+published: true
 date: 2019-06-27 11:00:00 -0400
 author: pope
 title: "Welcome Back WNV"
