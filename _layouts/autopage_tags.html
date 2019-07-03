@@ -1,6 +1,9 @@
 <!doctype html>
 <html>
   <head>
+    {% if page.autopages.display_name %}
+      {% capture title-override %}"{{ page.autopages.display_name }}" Posts{% endcapture %}
+    {% endif %}
 
     {% include head.html %}
 

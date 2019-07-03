@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "About Warranty Now Void"
+title: "About WNV"
 permalink: /about/
 ---
 

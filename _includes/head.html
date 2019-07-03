@@ -1,5 +1,5 @@
     <meta charset="utf-8">
-    <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
+    <title>{% if title-override %}{{ title-override }} &#8211; {% elsif page.title %}{{ page.title }} &#8211; {% endif %}{% if page.pagination_info.curr_page and page.pagination_info.curr_page > 1 %}page {{ page.pagination_info.curr_page }} &#8211; {% endif %}{{ site.title }}</title>
     {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
     <meta name="keywords" content="{{ page.tags | join: ', ' }}">
 
