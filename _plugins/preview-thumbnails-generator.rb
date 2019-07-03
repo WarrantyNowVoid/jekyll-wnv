@@ -33,10 +33,12 @@ module Jekyll
             image_path_stripped = File.join(File.dirname(original_path), File.basename(original_path, extension))
             original_2x_path = "#{image_path_stripped}@2x#{extension}"
             if File.exists? original_2x_path
-              original_path = original_2x_path 
+              in_path = original_2x_path 
+            else
+              in_path = original_path
             end
 
-            thumb_path = "#{File.join(site.config["generate-thumbnails"]["path"], File.basename(original_path))}"
+            out_path = "#{File.join(site.config["generate-thumbnails"]["path"], File.basename(original_path))}"
 
             image = Image.read(original_path)[0]
             # this is the same logic we use for the .auto-thumbnail class in CSS
@@ -44,11 +46,11 @@ module Jekyll
             image.crop!(image.columns * 0.4, image.rows * 0.1, config_width, config_height)
 
             if image.columns < config_width || image.rows < config_height
-              Jekyll.logger.warn "Preview Thumbnails:", "Image not large enough (h:#{image.rows} w: #{image.columns}) #{thumb_path}"
+              Jekyll.logger.warn "Preview Thumbnails:", "Image not large enough (h:#{image.rows} w: #{image.columns}) #{out_path}"
             end
 
-            image.write thumb_path
-            static_file = Jekyll::StaticFile.new(site, site.source, site.config["generate-thumbnails"]["path"], File.basename(thumb_path))
+            image.write out_path
+            static_file = Jekyll::StaticFile.new(site, site.source, site.config["generate-thumbnails"]["path"], File.basename(out_path))
             site.static_files << static_file
             count += 1
           end

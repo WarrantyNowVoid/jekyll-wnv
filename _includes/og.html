@@ -10,8 +10,7 @@
       {% endif %}
     {% endif %}
 
-    {% assign retinaizedImage = postImage | split: "" | reverse | join: "" | replace_first: '.', '.x2@' | split: "" | reverse | join: "" %}
-    {% assign retinaizedImageUrl = retinaizedImage | prepend: "/" | prepend: site.url %}
+    {% assign imageUrl = postImage | prepend: "/" | prepend: site.url %}
 
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image">
@@ -19,11 +18,11 @@
     {% if page.excerpt %}<meta name="twitter:description" content="{{ page.excerpt | strip_html }}">{% endif %}
     <meta name="twitter:site" content="@{{ site.twitter_username }}">
     {% if page.showAuthor and author.twitter %}<meta name="twitter:creator" content="@{{ page.author.twitter }}">{% endif %}
-    <meta name="twitter:image" content="{{ retinaizedImageUrl }}">
+    <meta name="twitter:image" content="{{ imageUrl }}">
     <!-- Open Graph -->
-    <meta property="og:image" content="{{ retinaizedImageUrl }}">
-    <meta property="og:image:width" content="{% img_width retinaizedImage %}">
-    <meta property="og:image:height" content="{% img_height retinaizedImage %}">
+    <meta property="og:image" content="{{ imageUrl }}">
+    <meta property="og:image:width" content="{% img_width postImage %}">
+    <meta property="og:image:height" content="{% img_height postImage %}">
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     {% if page.excerpt %}<meta property="og:description" content="{{ page.excerpt | strip_html }}">{% endif %}
     <meta property="og:url" content="{{ canonical }}">
