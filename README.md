@@ -119,7 +119,7 @@ Posts are individual markdown files contained in the `_posts/` directory. The na
 ## Frontmatter Options
 
 - `layout`: **[required]** always `post`, don't change this.
-- `guid`: **[required]** some unique non-spaced string to identify this post, not yet used, but will be in the future for the wnv.haus. Old posts just have their hex ids from the old site. `88b2e` is just as valid here as `horse-fart-factory`.
+~~- `guid`: **[deprecated]** some unique non-spaced string to identify this post, not yet used, but will be in the future for the wnv.haus. Old posts just have their hex ids from the old site. `88b2e` is just as valid here as `horse-fart-factory`.~~
 - `published`: **[required]** if `true`, this will be live on the site as soon as it's pushed. If `false`, it won't be. Useful for drafts, but it will still be visible here in git for any enterprising individuals, so not good for hiding anything.
 - `date`: **[required]** yep. Format is `YYYY-MM-DD HH:MM:SS TZ` ex: `2015-02-26 13:01:01 -0500`
 - `modified`: **[optional]** same format as date, used to add a "last updated" to post header details
@@ -128,6 +128,7 @@ Posts are individual markdown files contained in the `_posts/` directory. The na
     - `name`: **[required if `showAuthor` is true]** the text to display as the author name in the post
     - `twitter`: **[optional]** twitter account page for the author.name to link to if specified
 - `title`: **[required]** the actual, literal title string for the post, in double quotes
+- `redirect_from`: **[optional]** relative url path that can serve as an alias to this post (works with wnv.haus). ex: `/horse-fart-factory/`, or `/post/big-time-butts/final/`, also can optionally be a list of links
 - `excerpt`: **[required]** short preview description that shows up on the home page previews and used for the RSS feed and social posts
 - `category`: **[required]** must be one of (case matters): Comics, Articles, Videos, Junk
 - `tags`: **[required]** array list of comma separated tags, each one contained in double quotes, ex: ["farts", "asses", "big banana time", "It's a full sentence tag, baybeeee!"]
