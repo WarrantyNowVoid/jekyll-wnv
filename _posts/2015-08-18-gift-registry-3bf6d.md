@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 3bf6d
+redirect_from: 
+  - /gift-registry/
+  - /post/3bf6d/
 published: true
 date: 2015-08-18 13:01:01 -0400
 author: pope

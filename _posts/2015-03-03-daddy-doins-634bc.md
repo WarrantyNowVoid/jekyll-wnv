@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 634bc
+redirect_from: 
+  - /daddy-doins/
+  - /post/634bc/
 published: true
 date: 2015-03-03 13:01:01 -0500
 author: pope

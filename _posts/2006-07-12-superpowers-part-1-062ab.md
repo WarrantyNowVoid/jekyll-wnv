@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 062ab
+redirect_from: 
+  - /superpowers-part-1/
+  - /post/062ab/
 published: true
 date: 2006-07-12 01:01:01 -0400
 author: pope

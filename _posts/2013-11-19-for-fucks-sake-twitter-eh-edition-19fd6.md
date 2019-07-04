@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 19fd6
+redirect_from: 
+  - /ffs-twitter-eh/
+  - /post/19fd6/
 published: true
 date: 2013-11-19 12:19:07 -0500
 author: pope

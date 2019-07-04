@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 3ef9c
+redirect_from: 
+  - /rigor-mortis/
+  - /post/3ef9c/
 published: true
 date: 2014-12-30 15:13:13 -0500
 author: pope

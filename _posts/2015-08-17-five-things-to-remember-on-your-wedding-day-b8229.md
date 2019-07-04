@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: b8229
+redirect_from: 
+  - /five-wedding-things/
+  - /post/b8229/
 published: true
 date: 2015-08-17 13:01:01 -0400
 author: pope

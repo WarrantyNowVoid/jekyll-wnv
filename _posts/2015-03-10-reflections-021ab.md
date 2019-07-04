@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 021ab
+redirect_from: 
+  - /self-reflections/
+  - /post/021ab/
 published: true
 date: 2015-03-10 13:01:01 -0400
 author: pope

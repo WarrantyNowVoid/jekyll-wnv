@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: f8bfe
+redirect_from: 
+  - /wheres-waldo/
+  - /post/f8bfe/
 published: true
 date: 2014-06-10 11:05:30 -0400
 author: pope

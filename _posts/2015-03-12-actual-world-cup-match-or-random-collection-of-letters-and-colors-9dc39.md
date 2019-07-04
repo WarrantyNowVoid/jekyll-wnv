@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 9dc39
+redirect_from: 
+  - /world-cup-quiz/
+  - /post/9dc39/
 published: true
 date: 2015-03-12 13:01:01 -0400
 author: pope

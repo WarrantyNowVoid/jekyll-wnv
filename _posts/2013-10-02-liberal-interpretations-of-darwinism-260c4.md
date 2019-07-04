@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 260c4
+redirect_from: 
+  - /liberal-interpretations-of-darwinism/
+  - /post/260c4/
 published: true
 date: 2013-10-02 12:41:28 -0400
 author: scawt

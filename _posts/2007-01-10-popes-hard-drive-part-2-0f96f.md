@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 0f96f
+redirect_from: 
+  - /popes-hard-drive-2/
+  - /post/0f96f/
 published: true
 date: 2007-01-10 01:01:01 -0500
 author: pope

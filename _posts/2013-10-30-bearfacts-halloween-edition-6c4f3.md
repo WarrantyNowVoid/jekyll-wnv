@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 6c4f3
+redirect_from: 
+  - /bearfacts-halloween/
+  - /post/6c4f3/
 published: true
 date: 2013-10-30 12:28:44 -0400
 author: pope

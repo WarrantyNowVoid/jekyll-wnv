@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 698fa
+redirect_from: 
+  - /responsibility-superpowers/
+  - /post/698fa/
 published: true
 date: 2009-03-23 01:01:01 -0400
 author: pope

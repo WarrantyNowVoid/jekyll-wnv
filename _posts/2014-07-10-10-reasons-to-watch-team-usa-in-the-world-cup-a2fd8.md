@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: a2fd8
+redirect_from: 
+  - /watch-usa-world-cup/
+  - /post/a2fd8/
 published: true
 date: 2014-07-10 12:42:57 -0400
 author: pope

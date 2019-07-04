@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 852cc
+redirect_from: 
+  - /bearfacts-2/
+  - /post/852cc/
 published: true
 date: 2014-01-21 12:32:24 -0500
 author: pope

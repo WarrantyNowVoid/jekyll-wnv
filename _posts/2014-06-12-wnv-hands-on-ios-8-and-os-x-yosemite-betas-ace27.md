@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: ace27
+redirect_from: 
+  - /ios-yosemite-betas/
+  - /post/ace27/
 published: true
 date: 2014-06-12 15:07:27 -0400
 author: pope

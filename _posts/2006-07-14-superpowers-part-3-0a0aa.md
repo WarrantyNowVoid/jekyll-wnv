@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 0a0aa
+redirect_from: 
+  - /superpowers-part-3/
+  - /post/0a0aa/
 published: true
 date: 2006-07-14 01:01:01 -0400
 author: pope

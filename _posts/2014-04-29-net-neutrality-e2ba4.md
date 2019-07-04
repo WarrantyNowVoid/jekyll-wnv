@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: e2ba4
+redirect_from: 
+  - /net-neutrality/
+  - /post/e2ba4/
 published: true
 date: 2014-04-29 12:43:46 -0400
 author: pope

@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 9eaaa
+redirect_from: 
+  - /snowpocalypse2015/
+  - /post/9eaaa/
 published: true
 date: 2015-01-27 13:01:01 -0500
 author: pope

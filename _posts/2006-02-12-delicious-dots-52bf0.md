@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 52bf0
+redirect_from: 
+  - /delicious-dots-comic/
+  - /post/52bf0/
 published: true
 date: 2006-02-12 01:01:01 -0500
 author: pope

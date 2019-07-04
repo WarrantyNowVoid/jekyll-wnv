@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 9765a
+redirect_from: 
+  - /pokemon-rumors/
+  - /post/9765a/
 published: true
 date: 2013-10-07 14:18:19 -0400
 author: scawt

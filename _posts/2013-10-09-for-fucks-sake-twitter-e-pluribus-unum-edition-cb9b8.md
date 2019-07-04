@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: cb9b8
+redirect_from: 
+  - /ffs-twitter-america/
+  - /post/cb9b8/
 published: true
 date: 2013-10-09 15:43:02 -0400
 author: pope

@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 61f25
+redirect_from: 
+  - /asgardian-heroes-et-al/
+  - /post/61f25/
 published: true
 date: 2013-11-14 12:50:45 -0500
 author: scawt

@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: d646a
+redirect_from: 
+  - /ditch-meetings/
+  - /post/d646a/
 published: true
 date: 2015-04-07 13:01:01 -0400
 author: pope

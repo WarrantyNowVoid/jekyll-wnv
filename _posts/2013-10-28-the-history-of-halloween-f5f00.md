@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: f5f00
+redirect_from: 
+  - /halloween-history/
+  - /post/f5f00/
 published: true
 date: 2013-10-28 14:34:31 -0400
 author: scawt

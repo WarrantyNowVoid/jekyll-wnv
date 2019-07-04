@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 0db6a
+redirect_from: 
+  - /poopguy-plugins/
+  - /post/0db6a/
 published: true
 date: 2013-12-06 09:56:02 -0500
 author: pope

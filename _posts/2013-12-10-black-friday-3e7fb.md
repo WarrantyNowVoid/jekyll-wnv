@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 3e7fb
+redirect_from: 
+  - /black-friday/
+  - /post/3e7fb/
 published: true
 date: 2013-12-10 13:10:25 -0500
 author: scawt

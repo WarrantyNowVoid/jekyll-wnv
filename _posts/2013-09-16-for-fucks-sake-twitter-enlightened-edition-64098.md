@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 64098
+redirect_from: 
+  - /ffs-enlightenment/
+  - /post/64098/
 published: true
 date: 2013-09-16 12:03:47 -0400
 author: pope

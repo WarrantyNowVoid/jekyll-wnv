@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: bee31
+redirect_from: 
+  - /one-more-thing-ch0/
+  - /post/bee31/
 published: true
 date: 2013-10-16 12:44:22 -0400
 author: pope

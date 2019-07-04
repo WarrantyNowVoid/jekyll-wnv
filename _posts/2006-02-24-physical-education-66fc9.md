@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 66fc9
+redirect_from: 
+  - /physical-education-comic/
+  - /post/66fc9/
 published: true
 date: 2006-02-24 01:01:01 -0500
 author: pope

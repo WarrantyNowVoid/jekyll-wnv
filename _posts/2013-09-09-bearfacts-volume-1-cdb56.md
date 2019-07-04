@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: cdb56
+redirect_from: 
+  - /bearfacts-1/
+  - /post/cdb56/
 published: true
 date: 2013-09-09 21:26:15 -0400
 author: pope

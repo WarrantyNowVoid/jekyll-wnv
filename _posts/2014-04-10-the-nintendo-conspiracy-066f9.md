@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 066f9
+redirect_from: 
+  - /nintendo-conspiracy/
+  - /post/066f9/
 published: true
 date: 2014-04-10 13:52:20 -0400
 author: pope

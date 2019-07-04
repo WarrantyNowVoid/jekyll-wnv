@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 28416
+redirect_from: 
+  - /why-scott-lives-with-pope/
+  - /post/28416/
 published: true
 date: 2006-12-23 01:01:01 -0500
 author: pope

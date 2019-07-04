@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: f9a71
+redirect_from: 
+  - /your-tax-dollars-at-nasa/
+  - /post/f9a71/
 published: true
 date: 2006-04-02 01:01:01 -0500
 author: pope

@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 8c5d2
+redirect_from: 
+  - /creative-process-1/
+  - /post/8c5d2/
 published: true
 date: 2015-02-10 13:01:01 -0500
 author: pope

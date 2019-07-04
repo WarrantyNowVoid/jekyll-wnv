@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 6ac08
+redirect_from: 
+  - /jack-n-stormy-1/
+  - /post/6ac08/
 published: true
 date: 2015-01-29 13:01:01 -0500
 author: pope

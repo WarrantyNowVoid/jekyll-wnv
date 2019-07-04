@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 9f993
+redirect_from: 
+  - /wnv-valve/
+  - /post/9f993/
 published: true
 date: 2014-04-01 03:01:60 -0400
 author: pope

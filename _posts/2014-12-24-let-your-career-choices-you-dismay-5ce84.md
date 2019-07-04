@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 5ce84
+redirect_from: 
+  - /career-choices-dismay/
+  - /post/5ce84/
 published: true
 date: 2014-12-24 13:01:25 -0500
 author: pope

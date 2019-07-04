@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 75912
+redirect_from: 
+  - /gtav/
+  - /post/75912/
 published: true
 date: 2013-09-25 12:49:60 -0400
 author: pope

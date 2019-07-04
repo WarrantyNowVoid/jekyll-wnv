@@ -1,6 +1,6 @@
 ---
 layout: post
-guid: wnv5
+redirect_from: /wnv5/
 published: true
 date: 2019-06-27 11:00:00 -0400
 modified: 2019-06-27 15:00:00 -0400

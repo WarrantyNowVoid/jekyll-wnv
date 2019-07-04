@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 018e1
+redirect_from: 
+  - /popes-memoirs-red-sox/
+  - /post/018e1/
 published: true
 date: 2013-11-12 12:29:32 -0500
 author: pope

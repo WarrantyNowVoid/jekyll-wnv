@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 4b6ff
+redirect_from: 
+  - /climate-change-factors/
+  - /post/4b6ff/
 published: true
 date: 2015-03-05 13:01:01 -0500
 author: pope

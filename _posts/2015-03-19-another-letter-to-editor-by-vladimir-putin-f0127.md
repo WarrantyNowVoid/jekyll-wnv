@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: f0127
+redirect_from: 
+  - /putin-letter-2/
+  - /post/f0127/
 published: true
 date: 2015-03-19 13:01:01 -0400
 author: pope

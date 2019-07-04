@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: c4d68
+redirect_from: 
+  - /chinese-food/
+  - /post/c4d68/
 published: true
 date: 2015-01-27 13:01:01 -0500
 author: pope

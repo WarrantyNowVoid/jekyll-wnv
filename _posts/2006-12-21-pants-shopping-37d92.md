@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 37d92
+redirect_from: 
+  - /pants-shopping/
+  - /post/37d92/
 published: true
 date: 2006-12-21 01:01:01 -0500
 author: pope

@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: cbaef
+redirect_from: 
+  - /nsa-holes/
+  - /post/cbaef/
 published: true
 date: 2013-11-06 13:31:58 -0500
 author: scawt

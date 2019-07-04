@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: b237d
+redirect_from: 
+  - /rsvp-pls/
+  - /post/b237d/
 published: true
 date: 2014-01-10 12:15:60 -0500
 author: pope

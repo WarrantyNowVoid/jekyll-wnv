@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 9d67e
+redirect_from: 
+  - /love-story-by-scott/
+  - /post/9d67e/
 published: true
 date: 2009-03-30 01:01:01 -0400
 author: pope

@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: bbf3f
+redirect_from: 
+  - /superpowers-part-2/
+  - /post/bbf3f/
 published: true
 date: 2006-07-13 01:01:01 -0400
 author: pope

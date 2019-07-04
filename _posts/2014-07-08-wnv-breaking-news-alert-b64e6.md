@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: b64e6
+redirect_from: 
+  - /breaking-news-toilet/
+  - /post/b64e6/
 published: true
 date: 2014-07-08 11:57:48 -0400
 author: pope

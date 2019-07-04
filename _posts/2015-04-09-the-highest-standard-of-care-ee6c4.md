@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: ee6c4
+redirect_from: 
+  - /dr-quack/
+  - /post/ee6c4/
 published: true
 date: 2015-04-09 13:01:01 -0400
 author: pope

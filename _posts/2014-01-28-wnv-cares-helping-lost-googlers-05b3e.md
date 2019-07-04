@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 05b3e
+redirect_from: 
+  - /lost-googlers/
+  - /post/05b3e/
 published: true
 date: 2014-01-28 12:25:57 -0500
 author: pope

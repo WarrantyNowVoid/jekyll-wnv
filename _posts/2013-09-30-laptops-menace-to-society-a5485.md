@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: a5485
+redirect_from: 
+  - /laptop-menace/
+  - /post/a5485/
 published: true
 date: 2013-09-30 14:44:18 -0400
 author: pope

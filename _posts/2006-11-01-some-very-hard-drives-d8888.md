@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: d8888
+redirect_from: 
+  - /very-hard-drives/
+  - /post/d8888/
 published: true
 date: 2006-11-01 01:01:01 -0500
 author: pope

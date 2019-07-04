@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: e9940
+redirect_from: 
+  - /only-realistic-outcome/
+  - /post/e9940/
 published: true
 date: 2013-10-14 12:37:09 -0400
 author: pope

@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 05fbe
+redirect_from: 
+  - /putin-letter/
+  - /post/05fbe/
 published: true
 date: 2014-02-13 10:53:08 -0500
 author: admiral

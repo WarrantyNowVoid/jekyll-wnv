@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: c980d
+redirect_from: 
+  - /holiday-bricky/
+  - /post/c980d/
 published: true
 date: 2014-12-23 12:35:46 -0500
 author: pope

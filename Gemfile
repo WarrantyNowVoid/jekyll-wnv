@@ -18,6 +18,7 @@ group :jekyll_plugins do
   gem 'jekyll-tagging-related_posts'
   gem 'jekyll-paginate-v2'
   gem 'jekyll-sitemap'
+  gem 'jekyll-redirect-from'
 end
 
 group :production, optional: true do

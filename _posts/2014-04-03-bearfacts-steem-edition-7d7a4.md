@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 7d7a4
+redirect_from: 
+  - /bearfacts-steem/
+  - /post/7d7a4/
 published: true
 date: 2014-04-03 12:42:15 -0400
 author: pope

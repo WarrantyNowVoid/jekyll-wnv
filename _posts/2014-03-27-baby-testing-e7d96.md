@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: e7d96
+redirect_from: 
+  - /baby-testing/
+  - /post/e7d96/
 published: true
 date: 2014-03-27 18:08:58 -0400
 author: pope

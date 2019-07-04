@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: d78c0
+redirect_from: 
+  - /lots-of-teeth-yes/
+  - /post/d78c0/
 published: true
 date: 2006-04-25 01:01:01 -0400
 author: pope

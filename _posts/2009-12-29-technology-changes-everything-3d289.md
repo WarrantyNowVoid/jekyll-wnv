@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 3d289
+redirect_from: 
+  - /technology-changes/
+  - /post/3d289/
 published: true
 date: 2009-12-29 01:01:01 -0500
 author: pope

@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 691ed
+redirect_from: 
+  - /alky-the-snowman/
+  - /post/691ed/
 published: true
 date: 2014-12-25 21:05:17 -0500
 author: pope

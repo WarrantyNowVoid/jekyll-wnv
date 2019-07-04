@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 1247c
+redirect_from: 
+  - /new-years-2015/
+  - /post/1247c/
 published: true
 date: 2015-01-06 12:16:01 -0500
 author: pope

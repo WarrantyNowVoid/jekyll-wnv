@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 1780d
+redirect_from: 
+  - /row-row-row-your-boat/
+  - /post/1780d/
 published: true
 date: 2007-03-22 01:01:01 -0400
 author: pope

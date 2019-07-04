@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 2778f
+redirect_from: 
+  - /sweet-reward/
+  - /post/2778f/
 published: true
 date: 2013-11-01 13:14:15 -0400
 author: pope

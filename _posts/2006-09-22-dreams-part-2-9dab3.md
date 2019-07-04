@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 9dab3
+redirect_from: 
+  - /dreams-part-2/
+  - /post/9dab3/
 published: true
 date: 2006-09-22 01:01:01 -0400
 author: pope

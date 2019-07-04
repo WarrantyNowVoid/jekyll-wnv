@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 78197
+redirect_from: 
+  - /with-great-power/
+  - /post/78197/
 published: true
 date: 2006-04-27 01:01:01 -0400
 author: pope

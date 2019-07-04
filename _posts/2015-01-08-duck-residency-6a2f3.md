@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 6a2f3
+redirect_from: 
+  - /duck-residency/
+  - /post/6a2f3/
 published: true
 date: 2015-01-08 13:12:47 -0500
 author: pope

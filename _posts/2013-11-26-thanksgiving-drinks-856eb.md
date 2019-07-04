@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 856eb
+redirect_from: 
+  - /thanksgiving-drinks/
+  - /post/856eb/
 published: true
 date: 2013-11-26 12:39:58 -0500
 author: pope

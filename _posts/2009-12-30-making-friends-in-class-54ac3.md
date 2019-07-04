@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 54ac3
+redirect_from: 
+  - /making-friends-in-class/
+  - /post/54ac3/
 published: true
 date: 2009-12-30 01:01:01 -0500
 author: pope

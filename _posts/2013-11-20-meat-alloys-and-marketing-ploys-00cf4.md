@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 00cf4
+redirect_from: 
+  - /meat-alloys/
+  - /post/00cf4/
 published: true
 date: 2013-11-20 12:43:24 -0500
 author: admiral

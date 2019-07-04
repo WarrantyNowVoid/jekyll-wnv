@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: fc097
+redirect_from: 
+  - /jack-n-stormy-2/
+  - /post/fc097/
 published: true
 date: 2015-02-24 13:01:01 -0500
 author: pope

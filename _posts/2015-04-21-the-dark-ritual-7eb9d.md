@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 7eb9d
+redirect_from: 
+  - /dark-ritual/
+  - /post/7eb9d/
 published: true
 date: 2015-04-21 13:01:01 -0400
 author: pope

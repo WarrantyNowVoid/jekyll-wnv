@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: f91fe
+redirect_from: 
+  - /new-pokemon-review/
+  - /post/f91fe/
 published: true
 date: 2009-11-19 01:01:01 -0500
 author: pope

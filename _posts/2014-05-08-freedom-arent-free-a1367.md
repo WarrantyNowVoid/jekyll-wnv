@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: a1367
+redirect_from: 
+  - /freedom-arent-free/
+  - /post/a1367/
 published: true
 date: 2014-05-08 11:51:37 -0400
 author: pope

@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 0a7f3
+redirect_from: 
+  - /wnv-insider/
+  - /post/0a7f3/
 published: true
 date: 2013-10-18 12:37:37 -0400
 author: scawt

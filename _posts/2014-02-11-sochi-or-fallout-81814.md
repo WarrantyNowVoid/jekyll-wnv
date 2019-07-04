@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 81814
+redirect_from: 
+  - /sochi-or-fallout/
+  - /post/81814/
 published: true
 date: 2014-02-11 11:46:38 -0500
 author: pope

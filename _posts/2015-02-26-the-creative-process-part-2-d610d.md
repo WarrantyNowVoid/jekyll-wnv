@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: d610d
+redirect_from: 
+  - /creative-process-2/
+  - /post/d610d/
 published: true
 date: 2015-02-26 13:01:01 -0500
 author: pope

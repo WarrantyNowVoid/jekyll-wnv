@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: b11f1
+redirect_from: 
+  - /winter-olympics-2014/
+  - /post/b11f1/
 published: true
 date: 2014-03-18 12:03:58 -0400
 author: pope

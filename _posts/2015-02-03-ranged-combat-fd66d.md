@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: fd66d
+redirect_from: 
+  - /ranged-combat/
+  - /post/fd66d/
 published: true
 date: 2015-02-03 13:01:01 -0500
 author: pope

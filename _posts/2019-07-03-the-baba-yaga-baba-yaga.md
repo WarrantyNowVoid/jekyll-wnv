@@ -1,6 +1,6 @@
 ---
 layout: post
-guid: baba-yaga
+redirect_from: /baba-yaga/
 published: true
 date: 2019-07-03 11:00:00 -0400
 author: scawt

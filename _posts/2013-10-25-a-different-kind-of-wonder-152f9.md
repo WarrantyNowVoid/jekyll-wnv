@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 152f9
+redirect_from: 
+  - /different-kind-of-wonder/
+  - /post/152f9/
 published: true
 date: 2013-10-25 12:19:60 -0400
 author: scawt

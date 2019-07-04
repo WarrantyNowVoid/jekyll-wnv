@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: abf4e
+redirect_from: 
+  - /superheroism/
+  - /post/abf4e/
 published: true
 date: 2009-03-09 01:01:01 -0400
 author: pope

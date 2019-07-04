@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 00c7c
+redirect_from: 
+  - /boston-olympics/
+  - /post/00c7c/
 published: true
 date: 2015-01-20 13:30:21 -0500
 author: pope

@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: ddc35
+redirect_from: 
+  - /safety-first/
+  - /post/ddc35/
 published: true
 date: 2009-02-22 01:01:01 -0500
 author: pope

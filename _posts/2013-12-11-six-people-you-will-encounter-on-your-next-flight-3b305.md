@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 3b305
+redirect_from: 
+  - /flight-people/
+  - /post/3b305/
 published: true
 date: 2013-12-11 15:50:34 -0500
 author: pope

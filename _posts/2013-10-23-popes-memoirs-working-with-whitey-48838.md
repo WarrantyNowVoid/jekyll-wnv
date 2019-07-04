@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 48838
+redirect_from: 
+  - /popes-memoirs-whitey/
+  - /post/48838/
 published: true
 date: 2013-10-23 12:15:26 -0400
 author: pope

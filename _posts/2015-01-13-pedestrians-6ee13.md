@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 6ee13
+redirect_from: 
+  - /pedestrians/
+  - /post/6ee13/
 published: true
 date: 2015-01-13 14:59:29 -0500
 author: pope

@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: b12ef
+redirect_from: 
+  - /popes-guide-holidays/
+  - /post/b12ef/
 published: true
 date: 2014-01-07 13:34:13 -0500
 author: pope

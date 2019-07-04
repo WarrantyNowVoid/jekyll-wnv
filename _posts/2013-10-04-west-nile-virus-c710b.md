@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: c710b
+redirect_from: 
+  - /west-nile-virus/
+  - /post/c710b/
 published: true
 date: 2013-10-04 12:21:54 -0400
 author: admiral

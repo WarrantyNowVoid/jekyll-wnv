@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: f7aec
+redirect_from: 
+  - /dreams-part-1/
+  - /post/f7aec/
 published: true
 date: 2006-09-20 01:01:01 -0400
 author: pope

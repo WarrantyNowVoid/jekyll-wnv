@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: e65b0
+redirect_from: 
+  - /updating-alternatives/
+  - /post/e65b0/
 published: true
 date: 2014-03-13 12:34:56 -0400
 author: pope

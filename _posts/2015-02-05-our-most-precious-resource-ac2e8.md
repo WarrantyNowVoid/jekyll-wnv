@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: ac2e8
+redirect_from: 
+  - /precious-resource/
+  - /post/ac2e8/
 published: true
 date: 2015-02-05 13:01:01 -0500
 author: pope

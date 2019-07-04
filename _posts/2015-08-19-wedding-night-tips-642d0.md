@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 642d0
+redirect_from: 
+  - /wedding-night-tips/
+  - /post/642d0/
 published: true
 date: 2015-08-19 13:01:01 -0400
 author: pope

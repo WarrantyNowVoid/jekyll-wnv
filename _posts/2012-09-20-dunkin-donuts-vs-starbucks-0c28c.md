@@ -1,6 +1,8 @@
 ---
 layout: post
-guid: 0c28c
+redirect_from: 
+  - /dunkin-vs-starbucks/
+  - /post/0c28c/
 published: true
 date: 2012-09-20 02:36:28 -0400
 author: pope
