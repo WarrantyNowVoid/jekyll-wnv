@@ -9,7 +9,7 @@ author: pope
 title: "WNV Breaking News Alert"
 excerpt: "From WNV World News Headquarters in Boston, this is a WNV Breaking News Alert. Stay tuned for minute-by-minute updates from the WNV news team on this urgent situation that will undoubtedly affect millions."
 category: Junk
-tags: ["poop","shitter's broke","ASSPOCALYPSE 2014","turd tRowema","rectal wreckage","Snapchat"]
+tags: ["poop","shitter's broke","ASSPOCALYPSE 2014","turd trauma","rectal wreckage","Snapchat"]
 comments: true 
 ---
 
