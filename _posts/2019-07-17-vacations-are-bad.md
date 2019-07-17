@@ -21,7 +21,7 @@ My house is full of many good things that I like, such as my bed and my toilet: 
 
 ## 2. Culture shock is a real concern
 
-Experiencing a strange foreign culture for the first time can be jarring, if not outright dangerous. Every corner of the world has its own ways of doing things, and its own expectations of how you will conform to them. Let me share an anecdote about my.own experience with an exotic stranger. Once, while I was out running, a man I did not know said hello to me. He was clearly unhinged, simply walking up to and engaging with people like that, so unfortunately I had to report him to the local law enforcement. Now, due to what I'm calling a "high voltage misunderstanding," I ended up being lightly tazed, and for legal reasons can never return to the so-called "state" of "Delaware." That just goes to show what can happen when worlds collide.
+Experiencing a strange foreign culture for the first time can be jarring, if not outright dangerous. Every corner of the world has its own ways of doing things, and its own expectations of how you will conform to them. Let me share an anecdote about my own experience with an exotic stranger. Once, while I was out running, a man I did not know said hello to me. He was clearly unhinged, simply walking up to and engaging with people like that, so unfortunately I had to report him to the local law enforcement. Now, due to what I'm calling a "high voltage misunderstanding," I ended up being lightly tazed, and for legal reasons can never return to the so-called "state" of "Delaware." That just goes to show what can happen when worlds collide.
 
 ## 3. Time off is theft
 
