@@ -158,3 +158,4 @@ If the post contains an `image.feature` and doesn't specify an `image.thumbnail`
 ### Example:
 
 ![](thumb-ex.jpg)
+
