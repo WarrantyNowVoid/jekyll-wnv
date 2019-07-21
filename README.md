@@ -138,6 +138,9 @@ Posts are individual markdown files contained in the `_posts/` directory. The na
     - `headliner`: **[optional]** big cover image to use for this post, like Articles, Videos, Junk. Can't be used alongside `feature`.
     - `imageHover`: **[optional]** alt-text mouse hover content for headliner or feature image
     - `thumbnail`: **[optional]** image to use for previews on the site (homepage, related posts, etc) and for RSS feed and social posts. Expected dimensions: width: 1200px, height: 600px. If this is not specified and `headliner` exists, the full `headliner` image will be used. If this is not specified and `feature` exists, an auto-cropped version of the `feature` image will be used in all these places.
+    - `credit`: **[optional]** array of credit caption details
+        - `title`: **[required if `credit`]** the text of the image credit caption to be displayed
+        - `link`: **[optional]** the url that the `title` text should link to
 - `video`: **[optional]** array definition of video content for this post (YouTube is the only available service but this could be later extended to support more). *Post category does not have to be Video to use this key.*
     - `youtube`: **[required if `video`]** url to the YouTube video, either the public facing link (`"https://www.youtube.com/watch?v=QPal_wQHMB0"`) or the embed url (`"https://www.youtube.com/embed/QPal_wQHMB0"`) contained within double quotes. The id is extracted and used for an `iframe` embed after the post content is rendered.
 

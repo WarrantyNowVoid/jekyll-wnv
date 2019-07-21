@@ -35,6 +35,7 @@
     {% if page.image.headliner %}
       <div class="headliner">
         <img {% twoxify page.image.headliner %} title="{{ page.image.imageHover }}"/>
+        {% if page.image.credit.title %}<div class="credit"><a href="{{ page.image.credit.link }}" target="_blank">{{ page.image.credit.title }}</a></div>{% endif %}
       </div>
     {% else %}
       {% if page.category != "Comics" %}

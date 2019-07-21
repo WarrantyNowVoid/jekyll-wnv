@@ -10,6 +10,9 @@ category: Articles
 tags: ["vacation", "video games", "asses", "butt stuff", "trains", "travel", "ass rubs", "The Ledger", "work-hovel", "employment", "lag", "high voltage misunderstanding", "tantric loot box experiences"]
 image:
   headliner: assets/img/lol/vacation-bad.jpg
+  credit: 
+      title: Original photo by NeONBRAND on Unsplash
+      link: https://unsplash.com/@neonbrand
 ---
 
 Summer is prime time to enjoy a break from the everyday by taking trips and exploring new places. It's vacation central out here! This year, like every year before it, millions of innocent, naive folks will spend their time praying at the altar of leisure, genuflecting before the false god of vacation. Yes, the harsh reality is that vacation is an insidious evil that has been snaking its way into cultures across the globe for too long, poisoning the minds of generations into thinking that it's not only natural, but *good*. We can no longer stand idly by while the truth goes unspoken; we are finally telling the world what many have known, but none have dared to say publicly: *Vacation is bad, actually*.
