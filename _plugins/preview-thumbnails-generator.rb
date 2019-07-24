@@ -38,7 +38,7 @@ module Jekyll
               in_path = original_path
             end
 
-            out_path = "#{File.join(site.config["generate-thumbnails"]["path"], File.basename(in_path))}"
+            out_path = "#{File.join(site.config["generate-thumbnails"]["path"], File.basename(original_path))}"
 
             image = Image.read(in_path)[0]
             # this is the same logic we use for the .auto-thumbnail class in CSS
