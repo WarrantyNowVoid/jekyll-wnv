@@ -1,6 +1,6 @@
 ---
 layout: post
-guid: wnvidya2
+redirect_from: /wnvidya2/
 published: true
 date: 2019-08-07 10:00:00 -0400
 author: scawt
