@@ -162,7 +162,7 @@ Everything is markdown, but regular HTML is still allowed when needed. Posts con
 If the post contains an `image.feature` and doesn't specify an `image.thumbnail`, we'll generate an auto-cropped thumbnail image to use for post previews on the site and to embed in the RSS feed and social posts. The [logic for the auto-thumbs](https://github.com/WarrantyNowVoid/jekyll-wnv/blob/master/_plugins/preview-thumbnails-generator.rb#L43-L44) is: 
 
 1. resize the original to be at least 2x the size of the frame (1200x 600 for thumbnails), maintaining proportions
-2. crop a section at x: 10% of the image width y: 40% of the image height, the size of the frame
+2. crop a section at x: 40% of the image width y: 10% of the image height, the size of the frame
 
 ### Example:
 
