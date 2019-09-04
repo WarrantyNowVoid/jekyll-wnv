@@ -15,15 +15,19 @@
         <link rel="stylesheet" href="{{ site.url }}/assets/css/junk.css">
     {% endcase %}
 
-    {% if page.custom_styles %}
-      <link rel="stylesheet" href="{{ site.url }}{{ page.custom_styles }}">
+    {% if page.include_styles %}
+      {% for sheet in page.include_styles %}
+        <link rel="stylesheet" href="{{ site.url }}/assets/css/{{ sheet }}">
+      {% endfor %}
     {% endif %}
 
-    {% if page.custom_scripts %}
-      <script src="{{ site.url }}{{ page.custom_scripts }}"></script>
+    {% if page.include_scripts %}
+      {% for script in page.include_scripts %}
+        <script src="{{ site.url }}/assets/js/{{ script }}"></script>
+      {% endfor %}
     {% endif %}
 
-    {% if site.vibrant-posts %}
+    {% if site.vibrant-posts and page.vibrant-post != false %}
       {% if page.image.feature %}
         {% vibrantjs page.image.feature %}
       {% elsif page.image.headliner %}
