@@ -1,6 +1,6 @@
 ---
 layout: post
-guid: faygo
+redirect_from: faygo
 published: true
 date: 2019-09-04 10:00:00 -0400
 author: pope
