@@ -9,6 +9,6 @@ excerpt: "Everyone has their embarrassing hobbies. For some of us, that's making
 category: Comics
 tags: ["holes", "foods", "hole foods", "organic treats", "USDA certified", "Horny Ted", "THAT HOLE IS FOR EXIT ONLY!", "There Is No Wrong Hole", "Jeff Bezos", "innovation", "hungry butts", "butt stuff", "stick that in your butt and squeeze it", "adult things", "#MakesMeWhole"]
 image:
-  feature: assets/img/lol/HoleFoods.jpg
+  feature: assets/img/lol/holefoods.jpg
   imageHover: "Yessir, Horny Ted here prides himself on his committment to sustainability."
 ---
