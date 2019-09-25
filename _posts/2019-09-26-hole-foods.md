@@ -2,7 +2,7 @@
 layout: post
 redirect_from: /hole-foods/
 published: true
-date: 2019-09-26 10:00:00 -0400
+date: 2019-09-25 10:00:00 -0400
 author: scawt
 title: Vertical Integration
 excerpt: "Everyone has their embarrassing hobbies. For some of us, that's making a website full of dumb jokes; for others, it's a love of big tech. And for a certain guy named Ted, well..."
