@@ -19,4 +19,11 @@
     .hover-background-vibrant:hover{ background-color: {{ rgbVibrant }} !important; }
     .hover-background-dark:hover{ background-color: {{ rgbDarkVibrant }} !important; }
     .hover-background-muted:hover{ background-color: {{ rgbMuted }} !important; }
+
+    @media (prefers-color-scheme: dark) {
+        .comic-nav > .color-dark{ color: {{ rgbVibrant }} !important; }
+        .comic-nav > .hover-color-vibrant:hover{ color: {{ rgbMuted }} !important; }
+        .share-link.color-dark{ color: {{ rgbVibrant }} !important; }
+        .share-link.hover-color-vibrant:hover{ color: {{ rgbMuted }} !important; }
+    }
 </style>

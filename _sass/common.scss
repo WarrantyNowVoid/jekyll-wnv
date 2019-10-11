@@ -39,6 +39,47 @@ html{
   }
 }
 
+@media (prefers-color-scheme: dark) {
+  html,body,main,{
+    background-color: #0a0e14;
+    color: #e4e4e4;
+  } 
+  pre,code,.jumbotron{
+    background-color: lighten(#0a0e14, 10);
+    color: darken(#e4e4e4, 10);
+  }
+  .page-item{
+    .page-link{
+      color: #007bff;
+      background-color: lighten(#0a0e14, 10);
+      border: 1px solid darken(#0a0e14, 10);
+
+      &:hover{
+        background-color: lighten(#0a0e14, 5);
+      }
+    }
+    &.active{
+      .page-link{
+        color: #e4e4e4;
+        background-color: darken(#007bff, 10);
+        border: 1px solid darken(#0a0e14, 10);
+      }
+    }
+  }
+  svg.angle-border-mask{
+    fill: #0a0e14 !important;
+  }
+  h1,h2,h3,h4,h5,h6{
+    color: #e4e4e4;
+  }
+  a{
+    color: #007bff;
+  }
+  .comic-nav{
+    color: #0a0e14;
+  }
+}
+
 .logo-top svg.wnv-icon{
   position: relative;
   top: 20px;
@@ -77,6 +118,11 @@ blockquote{
     font-weight: 300;
     line-height: 1.25;
   }
+}
+
+pre{
+  padding: 10px;
+  border-radius: 8px;
 }
 
 .post-preview{
