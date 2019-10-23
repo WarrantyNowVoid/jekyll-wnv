@@ -12,15 +12,15 @@ const brokenHtml = `
   <p>We fucked up.<br />
     <a class="share-link color-dark hover-color-vibrant" 
        title="Inform us of our mistake on Twitter" 
-       href="https://twitter.com/intent/tweet?url=${encodeURI(window.location.href)}&text=${encodeURI('You huge dumbasses, look how broken this page is. Come on, get your shit together.')}">
+       href="https://twitter.com/intent/tweet?url=${encodeURI(window.location.href)}&text=${encodeURI('@WarrantyNowVoid You huge dumbasses, look how broken this page is. Come on, get your shit together.')}">
         <i class="fab fa-twitter"></i> Let us know about it!
     </a>
   </p>
 </div>`;
 
-const carouselItem = (index, page, isWin) => {
+const carouselItem = (index, page, isWin, isActive) => {
   let actions = '';
-  const active = index == adventure.meta.start ? ' active' : '';
+  const active = isActive ? ' active' : '';
 
   if(!page.ending){
     for(let action of page.actions){
@@ -28,12 +28,28 @@ const carouselItem = (index, page, isWin) => {
     }
   }else{
     if(isWin){
-      actions += `<li><button type="button" data-goto-index="${adventure.meta.start}" class="btn btn-outline-success btn-lg btn-block">${page.actions[0].title}<br/><small>Click to play again</small></button></li>`; 
+      if(adventure.meta.replay_on_success){
+        actions += `<li><button type="button" data-goto-index="${adventure.meta.start}" class="btn btn-outline-success btn-lg btn-block">${page.actions[0].title}<br/><small>Click to play again</small></button></li>`; 
+      }else{
+        if(page.actions[0].alert){
+          actions += `<li><button type="button" class="btn btn-outline-success btn-lg btn-block" data-alert-message="${page.actions[0].alert}">${page.actions[0].title}</button></li>`; 
+        }else{
+          actions += `<li><button type="button" class="btn btn-outline-success btn-lg btn-block">${page.actions[0].title}</button></li>`; 
+        }
+      }
     }else{
-      actions += `<li><button type="button" data-goto-index="${adventure.meta.start}" class="btn btn-outline-danger btn-lg btn-block">${page.actions[0].title}<br/><small>Click to try again</small></button></li>`; 
+      if(adventure.meta.replay_on_failure){
+        actions += `<li><button type="button" data-goto-index="${adventure.meta.start}" class="btn btn-outline-danger btn-lg btn-block">${page.actions[0].title}<br/><small>Click to try again</small></button></li>`; 
+      }else{
+        if(page.actions[0].alert){
+          actions += `<li><button type="button" class="btn btn-outline-danger btn-lg btn-block" data-alert-message="${page.actions[0].alert}">${page.actions[0].title}</button></li>`; 
+        }else{
+          actions += `<li><button type="button" class="btn btn-outline-danger btn-lg btn-block">${page.actions[0].title}</button></li>`; 
+        }
+      }
     }
   }
-
+  console.log(page.caption);
   return `<div id="page-${index}" class="carousel-item${active}" data-page-id="${index}">
   <img src="${page.image}" data-rjs="2" />
   <div class="carousel-caption">
@@ -47,11 +63,18 @@ const beginAdventure = () => {
   let newCarousel = $(carouselHtml),
       pageContainer = newCarousel.find('.carousel-inner');
 
+  let startPage = adventure.meta.start;
+  if(typeof startPage === "string" && startPage.startsWith('random[')){
+    let options = JSON.parse(startPage.substring(startPage.indexOf('['), startPage.indexOf(']') + 1));
+    startPage = options[options.length * Math.random() | 0];
+  }
+
   for(index in adventure.pages){
     pageContainer.append($(carouselItem(
       index, 
       adventure.pages[index],
-      adventure.meta.successes.includes(parseInt(index))
+      adventure.meta.successes.includes(parseInt(index)),
+      startPage == index
     )));
   }
 
@@ -79,7 +102,20 @@ const beginAdventure = () => {
   $('ul.action-list li button').click((eo) =>{
     eo.stopPropagation();
     
-    const targetPage = parseInt($(eo.currentTarget).data('gotoIndex'));
+    let targetPage;
+    let dataTarget = $(eo.currentTarget).data('gotoIndex');
+    if(typeof dataTarget === "undefined"){
+      let alertMessage = $(eo.currentTarget).data('alertMessage');
+      if(alertMessage){
+        alert(alertMessage);
+      }
+      return;
+    }else if(typeof dataTarget === "string" && dataTarget.startsWith('random[')){
+      let options = JSON.parse(dataTarget.substring(dataTarget.indexOf('['), dataTarget.indexOf(']') + 1));
+      targetPage = options[options.length * Math.random() | 0];
+    }else{
+      targetPage = parseInt(dataTarget);
+    }
     if(targetPage == adventure.meta.start){
       const currentPage = parseInt($('#adventure .carousel .carousel-item.active').data('pageId'));
       carousel.addClass('respawning');
