@@ -22,7 +22,9 @@ vibrant-post: false
   "meta": {
     "start": 0,
     "successes": [15],
-    "failures": [3, 14, 20]
+    "failures": [3, 14, 20],
+    "replay_on_failure": true,
+    "replay_on_success": true
   },
   "pages": {
     "0": {
