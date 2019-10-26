@@ -82,37 +82,7 @@ bundle exec jekyll s
 
 ## AWS Amplify Build
 
-Pretty straightforward to run on Amplify, wrap the same commands in their schema:
-
-````yaml
-version: 0.1
-frontend:
-  phases:
-    preBuild:
-      commands:
-        - yum install -y gcc ImageMagick-devel make which
-        - npm install node-vibrant
-        - gem install bundler
-        - bundle install --with production
-    build:
-      commands:
-        - bundle exec jekyll b
-  artifacts:
-    baseDirectory: _site
-    files:
-      - '**/*'
-  cache:
-    paths: []
-  customHeaders:
-    - pattern: '/assets/img/**'
-      headers:
-        - key: 'Cache-Control'
-          value: 'public, max-age=31536000'
-    - pattern: '/assets/mp3/**'
-      headers:
-        - key: 'Cache-Control'
-          value: 'public, max-age=31536000'
-````
+See tools/build.yml
 
 ## Etc
 
