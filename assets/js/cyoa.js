@@ -49,7 +49,7 @@ const carouselItem = (index, page, isWin, isActive) => {
       }
     }
   }
-  console.log(page.caption);
+
   return `<div id="page-${index}" class="carousel-item${active}" data-page-id="${index}">
   <img src="${page.image}" data-rjs="2" />
   <div class="carousel-caption">
