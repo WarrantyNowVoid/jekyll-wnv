@@ -9,7 +9,7 @@ sitemap: false
   font-size: 48px;
   font-family: 'DM Serif Display', serif;
 
-  ::after{
+  &::after{
     content: "\A";
     white-space: pre;
   }
