@@ -40,5 +40,3 @@ By the end of the 2014 season, the Red Sox players will soon be unable to contro
 I disobeyed the Council's orders, and in so doing turned our team into bears. I alone must live with my actions, but I have no regrets. The 2013 Red Sox have restored our city to its former glory, and will live on forever in baseball history and in our hearts.
 
 And also in the forest as immortal god-bears.
-
-<script>var easterEgg = function(){ walkenize(); }</script>

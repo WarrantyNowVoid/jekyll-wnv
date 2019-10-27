@@ -1,0 +1,16 @@
+---
+sitemap: false
+---
+
+.spooky{
+  font-family: 'Nosifer', cursive;
+}
+.unspooky{
+  font-size: 48px;
+  font-family: 'DM Serif Display', serif;
+
+  ::after{
+    content: "\A";
+    white-space: pre;
+  }
+}

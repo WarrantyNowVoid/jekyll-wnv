@@ -95,4 +95,29 @@ sitemap: false
       padding: 2px 3px;
     }
   }
+
+  .flickrCredit{
+    margin-top: 10px; 
+    font-size: 0.9rem;
+    font-style: italic;
+
+    .cc{
+      margin-right: 5px;
+    }
+
+    .ccLink{
+      display: inline-block;
+      white-space: none;
+      opacity: .7;
+      margin-top: 2px;
+      margin-left: 3px;
+      height: 22px !important;
+    }
+
+    img{
+      height: inherit;
+      margin-right: 3px;
+      display: inline-block;
+    }
+  }
 }

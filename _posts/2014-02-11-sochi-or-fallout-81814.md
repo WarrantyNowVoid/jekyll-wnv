@@ -13,6 +13,10 @@ tags: ["Olympics","2014 Winter Olympics","Russia","Sochi","Fallout","video games
 comments: true 
 image:
   headliner: assets/img/lol/sochiorfallout_headline.png
+include_scripts:
+  - quizshow.js
+include_styles:
+  - quizshow.css
 ---
 
 To celebrate the 2014 winter olympics, we've started playing a fun new game here at WNV called "Sochi, or Fallout Wasteland?" The rules are simple enough, the mediator describes a scenario, and the contestants have to determine if it happened in the smash hit, post-apocalyptic video game series Fallout, or if it is currently happening to a reporter or athelete in the very real city of Sochi, Russia.
@@ -60,7 +64,3 @@ Ready to get started? I know I am. Click or tap on the Answer panels to see the 
 <div class="answerpanel"><img src="/assets/img/lol/sochiorfallout10_despair.png" alt="Sochi"><br><blockquote><p>Fallout is actually pretty fun.</p></blockquote></div>
 
 That's all for now, we're going to head back to the harsh and barren wastes and attempt to eke out a desperate subsistence in the hope that we can try to forget what we've seen in Sochi so far.
-
-<script type="text/javascript">$(document).ready(function(){ $('.answerpanel').before('<blockquote class="showanswer"><p><a>Click to show answer</a></p></blockquote>').hide(); $('.showanswer').click(function(eo){ $(this).next('.answerpanel').show(); var theimg = $(this).next('.answerpanel').children('img'); if($('img.headliner').width() == 600){ theimg.height(342); theimg.width(600); }else{ theimg.height(450); theimg.width(800); } $(this).hide(); }); });</script>
-
-<style type="text/css">div.answerpanel{ margin-top: 30px; margin-bottom: 50px; }</style>

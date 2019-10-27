@@ -214,6 +214,16 @@ body{
     iframe{
       display:block;
       margin: 0 auto;
+
+      .podcast-embed{
+        width: 100%; 
+        height: 200px; 
+        border: 0 none;
+      }
+    }
+
+    .imgur-embed{
+      width: 540px;
     }
   }
 }

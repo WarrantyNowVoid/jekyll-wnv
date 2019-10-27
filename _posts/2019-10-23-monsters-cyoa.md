@@ -17,23 +17,10 @@ include_scripts:
   - cyoa.js
 include_styles:
   - cyoa.css
+  - spooky.css
 ---
 
 <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display|Nosifer&display=swap" rel="stylesheet">
-
-<style type="text/css">
-  .spooky{
-    font-family: 'Nosifer', cursive;
-  }
-  .unspooky{
-    font-size: 48px;
-    font-family: 'DM Serif Display', serif;
-  }
-  .unspooky::after{
-    content: "\A";
-    white-space: pre;
-  }
-</style>
 
 There's a spooky chill in the air that can only mean one thing: the Halloween season is finally upon us. Since last year, we've been hard at work building our patented WNV Labs Neural Net to carefully analyze your behaviors based on thousands of data points and tell you exactly which classic spooky character most accurately represents you. Help it start building a personality profile below by answering some specially crafted questions.
 

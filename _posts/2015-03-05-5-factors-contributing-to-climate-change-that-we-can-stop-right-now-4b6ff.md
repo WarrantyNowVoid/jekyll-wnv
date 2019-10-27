@@ -25,7 +25,7 @@ Scientists agree that one of the primary greenhouse gases contributing to the wa
 
 ![yomommagraph](/assets/img/lol/yomommagraph.png "Alternate title: Uses For Muh Diiiiiick")
 
-<p style="text-align:center;"><small>Source: EPA, probably</small></p>
+<p class="text-center"><small>Source: EPA, probably</small></p>
 
 Through one simple action of putting a cork in yo momma's ass gas, the country's methane emissions would be immediately cut by 29%. Why do we refuse to act?
 

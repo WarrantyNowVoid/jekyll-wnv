@@ -33,7 +33,7 @@ Spy is foolish man, expect Putin to now talk much on details of world domination
 
 Now, west has learn important lesson. Putin and Russia have no intimidate by so-call "super spy." Putin and Russia tear spy to pieces with bear arms. Is literal. All of west will fall soon enough and feel loving embrace of Mother Russia.
 
-<span style="font-size:22px; font-family:cursive;">Vlad</span>
+<span class="signature">Vlad</span>
 
   
 

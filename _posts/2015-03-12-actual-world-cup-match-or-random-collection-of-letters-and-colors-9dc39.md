@@ -13,6 +13,10 @@ tags: ["World Cup","soccer","sportsball","sports","totally real countries","tota
 comments: true 
 image:
   headliner: assets/img/lol/worldcupquiz.png
+include_scripts:
+  - quizshow.js
+include_styles:
+  - quizshow.css
 ---
 
 Continuing the grand tradition started by our 2014 Winter Olympics game: [Sochi or Fallout?](https://warrantynowvoid.com/junk/2014/02/11/), we bring you our newest game based on the World Cup. Use your deductive skills to decide whether each matchup is between two actual countries or just some bullshit we made up.
@@ -25,7 +29,7 @@ Without further ado, it's time to play some football (not American Handegg). Cli
 
 ### PTS v ZRG
 
-<div class="answerpanel"><img src="/assets/img/lol/worldcupmatch2.jpg" alt="Fake" style="height: 342px; width: 600px;"><br><blockquote><p>These are actually the aliens Protoss and Zerg from the classic video game series Starcraft. For our South Korean readers, please disregard all previous statements and continue playing; it is all real.</p></blockquote></div>
+<div class="answerpanel"><img src="/assets/img/lol/worldcupmatch2.jpg" alt="Fake"><br><blockquote><p>These are actually the aliens Protoss and Zerg from the classic video game series Starcraft. For our South Korean readers, please disregard all previous statements and continue playing; it is all real.</p></blockquote></div>
 
 ### BUT v HLE
 
@@ -46,7 +50,3 @@ Without further ado, it's time to play some football (not American Handegg). Cli
 Wait, wait. Hold up.
 
 The World Cup is only held once every _four fucking years_? What kind of ridiculous goddamned sport is this? You know what, forget it. No more World Cup jokes. They're dead to us forever.
-
-<script type="text/javascript">$(document).ready(function(){ $('.answerpanel').before('<blockquote class="showanswer"><p><a>Click to show answer</a></p></blockquote>').hide(); $('.showanswer').click(function(eo){ $(this).next('.answerpanel').show(); var theimg = $(this).next('.answerpanel').children('img'); if($('img.headliner').width() == 600){ theimg.height(342); theimg.width(600); }else{ theimg.height(450); theimg.width(800); } $(this).hide(); }); });</script>
-
-<style type="text/css">div.answerpanel{margin-top:30px;margin-bottom:50px;}</style>

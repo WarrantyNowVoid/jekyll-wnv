@@ -81,4 +81,4 @@ If not receive, Putin know where you live.
 
 With kindest regards, I am
 
-<span style="font-size:22px; font-family:cursive;">Vlad</span>
+<span class="signature">Vlad</span>
