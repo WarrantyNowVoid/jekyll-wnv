@@ -1,6 +1,8 @@
 ---
 layout: post
-redirect_from: wnvidya5
+redirect_from: 
+  - /wnvidya5/
+  - /forest-husbands/
 published: true
 date: 2019-10-30 10:00:00 -0400
 author: scawt
