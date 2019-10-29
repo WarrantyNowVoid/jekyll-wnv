@@ -7,7 +7,7 @@ author: pope
 title: "Which Classic Spooky Character Are You?"
 excerpt: "It's finally Halloween again, and time to debut the new WNV Labs Neural Net which uses thousands of detailed data points to tell you which classic spooky character most accurately represents you!"
 category: Junk
-tags: ["Dracula", "Frankenstein", "zombies", "guaranteed accurate results", "choose your own adventure", "2spooky4me", "Spooky Behaviors", "spooky scary skeletons", "Halloween"]
+tags: ["Dracula", "Frankenstein", "zombies", "guaranteed accurate results", "choose your own adventure", "2spooky4me", "Spooky Behavior", "spooky scary skeletons", "Halloween"]
 image:
   headliner: assets/img/lol/monsters-halloween.jpg
   credit: 
