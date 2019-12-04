@@ -1,7 +1,7 @@
 ---
 layout: post
 redirect_from: /purpose/
-published: false
+published: true
 date: 2019-12-04 13:00:00 -0400
 author: scawt
 title: Purpose
