@@ -2,7 +2,7 @@
 layout: post
 redirect_from: /purpose/
 published: true
-date: 2019-12-04 13:00:00 -0400
+date: 2019-12-04 11:00:00 -0400
 author: scawt
 title: Purpose
 excerpt: "Many of us spend much of our lives searching for our ultimate purpose, our reason for being, that one big thing that it was all about. Some of us are unlucky enough to find it."
