@@ -3,7 +3,7 @@ layout: post
 redirect_from: 
   - /best-of-best-of/
 published: true
-date: 2020-12-02 10:00:00 -0400
+date: 2020-1s-02 10:00:00 -0400
 author: scawt
 title: "WNV's Best of the 'Best of the 2010s' Lists of the 2010s List"
 excerpt: ""
