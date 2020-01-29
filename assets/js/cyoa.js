@@ -24,7 +24,11 @@ const carouselItem = (index, page, isWin, isActive) => {
 
   if(!page.ending){
     for(let action of page.actions){
-      actions += `<li><button type="button" data-goto-index="${action.goto}" class="btn btn-outline-light btn-lg btn-block">${action.title}</button></li>`;
+      if(action.url){
+        actions += `<li><a role="button" href="${action.url}" class="btn btn-outline-light btn-lg btn-block">${action.title}</a></li>`;
+      }else{
+        actions += `<li><button type="button" data-goto-index="${action.goto}" class="btn btn-outline-light btn-lg btn-block">${action.title}</button></li>`;
+      }
     }
   }else{
     if(isWin){
@@ -64,6 +68,7 @@ const beginAdventure = () => {
       pageContainer = newCarousel.find('.carousel-inner');
 
   let startPage = adventure.meta.start;
+  let hp = adventure.meta.hp || 10;
   if(typeof startPage === "string" && startPage.startsWith('random[')){
     let options = JSON.parse(startPage.substring(startPage.indexOf('['), startPage.indexOf(']') + 1));
     startPage = options[options.length * Math.random() | 0];
@@ -98,44 +103,61 @@ const beginAdventure = () => {
     "touch": false
   });
 
+
+  carousel.on('slid.bs.carousel', (eo) => {
+    if(eo.to == adventure.meta.start){
+      carousel.removeClass('respawning');
+    }
+
+    if(adventure.pages[eo.to].damage && !carousel.hasClass('respawning')){
+      hp = hp - adventure.pages[eo.to].damage;
+      console.log("ow! HP down to " + hp);
+    }
+  });
+
   //bind button clicks to jump to $data.gotoIndex
   $('ul.action-list li button').click((eo) =>{
     eo.stopPropagation();
     
     let targetPage;
     let dataTarget = $(eo.currentTarget).data('gotoIndex');
-    if(typeof dataTarget === "undefined"){
-      let alertMessage = $(eo.currentTarget).data('alertMessage');
-      if(alertMessage){
-        alert(alertMessage);
-      }
-      return;
-    }else if(typeof dataTarget === "string" && dataTarget.startsWith('random[')){
-      let options = JSON.parse(dataTarget.substring(dataTarget.indexOf('['), dataTarget.indexOf(']') + 1));
-      targetPage = options[options.length * Math.random() | 0];
+    const currentPage = parseInt($('#adventure .carousel .carousel-item.active').data('pageId'));
+
+    if(hp == 0){
+      console.log("RIP");
+      console.log(adventure.meta.on_hp_depleted);
+      carousel.carousel(adventure.meta.on_hp_depleted);
     }else{
-      targetPage = parseInt(dataTarget);
-    }
-    if(targetPage == adventure.meta.start){
-      const currentPage = parseInt($('#adventure .carousel .carousel-item.active').data('pageId'));
-      carousel.addClass('respawning');
-      if(currentPage > adventure.meta.start){
-        for(let i = currentPage - 1; i >= adventure.meta.start; i--){
-          carousel.carousel(i);
+
+      if(typeof dataTarget === "undefined"){
+        let alertMessage = $(eo.currentTarget).data('alertMessage');
+        if(alertMessage){
+          alert(alertMessage);
+        }
+        return;
+      }else if(typeof dataTarget === "string" && dataTarget.startsWith('random[')){
+        let options = JSON.parse(dataTarget.substring(dataTarget.indexOf('['), dataTarget.indexOf(']') + 1));
+        targetPage = options[options.length * Math.random() | 0];
+      }else{
+        targetPage = parseInt(dataTarget);
+      }
+      if(targetPage == adventure.meta.start && adventure.pages[currentPage].ending){
+        console.log("respawning...");
+        carousel.addClass('respawning');
+        hp = adventure.meta.hp;
+        if(currentPage > adventure.meta.start){
+          for(let i = currentPage - 1; i >= adventure.meta.start; i--){
+            carousel.carousel(i);
+          }
+        }else{
+          for(let i = currentPage + 1; i <= adventure.meta.start; i++){
+            carousel.carousel(i);
+          }
         }
       }else{
-        for(let i = currentPage + 1; i <= adventure.meta.start; i++){
-          carousel.carousel(i);
-        }
+        carousel.carousel(targetPage);
       }
 
-      carousel.on('slid.bs.carousel', (eo) => {
-        if(eo.to == adventure.meta.start){
-          carousel.removeClass('respawning');
-        }
-      })
-    }else{
-      carousel.carousel(targetPage);
     }
   });
 }
