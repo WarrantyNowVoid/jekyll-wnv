@@ -39,6 +39,15 @@ html{
   }
 }
 
+span.censored{
+  background-color: #000;
+  color: #000; 
+}
+span.redacted{
+  background-color: #000;
+  color: #fff; 
+}
+
 @media (prefers-color-scheme: dark) {
   html,body,main,{
     background-color: #0a0e14;
@@ -80,6 +89,14 @@ html{
   }
   .comic-nav{
     color: #0a0e14;
+  }
+  span.censored{
+    background-color: #fff;
+    color: #fff; 
+  }
+  span.redacted{
+    background-color: #fff;
+    color: #000; 
   }
 }
 
