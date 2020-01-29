@@ -110,11 +110,11 @@ It's here, it's finally here! The <span class="censored">Super Bowl</span> Big G
       "actions": [
         {
           "title": "Ow",
-          "goto": 4
+          "goto": 28
         },
         {
           "title": "Fuck",
-          "goto": 4
+          "goto": 28
         },
         {
           "title": "Why",
@@ -425,6 +425,25 @@ It's here, it's finally here! The <span class="censored">Super Bowl</span> Big G
         {
           "title": "Try to wake up…",
           "url": "https://warrantynowvoid.com/junk/2019/09/04/"
+        }
+      ]
+    },
+    "28": {
+      "caption": "Ugggggghhhhh oh uuuuuuck my whole faaaaaaace uggggggh whyyyyyyyy",
+      "image": "/assets/img/lol/super-bowl-liv/blood.jpg",
+      "ending": false,
+      "actions": [
+        {
+          "title": "Ow",
+          "goto": 4
+        },
+        {
+          "title": "Fuck",
+          "goto": 4
+        },
+        {
+          "title": "Why",
+          "goto": 7
         }
       ]
     }
