@@ -209,6 +209,10 @@ body{
       display: block;
       max-width: 100%;
       margin: 50px auto;
+
+      &.figure-img{
+        margin: 10px auto;
+      }
     }
 
     iframe{

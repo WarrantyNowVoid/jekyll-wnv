@@ -48,6 +48,14 @@ span.redacted{
   color: #fff; 
 }
 
+.sketch{
+  font-family: 'Cabin Sketch', cursive;
+
+  &.bold{
+    font-weight: 700;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   html,body,main,{
     background-color: #0a0e14;

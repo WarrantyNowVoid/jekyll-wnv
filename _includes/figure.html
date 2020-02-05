@@ -1,0 +1,9 @@
+<figure class="figure">
+  {% if pre_caption %}
+  <figcaption class="figure-caption text-right">{{ caption }}</figcaption>
+  {% endif %}
+  <img src="{{ image_path }}" class="figure-img img-fluid rounded">
+  {% if post_caption %}
+  <figcaption class="figure-caption text-right">{{ caption }}</figcaption>
+  {% endif %}
+</figure>
