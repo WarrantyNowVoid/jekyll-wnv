@@ -10,6 +10,11 @@
                 {% if post.image.feature %}
                   {% assign postImage = post.image.feature %}
                   {% assign imageType = 'AUTO' %}
+                  {% if post.image.thumbZone %}
+                    {% assign thumbZone = post.image.thumbZone %}
+                  {% else %}
+                    {% assign thumbZone = '' %}  
+                  {% endif %} 
                 {% else %}
                   {% assign postImage = 'assets/img/headliner_default.png' %}
                   {% assign imageType = 'DEFAULT' %}
@@ -17,7 +22,7 @@
               {% endif %}
 
               <a class="stretched-link" href="{{ site.url }}{{ post.url }}">
-                <img {% twoxify postImage %} {% if imageType == 'AUTO' %}class="auto-thumbnail" {% endif %}/>
+                <img {% twoxify postImage %} {% if imageType == 'AUTO' %}class="auto-thumbnail {{ thumbZone }}" {% endif %}/>
               </a>
 
               <div class="details-holster{% if evenOdd %} {{ evenOdd }}{% endif %} {{ post.category || downcase }}">

@@ -8,6 +8,14 @@ end
 module Jekyll
   class PreviewThumbnailsGenerator < Generator
 
+    # this is counterintuitive but hear me out
+    THUMBZONES = {
+      'NORTHWEST' => NorthEastGravity, 
+      'NORTHEAST' => NorthWestGravity, 
+      'SOUTHWEST' => SouthEastGravity, 
+      'SOUTHEAST' => SouthWestGravity
+    }
+
     def generate(site)
       if site.config["generate-thumbnails"]["enabled"]
         begin
@@ -29,6 +37,12 @@ module Jekyll
           if post.data["image"] and post.data["image"]["feature"]
             original_path = post.data["image"]["feature"]
 
+            if post.data["image"]["thumbZone"] and THUMBZONES.keys.include? post.data["image"]["thumbZone"].upcase
+              thumbZone = THUMBZONES[post.data["image"]["thumbZone"].upcase]
+            else
+              thumbZone = THUMBZONES['NORTHEAST']
+            end
+
             extension = File.extname(original_path)
             image_path_stripped = File.join(File.dirname(original_path), File.basename(original_path, extension))
             original_2x_path = "#{image_path_stripped}@2x#{extension}"
@@ -42,8 +56,8 @@ module Jekyll
 
             image = Image.read(in_path)[0]
             # this is the same logic we use for the .auto-thumbnail class in CSS
-            image.resize_to_fill!(config_width * 2, config_height * 2, NorthWestGravity) 
-            image.crop!(image.columns * 0.4, image.rows * 0.1, config_width, config_height)
+            image.resize_to_fill!(config_width * 2, config_height * 2, thumbZone) 
+            image.crop!(thumbZone, image.columns * 0.4, image.rows * 0.1, config_width, config_height)
 
             if image.columns < config_width || image.rows < config_height
               Jekyll.logger.warn "Preview Thumbnails:", "Image not large enough (h:#{image.rows} w: #{image.columns}) #{out_path}"
