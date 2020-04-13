@@ -117,6 +117,7 @@ Posts are individual markdown files contained in the `_posts/` directory. The na
     - `headliner`: **[optional]** big cover image to use for this post, like Articles, Videos, Junk. Can't be used alongside `feature`.
     - `imageHover`: **[optional]** alt-text mouse hover content for headliner or feature image
     - `thumbnail`: **[optional]** image to use for previews on the site (homepage, related posts, etc) and for RSS feed and social posts. Expected dimensions: width: 1200px, height: 600px. If this is not specified and `headliner` exists, the full `headliner` image will be used. If this is not specified and `feature` exists, an auto-cropped version of the `feature` image will be used in all these places.
+    - `thumbZone`: **[optional]** which quadrant to use as the relative starting point for auto-thumbnail generation (see Auto-Thumbnails below). One of: `northwest`, `northeast`, `southeast`, `southwest`. If `thumbnail` is specified, this has no effect.
     - `credit`: **[optional]** array of credit caption details
         - `title`: **[required if `credit`]** the text of the image credit caption to be displayed
         - `link`: **[optional]** the url that the `title` text should link to
@@ -134,6 +135,12 @@ If the post contains an `image.feature` and doesn't specify an `image.thumbnail`
 1. resize the original to be at least 2x the size of the frame (1200x 600 for thumbnails), maintaining proportions
 2. crop a section at x: 40% of the image width y: 10% of the image height, the size of the frame
 
-### Example:
+The default for auto-thumbs is to use the top left corner as the relative starting point for all this math. But this can be overridden by also providing the `image.feature.thumbZone` option using one of the values: `northwest`, `northeast` (default), `southeast`, `southwest` to refer to each corner respectively, starting with top left, rotating clockwise.
+
+### Example using default behavior:
 
 ![](thumb-ex.jpg)
+
+### Example using `thumbZone: southwest`
+
+![](thumb-ex-sw.jpg)

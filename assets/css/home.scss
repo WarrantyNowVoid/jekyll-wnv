@@ -69,10 +69,26 @@ section.newest-feature{
           &.auto-thumbnail{
             width: 200%;
             height: 200%;
-            object-position: left top;
+            object-position: right top;
             margin: 0px;
-            margin-left: -20%;
+            margin-left: -40%;
             margin-top: -10%;
+
+            &.northwest{
+              object-position: left top;
+            }
+            
+            &.northeast{
+              object-position: right top;
+            }
+            
+            &.southeast{
+              object-position: right bottom;
+            }
+            
+            &.southwest{
+              object-position: left bottom;
+            }
           }
         }
       }
