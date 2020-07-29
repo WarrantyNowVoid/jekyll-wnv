@@ -7,7 +7,7 @@ author: pope
 title: "Interview With G. Randy Wins"
 excerpt: "In an interview on Wednesday with Extended Warranty co-host Pope, the up-and-coming online provocateur Gerard Randolf Winston took questions about his growing popularity and about what drives his fairly unique brand of politics."
 category: Articles
-tags: ["G Randy Wins", "Extended Warranty", "G-Spot", "democracy in action", "interview", "podcasting", "I'm sure this isn't the beginning of anything", "WASPs", "wishing for death", "government", "weird shit", "Dark Eldritch Magicks", "fake news", "Coronavirus", "politics", "Trump", "infernal relics", "lovecraft? more like loveshaft", "weirdly specific eternal damnation", "Gods", "it's my climate and I'll change it if I want to", "summoning Great Old Ones", "thanks Obama", "this says a lot about society"]
+tags: ["G Randy Wins Tons", "Extended Warranty", "G-Spot", "democracy in action", "interview", "podcasting", "I'm sure this isn't the beginning of anything", "WASPs", "wishing for death", "government", "weird shit", "Dark Eldritch Magicks", "fake news", "Coronavirus", "politics", "Trump", "infernal relics", "lovecraft? more like loveshaft", "weirdly specific eternal damnation", "Gods", "it's my climate and I'll change it if I want to", "summoning Great Old Ones", "thanks Obama", "this says a lot about society"]
 image:
   headliner: assets/img/lol/randy-truck.jpg
   credit: 
