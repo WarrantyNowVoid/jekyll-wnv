@@ -11,7 +11,7 @@ tags: ["gaping", "tite", "holes", "roommates", "in it together", "landlords", "r
 image:
   headliner: assets/img/lol/gaping-abyss.jpg
   credit: 
-      title: Simon Migaj on Unsplash
+      title: Original Photo by Simon Migaj on Unsplash
       link: https://unsplash.com/@simonmigaj
 ---
 
