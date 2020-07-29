@@ -5,7 +5,7 @@ published: true
 date: 2020-07-29 10:30:00 -0400
 author: pope
 title: "Interview With G. Randy Wins"
-excerpt: "In an interview on Wednesday with Extended Warranty co-host Pope, the up-and-coming podcaster Gerard Randolf Winston took questions about his growing popularity and about what drives his fairly unique brand of politics."
+excerpt: "In an interview on Wednesday with Extended Warranty co-host Pope, the up-and-coming online provocateur Gerard Randolf Winston took questions about his growing popularity and about what drives his fairly unique brand of politics."
 category: Articles
 tags: ["G Randy Wins", "Extended Warranty", "G-Spot", "democracy in action", "interview", "podcasting", "I'm sure this isn't the beginning of anything", "WASPs", "wishing for death", "government", "weird shit", "Dark Eldritch Magicks", "fake news", "Coronavirus", "politics", "Trump", "infernal relics", "lovecraft? more like loveshaft", "weirdly specific eternal damnation", "Gods", "it's my climate and I'll change it if I want to", "summoning Great Old Ones", "thanks Obama", "this says a lot about society"]
 image:
@@ -35,14 +35,14 @@ Yeah okay whatever, take the fun out of everything as usual with you libs. Can't
 
 **That's a very powerful stance, but as I understand, you also use the term to refer to an actual location, somewhere in the North Eastern United States?**
 
-Sure, yeah, a big part of it is a place. The place that my granddad got kicked out of by the damn big government liars up in Tax-achusetts in order to build a communist reservoir, just handin' water out to people all across the damn state whether they worked hard to earn it or not. Made 'em pack up our whole family and move [*Ed.note: Mr.Winston had become very emotional at this point*] leaving behind everything that had been in our name for generations, the estate that— uh, sorry I mean the uh, house. Our house, with a normal number of bathrooms and everything. All of 'em just taken away by the government.
+Sure, yeah, a big part of it is a place. The place that my granddad got kicked out of by the damn big government liars up in Tax-achusetts in order to build a communist reservoir, just handin' water out to people all across the damn state whether they worked hard to earn it or not. Made 'em pack up our whole family and move [*Ed.note: Mr.Winston had become very emotional at this point*] leaving behind everything that had been in our name for generations, the estate that— uh, sorry I mean the uh, house. Our house, with a normal number of bathrooms and everything. All of 'em just taken away by the government. My family fought like hell against this tyranny at the time, but I guess sometimes when you’re draining the swamp, 40 square miles of adjacent land gets flooded, know what I’m saying?
 
 
-**The plan to build the reservoir in what used to be Enfield, MA did raise some local protest, but I wasn't able to find your family name involved with it.**
+**I do not. The plan to build the reservoir in what used to be Enfield, MA did raise some local protest, but I wasn't able to find your family name involved with it.**
 
 Yeah well you know, granddad was a war vet and so he was pretty tired after fighting the Nazis, you know, for YOUR freedoms, YOU'RE WELCOME. So he wasn't able to put up much of a resistance.
 
-**Well, for one thing the War hadn't started yet, and also these records show your grandfather was actually on the town Board of Aldermen who approved the original plan; he's quoted here in the newspaper as saying, "I wish we'd flooded this hell-hole sooner—**
+**Well, for one thing the War hadn't started yet, and also these records show your grandfather was actually on the town Board of Aldermen who approved the original plan; he's quoted here in the newspaper as saying, "I wish we could flood this hell-hole twice! Fu—**
 
 Oh yeah okay here we go with the fake news smears against me once again, it never ends with you Flat Folks, and that's why I've got millions and millions of listeners and you guys ain't got shit. Y'all are willing to do anything to try to stop the G-Spot from happenin' and to be honest with you, people are seeing that for exactly what it is: desperation.
 
