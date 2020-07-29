@@ -50,7 +50,7 @@ Oh yeah okay here we go with the fake news smears against me once again, it neve
 
 Hell yeah, man, the G-Spot is the event! When we finally take back what those deep state stooges took from us, we're gonna finally be able to perform the ancient rite that welcomes the Great Old Ones back to reclaim the Earth that is rightfully theirs and exterminate the vermin that have run wild! I'd like to see you try and stop Yog-Sothoth, Nancy Pelosi!
 
-**You use the word "rightfully" but many disagree with the idea that the Old Gods have any claim to the world they abandoned so long ago. **
+**You use the word "rightfully" but many disagree with the idea that the Old Gods have any claim to the world they abandoned so long ago.**
 
 Oh hell, if they ain't better'n us then why they called GODS, huh? Besides, you bleedin' heart lib types always gotta talk about who's turn it is and what's fair. Man, I tell you the way the real world works is that whoever's bigger 'n tougher gets to do what they want. That's why America is the greatest goddamn country on this Earth, and why the Great Old Ones will annihilate every last one of us when they come back. 
 
@@ -73,7 +73,7 @@ I will not, and I will tell you why. I won't be voting at all, because electoral
 
 **Some people might have a hard time understanding why you'd want a house that's underneath a few billion gallons of water.**
 
-You know what I say to that, "Good!" We don't want the Flat Folk at the G-Spot and we don't need 'em. Ain't gonna find no soy-sippin' coastal elites leagues below the water's surface, cause there ain't no STAR BUCKS in my neighborhood of impossible four dimensional structures that drive me inconsolable to madness every time I think too hard about 'em. You love your damn Euclidean geometry so much, then stay on the surface and let us do our dark work excavating the ancient blood sacrificial temple in *Real America*, by which I of course mean  the labyrinthian caves below our feet where They wait and watch!
+You know what I say to that, "Good!" We don't want the Flat Folk at the G-Spot and we don't need 'em. Ain't gonna find no soy-sippin' coastal elites leagues below the water's surface, cause there ain't no STAR BUCKS in my neighborhood of impossible four dimensional structures that drive me to inconsolable madness every time I think too hard about 'em. You love your damn Euclidean geometry so much, then stay on the surface and let us do our dark work excavating the ancient blood sacrificial temple in *Real America*, by which I of course mean  the labyrinthian caves below our feet where They wait and watch!
 
 **Thank you for your time and speaking with us today, I think we've all learned a lot.**
 
