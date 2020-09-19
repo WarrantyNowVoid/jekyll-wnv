@@ -27,7 +27,7 @@ $(document).ready(function(){
     $('a.thePoopButton').click(function(eo){
       eo.stopPropagation();
       eo.preventDefault();
-      startPooping();
+      startPooping(false);
     });
   }else{
     if($('a.thePoopButton').length > 0){

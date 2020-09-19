@@ -1,63 +1,85 @@
-var poopActive = false;
-var poopTimer = false;
-var poopAnim;
-var pooCounter = 0;
+var poopActive = false,
+    pooCounter = 0;
 
 //determine if this is @2x territory
 var isRetina = Math.floor(window.devicePixelRatio) > 1;
 
+var poopAudioMarkup = '<audio><source src="https://warrantynowvoid.com/assets/mp3/bsg.mp3" type="audio/mpeg" /></audio>',
+    poopPoopingGifUrl = 'https://warrantynowvoid.com/assets/img/template/poop_pooping' + (isRetina? '@2x' : '') + '.gif?lol=',
+    poopWalkingGifUrl = 'https://warrantynowvoid.com/assets/img/template/poop_walking' + (isRetina? '@2x' : '') + '.gif',
+    poopAlonePngUrl = 'https://warrantynowvoid.com/assets/img/template/poop_alone' + (isRetina? '@2x' : '') + '.png';
+
 $(document).ready(function(){
-    $("body").append('<div id="poopGuy"></div><audio id="pushit"><source src="https://warrantynowvoid.com/assets/mp3/bsg.mp3" type="audio/mpeg" /></audio>');
-    $("body").append('<img src="https://warrantynowvoid.com/assets/img/template/poop_alone' + (isRetina? '@2x' : '') + '.png" class="poopPreloader" />')
+    $("body").append($(poopAudioMarkup).addClass("poopAudioPreloader"));
+    $("body").append('<img src="' + poopWalkingGifUrl + '" class="poopPreloader" />')
+    $("body").append('<img src="' + poopAlonePngUrl + '" class="poopPreloader" />')
 });
 
-function startPooping(){
+// credit to https://stackoverflow.com/a/2117523/431223
+function uuidv4() {
+    return ([1e7]+-1e3+-4e3+-8e3+-1e11).replace(/[018]/g, c =>
+        (c ^ crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> c / 4).toString(16)
+    );
+}
+
+function startPooping(onePooperOnly = true){
     try{
+        $(".poopPreloader").remove();
+        $(".poopAudioPreloader").remove();
+
         // ga('send', 'event', 'button', 'click', 'poopGuy');
         // someday...
     }catch(err){}
 
-    poopAnim = new Image();
-    poopAnim.src = 'https://warrantynowvoid.com/assets/img/template/poop_pooping' + (isRetina? '@2x' : '') + '.gif?lol=' + Math.random();
-    if(!poopActive){
+    var poopGuid = uuidv4(),
+        poopAnim = new Image();
+    poopAnim.src = poopPoopingGifUrl + Math.random();
+
+    if(!onePooperOnly || (onePooperOnly && !poopActive)){
         poopActive = true;
         pooCounter++;
 
-        var viewportWidth = $(window).width();
-        var viewportHeight = $(window).height();
+        var viewportWidth = $(window).width(),
+            viewportHeight = $(window).height();
 
-        var poopDestinationX = Math.floor((Math.random() * (viewportWidth - 400)) + 100);
-        var poopDestinationY = $(window).scrollTop() + viewportHeight / 3;
+        var poopDestinationX = Math.floor((Math.random() * (viewportWidth - 400)) + 100),
+            poopDestinationY = $(window).scrollTop() + Math.floor((Math.random() * (viewportHeight - 550) + 100));
 
+        var audioLocator = '#poopMusic-' + poopGuid;
+        $("body").append($(poopAudioMarkup).attr('id', 'poopMusic-' + poopGuid));
         try{
-            $("audio#pushit").get(0).currentTime = 0;
-            $("audio#pushit").get(0).play();
+            $(audioLocator).get(0).currentTime = 0;
+            $(audioLocator).get(0).play();
         }catch(err){}
 
-        $("#poopGuy").offset({ top: poopDestinationY, left: viewportWidth + 100 });
-        $("#poopGuy").show();
-        $("#poopGuy").addClass('walking');
-        $("#poopGuy").animate({ left: poopDestinationX }, 5000, 'linear', function(){
-            $("#poopGuy").removeClass('walking');
-            $("#poopGuy").css('background-image', 'url(' + poopAnim.src + ')');
-            poopTimer = window.setInterval(finishPooping, 4500);
+        var pooperLocator = '#poopGuy-' + poopGuid;
+        $("body").append($('<div id="poopGuy-' + poopGuid + '" class="poopGuy"></div>'));
+        $(pooperLocator).offset({ top: poopDestinationY, left: viewportWidth + 100 });
+        $(pooperLocator).show();
+        $(pooperLocator).addClass('walking');
+        $(pooperLocator).animate({ left: poopDestinationX }, 5000, 'linear', function(){
+            $(pooperLocator).removeClass('walking');
+            $(pooperLocator).css('background-image', 'url(' + poopAnim.src + ')');
+            window.setTimeout(finishPooping, 4500, poopGuid);
         });
     }
 }
 
-function finishPooping(){
-    window.clearInterval(poopTimer);
-    poopAnim = false;
-    var offset = $("#poopGuy").position();
+function finishPooping(poopGuid){
+    var pooperLocator = '#poopGuy-' + poopGuid,
+        audioLocator = '#poopMusic-' + poopGuid;
+    var offset = $(pooperLocator).position();
     // offset for the diff in rects on poopguy and apoop
     spawnPoop({ top: offset.top + 340, left: offset.left + 159 });
-    $("#poopGuy").css('background-image', '');
-    $("#poopGuy").addClass('walking');
-    $("#poopGuy").animate({ left: -250 }, 5500, 'linear', function(){
+    $(pooperLocator).css('background-image', '');
+    $(pooperLocator).addClass('walking');
+    $(pooperLocator).animate({ left: -250 }, 5500, 'linear', function(){
         try{
-            $("audio#pushit").get(0).pause();
+            $(audioLocator).get(0).pause();
         }catch(err){}
-        $("#poopGuy").removeClass('walking');
+        $(pooperLocator).removeClass('walking');
+        $(pooperLocator).remove();
+        $(audioLocator).remove();
         poopActive = false;
     });
 }

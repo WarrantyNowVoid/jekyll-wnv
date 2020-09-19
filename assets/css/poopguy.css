@@ -2,7 +2,7 @@
     display: none;
 }
 
-#poopGuy{
+.poopGuy{
     z-index: 9999;
     opacity: 1;
     width: 250px;
@@ -12,7 +12,7 @@
     background: no-repeat top left;
 }
 
-#poopGuy.walking{
+.poopGuy.walking{
     background-image: url(https://warrantynowvoid.com/assets/img/template/poop_walking.gif);
 }
 
@@ -30,11 +30,11 @@
 /* retina displays (mac/ipad only) */
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
 
-    #poopGuy{
+    .poopGuy{
         background-size: 250px 400px;
     }
 
-    #poopGuy.walking{
+    .poopGuy.walking{
         background-image: url(https://warrantynowvoid.com/assets/img/template/poop_walking@2x.gif);
     }
 
