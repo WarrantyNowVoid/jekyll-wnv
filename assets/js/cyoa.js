@@ -22,36 +22,42 @@ const carouselItem = (index, page, isWin, isActive) => {
   let actions = '';
   const active = isActive ? ' active' : '';
 
-  if(!page.ending){
-    for(let action of page.actions){
-      if(action.url){
-        actions += `<li><a role="button" href="${action.url}" class="btn btn-outline-light btn-lg btn-block">${action.title}</a></li>`;
-      }else{
-        actions += `<li><button type="button" data-goto-index="${action.goto}" class="btn btn-outline-light btn-lg btn-block">${action.title}</button></li>`;
-      }
+  for(let action of page.actions){
+    let button = $('<a role="button" class="btn btn-lg btn-block"></a>');
+
+    button.html(action.title);
+
+    if(action.href){
+      button.attr("href", action.href);
+    }else{
+      button.attr("href", "#");
     }
-  }else{
+
+    if(action.alert){
+      button.attr("data-alert-message", action.alert);
+    }
+
+    if(action.goto){
+      button.attr("data-goto-index", action.goto);
+    }
+
     if(isWin){
-      if(adventure.meta.replay_on_success){
-        actions += `<li><button type="button" data-goto-index="${adventure.meta.start}" class="btn btn-outline-success btn-lg btn-block">${page.actions[0].title}<br/><small>Click to play again</small></button></li>`; 
-      }else{
-        if(page.actions[0].alert){
-          actions += `<li><button type="button" class="btn btn-outline-success btn-lg btn-block" data-alert-message="${page.actions[0].alert}">${page.actions[0].title}</button></li>`; 
-        }else{
-          actions += `<li><button type="button" class="btn btn-outline-success btn-lg btn-block">${page.actions[0].title}</button></li>`; 
-        }
+      button.addClass("btn-outline-success");
+      if(adventure.meta.replay_on_success && !action.href){
+        button.html(button.html() + "<br/><small>Click to play again</small>");
+        button.attr("data-goto-index", adventure.meta.start);
+      }
+    }else if(page.ending){
+      button.addClass("btn-outline-danger");
+      if(adventure.meta.replay_on_success && !action.href){
+        button.html(button.html() + "<br/><small>Click to try again</small>");
+        button.attr("data-goto-index", adventure.meta.start);
       }
     }else{
-      if(adventure.meta.replay_on_failure){
-        actions += `<li><button type="button" data-goto-index="${adventure.meta.start}" class="btn btn-outline-danger btn-lg btn-block">${page.actions[0].title}<br/><small>Click to try again</small></button></li>`; 
-      }else{
-        if(page.actions[0].alert){
-          actions += `<li><button type="button" class="btn btn-outline-danger btn-lg btn-block" data-alert-message="${page.actions[0].alert}">${page.actions[0].title}</button></li>`; 
-        }else{
-          actions += `<li><button type="button" class="btn btn-outline-danger btn-lg btn-block">${page.actions[0].title}</button></li>`; 
-        }
-      }
+      button.addClass("btn-outline-light");
     }
+
+    actions += "<li>" + button[0].outerHTML + "</li>";
   }
 
   return `<div id="page-${index}" class="carousel-item${active}" data-page-id="${index}">
@@ -103,61 +109,91 @@ const beginAdventure = () => {
     "touch": false
   });
 
-
-  carousel.on('slid.bs.carousel', (eo) => {
+  const handleSlid = (eo) => {
     if(eo.to == adventure.meta.start){
       carousel.removeClass('respawning');
     }
 
-    if(adventure.pages[eo.to].damage && !carousel.hasClass('respawning')){
-      hp = hp - adventure.pages[eo.to].damage;
-      console.log("ow! HP down to " + hp);
+    if(!carousel.hasClass('respawning')){
+      if(adventure.pages[eo.to].damage){
+        hp = hp - adventure.pages[eo.to].damage;
+        console.log("ow! HP down to " + hp);
+      }
+
+      // remove any existing bgeffects
+      let classes = $('article.post').attr('class').split(/\s+/);
+      for(var i = 0; i < classes.length; i++){
+        if(classes[i].startsWith('bgEffect-')){
+          $('article.post').removeClass(classes[i]);
+        }
+      }
+      
+      if(adventure.pages[eo.to].backgroundEffect){
+        $('article.post').addClass('bgEffect-' + adventure.pages[eo.to].backgroundEffect);
+      }
+      
+      if(adventure.pages[eo.to].triggerFunc){
+        let func = window[adventure.pages[eo.to].triggerFunc];
+        if(typeof func === "function"){
+          func();
+        }else{
+          console.error("Couldn't find a function named `" + adventure.pages[eo.to].triggerFunc + "` in the window scope");
+        }
+      }
     }
-  });
+  }
+
+  carousel.on('slid.bs.carousel', handleSlid);
+
+  // trigger the events for the first page
+  handleSlid({to: adventure.meta.start});
 
   //bind button clicks to jump to $data.gotoIndex
-  $('ul.action-list li button').click((eo) =>{
-    eo.stopPropagation();
-    
-    let targetPage;
-    let dataTarget = $(eo.currentTarget).data('gotoIndex');
-    const currentPage = parseInt($('#adventure .carousel .carousel-item.active').data('pageId'));
+  $('ul.action-list li a').click((eo) =>{
+    if($(eo.currentTarget).attr("href") == "#"){
+      eo.stopPropagation();
+      eo.preventDefault();
+      
+      let targetPage;
+      let dataTarget = $(eo.currentTarget).data('gotoIndex');
+      const currentPage = parseInt($('#adventure .carousel .carousel-item.active').data('pageId'));
 
-    if(hp == 0){
-      console.log("RIP");
-      console.log(adventure.meta.on_hp_depleted);
-      carousel.carousel(adventure.meta.on_hp_depleted);
-    }else{
-
-      if(typeof dataTarget === "undefined"){
-        let alertMessage = $(eo.currentTarget).data('alertMessage');
-        if(alertMessage){
-          alert(alertMessage);
-        }
-        return;
-      }else if(typeof dataTarget === "string" && dataTarget.startsWith('random[')){
-        let options = JSON.parse(dataTarget.substring(dataTarget.indexOf('['), dataTarget.indexOf(']') + 1));
-        targetPage = options[options.length * Math.random() | 0];
+      if(hp == 0){
+        console.log("RIP");
+        console.log(adventure.meta.on_hp_depleted);
+        carousel.carousel(adventure.meta.on_hp_depleted);
       }else{
-        targetPage = parseInt(dataTarget);
-      }
-      if(targetPage == adventure.meta.start && adventure.pages[currentPage].ending){
-        console.log("respawning...");
-        carousel.addClass('respawning');
-        hp = adventure.meta.hp;
-        if(currentPage > adventure.meta.start){
-          for(let i = currentPage - 1; i >= adventure.meta.start; i--){
-            carousel.carousel(i);
+
+        if(typeof dataTarget === "undefined"){
+          let alertMessage = $(eo.currentTarget).data('alertMessage');
+          if(alertMessage){
+            alert(alertMessage);
+          }
+          return;
+        }else if(typeof dataTarget === "string" && dataTarget.startsWith('random[')){
+          let options = JSON.parse(dataTarget.substring(dataTarget.indexOf('['), dataTarget.indexOf(']') + 1));
+          targetPage = options[options.length * Math.random() | 0];
+        }else{
+          targetPage = parseInt(dataTarget);
+        }
+        if(targetPage == adventure.meta.start && adventure.pages[currentPage].ending){
+          console.log("respawning...");
+          carousel.addClass('respawning');
+          hp = adventure.meta.hp;
+          if(currentPage > adventure.meta.start){
+            for(let i = currentPage - 1; i >= adventure.meta.start; i--){
+              carousel.carousel(i);
+            }
+          }else{
+            for(let i = currentPage + 1; i <= adventure.meta.start; i++){
+              carousel.carousel(i);
+            }
           }
         }else{
-          for(let i = currentPage + 1; i <= adventure.meta.start; i++){
-            carousel.carousel(i);
-          }
+          carousel.carousel(targetPage);
         }
-      }else{
-        carousel.carousel(targetPage);
-      }
 
+      }
     }
   });
 }

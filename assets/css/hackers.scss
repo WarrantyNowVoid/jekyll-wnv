@@ -1,0 +1,69 @@
+---
+sitemap: false
+---
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.russian{
+  font-family: 'Russo One', sans-serif;
+}
+
+
+.bgEffect-static{
+  background: url('/assets/img/lol/sites-broke/static.gif');
+}
+.bgEffect-black{
+  background: #000;
+}
+.bgEffect-bsod{
+  background: #0000AA;
+}
+.bgEffect-gopnik{
+  background: #000 url('/assets/img/lol/sites-broke/gopnik-stripe.jpg') repeat-x;
+  background-position: bottom;
+}
+.bgEffect-dos{
+  background: radial-gradient(#021E00, #000);
+}
+.bgEffect-hellscape{
+  background: #000 url('/assets/img/lol/sites-broke/hellscape.jpg') repeat-x;
+  background-position: bottom;
+  background-size: cover;
+}
+.bgEffect-dark-basement{
+  background: #000 url('/assets/img/lol/sites-broke/basement.jpg') repeat-x;
+  background-position: bottom;
+  background-size: cover;
+}
+.bgEffect-explosion{
+  background: #000 url('/assets/img/lol/sites-broke/explodebg.jpg') repeat-x;
+  background-position: bottom;
+  background-size: cover;
+}
+
+
+.flickerme1{
+  animation: flicker 1s linear infinite;
+  color: #fff;
+}
+.flickerme2{
+  animation: flicker 3s linear infinite;
+  color: #fff;
+}
+.flickerme3{
+  animation: flicker 5s linear infinite;
+  color: #fff;
+}
+
+@keyframes flicker {
+  0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+    opacity: .99;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff, 0 -2px 8px, 0 0 2px, 0 0 5px #ff7e00, 0 0 15px #ff4444, 0 0 2px #ff7e00, 0 2px 3px #000;
+    text-decoration: none;
+  }
+  20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+    opacity: 0.4;
+    text-shadow: none;
+    text-decoration: none;
+  }
+}

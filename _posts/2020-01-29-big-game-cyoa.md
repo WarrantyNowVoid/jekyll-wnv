@@ -424,7 +424,7 @@ It's here, it's finally here! The <span class="censored">Super Bowl</span> Big G
       "actions": [
         {
           "title": "Try to wake up…",
-          "url": "https://warrantynowvoid.com/junk/2019/09/04/"
+          "href": "https://warrantynowvoid.com/junk/2019/09/04/"
         }
       ]
     },
