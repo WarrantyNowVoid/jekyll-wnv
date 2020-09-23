@@ -50,7 +50,7 @@ include_styles:
     "1": {
       "caption": "Okay so the last thing I remember was plugging this USB drive that I found on the sidewalk into the server, and then things got...weird. Should I take it out?",
       "backgroundEffect": "static",
-      "image": "/assets/img/lol/sites-broke/USB.jpg",
+      "image": "/assets/img/lol/sites-broke/usb.jpg",
       "ending": false,
       "actions": [
         {
