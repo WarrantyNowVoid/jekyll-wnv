@@ -34,7 +34,7 @@ module Jekyll
         FileUtils.mkdir_p site.config["generate-thumbnails"]["path"]
 
         site.posts.docs.each do |post|
-          if post.data["image"] and post.data["image"]["feature"]
+          if post.data["image"] and post.data["image"]["feature"] and not post.data["image"]["thumbnail"]
             original_path = post.data["image"]["feature"]
 
             if post.data["image"]["thumbZone"] and THUMBZONES.keys.include? post.data["image"]["thumbZone"].upcase
