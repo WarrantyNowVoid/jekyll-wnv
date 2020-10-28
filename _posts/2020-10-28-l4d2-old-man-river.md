@@ -2,7 +2,7 @@
 layout: post
 redirect_from: l4d2-last-stand
 published: true
-date: 2020-10-28 11:30:00 -0400
+date: 2020-10-28 10:30:00 -0400
 author: scawt
 title: "Warranty Now Videogames XI: Left 4 Dead 2: The Old Man and the River (and His Chainsaw Also)"
 excerpt: "We went back to the Left 4 Dead 2 well, but in our defense Valve did it first. They released their first DLC in 8 years a few short months after we used their game to discuss shoving eggs up our asses. Messaged received, Gabe. Message received."
