@@ -53,7 +53,7 @@
       <title>{{ post.title | xml_escape }}</title>
       {% if post.showAuthor %}<dc:creator>{{ post.author.name | xml_escape }}</dc:creator>{% endif %}
       <description>
-        {{ post.excerpt | xml_escape }} {{ continue_link | xml_escape }}
+        {{ post.excerpt | xml_escape }}
       </description>
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
       <link>{{ site.url }}{{ post.url }}</link>
