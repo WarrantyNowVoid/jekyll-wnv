@@ -140,6 +140,24 @@ const beginAdventure = () => {
           console.error("Couldn't find a function named `" + adventure.pages[eo.to].triggerFunc + "` in the window scope");
         }
       }
+
+      // interpolate any variables in this page's caption
+      if(adventure.pages[eo.to].caption.includes("${")){
+        let str = adventure.pages[eo.to].caption;
+        // add more later probably 
+        const values = {
+          hp: hp,
+          hpPercentage: Math.floor(hp / adventure.meta.hp * 100)
+        };
+        console.log(values);
+        let re = new RegExp("\\${(" + Object.keys(values).join("|") + ")}","gi");
+        str = str.replace(re, (matched) => {
+          console.log(matched);
+          return values[matched.replace('${', '').replace('}', '')];
+        });
+
+        $('#adventure #page-' + eo.to + ' .carousel-caption > p').first().text(str);
+      }
     }
   }
 
@@ -158,7 +176,7 @@ const beginAdventure = () => {
       let dataTarget = $(eo.currentTarget).data('gotoIndex');
       const currentPage = parseInt($('#adventure .carousel .carousel-item.active').data('pageId'));
 
-      if(hp == 0){
+      if(hp == 0 && currentPage != adventure.meta.on_hp_depleted){
         console.log("RIP");
         console.log(adventure.meta.on_hp_depleted);
         carousel.carousel(adventure.meta.on_hp_depleted);
