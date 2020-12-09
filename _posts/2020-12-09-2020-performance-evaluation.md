@@ -380,7 +380,7 @@ Can you believe we're almost at the end of another year? We very literally can't
     },
     "18": {
       "caption": "The AHRTHRA has calculated that you are a 0% ideal employee: Unacceptable. You will be immediately placed on a Performance Improvement Plan; please step directly into the Performance Improvement Meat Grinder to begin.",
-      "image": "/assets/img/lol/2020-performance-evaluation/hhrthra.jpg",
+      "image": "/assets/img/lol/2020-performance-evaluation/pipgrinder.jpg",
       "ending": true,
       "actions": [
         {

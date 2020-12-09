@@ -49,7 +49,7 @@ const carouselItem = (index, page, isWin, isActive) => {
       }
     }else if(page.ending){
       button.addClass("btn-outline-danger");
-      if(adventure.meta.replay_on_success && !action.href){
+      if(adventure.meta.replay_on_failure && !action.href){
         button.html(button.html() + "<br/><small>Click to try again</small>");
         button.attr("data-goto-index", adventure.meta.start);
       }
