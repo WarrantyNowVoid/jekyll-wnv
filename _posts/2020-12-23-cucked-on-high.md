@@ -11,4 +11,5 @@ tags: ["and THE LORD said", "Cucked on High", "immaculate sure uh huh", "Christi
 image:
   feature: assets/img/lol/cucked-on-high.jpg
   imageHover: "'Twas the night before Christmas\nand all through the manger\nmy wife was fucking\na mysterious stranger!"
+  thumbnail: assets/img/lol/cucked-on-high-thumb.jpg
 ---
