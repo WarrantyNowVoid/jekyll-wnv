@@ -1,6 +1,7 @@
 ---
 sitemap: false
 ---
+@import "global-variables";
 
 #adventure{
   width: 100%;
@@ -37,6 +38,23 @@ sitemap: false
 
     .carousel-item{
       height: 800px;
+
+      .spinner-border{
+        position: absolute;
+        left: 50%;
+        margin-left: -100px;
+
+        &.colorful{
+          border-top-color: $comics-color;
+          border-right-color: $articles-color;
+          border-bottom-color: $videos-color;
+          border-left-color: $junk-color;
+        }
+
+        &.thicc{
+          border-width: 2em;
+        }
+      }
 
       .carousel-caption{
         left: 0;
