@@ -1,7 +1,7 @@
 ---
 layout: post
 redirect_from: fork-fascists
-published: false
+published: true
 date: 2021-01-14 11:00:00 -0400
 author: pope
 title: "Press Release: Fork Those Fascists"
@@ -17,11 +17,11 @@ image:
 
 *Earlier this week, WNV received an unsolicited press release in our inbox, and because we didn't come up with anything to post today, we have decided to do the responsible thing and print it here in its entirety without review.*
 
-### FOR IMMEDIATE RELEASE
+##### FOR IMMEDIATE RELEASE
 
-# Absolute Rulers of Kitchen Organization Denounce Violence at Capitol
+<h2 class="text-center">Absolute Rulers of Kitchen Organization Denounce Violence at Capitol</h2>
 
-## *Cutlery: “This is not the tidy, ruthlessly organized America that we work hard to create every day.”*
+<h4 class="text-center"><em>Cutlery: “This is not the tidy, ruthlessly organized America that we work hard to create every day.”</em></h4>
 
 *Washington, D.C.* – Imperator and CEO of Final Kitchen Solutions, LLC William C. Cutlery released the following statement in response to the violent and shocking attacks by Trump adherents at the US Capitol on Wednesday:
 
