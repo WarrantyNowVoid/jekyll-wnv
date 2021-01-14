@@ -19,7 +19,7 @@ image:
 
 ##### FOR IMMEDIATE RELEASE
 
-<h2 class="text-center">Absolute Rulers of Kitchen Organization Denounce Violence at Capitol</h2>
+<h1 class="text-center">Absolute Rulers of Kitchen Organization Denounce Violence at Capitol</h1>
 
 <h4 class="text-center"><em>Cutlery: “This is not the tidy, ruthlessly organized America that we work hard to create every day.”</em></h4>
 
