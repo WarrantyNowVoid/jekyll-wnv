@@ -9,7 +9,7 @@ excerpt: "Earlier this week, WNV received an unsolicited press release, and beca
 category: Articles
 tags: ["authoritarian kitchen organization strategies", "livestreaming your felonies", "forking", "my totalitarian kitchen", "press release", "fascism", "breaking news", "cooking", "Donald Trump", "government", "Mike Pence", "doing fascism incorrectly", "coup", "societal norms are stupid", "I'm sure it'll work out fine", "2021", "Don't do this. Seriously.", "politics", "Spice Gulag", "light treason", "a soupçon of sedition"]
 image:
-  headliner: assets/img/lol/badgamers/fork-fascists.jpg
+  headliner: assets/img/lol/fork-fascists.jpg
   credit: 
       title: Original Photo by Becca Tapert on Unsplash
       link: https://unsplash.com/@beccatapert
