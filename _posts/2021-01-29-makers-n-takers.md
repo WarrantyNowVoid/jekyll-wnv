@@ -1,7 +1,7 @@
 ---
 layout: post
 redirect_from: makers-n-takers
-published: false
+published: true
 date: 2021-01-29 11:30:00 -0400
 author: scawt
 title: "The Makers and The Takers"
