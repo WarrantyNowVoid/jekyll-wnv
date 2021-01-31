@@ -18,7 +18,7 @@ Issue tracker: <https://github.com/WarrantyNowVoid/jekyll-wnv/issues>
 - [Twitter Bootstrap](https://getbootstrap.com) frontend toolkit
 - [Google Fonts](https://fonts.google.com)
     - [Bitter](https://fonts.google.com/specimen/Bitter)
-    - [Londrina](https://github.com/marcelommp/Londrina-Typeface/)
+    - [Patua One](https://fonts.google.com/specimen/Patua+One)
 - [jQuery](https://jquery.com) javascript library
 - [node-vibrant](https://github.com/akfish/node-vibrant/) color extraction library
 - [Font Awesome](https://fontawesome.com) icon toolkit
