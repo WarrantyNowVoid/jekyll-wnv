@@ -43,33 +43,33 @@ span.redacted{
 
 @media (prefers-color-scheme: dark) {
   html,body,main,{
-    background-color: #0a0e14;
+    background-color: $dark-mode-bg-color;
     color: #e4e4e4;
   } 
   pre,code,.jumbotron{
-    background-color: lighten(#0a0e14, 10);
+    background-color: lighten($dark-mode-bg-color, 10);
     color: darken(#e4e4e4, 10);
   }
   .page-item{
     .page-link{
       color: #007bff;
-      background-color: lighten(#0a0e14, 10);
-      border: 1px solid darken(#0a0e14, 10);
+      background-color: lighten($dark-mode-bg-color, 10);
+      border: 1px solid darken($dark-mode-bg-color, 10);
 
       &:hover{
-        background-color: lighten(#0a0e14, 5);
+        background-color: lighten($dark-mode-bg-color, 5);
       }
     }
     &.active{
       .page-link{
         color: #e4e4e4;
         background-color: darken(#007bff, 10);
-        border: 1px solid darken(#0a0e14, 10);
+        border: 1px solid darken($dark-mode-bg-color, 10);
       }
     }
   }
   svg.angle-border-mask{
-    fill: #0a0e14 !important;
+    fill: $dark-mode-bg-color !important;
   }
   h1,h2,h3,h4,h5,h6{
     color: #e4e4e4;
@@ -81,7 +81,7 @@ span.redacted{
     border-top: 1px solid rgba(228, 228, 228, .1);
   }
   .comic-nav{
-    color: #0a0e14;
+    color: $dark-mode-bg-color;
   }
   span.censored{
     background-color: #fff;
@@ -126,6 +126,12 @@ span.signature{
 
 span.tiny{
   font-size:10px;
+  line-height: 11px;
+  display: inline-block;
+}
+
+span.cheerful{
+  font-family: 'Pacifico', cursive;
 }
 
 // bootstrap, wth?

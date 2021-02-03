@@ -15,3 +15,50 @@ sitemap: false
     max-width: 960px;
   }
 }
+
+div.vertical-scroller{
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  overflow: hidden;
+
+  p{
+    animation: marquee 33s linear infinite;
+  }
+}
+@keyframes marquee {
+  0% {
+    transform: translate(0, 300px);
+  }
+  100% {
+    transform: translate(0, -100%);
+  }
+}
+
+.notice {
+  padding: .5em 1em;
+  background-color: darken(#fff, 10);
+  border: 1px solid darken(#fff, 20);
+  border-radius: 3px;
+  @media (prefers-color-scheme: dark){
+    color: #e4e4e4;
+    background-color: lighten($dark-mode-bg-color, 10);
+    border: 1px solid darken($dark-mode-bg-color, 10);
+  }
+
+  &.wkv {
+    padding-left: 70px;
+    &:before{
+      content: "";
+      margin-left: -60px;
+      margin-right: 10px;
+      height: 57px;
+      width: 60px;
+      background-image: url('/assets/img/wkv-tiny.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      display: block;
+      float: left;
+    }
+  }
+}
