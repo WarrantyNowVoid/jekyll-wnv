@@ -10,7 +10,7 @@ Warranty Now Void, historically speaking, is a project that was first started as
 
 But now, in the year 2019, it's back again, more expansive than ever. There's doodles. There's videos. There's articles. There's <a href="#" class="thePoopButton">a button that makes a naked dude walk out and poop on our website</a>. It's perfect.
 
-For new visitors to the site, introductions may be in order. The WNV family consists primarily of a guy called Pope and another one called Scawt, with a variety of part-time deviants thrown in for flavor (umami, if you're curious.) We're more or less based out of Boston, MA, though I realize that statement wrongly suggests that we have a base. To clarify, we do not. We are all gainfully employed, and this site exists as an outlet for what might be seen as socially abhorrent humor were we to loose it from our mouthslings in a place where people could still see our actual faces. WNV does not yet exist in meatspace as a place one can visit and/or raze, but you can always burn us in effigy if you've got the itch.
+For new visitors to the site, introductions may be in order. The WNV family consists primarily of a guy called Pope and another one called Scawt, with a variety of part-time deviants thrown in for flavor (umami, if you're curious). We recently welcomed R.V. to the team although she's not entirely sure Scawt is real and finds Pope's sermons suspicious. We're more or less based out of Boston, MA, though I realize that statement wrongly suggests that we have a base. To clarify, we do not. We are all gainfully employed, and this site exists as an outlet for what might be seen as socially abhorrent humor were we to loose it from our mouthslings in a place where people could still see our actual faces. WNV does not yet exist in meatspace as a place one can visit and/or raze, but you can always burn us in effigy if you've got the itch.
 
 We exist on various social media platforms, despite the fact that we generally find them to be nightmarish at best, so you can hook our content directly into your vein of choice:
 
@@ -26,6 +26,7 @@ The important emails are as follows:
 - General Contact: <wnv@warrantynowvoid.com>
 - Pope: <pope@warrantynowvoid.com>
 - Scawt: <scawt@warrantynowvoid.com>
+- R.V.: <rv@warrantynowvoid.com>
 
 In closing, welcome aboard! We hope that you enjoy your time with us, and while we recognize that a lot of what we say and do is wildly inappropriate, we hope that you've the maturity to select what content you can and cannot handle. I can personally guarantee that nothing we produce will make it even 1% of the way to "The Grossest Thing On The Internet," so take some comfort in that. To help get you acclimated to this new environment, we've selected some sample materials for your perusal:
 
