@@ -25,7 +25,7 @@ The compilation clip-show episode concept is usually derided as boring, repetiti
 
 #### 3. Back to the Future-Level Breast Loaf (The Greatest Generation E133)
 
-<iframe src="https://art19.com/shows/the-greatest-generation/episodes/00459a65-0ad4-42b4-8f13-d60f7be68aa8/embed" scrolling="no" class="my-3 podcast-embed"></iframe>
+<iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/64b7e3a6-be56-49b8-bc09-7919307cdea9?dark=true"></iframe>
 
 In the 50+ years that Star Trek has been around, a massive amount of fan culture has grown in its orbit, from erotic fanfiction to review podcasts. This episode is sort of a combination of both that delves deep into a famously controversial episode of The Next Generation, producing some important philosophical discussions and furthering the Star Trek discourse for years to come. Listening to this scholarly symposium on the subject will help make you an expert in any Star Trek conversations you might have in the future.
 
