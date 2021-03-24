@@ -11,5 +11,5 @@ tags: ["a different kind of Jedi mind trick","being welcomed as a liberator","fi
 image:
   feature: assets/img/lol/jediprotagonist.jpg
   imageHover: "The &quot;light side&quot; of the force is wherever I decide to put this fuckin glowstick, asshole."
-  
+  thumbnail: assets/img/lol/jediprotagonist-thumb-custom.jpg
 ---
