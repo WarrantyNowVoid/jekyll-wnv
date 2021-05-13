@@ -23,9 +23,12 @@ The Earth's orbit is a precarious one for life to exist and thrive. We sit in a 
 
 Scientists agree that one of the primary greenhouse gases contributing to the warming of Earth's atmosphere is methane gas. Scientists also agree that yo momma's expansive ass is the number one producer of this gas in the country.
 
-![yomommagraph](/assets/img/lol/yomommagraph.png "Alternate title: Uses For Muh Diiiiiick")
-
-<p class="text-center"><small>Source: EPA, probably</small></p>
+{% assign post_caption = true %}
+{% assign caption = 'Source: EPA, probably' %}
+{% assign hover_text = 'Alternate title: Uses For Muh Diiiiiick' %}
+{% assign alt_text = 'yo momma pie chart' %}
+{% assign image_path = '/assets/img/lol/yomommagraph.png' %}
+{% include figure.html %}
 
 Through one simple action of putting a cork in yo momma's ass gas, the country's methane emissions would be immediately cut by 29%. Why do we refuse to act?
 

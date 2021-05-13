@@ -2,7 +2,7 @@
   {% if pre_caption %}
   <figcaption class="figure-caption text-right">{{ caption }}</figcaption>
   {% endif %}
-  <img src="{{ image_path }}" class="figure-img img-fluid rounded">
+  <img src="{{ image_path }}" class="figure-img img-fluid rounded" title="{{ hover_text }}" alt="{{ alt_text }}">
   {% if post_caption %}
   <figcaption class="figure-caption text-right">{{ caption }}</figcaption>
   {% endif %}
