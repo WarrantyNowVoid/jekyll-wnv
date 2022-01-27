@@ -5,7 +5,7 @@ published: true
 date: 2022-01-27 12:00:00 -0400
 author: pope
 title: "They're Taking The 'Sweet' out of America's Sweetheart: Me, Tucker Carlson"
-excerpt: "Ever since I was a young man, I've enjoyed the sweeter things in life. Until now. Joe Biden and the Woke Mob don't want you to be horny for snacks anymore. They want you to be compliant, hungry, and flaccid."
+excerpt: "Ever since I was a young man, I've enjoyed the sweeter things in life. Until now. Joe Biden and the Woke Mob don't want you to be horny for snacks anymore. They want you to be flaccid, hungry, and compliant."
 category: Articles
 tags: ["candy fucker", "Laffy Taffy", "horny for snacks", "Tucker Carlson", "Fox News", "opinions from racists", "dog-brained idiots", "golden retriever", "WASPs", "M&Ms", "fascism", "illegally horny", "AWOOOOOOGA!", "The Left", "The Woke Mob", "Joe Biden", "breaking news", "politics", "weirdly specific eternal damnation", "unconventional snacks", "bursting into snacks", "so fuckin stupid all the time", "flirty", "intellectual exercises", "Horny Ted", "weird shit", "thanks Obama"]
 image:
