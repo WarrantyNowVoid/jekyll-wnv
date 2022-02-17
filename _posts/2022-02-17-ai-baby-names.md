@@ -2,7 +2,7 @@
 layout: post
 redirect_from: ai-baby-names
 published: true
-date: 2022-02-18 12:00:00 -0400
+date: 2022-02-17 12:00:00 -0400
 author: pope
 title: "The Scientifically Definitive All-Time Best Baby Names"
 excerpt: "We've come up with the ultimate, indisputable list of all-time best baby names using the only scientific method anyone cares about in 2022: dumping a bunch of garbage into a machine learning model and seeing what happens."
