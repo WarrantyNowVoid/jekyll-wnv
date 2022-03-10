@@ -1,6 +1,6 @@
 ---
 layout: post
-redirect_from: 
+redirect_from: fuckburger
 published: true
 date: 2022-01-13 12:00:00 -0400
 author: scawt

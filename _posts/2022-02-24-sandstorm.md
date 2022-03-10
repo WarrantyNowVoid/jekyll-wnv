@@ -1,6 +1,6 @@
 ---
 layout: post
-redirect_from: 
+redirect_from: sandstorm
 published: true
 date: 2022-02-24 12:00:00 -0400
 author: scawt
