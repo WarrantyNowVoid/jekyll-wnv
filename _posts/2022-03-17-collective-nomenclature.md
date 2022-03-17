@@ -2,7 +2,7 @@
 layout: post
 redirect_from: naming-quiz
 published: true
-date: 2022-03-17 12:30:00 -0500
+date: 2022-03-17 12:30:00 -0400
 author: pope
 title: "Quiz: What Do You Call a Group Of..."
 excerpt: "Well it's March again and you know what that means: it's SAT prep season! Do people take the SATs in March? I don't know I'm thirty-three fucking years old what do I care. Just take the quiz or don't."
