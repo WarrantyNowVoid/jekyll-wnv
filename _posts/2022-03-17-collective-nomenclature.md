@@ -68,7 +68,7 @@ Anyway, here's the quiz hope it helps with your SATs or whatever:
 <div class="answerpanel">
   <h3>Pile</h3>
   <blockquote><em>"Ahoy! Ye captain, thar be a <strong>pile</strong> of <strong>whales</strong> reachin' up nigh unto the heavens itself, har!"</em></blockquote>
-  <p>While a single boi is typically not much of a threat and can be handled rather easily by anyone with enough practice, the danger increases exponentially as the number of bois in the fuck increases. Even a small number of fuck bois can quickly become overwhelming to even the most experienced among us.</p>
+  <p>It's a very common misconception that a group of whales is called a "pod." This is a belief held by many people across the globe, who it turns out are actually just dumb as all hell and wrong about stuff all the time. Like this, for example.</p>
 </div>
 
 ### 7\. What do you call a group of *white men with strong opinions*?
