@@ -2,7 +2,7 @@
 layout: post
 redirect_from: popes-memoirs-wally
 published: true
-date: 2022-04-29 11:30:00 -0400
+date: 2022-04-29 11:00:00 -0400
 author: pope
 title: "Pope's Memoirs: Wally"
 excerpt: "I first met Wally in the summer of 2008. It was the beginning of a friendship that would change both our lives forever."
