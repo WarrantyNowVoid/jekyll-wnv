@@ -118,7 +118,7 @@ In this shocking expose, we finally shatter the famous public image of the WNV c
         <i class="fab fa-twitter"></i>
       </div>
     </div>
-    <p class="body"><span class="fake-href">@mitchmcconnel</span> have you considered walking into the ocean until the bubbles stop</p>
+    <p class="body"><span class="fake-href">@realDonaldTrump</span> remember when you almost died of covid? I do. Imagining it finishing the job also really helps me finish</p>
     <p class="time">8:33 PM · Oct 29, 2020</p>
   </blockquote>
   <blockquote>
