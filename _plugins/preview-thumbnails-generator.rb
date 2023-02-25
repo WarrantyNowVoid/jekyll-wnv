@@ -7,17 +7,17 @@ end
 
 module Jekyll
   class PreviewThumbnailsGenerator < Generator
-
-    # this is counterintuitive but hear me out
-    THUMBZONES = {
-      'NORTHWEST' => NorthEastGravity, 
-      'NORTHEAST' => NorthWestGravity, 
-      'SOUTHWEST' => SouthEastGravity, 
-      'SOUTHEAST' => SouthWestGravity
-    }
-
     def generate(site)
+
       if site.config["generate-thumbnails"]["enabled"]
+        # this is counterintuitive but hear me out
+        thumbzones = {
+          'NORTHWEST' => NorthEastGravity, 
+          'NORTHEAST' => NorthWestGravity, 
+          'SOUTHWEST' => SouthEastGravity, 
+          'SOUTHEAST' => SouthWestGravity
+        }
+
         begin
           mod = Magick.const_get "Version"
         rescue NameError
@@ -37,10 +37,10 @@ module Jekyll
           if post.data["image"] and post.data["image"]["feature"] and not post.data["image"]["thumbnail"]
             original_path = post.data["image"]["feature"]
 
-            if post.data["image"]["thumbZone"] and THUMBZONES.keys.include? post.data["image"]["thumbZone"].upcase
-              thumbZone = THUMBZONES[post.data["image"]["thumbZone"].upcase]
+            if post.data["image"]["thumbZone"] and thumbzones.keys.include? post.data["image"]["thumbZone"].upcase
+              thumbZone = thumbzones[post.data["image"]["thumbZone"].upcase]
             else
-              thumbZone = THUMBZONES['NORTHEAST']
+              thumbZone = thumbzones['NORTHEAST']
             end
 
             extension = File.extname(original_path)

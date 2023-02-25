@@ -16,7 +16,10 @@ module Jekyll
         image_path = "#{context[@image_arg.strip]}"
         image_path[0] = "" if image_path[0] == "/"
 
-        thumb_path = File.join(context["site.generate-thumbnails.path"], File.basename(image_path))
+        base_path = context["site.generate-thumbnails.path"]
+        base_path ||= ''
+
+        thumb_path = File.join(base_path, File.basename(image_path))
         "#{thumb_path}"
       end
 
